@@ -19,8 +19,8 @@ def chr_union(*args) -> Set[str]:
         for i in args:
             if isinstance(i, int):
                 chars |= {chr(i)}
-            elif isinstance(i, Sequence):
-                chars |= chr_union(i)
+            elif len(i) == 2 and all(map(isinstance, i, (int,)*len(i))):
+                chars |= chr_union(*i)
             else:
                 raise ValueError(f"Expected Sequence or int, got {type(i)}")
     return chars
