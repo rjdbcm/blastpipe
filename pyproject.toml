@@ -1,0 +1,65 @@
+# pyproject.toml
+[build-system]
+requires = ["setuptools>=45", "setuptools_scm[toml]>=6.2"]
+
+[project]
+name = "lemprex"
+dynamic = ["version"]
+
+[metadata]
+author = "Ross J. Duff MSc"
+author_email = "rjdbcm@github.com"
+readme = "README.md"
+description = 'Gets projects moving with boilerplate code!'
+license = {file = "LICENSE"}
+classifiers = [
+    "Development Status :: 2 - Pre-Alpha",
+    "Natural Language :: Arabic",
+    "Natural Language :: Bengali",
+    "Natural Language :: Chinese (Simplified)",
+    "Natural Language :: Chinese (Traditional)",
+    "Natural Language :: English",
+    "Natural Language :: French",
+    "Natural Language :: German",
+    "Natural Language :: Hindi",
+    "Natural Language :: Japanese",
+    "Natural Language :: Portuguese",
+    "Natural Language :: Spanish",
+    "Intended Audience :: Developers",
+    "Environment :: MacOS X",
+    "Environment :: Win32 (MS Windows)",
+    "Environment :: X11 Applications",
+    "Operating System :: MacOS :: MacOS X",
+    "Operating System :: Microsoft :: Windows",
+    "Operating System :: POSIX :: Linux",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Topic :: Software Development :: Interpreters",
+    "Programming Language :: Python :: Implementation :: CPython",
+    "Topic :: Software Development :: Libraries :: Python Modules",
+]
+dependencies = [
+]
+requires-python = ">3.7"
+
+[tool.semantic_release]
+version_variable = 'lemprex/_scm_version.py:__version__,pyproject.toml:version'
+version_source = 'tag'
+build_command = 'pip wheel --no-deps -w dist/ .'
+upload_to_repository = false
+
+[tool.setuptools_scm]
+write_to = "lemprex/_scm_version.py"
+
+[tool.setuptools.packages.find]
+where = ["lemprex"]
+
+[options.extras_require]
+dev = [
+    "pre-commit >= 3.0.0",
+    "pytest >= 3.0.0",
+    "python-semantic-release >= 7.0.0"
+]

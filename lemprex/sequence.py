@@ -1,8 +1,9 @@
+import asyncio
+from typing import Set
 
-from typing import Sequence, Set
+from .tailcall import async_tail_call
 
-
-def chr_union(*args) -> Set[str]:
+async def _chr_union(*args) -> Set[str]:
     """Makes a sequence of int ranges or ints into a set of str
     Returns a set of chr() from:
         1. range(start=args[0], stop=args[1])
@@ -20,7 +21,10 @@ def chr_union(*args) -> Set[str]:
             if isinstance(i, int):
                 chars |= {chr(i)}
             elif len(i) == 2 and all(map(isinstance, i, (int,)*len(i))):
-                chars |= chr_union(*i)
+                return i # type: TAILCALL
             else:
                 raise ValueError(f"Expected Sequence or int, got {type(i)}")
     return chars
+
+def chr_union(*args):
+    return asyncio.run(async_tail_call()(_chr_union)(*args))
