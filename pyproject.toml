@@ -48,7 +48,7 @@ requires-python = ">3.7"
 [tool.semantic_release]
 version_variable = 'lemprex/_scm_version.py:__version__,pyproject.toml:version'
 version_source = 'tag'
-build_command = 'pip wheel --no-deps -w dist/ .'
+build_command = 'python -m pip wheel --no-deps -w dist/ .'
 upload_to_repository = false
 
 [tool.setuptools_scm]
