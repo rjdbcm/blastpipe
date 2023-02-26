@@ -11,8 +11,11 @@ async def prefixed_send(stream: asyncio.StreamWriter, buffer: bytes) -> None:
 
     # Write the prefix and buffer to the stream.
     stream.write(prefix)
+    await stream.drain()
+
     stream.write(buffer)
     await stream.drain()
+
 
 async def prefixed_recv(stream: asyncio.StreamReader) -> bytes:
     """Read a length-prefixed buffer from the stream"""
