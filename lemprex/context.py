@@ -1,7 +1,6 @@
-
+# pylint: disable=invalid-name
 from contextlib import contextmanager, asynccontextmanager
 from functools import wraps
-from typing import Any, Generic, Protocol, TypeVar
 
 class MaybeAsyncGeneratorContextManager:
     """Decorate a generator for use as both a context manager and as an async context manager.
@@ -38,6 +37,7 @@ class MaybeAsyncGeneratorContextManager:
         return type(self._async).__aexit__(self._async, t, v, tb) # type: ignore
 
 def maybeasynccontextmanager(func):
+    """convenience wrapper for monadic context managers"""
     @wraps(func)
     def helper(*args, **kwds):
         return MaybeAsyncGeneratorContextManager(func, args, kwds)

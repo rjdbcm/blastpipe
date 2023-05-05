@@ -1,0 +1,13 @@
+python.install_sources(
+    '__init__.py',
+    'backports.py',
+    'buffer.py',
+    'context.py',
+    'loop.py',
+    'malloc.py',
+    'mixin.py',
+    'rest35.py',
+    'sequence.py',
+    'specialized.py',
+    'tailcall.py',
+)

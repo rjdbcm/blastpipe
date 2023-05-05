@@ -1,30 +1,26 @@
 # pyproject.toml
-[build-system]
-requires = ["setuptools>=64", "setuptools_scm[toml]>=6.2", "wheel>=0.36"]
-
 [project]
-name = "lemprex"
+authors = [{name = "Ross J. Duff MSc", email = "rjdbcm@github.com"}]
 dynamic = ["version"]
-
-[metadata]
-author = "Ross J. Duff MSc"
-author_email = "rjdbcm@github.com"
-readme = "README.md"
-description = 'Gets projects moving with boilerplate code!'
 license = {file = "LICENSE"}
+readme = "README.md"
+
+[project.optional-dependencies]
+dev = ["meson", "pre-commit", "pytest", "python-semantic-release"]
+
+[tool.setuptools]
+packages = ["lemprex"]
+
+[build-system]
+requires = ["mesonpep517", "ninja", "setuptools>=64", "setuptools_scm[toml]>=6.2"]
+build-backend = "mesonpep517.buildapi"
+
+[tool.mesonpep517.metadata]
+requires-python = ">=3.9"
+summary = 'Gets projects moving with stable draft code!'
 classifiers = [
     "Development Status :: 2 - Pre-Alpha",
-    "Natural Language :: Arabic",
-    "Natural Language :: Bengali",
-    "Natural Language :: Chinese (Simplified)",
-    "Natural Language :: Chinese (Traditional)",
     "Natural Language :: English",
-    "Natural Language :: French",
-    "Natural Language :: German",
-    "Natural Language :: Hindi",
-    "Natural Language :: Japanese",
-    "Natural Language :: Portuguese",
-    "Natural Language :: Spanish",
     "Intended Audience :: Developers",
     "Environment :: MacOS X",
     "Environment :: Win32 (MS Windows)",
@@ -40,25 +36,16 @@ classifiers = [
     "Programming Language :: Python :: Implementation :: CPython",
     "Topic :: Software Development :: Libraries :: Python Modules",
 ]
-dependencies = [
-]
-requires-python = ">=3.9.14"
 
 [tool.semantic_release]
-version_variable = 'lemprex/_scm_version.py:__version__,pyproject.toml:version'
-version_source = 'tag'
-build_command = 'python -m pip wheel --no-deps -w dist/ .'
+build_command = 'python -m build -w .'
+major_on_zero = false
+pre_commit_command = 'pre-commit autoupdate && python -m sigstore sign dist/*.whl'
+tag_format = '{version}'
 upload_to_repository = false
+version_source = 'tag'
+version_variable = '_scm_version.py:__version__,pyproject.toml:version'
 
 [tool.setuptools_scm]
-write_to = "lemprex/_scm_version.py"
+write_to = "_scm_version.py"
 
-[tool.setuptools]
-packages = ["lemprex"]
-
-[options.extras_require]
-dev = [
-    "pre-commit >= 3.0.0",
-    "pytest >= 3.0.0",
-    "python-semantic-release >= 7.0.0"
-]
