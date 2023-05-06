@@ -6,7 +6,7 @@ license = {file = "LICENSE"}
 readme = "README.md"
 
 [project.optional-dependencies]
-dev = ["meson", "pre-commit", "pytest", "python-semantic-release"]
+dev = ["meson", "pytest", "python-semantic-release"]
 
 [tool.setuptools]
 packages = ["lemprex"]
