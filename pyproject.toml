@@ -6,7 +6,7 @@ license = {file = "LICENSE"}
 readme = "README.md"
 
 [project.optional-dependencies]
-dev = ["meson", "pytest", "python-semantic-release"]
+dev = ["meson", "pytest", "python-semantic-release", "sigstore"]
 
 [tool.setuptools]
 packages = ["lemprex"]
@@ -40,7 +40,7 @@ classifiers = [
 [tool.semantic_release]
 build_command = 'python -m build -w .'
 major_on_zero = false
-pre_commit_command = 'pre-commit autoupdate && python -m sigstore sign dist/*.whl'
+pre_commit_command = 'python -m sigstore sign dist/*.whl'
 tag_format = '{version}'
 upload_to_repository = false
 version_source = 'tag'
