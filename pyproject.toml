@@ -38,9 +38,8 @@ classifiers = [
 ]
 
 [tool.semantic_release]
-build_command = 'python -m build -w .'
+build_command = 'python -m build -w . && python -m sigstore sign dist/*.whl'
 major_on_zero = false
-# pre_commit_command = 'python -m sigstore sign dist/*.whl'
 tag_format = '{version}'
 upload_to_repository = false
 version_source = 'tag'

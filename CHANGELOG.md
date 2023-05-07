@@ -2,6 +2,11 @@
 
 <!--next-version-placeholder-->
 
+## v2023.6.0 (2023-05-06)
+
+* Switched to Meson build system
+* No longer hard coding the version
+
 ## v2023.1.6 (2023-01-28)
 
 
