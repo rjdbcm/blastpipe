@@ -1,4 +1,4 @@
-import abc
+"""Backports starting from Python 3.9"""
 import platform
 import re
 import string
@@ -10,6 +10,7 @@ PYMAJOR, PYMINOR, PYPATCH = map(int, platform.python_version_tuple())
 __all__ = ('Template',)
 
 class IsTemplatePre311(Protocol):
+    """Protocol to check if a Template is pre-3.11"""
     delimiter: str
     # r'[a-z]' matches to non-ASCII letters when used with IGNORECASE, but
     # without the ASCII flag.  We can't add re.ASCII to flags because of
@@ -28,11 +29,10 @@ class IsTemplatePre311(Protocol):
 
 
 if PYMAJOR >= 3 and PYMINOR < 11:
-    '''Here is a nice opportunity to show the preferred way of typing and using mixins'''
     T = TypeVar('T', bound='string.Template')
 
     class TemplateGetIdentifiersMixin(Mixin):
-        
+        '''Example Template mixin with preferred way of typing and using mixins'''
         delimiter: str
         idpattern : r'str'
         braceidpattern: r'Optional[str]'
@@ -40,11 +40,14 @@ if PYMAJOR >= 3 and PYMINOR < 11:
         pattern: re.Pattern
         template: str
 
-        def safe_substitute(self): ...
+        def safe_substitute(self):
+            """Abstract method to be implemented by base"""
 
-        def substitute(self): ...
-        
+        def substitute(self):
+            """Abstract method to be implemented by base"""
+
         def get_identifiers(self: IsTemplatePre311) -> List[str]:
+            """Mixin method get_identifiers for older Template pre-3.11"""
             ids = []
             for mo in self.pattern.finditer(self.template):
                 named = mo.group('named') or mo.group('braced')
@@ -55,7 +58,6 @@ if PYMAJOR >= 3 and PYMINOR < 11:
                     and mo.group('invalid') is None
                     and mo.group('escaped') is None):
                     # If all the groups are None, there must beif PYMAJOR == 3 and PYMINOR < 11:
-
                     # another group we're not expecting
                     raise ValueError('Unrecognized named group in pattern',
                         self.pattern)
@@ -63,14 +65,13 @@ if PYMAJOR >= 3 and PYMINOR < 11:
 
         @classmethod
         def extend_with(cls: type[IsTemplatePre311], instance: T) -> T:
-
             instance.__class__ = type(
                 f'{instance.__class__.__name__}With{cls.__name__}',
                 (instance.__class__, cls),
                 {},
             )
             return instance
-    
+
     Template = mixin(TemplateGetIdentifiersMixin, string.Template)
 else:
     Template = string.Template

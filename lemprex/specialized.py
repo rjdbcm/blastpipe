@@ -1,9 +1,10 @@
+"""Specialized collections."""
 from collections import OrderedDict
 from typing import Callable
 
 class DefaultOrderedDict(OrderedDict):
-    # Source: http://stackoverflow.com/a/6190500/562769
-    def __init__(self, default_factory=None, *a, **kw):
+    """Source: http://stackoverflow.com/a/6190500/562769"""
+    def __init__(self, default_factory, *a, **kw):
         if (default_factory is not None and not isinstance(default_factory, Callable)):
             raise TypeError('first argument must be callable')
         OrderedDict.__init__(self, *a, **kw)
@@ -25,12 +26,14 @@ class DefaultOrderedDict(OrderedDict):
         args = tuple() if self.default_factory is None else (self.default_factory, )
         return type(self), args, None, None, self.items()
 
+    # pylint: disable=unnecessary-dunder-call
     def copy(self):
         return self.__copy__()
 
     def __copy__(self):
         return type(self)(self.default_factory, self)
 
+    # pylint: disable=import-outside-toplevel
     def __deepcopy__(self, memo):
         import copy
         return type(self)(self.default_factory, copy.deepcopy(self.items()))

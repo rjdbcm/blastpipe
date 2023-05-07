@@ -1,19 +1,21 @@
-import abc
+"""Mixin ABC, Generic, and helper function."""
+from abc import abstractmethod, ABC
 from typing import Any, Generic, TypeVar
 
-# Abstract
-class BaseMixin(abc.ABC):
-    @abc.abstractclassmethod
+#pylint: disable=too-few-public-methods
+class BaseMixin(ABC):
+    """Abstract mixin class"""
+    @classmethod
+    @abstractmethod
     def extend_with(cls: Any, instance: Any) -> Any:
         """extend the instance with the mixin cls"""
-        pass
 
-# Generic
 _T = TypeVar("_T", bound="BaseMixin")
-class Mixin(Generic[_T], BaseMixin):...
+class Mixin(Generic[_T], BaseMixin):
+    """Generic mixin class"""
 
-# Helper Method
 def mixin(cls: Any, base: Any) -> Any:
+    """Helper function to extend the class with the base"""
     def __wrapper(*args, **kwargs):
         return cls.extend_with(base(*args, **kwargs))
     return __wrapper

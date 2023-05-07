@@ -1,3 +1,4 @@
+"""Sequence manipulation."""
 import asyncio
 from typing import Set
 

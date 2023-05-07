@@ -1,3 +1,4 @@
+"""Monadic context managers"""
 # pylint: disable=invalid-name
 from contextlib import contextmanager, asynccontextmanager
 from functools import wraps

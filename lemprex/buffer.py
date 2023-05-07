@@ -1,6 +1,7 @@
-# Some utilities for writing and reading length-prefix framed messages. Using
-# length-prefixed framing makes it easier for the reader to determine the
-# boundaries of each message before passing it to msgspec to be decoded.
+"""Utilities for writing and reading length-prefix framed messages. Using
+length-prefixed framing makes it easier for the reader to determine the
+boundaries of each message before passing it to msgspec to be decoded.
+"""
 import asyncio
 
 
