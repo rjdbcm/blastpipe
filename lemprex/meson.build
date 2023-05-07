@@ -6,7 +6,6 @@ python.install_sources(
     'loop.py',
     'malloc.py',
     'mixin.py',
-    'rest35.py',
     'sequence.py',
     'specialized.py',
     'tailcall.py',
