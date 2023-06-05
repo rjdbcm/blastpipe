@@ -1,0 +1,22 @@
+{   
+    "python.testing.pytestArgs": ["tests"],
+    "python.testing.unittestEnabled": false,
+    "python.testing.pytestEnabled": true,
+    "files.exclude": {
+        "**/.git": false,
+        "**/.svn": false,
+        "**/.hg": false,
+        "**/CVS": false,
+        "**/.DS_Store": false,
+        "**/Thumbs.db": false,
+        ".pytest_cache": false,
+        "**/.vscode": false,
+        "**/__pycache__": false,
+        "**/*.egg-info": false
+    },
+    "cmake.configureOnOpen": false,
+    "markdownlint.config": {
+        "default": true,
+        "MD033": false
+    }
+}
