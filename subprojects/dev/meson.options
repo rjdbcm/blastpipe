@@ -29,7 +29,6 @@ option('lint-exclude-suites', type: 'array',
 value: ['docs', 'dist', 'test'])
 option('test-exclude-suites', type: 'array',
 value: ['dist', 'docs', 'lint'])
-# TODO: -suite can be generated from core metadata
 option('dist-suite', type: 'array', description: '--setup=dist',
 value: ['semantic-release', 'sigstore'])
 option('docs-suite', type: 'array', description: '--setup=docs',
@@ -50,6 +49,7 @@ value: ['pytest-asyncio',
         'pytest-xdist',
         'pytest-tcpclient',
         'pytest-randomly'])
+
 option('no-version', type: 'array', description: 'no packaged version metadata',
 value: ['semantic-release',
         'sphinxawesome-codelinter',
@@ -59,6 +59,7 @@ value: ['semantic-release',
         'pytest-tcpclient',
         'pytest-randomly',
         'pytest-xdist'])
+
 option('module-only', type: 'array', description: 'install only - no application',
 value: ['sphinxawesome-codelinter', 
         'sphinxawesome-theme',
@@ -68,7 +69,7 @@ option('args-sigstore', type: 'array',
 value: ['--version'], yield: false)
 
 option('args-semantic-release' , type: 'array', 
-value: ['--noop', 'version'], yield: false)
+value: ['--noop', 'version', '--verbosity=debug'], yield: false)
 
 option('args-doc8', type: 'array',
 value: ['--config', 'pyproject.toml', '@docs_source@'], yield: false)
