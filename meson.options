@@ -94,7 +94,7 @@ option('args-sigstore',
     value: ['-h'])
 option('args-semantic-release',
     description: 'application', type: 'array', 
-    value: ['--help'])
+    value: ['version', '--noop', '--verbosity=debug'])
 option('args-doc8',
     description: 'application', type: 'array', 
     value: ['--config', 'pyproject.toml', '@docs_source@'])
