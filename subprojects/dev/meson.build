@@ -111,7 +111,11 @@ foreach name : namespace
    endif
    packaged_version = run_command(python, ['-c', metadata_version.format(app)], 
    kwargs: no_check).stdout().strip()
-   fallback_version = run_command(pip, ['show', app], kwargs: no_check).stdout().split('\n')
+   if app == 'semantic-release'  # HACK: we should take care of python- and pytest- names here
+    fallback_version = run_command(pip, ['show', 'python-'+app], kwargs: no_check).stdout().split('\n')
+   else
+    fallback_version = run_command(pip, ['show', app], kwargs: no_check).stdout().split('\n')
+   endif
    fallback_version = fallback_version.length() > 2? fallback_version[1].split(':')[1].strip(
    ) : 'unknown'
    if app in no_version
