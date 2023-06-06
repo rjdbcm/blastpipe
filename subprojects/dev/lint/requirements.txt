@@ -1,0 +1,7 @@
+bandit[toml]          >= 1.0.0
+black                 >= 22.0.0
+isort                 >= 5.0.0
+mccabe                >= 0.3.0
+mccabe-console-script >= 0.0.1
+pylint                >= 2.0.0
+pyright               >= 1.0.0

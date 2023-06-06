@@ -1,0 +1,109 @@
+option('variables', type: 'array', 
+    value: ['scm-version-snip', 'core-metadata', 'python',
+            'metadata-version', 'namespace', 'should-fail', 'unhashable', 'pytest-plugins',
+            'no-version', 'emoji-dist', 'emoji-docs', 'emoji-lint', 'emoji-test',
+            'emoji-no-version', 'emoji-metadata-version'])
+option('bootstrap-url'  , type: 'string', value: 'https://bootstrap.pypa.io/get-pip.py')
+option('source-to-build', type: 'feature', value: 'auto')
+option('build-dir'      , description: 'variable', type: 'feature', value: 'auto')
+option('project-name'   , description: 'variable', type: 'feature', value: 'auto')
+option('docs-source'    , type: 'feature', value: 'auto')
+option('test-source'    , type: 'feature', value: 'auto')
+# TODO: -exclude-suites can be generated from core metadata
+option('dist-exclude-suites', type: 'array', value: ['docs', 'lint', 'test'])
+option('docs-exclude-suites', type: 'array', value: ['dist', 'lint', 'test'])
+option('lint-exclude-suites', type: 'array', value: ['docs', 'dist', 'test'])
+option('test-exclude-suites', type: 'array', value: ['dist', 'docs', 'lint'])
+option('dev' , description: 'default', type: 'feature', value: 'auto')
+option('namespace', type: 'array', value: ['dist', 'docs', 'lint', 'test'])
+option('dist', description: 'namespace', type: 'feature', value: 'auto')
+option('docs', description: 'namespace', type: 'feature', value: 'auto')
+option('lint', description: 'namespace', type: 'feature', value: 'auto')
+option('test', description: 'namespace', type: 'feature', value: 'auto')
+option('scm-version-snip', description:  'python snippet: grab version info', type: 'string',
+    value: 'from setuptools_scm import get_version;print(get_version(normalize=False))')
+option('version-metadata-template',
+    description: 'python template: check package version',
+    type: 'string', value:'from importlib.metadata import version; print(version("@0@"))')
+option('core-metadata-template', 
+    description: 'python template: check core metadata namespace',
+    type: 'string', value:'import tomli; import pathlib; import os;'
+    +'source = pathlib.Path(os.environ.get("MESON_SOURCE_ROOT"));'
+    +'f = open(source/"pyproject.toml", "rb");'
+    +'pyproject_toml = tomli.load(f);'
+    +'f.close();'
+    +'core_metadata = pyproject_toml.get("project");'
+    +'print(set(core_metadata.get("optional_dependencies").get("@0@")))'
+)
+option('python-dependencies', type: 'array',
+    value: ['ensurepip', 'setuptools_scm', 'tomli'])
+# TODO: -suite can be generated from core metadata
+option('dist-suite' , type: 'array',
+    value: ['semantic-release', 'sigstore'])
+option('docs-suite' , type: 'array',
+    value: ['doc8', 'pydocstyle', 'sphinx-build'])
+option('lint-suite' , type: 'array',
+    value: ['bandit', 
+            'black', 
+            'isort',
+            'pylint',
+            'pyright',
+            'restructuredtext-lint',
+            'flake8p',
+            'Flake8-pyproject'])
+option('test-suite' , type: 'array',
+    value: ['coverage', 'hypothesis', 'pytest', 'pytest-asyncio', 'pytest-cov', 'pytest-xdist'])
+option('args-bandit',
+    description: 'application', type: 'array',
+    value: ['-r', '@project_name@'])
+option('args-black',
+    description: 'application', type: 'array', 
+    value: ['@project_name@'])
+option('args-isort',            
+    description: 'application', type: 'array', 
+    value: ['@project_name@'])
+option('args-pylint',
+    description: 'application', type: 'array', 
+    value: ['@project_name@'])
+option('args-restructuredtext-lint',
+    description: 'application', type: 'array', 
+    value: ['README.rst'])
+option('args-pyright',
+    description: 'application', type: 'array', 
+    value: ['@project_name@'])
+option('args-coverage',
+    description: 'application', type: 'array', 
+    value: ['debug', 'config'])
+option('args-hypothesis',
+    description: 'application', type: 'array', 
+    value: ['-h'])
+option('args-pytest',
+    description: 'application', type: 'array', 
+    value: ['--cov-config=pyproject.toml', '@opt_cov_eq_project_name@', '-n', 'auto', '-d', '@test_source@'])
+option('args-pytest-asyncio',
+    description: 'plugin', type: 'array', 
+    value: [])
+option('args-pytest-cov',
+    description: 'plugin', type: 'array', 
+    value: [])
+option('args-pytest-xdist',
+    description: 'plugin', type: 'array', 
+    value: [])
+option('args-sigstore',
+    description: 'application', type: 'array', 
+    value: ['-h'])
+option('args-semantic-release',
+    description: 'application', type: 'array', 
+    value: ['--help'])
+option('args-doc8',
+    description: 'application', type: 'array', 
+    value: ['--config', 'pyproject.toml', '@docs_source@'])
+option('args-pydocstyle',
+    description: 'application', type: 'array', 
+    value: ['--config=pyproject.toml', '@docs_source@'])
+option('args-sphinx-build',
+    description: 'application', type: 'array', 
+    value: ['--help'])
+option('args-flake8p', type: 'array',
+value: ['--benchmark', '--max-complexity', '5', '--show-source'])
+option('args-Flake8-pyproject', type: 'array', value: [])

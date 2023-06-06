@@ -1,0 +1,1 @@
+Flake8-pyproject ~= 1.0.0

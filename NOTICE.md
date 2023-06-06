@@ -1,15 +1,29 @@
 # Notices
 
-Copyright (c) 2023 Ross J. Duff MSc
-Developed for the Rubini Project by Peculiar Software
+This project contains software(s) licensed under various open source licenses.
 
-## Apache 2.0 Notice
+This file attempts to satisfy the requirements of notice and/or attribution of
+licensed software(s).
+It is provided in good faith and not as an endorsement or to suggest affiliation
+with respect to any attribution.
+
+## SPDX-License-Identifier: Apache 2.0
+
+### Attribution: general
 
 This distribution includes software(s) licensed under the
 Apache License 2.0, modified by Ross J. Duff MSc, and
 developed for use in the Rubini Project by Peculiar Software.
 
-## MIT Notice
+## SPDX-License-Identifier: CC-BY-SA
+
+### Attribution: Andy Jones
+
+### Attribution: Zach Kelling
+
+## SPDX-License-Identifier: MIT
+
+### Attribution: Raymond Hettinger
 
 Copyright 2012 Raymond Hettinger
 Permission is hereby granted, free of charge, to any person obtaining a copy of
@@ -30,7 +44,9 @@ DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT,
 TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE
 OR THE USE OR OTHER DEALINGS IN THE SOFTWARE
 
-## BSD-3 Notice
+## SPDX-License-Identifier: BSD-3-Clause
+
+### Attribution: Jim Crist-Harif
 
 Copyright (c) 2021, Jim Crist-Harif
 All rights reserved.
