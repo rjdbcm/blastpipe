@@ -1,14 +1,44 @@
-"""Utility functions for while loops"""
+"""BSD-3-Clause-Attribution Utility functions for while loops
+Copyright (c) 2023 Ross J. Duff MSc
+Redistribution and use in source and binary forms, with or without modification,
+are permitted provided that the following conditions are met:
+
+    1. Redistributions of source code must retain the above copyright notice,
+    this list of conditions and the following disclaimer.
+    2. Redistributions in binary form must reproduce the above copyright notice,
+    this list of conditions and the following disclaimer in the documentation
+    and/or other materials provided with the distribution.
+    3. Neither the name of the copyright holder nor the names of its contributors
+    may be used to endorse or promote products derived from this software without
+    specific prior written permission.
+    4. Redistributions of any form whatsoever must retain the following acknowledgment:
+    'This product includes software developed by the
+    Peculiar Software Company LLC (http://www.github.com/rjdbcm/).'
+
+THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND ANY EXPRESS
+OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF
+MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE
+COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL,
+EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE
+GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED
+AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING
+NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED
+OF THE POSSIBILITY OF SUCH DAMAGE.
+"""
 # pyright: reportGeneralTypeIssues=false
 from contextlib import suppress
-from typing import Any, Callable, Type, Tuple
-__all__ = ('while_raised',)
+from typing import Any, Callable, Tuple, Type
 
-def while_raised(exc_types: Tuple[Type[Exception]],
-                 target: Callable,
-                 *args,
-                 implicit_break=True
-    ) -> Any|None:
+__all__ = ("while_raised",)
+
+
+# pylint: disable=inconsistent-return-statements
+def while_raised(
+    exc_types: Tuple[Type[Exception]],
+    target: Callable,
+    *args,
+    implicit_break=True,
+) -> Any | None:
     """Repeats a target function while suppressing exceptions provided."""
     while True:
         with suppress(exc_types):

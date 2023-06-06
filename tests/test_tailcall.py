@@ -1,12 +1,41 @@
 """Tail call optimization tests"""
 import pytest
-from lemprex.tailcall import async_tail_call
-# @async_tail_call()
-# def test_fib_optimize(i, current=0, subseq=1):
-#     return current if i == 0 else test_fib_optimize(i - 1, subseq, current + subseq)
+from hypothesis import given
+from hypothesis import strategies as st
 
-@pytest.mark.parametrize("i", [(0, 0), (1, 1), (2, 1), (3, 2), (4, 3), (5, 5)])
-@async_tail_call(active=True)
-def test_fib_optimize(i, current=0, subseq=1):
-    """Deterministic fibonacci test"""
-    return current if i == 0 else test_fib_optimize(i - 1, subseq, current + subseq)
+import lemprex.sequence
+from lemprex.sequence import chr_union
+
+
+@given(active=st.booleans())
+def test_fuzz_async_tail_call(active):
+    """This test code was written by the `hypothesis.extra.ghostwriter` module"""
+    lemprex.sequence.async_tail_call(active=active)
+
+
+def test_chr_union_range():
+    """Test chr_union with a range"""
+    assert chr_union((32, 35)) == {" ", "!", '"'}
+    assert chr_union(32) == {" "}
+
+
+@st.composite
+def bad_input(draw):
+    """Test bad input for chr_union"""
+    return (
+        draw(st.lists(st.floats())),
+        draw(st.lists(st.text())),
+        draw(st.lists(st.functions())),
+        draw(st.lists(st.booleans())),
+        draw(st.floats()),
+        draw(st.text()),
+        draw(st.functions()),
+        draw(st.booleans()),
+    )
+
+
+@given(args=bad_input())
+def test_fuzz_bad_input_chr_union(args):
+    """Test bad input for chr_union"""
+    with pytest.raises(TypeError):
+        _ = chr_union(args)
