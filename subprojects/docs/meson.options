@@ -1,0 +1,28 @@
+option('highlight_language'     , type: 'string' , value: 'python3')
+option('autodoc_typehints'      , type: 'string' , value: 'description')
+option('autodoc_class_signature', type: 'string' , value: 'separated')
+option('add_module_names'    , type: 'boolean', value: true)
+option('html_show_sphinx'    , type: 'boolean', value: false)
+option('gettext_compact'     , type: 'boolean', value: false)
+option('numfig'              , type: 'boolean', value: true)
+option('python_display_short_literal_types' ,
+                               type: 'boolean', value: true)
+option('html_theme'        , type: 'string' , value: 'sphinxawesome_theme')
+option('locale_dirs'       , type: 'array'  , value: ['locale/'])  # path is example but recommended.
+option('html_static_path'  , type: 'array'  , value: ['_static'])
+option('templates_path'    , type: 'array'  , value: ['_templates'])
+option('exclude_patterns'  , type: 'array'  , value: ['_build', 'Thumbs.db', '.DS_Store'])
+option('sphinx_ext'        , type: 'array'  ,
+value: ['sphinx.ext.autodoc',
+        'sphinx.ext.autosectionlabel',
+        'sphinx.ext.autosummary',
+        'sphinx.ext.coverage',
+        'sphinx.ext.doctest',
+        'sphinx.ext.duration',
+        'sphinx.ext.extlinks',
+        'sphinx.ext.githubpages',
+        'sphinx.ext.ifconfig',
+        'sphinx.ext.napoleon',
+        'sphinx.ext.todo',
+        'sphinx.ext.viewcode',
+        'sphinxawesome_theme.highlighting'])
