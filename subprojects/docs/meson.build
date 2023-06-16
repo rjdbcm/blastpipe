@@ -1,4 +1,4 @@
-project('lemprex-docs', version: '0.0.1')
+project('lemprex-docs', version: '1.0.0')
 author           = 'Ross J. Duff MSc'
 copyright_date   = '2023'
 copyright        = ', '.join([copyright_date, author])
@@ -18,7 +18,7 @@ foreach source: all
  configure_file(input: source, output: source, configuration: configuration_data())
 endforeach
 env = environment()
-env.append('PYTHONPATH', '..'/'..')
+env.append('PYTHONPATH', meson.global_build_root())
 foreach name, builder: builder_dirs 
  sphinx_args = [sphinx, '-C',
   '-Dhtml_static_path='+','.join(html_static_path),
@@ -35,7 +35,7 @@ foreach name, builder: builder_dirs
   '-E', 
   '-a',
   '-b', builder]
- sphinx_args += meson.current_source_dir()
+ sphinx_args += meson.project_build_root()
  sphinx_args += '@OUTPUT@'
  custom_target(name, command: sphinx_args, input: all, output: name, env: env,
   build_by_default: true, install: true, install_dir: get_option('datadir'))

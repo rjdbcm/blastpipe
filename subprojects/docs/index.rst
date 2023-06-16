@@ -17,6 +17,13 @@ Modules
    :toctree: modules
 
    lemprex
+   lemprex.backports
+   lemprex.buffer
+   lemprex.loop
+   lemprex.malloc
+   lemprex.mixin
+   lemprex.sequence
+   lemprex.tailcall
 
 Indices and tables
 ==================
