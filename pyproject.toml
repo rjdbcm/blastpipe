@@ -135,6 +135,7 @@ write_to = "_scm_version.py"
 [tool.tox]
 legacy_tox_ini = """
 [tox]
+skipsdist = True
 envlist = {py39,py310}-toml,py311
 
 [gh]
@@ -144,11 +145,9 @@ python =
      3.9 = py39, toml
 
 [testenv]
+package = wheel
 deps = 
      meson >= 1.1.0
      setuptools_scm[toml]>=6.2
      toml: tomli >= 2.0.0
-commands =
-     meson setup build -Ddev=enabled
-     meson test -C build {posargs}
 """
