@@ -146,6 +146,7 @@ python =
 [testenv]
 deps = 
      meson >= 1.1.0
+     setuptools_scm[toml]>=6.2
      toml: tomli >= 2.0.0
 commands =
      meson setup build -Ddev=enabled
