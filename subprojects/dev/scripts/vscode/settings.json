@@ -14,7 +14,7 @@
         "**/__pycache__": false,
         "**/*.egg-info": false
     },
-    "cmake.configureOnOpen": false,
+    "markdownlint.ignore": "NOTICE.md",
     "markdownlint.config": {
         "default": true,
         "MD033": false

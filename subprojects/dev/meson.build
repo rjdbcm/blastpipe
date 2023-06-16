@@ -1,5 +1,5 @@
-# boilerplate python development environment <20 SLoC
-project('dev', version: '0.0.1')
+project('OZI', version: '0.0.2', default_options: ['warning_level=3'],
+        license: 'Apache-2.0', license_files: 'LICENSE.txt', meson_version: '>=1.1.0')
 env   = environment()
 fs    = import('fs')
 pymod = import('python')
@@ -12,21 +12,19 @@ emoji_dist             = get_option('emoji-dist')
 emoji_docs             = get_option('emoji-docs')
 emoji_lint             = get_option('emoji-lint')
 emoji_test             = get_option('emoji-test')
-summary({
- emoji_no_version       : 'non-standard PyPA version metadata',
- emoji_metadata_version : 'standard PyPA version metadata',
- emoji_directory        : 'install directory',
- emoji_setup            : 'developer setup invocations (dev)',
- emoji_dist             : 'distribution               (dist)',
- emoji_docs             : 'documentation              (docs)',
- emoji_lint             : 'linting & typechecking     (lint)',
- emoji_test             : 'testing & checkpointing    (test)',
-}, section: '〽️ Configuration Legend')
 # prescript arrays
 no_version             = get_option('no-version')
 unhashable             = get_option('unhashable')
 should_fail            = get_option('should-fail')
 module_only            = get_option('module-only')
+dist_suite             = get_option('dist-suite')
+docs_suite             = get_option('docs-suite')
+lint_suite             = get_option('lint-suite')
+test_suite             = get_option('test-suite')
+dist_exclude_suites    = get_option('dist-exclude-suites')
+docs_exclude_suites    = get_option('docs-exclude-suites')
+lint_exclude_suites    = get_option('lint-exclude-suites')
+test_exclude_suites    = get_option('test-exclude-suites')
 # descript arrays   
 namespace              = get_option('namespace')
 pytest_plugins         = get_option('pytest-plugins')
@@ -36,19 +34,20 @@ dev                    = get_option('dev')
 source_to_build        = get_option('source-to-build')
 docs_source            = get_option('docs-source')
 test_source            = get_option('test-source')
-# templates   
-core_metadata          = get_option('core-metadata-template')
-metadata_version       = get_option('version-metadata-template')
-# snippets   
-scm_version_snip       = get_option('scm-version-snip')
+# templates
+python_readlines       = get_option('python-readline-snip')
+
 # Python 3.9+ setup
 python = pymod.find_installation('python3', modules: python_dependencies, required: true, 
                                  disabler: true)
+core_metadata          = run_command(python,
+['-c', python_readlines.format('scripts'/get_option('core-metadata-template'))], check: true).stdout()
+metadata_version       = run_command(python,
+['-c', python_readlines.format('scripts'/get_option('version-metadata-template'))], check: true).stdout()
+# snippets
+scm_version_snip       = run_command(python,
+['-c', python_readlines.format('scripts'/get_option('scm-version-snip'))], check: true).stdout()
 pip = find_program('pip', required: true, disabler: true)
-# foreach var : get_option('variables')
-# if var not in unhashable
-# summary({var: get_variable(var.replace('-', '_'))}, section: '🔧')
-# endif endforeach
 source_to_build.enable_auto_if(source_to_build.auto())
 docs_source.enable_auto_if(docs_source.auto())
 test_source.enable_auto_if(test_source.auto())
@@ -56,7 +55,7 @@ no_check = {'check': false, 'env': env}
 install = ['install']
 build_commands = {'dev': []}
 test_app_args = {}
-pip_repr = pip.path()
+pip_repr = pip.full_path()
 foreach name: namespace
  command_names = get_option(name+'-suite')
  summary({get_variable('emoji_'+name)+' @0@=auto'.format(name): '[auto|enabled|disabled]'}, 
@@ -64,7 +63,7 @@ foreach name: namespace
  foreach command: command_names
   flag = command in module_only? disabler() : find_program(command, required: false, disabler: true)
   set_variable(command.replace('-', '_'), flag)
-  requirements = ['-vvv', '-r', name/command/'requirements.txt']
+  requirements = ['-vvv', '-r', 'scripts'/name/command/'requirements.txt']
   install += requirements
   build_commands += {name: ['install'] + requirements}
   set_variable(name, get_option(name).enable_auto_if(get_option('dev').enabled()))
@@ -148,3 +147,13 @@ foreach pytest_plugin : pytest_plugins
   summary({'📡 '+pytest_plugin: packaged_version}, section: '✅ meson test --setup=test')
  endif
 endforeach
+summary({
+ emoji_no_version       : 'non-standard PyPA version metadata',
+ emoji_metadata_version : 'standard PyPA version metadata',
+ emoji_directory        : 'install directory',
+ emoji_setup            : 'developer setup invocations (dev)',
+ emoji_dist             : 'distribution               (dist)',
+ emoji_docs             : 'documentation              (docs)',
+ emoji_lint             : 'linting & typechecking     (lint)',
+ emoji_test             : 'testing & checkpointing    (test)',
+}, section: '〽️ Configuration Legend')

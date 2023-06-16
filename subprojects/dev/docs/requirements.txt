@@ -1,3 +1,0 @@
-doc8             >= 1.0.0
-pydocstyle[toml] >= 6.0.0
-sphinx           >= 6.0.0
