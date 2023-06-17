@@ -4,7 +4,7 @@ import string
 from hypothesis import given
 from hypothesis import strategies as st
 
-import lemprex.backports
+import blastpipe.backports
 
 
 # pylint: disable=invalid-name
@@ -15,4 +15,4 @@ def test_fuzz_TemplateGetIdentifiersMixin_extend_with(instance: string.Template)
     :param instance: Text Template
     :type instance: string.Template
     """
-    lemprex.backports.TemplateGetIdentifiersMixin.extend_with(instance=instance)
+    blastpipe.backports.TemplateGetIdentifiersMixin.extend_with(instance=instance)

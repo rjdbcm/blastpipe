@@ -4,9 +4,9 @@ import typing
 from hypothesis import given
 from hypothesis import strategies as st
 
-import lemprex.mixin
-import lemprex.malloc
-import lemprex.loop
+import blastpipe.mixin
+import blastpipe.malloc
+import blastpipe.loop
 
 
 @st.composite
@@ -31,13 +31,13 @@ def sized_objects(draw) -> typing.Tuple[st.SearchStrategy, ...]:
 @given(instance=st.from_type(object))
 def test_fuzz_BaseMixin_extend_with(instance: typing.Any) -> None:
     """This test code was written by the `hypothesis.extra.ghostwriter` module"""
-    lemprex.mixin.BaseMixin.extend_with(instance=instance)  # type: ignore
+    blastpipe.mixin.BaseMixin.extend_with(instance=instance)  # type: ignore
 
 
 @given(cls=st.from_type(object), base=st.from_type(object))
 def test_fuzz_mixin(cls: typing.Any, base: typing.Any) -> None:
     """This test code was written by the `hypothesis.extra.ghostwriter` module"""
-    lemprex.mixin.mixin(cls=cls, base=base)
+    blastpipe.mixin.mixin(cls=cls, base=base)
 
 
 @given(
@@ -51,7 +51,7 @@ def test_fuzz_while_raised(
     implicit_break,
 ) -> None:
     """This test code was written by the `hypothesis.extra.ghostwriter` module"""
-    lemprex.loop.while_raised(
+    blastpipe.loop.while_raised(
         exc_types=exc_types, target=target, implicit_break=implicit_break
     )
 
@@ -59,4 +59,4 @@ def test_fuzz_while_raised(
 @given(obj=sized_objects(), verbose=st.booleans())
 def test_fuzz_total_size(obj, verbose):
     """This test code was written by the `hypothesis.extra.ghostwriter` module"""
-    lemprex.malloc.total_size(obj=obj, handlers=None, verbose=verbose)
+    blastpipe.malloc.total_size(obj=obj, handlers=None, verbose=verbose)

@@ -14,22 +14,21 @@
 # specific language governing permissions and limitations
 # under the License.
 import functools
-from typing import Annotated, Callable, Optional, Tuple, TypeAlias
+from typing import Annotated, Callable, Optional, Tuple
 
 from . import public
 
 __all__ = []
 
-TailCallFlag: TypeAlias = Tuple[()]
-TailCallDecor: TypeAlias = Annotated[Optional[TailCallFlag], "@tail_call()"]
-TAIL_CALL: TailCallFlag = tuple()  # PEP 484 Empty Tuple
-DecoratedCallable: TypeAlias = Annotated[Callable, TailCallDecor]
+TAIL_CALL: Tuple[()] = tuple()  # PEP 484 Empty Tuple
 
 
 @public
-def async_tail_call(active=True) -> DecoratedCallable:
+def async_tail_call(
+    active=True,
+) -> Annotated[Callable, Annotated[Optional[Tuple[()]], "@tail_call()"]]:
     """Async tail_call decorator.
-    :param active: Whether to activate async tail call optimization.]
+    :param active: Whether to activate async tail call optimization.
     """
 
     def __wrapper(func):

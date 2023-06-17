@@ -1,4 +1,4 @@
-project('lemprex', default_options: ['warning_level=3'], license: 'LICENSE', 
+project('blastpipe', default_options: ['warning_level=3'], license: 'LICENSE', 
  license_files: ['LICENSE.txt'], meson_version: '>=1.1.0', version: run_command(
   'python3', # scm_version_snip
   ['-c', 'from setuptools_scm import get_version;print(get_version(normalize=False))'], 

@@ -78,7 +78,7 @@ ignore = ["D000", "D002"]
 
 [tool.flake8]
 max-line-length = 93
-extend-exclude = ["build-env-*", "venv", "build"]
+extend-exclude = ["build-env-*", "venv", "build*"]
 
 [tool.isort]
 line_length = 93
@@ -136,12 +136,12 @@ write_to = "_scm_version.py"
 legacy_tox_ini = """
 [tox]
 skipsdist = True
-envlist = {py39,py310}-toml,py311
+envlist = py{39,310-type,311}-toml
 
 [gh]
 python =
      3.11 = py311
-     3.10 = py310, toml
+     3.10 = py310, toml, type
      3.9 = py39, toml
 
 [testenv]
@@ -151,6 +151,6 @@ deps =
      setuptools_scm[toml]>=6.2
      toml: tomli >= 2.0.0
 commands =
-     meson setup build -Ddev=enabled
-     meson test -C build {posargs}
+     meson setup build-{envname} -Ddev=enabled --reconfigure
+     meson test -C build-{envname} {posargs}
 """

@@ -1,4 +1,4 @@
-project('lemprex-docs', version: '1.0.0')
+project('blastpipe', version: '1.0.0')
 author           = 'Ross J. Duff MSc'
 copyright_date   = '2023'
 copyright        = ', '.join([copyright_date, author])

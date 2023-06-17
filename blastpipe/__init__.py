@@ -1,4 +1,4 @@
-"""Lemprex: A utility library for modern Python."""
+"""blastpipe: A utility library for modern Python."""
 # Copyright 2023 Ross J. Duff MSc
 # The copyright holder licenses this file
 # to you under the Apache License, Version 2.0 (the

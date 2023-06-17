@@ -1,6 +1,6 @@
-=======
-Lemprex
-=======
+=========
+blastpipe
+=========
 
 |py-version-badge| |slsa-level3-badge| |semantic-release-badge|
 |coverage-badge| |pytest-plugins-badge| 
@@ -17,8 +17,8 @@ Meson+OZI as Python 3 packaging management layer.
 License
 ^^^^^^^
 
-Lemprex is released under the terms of the 2.0 version of the Apache License,
-approved by the Apache Software Foundation. Lemprex meets the Open Source Initiative's definition of
+blastpipe is released under the terms of the 2.0 version of the Apache License,
+approved by the Apache Software Foundation. blastpipe meets the Open Source Initiative's definition of
 open source software, and the Free Software Foundation's definition of GPL-compatible open 
 source software.
 
@@ -26,15 +26,15 @@ source software.
 
 .. note::
    The OSI logo trademark is the trademark of Open Source Initiative.
-   The Lemprex project is not affiliated with or endorsed by the Open Source Initiative.
+   The blastpipe project is not affiliated with or endorsed by the Open Source Initiative.
 
 .. note::
    The Apache logo trademark is the trademark of the Apache Software Foundation.
-   The Lemprex project is not affiliated with or endorsed by the Apache Software Foundation.
+   The blastpipe project is not affiliated with or endorsed by the Apache Software Foundation.
 
 .. note::
    The FSF logo trademark is the trademark of the Free Software Foundation.
-   The Lemprex project is not affiliated with or endorsed by the Free Software Foundation.
+   The blastpipe project is not affiliated with or endorsed by the Free Software Foundation.
 
 .. |osi-logo| image:: https://149753425.v2.pressablecdn.com/wp-content/uploads/2009/06/OSIApproved_100X125.png
  :height: 100

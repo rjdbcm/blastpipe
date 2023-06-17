@@ -3,14 +3,14 @@ import pytest
 from hypothesis import given
 from hypothesis import strategies as st
 
-import lemprex.sequence
-from lemprex.sequence import chr_union
+import blastpipe.sequence
+from blastpipe.sequence import chr_union
 
 
 @given(active=st.booleans())
 def test_fuzz_async_tail_call(active):
     """This test code was written by the `hypothesis.extra.ghostwriter` module"""
-    lemprex.sequence.async_tail_call(active=active)
+    blastpipe.sequence.async_tail_call(active=active)
 
 
 def test_chr_union_range():

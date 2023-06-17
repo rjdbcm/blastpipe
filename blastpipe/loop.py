@@ -16,7 +16,7 @@
 
 # pyright: reportGeneralTypeIssues=false
 from contextlib import suppress
-from typing import Any, Callable, Tuple, Type
+from typing import Any, Callable, Optional, Tuple, Type
 
 from . import public
 
@@ -28,7 +28,7 @@ def while_raised(
     target: Callable,
     *args,
     implicit_break=True,
-) -> Any | None:
+) -> Optional[Any]:
     """Repeats a target function while suppressing exceptions provided.
     This is a convenience wrapper around :py:func:`contextlib.suppress`.
     :param exc_types: The exception types to suppress.

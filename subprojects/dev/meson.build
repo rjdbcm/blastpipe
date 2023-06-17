@@ -41,12 +41,15 @@ python_readlines       = get_option('python-readline-snip')
 python = pymod.find_installation('python3', modules: python_dependencies, required: true, 
                                  disabler: true)
 core_metadata          = run_command(python,
-['-c', python_readlines.format('scripts'/get_option('core-metadata-template'))], check: true).stdout()
+['-c', python_readlines.format('ozi'/'scripts'/get_option('core-metadata-template'))],
+check: true).stdout()
 metadata_version       = run_command(python,
-['-c', python_readlines.format('scripts'/get_option('version-metadata-template'))], check: true).stdout()
+['-c', python_readlines.format('ozi'/'scripts'/get_option('version-metadata-template'))],
+check: true).stdout()
 # snippets
 scm_version_snip       = run_command(python,
-['-c', python_readlines.format('scripts'/get_option('scm-version-snip'))], check: true).stdout()
+['-c', python_readlines.format('ozi'/'scripts'/get_option('scm-version-snip'))],
+check: true).stdout()
 pip = find_program('pip', required: true, disabler: true)
 source_to_build.enable_auto_if(source_to_build.auto())
 docs_source.enable_auto_if(docs_source.auto())
@@ -63,9 +66,11 @@ foreach name: namespace
  foreach command: command_names
   flag = command in module_only? disabler() : find_program(command, required: false, disabler: true)
   set_variable(command.replace('-', '_'), flag)
-  requirements = ['-vvv', '-r', 'scripts'/name/command/'requirements.txt']
-  install += requirements
-  build_commands += {name: ['install'] + requirements}
+  if not flag.found() and command not in module_only
+   requirements = ['-vvv', '-r', 'scripts'/name/command/'requirements.txt']
+   install += requirements
+   build_commands += {name: ['install'] + requirements}
+  endif
   set_variable(name, get_option(name).enable_auto_if(get_option('dev').enabled()))
   set_variable(name+'_kwargs', {'suite': name, 'env': env})
   _args = get_option('args-'+command)
@@ -82,6 +87,9 @@ foreach name: namespace
   endif
  endforeach
 endforeach
+if install == ['install']
+ install = ['--help']
+endif
 build_commands += {'dev': install}
 foreach suite, command_arr : build_commands
  if get_option('dev').auto() or get_option(suite).enabled()
