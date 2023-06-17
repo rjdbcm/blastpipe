@@ -81,7 +81,7 @@ option('args-pytest-xdist',
     value: [])
 option('args-sigstore',
     description: 'application', type: 'array', 
-    value: ['get-identity-token'])
+    value: ['--version'])
 option('args-semantic-release',
     description: 'application', type: 'array', 
     value: ['version', '--noop', '--verbosity=debug'])
