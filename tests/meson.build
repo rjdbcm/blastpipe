@@ -5,8 +5,8 @@ config_files = [
 ]
 python.install_sources(files(config_files), install_tag: 'python-tests')
 if get_option('dev').enabled()
-foreach file: config_files
-configure_file(input: file, output: file, configuration: source_to_build)
+ foreach file: config_files
+  fs.copyfile(file)
 endforeach endif
 if get_option('dev').enabled()
  add_test_setup('dev', is_default: true, env: env)

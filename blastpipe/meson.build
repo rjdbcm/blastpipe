@@ -28,5 +28,5 @@ endforeach
 python_files += files(config_files)
 if get_option('dev').enabled()
 foreach file: config_files
-configure_file(input: file, output: file, configuration: source_to_build)
+fs.copyfile(file)
 endforeach endif

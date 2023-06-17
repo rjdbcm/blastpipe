@@ -22,10 +22,16 @@ option('python-dependencies', type: 'array',
 # TODO: -suite can be generated from core metadata
 option('dist-priority', type: 'integer', value: 1)
 option('dist-suite' , type: 'array',
-    value: ['semantic-release', 'sigstore'])
+    value: ['pyc_wheel',
+            'semantic-release',
+            'sigstore'])
 option('docs-priority', type: 'integer', value: 3)
 option('docs-suite' , type: 'array',
-    value: ['doc8', 'pydocstyle', 'sphinx-build'])
+    value: ['doc8',
+            'pydocstyle',
+            'sphinx-build',
+            'sphinxawesome-codelinter', 
+            'sphinxawesome-theme'])
 option('lint-priority', type: 'integer', value: 4)
 option('lint-suite' , type: 'array',
     value: ['bandit', 
@@ -38,7 +44,14 @@ option('lint-suite' , type: 'array',
             'Flake8-pyproject'])
 option('test-priority', type: 'integer', value: 2)
 option('test-suite' , type: 'array',
-    value: ['coverage', 'hypothesis', 'pytest', 'pytest-asyncio', 'pytest-cov', 'pytest-xdist'])
+    value: ['coverage',
+            'hypothesis',
+            'pytest',
+            'pytest-asyncio',
+            'pytest-cov',
+            'pytest-randomly',
+            'pytest-tcpclient',
+            'pytest-xdist'])
 option('args-bandit',
     description: 'application', type: 'array',
     value: ['--configfile', 'pyproject.toml', '--ignore-nosec', '-r', '@project_name@'])

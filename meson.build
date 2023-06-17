@@ -23,7 +23,7 @@ endforeach
 docs = subproject('docs')
 scm_version = run_command(python, ['-c', scm_version_snip], check:true).stdout().strip()
 foreach source : ['README.rst', 'CHANGELOG.md', 'pyproject.toml', 'NOTICE.md', 'LICENSE.txt']
- configure_file(input: source, output: source, configuration: source_to_build)
+ fs.copyfile(source)
 endforeach
 python_files = []
 stub_files = []
