@@ -1,1 +1,1 @@
-{"extends": "subprojects/dev/vscode/settings.json"}
+{"extends": "subprojects/dev/ide/vscode/settings.json"}
