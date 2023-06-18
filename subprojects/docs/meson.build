@@ -12,7 +12,7 @@
 # KIND, either express or implied.  See the License for the
 # specific language governing permissions and limitations
 # under the License.
-project('blastpipe', version: '1.0.0')
+project('blastpipe', version: '0.1.0')
 fs               = import('fs')
 author           = 'Ross J. Duff MSc'
 copyright_date   = '2023'
@@ -52,6 +52,6 @@ foreach name, builder: builder_dirs
   '-b', builder]
  sphinx_args += meson.project_build_root()
  sphinx_args += '@OUTPUT@'
- custom_target(name, command: sphinx_args, input: all, output: name, env: env,
-  build_by_default: true, install: true, install_dir: get_option('datadir'))
+ custom_target(name, command: sphinx_args, input: all, output: name, env: env, install: true,
+  install_dir: get_option('datadir'))
 endforeach
