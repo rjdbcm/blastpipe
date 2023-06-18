@@ -1,4 +1,4 @@
-# Copyright 2023 Ross J. Duff MSc 
+# Copyright 2023 Ross J. Duff MSc
 # The copyright holder licenses this file
 # to you under the Apache License, Version 2.0 (the
 # "License"); you may not use this file except in compliance
@@ -16,10 +16,23 @@ project('blastpipe', version: '0.1.0')
 fs               = import('fs')
 author           = 'Ross J. Duff MSc'
 copyright_date   = '2023'
+html_theme       = get_option('html_theme')
 copyright        = ', '.join([copyright_date, author])
 sphinx           = find_program('sphinx-build')
-html_static_path = get_option('html_static_path')
-templates_path   = get_option('templates_path')
+exclude_patterns = ','.join(get_option('exclude_patterns'))
+sphinx_ext       = ','.join(get_option('sphinx_ext'))
+html_static_path = ','.join(get_option('html_static_path'))
+templates_path   = ','.join(get_option('templates_path'))
+configure_file(input: 'conf.cfg', output: 'conf.py' ,configuration: configuration_data({
+ 'author'          : author,
+ 'copyright'       : copyright,
+ 'html_theme'      : html_theme,
+ 'html_static_path': html_static_path,
+ 'templates_path'  : templates_path,
+ 'extensions'      : '[\n    "@0@"\n]'.format('",\n    "'.join(get_option('sphinx_ext'))),
+ 'project_name'    : meson.project_name(),
+ 'exclude_patterns': '["@0@"]'.format('", "'.join(get_option('exclude_patterns'))),
+}))
 pdflatex = find_program('pdflatex', disabler: true)
 builder_dirs     = {'html': 'dirhtml', 'man': 'man'}
 if pdflatex.found()
@@ -36,16 +49,15 @@ env = environment()
 env.append('PYTHONPATH', meson.global_build_root())
 foreach name, builder: builder_dirs 
  sphinx_args = [sphinx, '-C',
-  '-Dhtml_static_path='+','.join(html_static_path),
-  '-Dexclude_patterns='+','.join(get_option('exclude_patterns')),
-  '-Dextensions='      +','.join(get_option('sphinx_ext')),
-  '-Dtemplates_path='  +','.join(templates_path),
+  '-Dhtml_static_path='+ html_static_path,
+  '-Dexclude_patterns='+ exclude_patterns,
+  '-Dextensions='      + sphinx_ext,
+  '-Dtemplates_path='  + templates_path,
   '-Dproject='         + meson.project_name(),
   '-Dauthor='          + author,
   '-Dcopyright='       + copyright,
-  '-Dhtml_theme='      + get_option('html_theme'),
+  '-Dhtml_theme='      + html_theme,
   '-j', 'auto',
-  '-v', # + 'v' # +'v'
   '-W',
   '-E', 
   '-a',
@@ -53,5 +65,5 @@ foreach name, builder: builder_dirs
  sphinx_args += meson.project_build_root()
  sphinx_args += '@OUTPUT@'
  custom_target(name, command: sphinx_args, input: all, output: name, env: env, install: true,
-  install_dir: get_option('datadir'))
+  install_dir: get_option('datadir')/'doc', install_tag: 'doc'+name)
 endforeach
