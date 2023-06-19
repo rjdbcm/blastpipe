@@ -133,7 +133,7 @@ build_command            = """
 changelog_file           = "CHANGELOG.md"
 changelog_placeholder    = "<!--next-version-placeholder-->"
 commit_parser            = "semantic_release.history.emoji_parser"
-dist_glob_patterns       = "*"
+dist_glob_patterns       = "*.dist-info,*.whl"
 dist_path                = "dist/"
 hvcs                     = "github"
 major_on_zero            = false
@@ -144,6 +144,9 @@ pre_commit_command       = """
                         meson dist -C build-dist --formats gztar --no-tests && \
                         sigstore sign build-dist/meson-dist/*.tar.gz"""
 include_additional_files = """
+        dist/*.sig,\
+        dist/*.crt,\
+        dist/*.sigstore,\
         build-dist/meson-dist/*.tar.gz,\
         build-dist/meson-dist/*.sha256sum,\
         build-dist/meson-dist/*.sig,\
@@ -155,7 +158,7 @@ repository               = "testpypi"
 tag_format               = "{version}"
 upload_to_release        = true
 upload_to_repository     = true
-version_source           = "tag"
+version_source           = "commit"
 version_variable         = "_scm_version.py:__version__"
 
 [tool.setuptools_scm]
