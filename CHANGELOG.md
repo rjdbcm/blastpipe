@@ -17,6 +17,9 @@
 
 <!--next-version-placeholder-->
 
+## v0.1.2 (2023-06-19)
+
+
 ## v0.1.1 (2023-06-19)
 ### Other
 * 🚨 lint for release test. ([`a292ad7`](https://github.com/rjdbcm/blastpipe/commit/a292ad70d4d5c9bf43e5d079558ddaba0b7a837b))
