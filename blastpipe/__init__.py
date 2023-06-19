@@ -16,6 +16,13 @@
 import platform
 import sys
 from datetime import date
+from importlib.metadata import version, PackageNotFoundError
+
+try:
+    __version__ = version("blastpipe")
+except PackageNotFoundError:
+    # package is not installed
+    pass
 
 PYMAJOR, PYMINOR, PYPATCH = map(int, platform.python_version_tuple())
 minor_deprecation = {
