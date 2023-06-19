@@ -17,6 +17,10 @@
 
 <!--next-version-placeholder-->
 
+## v0.2.0 (2023-06-19)
+### Other
+* Changelogged ([`af1cd00`](https://github.com/rjdbcm/blastpipe/commit/af1cd0033c9fbe0385c237de315cb4d52f866a60))
+
 ## v0.1.2 (2023-06-19)
 
 
