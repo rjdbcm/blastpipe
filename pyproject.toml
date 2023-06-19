@@ -159,7 +159,7 @@ tag_format               = "{version}"
 upload_to_release        = true
 upload_to_repository     = true
 version_source           = "commit"
-version_variable         = "_scm_version.py:__version__"
+version_variable         = "_scm_version.py:__version__,blastpipe.__init__.py:__version__"
 
 [tool.setuptools_scm]
 write_to = "_scm_version.py"
