@@ -126,7 +126,10 @@ log_cli_level       = "INFO"
 # hvcs_api_domain       = ""
 # hvcs_domain           = ""
 branch                = "master"
-build_command         = "python -m build -w . && python -m pyc_wheel build/*.whl && sigstore sign build/*.whl"
+build_command         = """
+        python -m build -w --config-setting=--dist-args='--formats gztar --no-tests' \
+        && python -m pyc_wheel build/*.whl \
+        && sigstore sign build/*.whl"""
 changelog_file        = "CHANGELOG.md"
 changelog_placeholder = "<!--next-version-placeholder-->"
 commit_parser         = "semantic_release.history.emoji_parser"
@@ -145,6 +148,10 @@ version_variable      = "_scm_version.py:__version__"
 
 [tool.setuptools_scm]
 write_to = "_scm_version.py"
+# meson writes during configuration so that meson dist can have a valid version.
+fallback_version = "@MESON_DIST_FALLBACK_VERSION@"
+# meson writes during configuration so that github tarballs can have a valid version.
+parentdir_prefix_version = "@PROJECT_NAME@-"
 
 [tool.tox]
 legacy_tox_ini = """

@@ -34,9 +34,12 @@ foreach var : get_option('variables')
  name = var.replace('-', '_')
  set_variable(name, dev.get_variable(name))
 endforeach
-docs = subproject('docs')
 scm_version = run_command(python, ['-c', scm_version_snip], check:true).stdout().strip()
-foreach source : ['README.rst', 'CHANGELOG.md', 'pyproject.toml', 'NOTICE.md', 'LICENSE.txt']
+configure_file(input: 'pyproject.toml', output: 'pyproject.toml', configuration: configuration_data({
+  'PROJECT_NAME' : project_name,
+  'MESON_DIST_FALLBACK_VERSION' : meson.project_version(),
+}))
+foreach source : ['README.rst', 'CHANGELOG.md', 'NOTICE.md', 'LICENSE.txt']
  fs.copyfile(source)
 endforeach
 python_files = []
@@ -47,9 +50,12 @@ endforeach
 foreach file : python_files
  python.install_sources(file)
 endforeach
-stubs = custom_target('stubs', install: true, install_dir: get_option('prefix'),
- output: stub_files, build_by_default: true, 
- command: [find_program('pyright', required: true), '--createstub', project_name])
+# TODO: documentation build imports are broken for dist
+# docs = subproject('docs')
+# TODO: stub build imports are broken for dist
+# stubs = custom_target('stubs', install: true, install_dir: get_option('prefix'),
+#  output: stub_files,
+#  command: [find_program('pyright', required: true), '--createstub', project_name])
 foreach dir : ['prefix', 'bindir', 'libdir', 'datadir', 'localedir', 'python.install_env', 
                 'python.platlibdir', 'python.purelibdir']
   summary({'📁 '+dir : get_option(dir)}, section: '〽️ meson install -C @0@'.format(build_dir))
