@@ -1,3 +1,4 @@
+"""TODO: doc"""
 # Copyright 2023 Ross J. Duff MSc
 # The copyright holder licenses this file
 # to you under the Apache License, Version 2.0 (the
@@ -14,11 +15,12 @@
 # under the License.
 # pylint: disable=unused-import
 try:
-    import toml
+    import toml  # noqa: F401
 except ImportError:
-    import tomli as toml
+    import tomli as toml  # noqa: F401
 
 import setuptools
 
+
 class OZICommand(setuptools.Command):
-    pass
+    """TODO: doc"""

@@ -16,7 +16,7 @@
 import platform
 import sys
 from datetime import date
-from importlib.metadata import version, PackageNotFoundError
+from importlib.metadata import PackageNotFoundError, version
 
 try:
     __version__ = version("blastpipe")
