@@ -144,17 +144,18 @@ pre_commit_command       = """
                         meson dist -C build-dist --formats gztar --no-tests && \
                         sigstore sign build-dist/meson-dist/*.tar.gz"""
 include_additional_files = [
-        "build/meson-dist/*.tar.gz",
-        "build/meson-dist/*.sha256sum",
-        "build/meson-dist/*.sig",
-        "build/meson-dist/*.crt",
-        "build/meson-dist/*.sigstore"
+        "build-dist/meson-dist/*.tar.gz",
+        "build-dist/meson-dist/*.sha256sum",
+        "build-dist/meson-dist/*.sig",
+        "build-dist/meson-dist/*.crt",
+        "build-dist/meson-dist/*.sigstore"
 ]
 prerelease_tag           = "beta"
 remove_dist              = true
+repository               = "testpypi"
 tag_format               = "{version}"
-upload_to_release        = false
-upload_to_repository     = false
+upload_to_release        = true
+upload_to_repository     = true
 version_source           = "tag"
 version_variable         = "_scm_version.py:__version__"
 
