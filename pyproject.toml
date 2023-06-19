@@ -123,28 +123,40 @@ log_cli_format      = "%(asctime)s [%(levelname)8s] %(name)s: %(message)s (%(fil
 log_cli_level       = "INFO"
 
 [tool.semantic_release]
-# hvcs_api_domain       = ""
-# hvcs_domain           = ""
-branch                = "master"
-build_command         = """
-        python -m build -w --config-setting=--dist-args='--formats gztar --no-tests' \
-        && python -m pyc_wheel build/*.whl \
-        && sigstore sign build/*.whl"""
-changelog_file        = "CHANGELOG.md"
-changelog_placeholder = "<!--next-version-placeholder-->"
-commit_parser         = "semantic_release.history.emoji_parser"
-dist_glob_patterns    = "*"
-dist_path             = "build/"
-hvcs                  = "github"
-major_on_zero         = false
-patch_without_tag     = false
-prerelease_tag        = "beta"
-remove_dist           = true
-tag_format            = "{version}"
-upload_to_release     = false
-upload_to_repository  = false
-version_source        = "tag"
-version_variable      = "_scm_version.py:__version__"
+# hvcs_api_domain          = ""
+# hvcs_domain              = ""
+branch                   = "main"
+build_command            = """
+                        python -m build -w && \
+                        python -m pyc_wheel dist/*.whl && \
+                        sigstore sign dist/*.whl"""
+changelog_file           = "CHANGELOG.md"
+changelog_placeholder    = "<!--next-version-placeholder-->"
+commit_parser            = "semantic_release.history.emoji_parser"
+dist_glob_patterns       = "*"
+dist_path                = "dist/"
+hvcs                     = "github"
+major_on_zero            = false
+patch_without_tag        = false
+pre_commit_command       = """
+                        meson setup build-dist --reconfigure -Ddev=enabled && \
+                        meson test -C build-dist --setup=test --setup=lint && \
+                        meson dist -C build-dist --formats gztar --no-tests && \
+                        sigstore sign build-dist/meson-dist/*.tar.gz"""
+include_additional_files = [
+        "build/meson-dist/*.tar.gz",
+        "build/meson-dist/*.sha256sum",
+        "build/meson-dist/*.sig",
+        "build/meson-dist/*.crt",
+        "build/meson-dist/*.sigstore"
+]
+prerelease_tag           = "beta"
+remove_dist              = true
+tag_format               = "{version}"
+upload_to_release        = false
+upload_to_repository     = false
+version_source           = "tag"
+version_variable         = "_scm_version.py:__version__"
 
 [tool.setuptools_scm]
 write_to = "_scm_version.py"
