@@ -17,6 +17,11 @@
 
 <!--next-version-placeholder-->
 
+## v0.2.2 (2023-06-19)
+### Other
+* 👷 add version package pattern ([`66a0f49`](https://github.com/rjdbcm/blastpipe/commit/66a0f496ed94c5f4d6394c61bc968c2960b7431c))
+* 👷 switch to ci commit versioning ([`b8bd455`](https://github.com/rjdbcm/blastpipe/commit/b8bd455a25e19f737f77de536d96cb7b055d2c40))
+
 ## v0.2.1 (2023-06-19)
 ### Other
 * Changes to release. ([`fd26a79`](https://github.com/rjdbcm/blastpipe/commit/fd26a79002be80fe8ee150950bd761f03a109d2a))

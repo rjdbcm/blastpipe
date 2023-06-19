@@ -166,6 +166,7 @@ write_to = "_scm_version.py"
 fallback_version = "@MESON_DIST_FALLBACK_VERSION@"
 # meson writes during configuration so that github tarballs can have a valid version.
 parentdir_prefix_version = "@PROJECT_NAME@-"
+tag_regex = "^(?P<prefix>v)?(?P<version>[^\+]+)(?P<suffix>.*)?$"
 
 [tool.tox]
 legacy_tox_ini = """
