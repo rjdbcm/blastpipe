@@ -17,6 +17,18 @@
 
 <!--next-version-placeholder-->
 
+## v0.1.1 (2023-06-19)
+### Other
+* 🚨 lint for release test. ([`a292ad7`](https://github.com/rjdbcm/blastpipe/commit/a292ad70d4d5c9bf43e5d079558ddaba0b7a837b))
+* 🚀 add testpypi and github artifact upload ([`4594834`](https://github.com/rjdbcm/blastpipe/commit/4594834abfd840168e1a6e65b6ef6d4164030065))
+* 👷 add meson test and dist steps to semantic-release. ([`c2230dc`](https://github.com/rjdbcm/blastpipe/commit/c2230dc994177874aeaab8944fc1611d2930a9ec))
+* 🧑‍💻 __init__.py now supplies __version__. Uses the version from importlib.metadata. ([`46705b7`](https://github.com/rjdbcm/blastpipe/commit/46705b7e6090dc897f198868a3527d19064f19d4))
+* 🔨  scm_version updates. Meson writes fallback version and project name to pyproject.toml at dist time. ([`1c7ccc8`](https://github.com/rjdbcm/blastpipe/commit/1c7ccc87500c3b2def2fd19e128f7b996201ea88))
+* 🚚 move vscode settings to subprojects/dev/ide ([`bd3a848`](https://github.com/rjdbcm/blastpipe/commit/bd3a848a7ddbf2b7b14aab3ec1a8823b8120073c))
+* 🔨 docs no longer build_by_default. ([`12c4c6a`](https://github.com/rjdbcm/blastpipe/commit/12c4c6a2eea6f2b1e6ddf073c8d4cc26d6ac6ac6))
+* 📄 Add license info to all remaining files ([`9cc6c02`](https://github.com/rjdbcm/blastpipe/commit/9cc6c027c826b868dbb7c3e399de5b7782fef698))
+* Added 0.1.0 changes. ([`6b92237`](https://github.com/rjdbcm/blastpipe/commit/6b92237ad0ab02f4dbc56f6c8e922fc523f25ac2))
+
 ## v0.1.0 (2023-06-17)
 ### Breaking
 * :boom: : Remove Partial Function Tail Call Removed the partial function tail call optimization. ([`75934ce`](https://github.com/rjdbcm/blastpipe/commit/75934ce0d3210b2ff43e059405cb104ca27cda01))
