@@ -127,7 +127,7 @@ log_cli_level       = "INFO"
 # hvcs_domain              = ""
 branch                   = "main"
 build_command            = """
-                        python -m build -w && \
+                        python -m build -w build-dist/. && \
                         python -m pyc_wheel dist/*.whl && \
                         sigstore sign dist/*.whl"""
 changelog_file           = "CHANGELOG.md"
@@ -158,7 +158,7 @@ remove_dist              = true
 repository               = "testpypi"
 tag_format               = "{version}"
 upload_to_release        = true
-upload_to_repository     = true
+upload_to_repository     = false
 version_source           = "tag_only"
 version_variable         = "_scm_version.py:__version__"
 

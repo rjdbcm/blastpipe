@@ -17,6 +17,11 @@
 
 <!--next-version-placeholder-->
 
+## v0.2.5 (2023-06-19)
+### Other
+* Revert readme section move ([`cac0748`](https://github.com/rjdbcm/blastpipe/commit/cac0748b875a923044a8f0ac8cda88aea7d9615a))
+* Proper readme ([`1351fbc`](https://github.com/rjdbcm/blastpipe/commit/1351fbc5e936f448afd49f9133780d0150c7a6a5))
+
 ## v0.2.3 (2023-06-19)
 ### Other
 * Change version regex ([`343bc20`](https://github.com/rjdbcm/blastpipe/commit/343bc2038bb8274e5e81b274fd9aa94ada96146d))
