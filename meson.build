@@ -35,9 +35,13 @@ foreach var : get_option('variables')
  set_variable(name, dev.get_variable(name))
 endforeach
 scm_version = run_command(python, ['-c', scm_version_snip], check:true).stdout().strip()
+semantic_version = meson.project_version().split('.')
+maj_version = semantic_version.get(0)
+min_version = semantic_version.get(1)
+pat_version = semantic_version.get(2)
 configure_file(input: 'pyproject.toml', output: 'pyproject.toml', configuration: configuration_data({
   'PROJECT_NAME' : project_name,
-  'MESON_DIST_FALLBACK_VERSION' : meson.project_version(),
+  'MESON_DIST_FALLBACK_VERSION' : '.'.join(maj_version, min_version, pat_version),
 }))
 foreach source : ['README.rst', 'CHANGELOG.md', 'NOTICE.md', 'LICENSE.txt']
  fs.copyfile(source)
