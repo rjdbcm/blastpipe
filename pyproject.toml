@@ -128,7 +128,7 @@ log_cli_level       = "INFO"
 branch                   = "main"
 build_command            = """
                         git stash && \
-                        python -m build && \
+                        python -m build -w && \
                         python -m pyc_wheel dist/*.whl && \
                         meson setup build && \
                         meson dist -C build --formats gztar --no-tests && \
