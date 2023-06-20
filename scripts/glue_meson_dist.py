@@ -1,4 +1,5 @@
 """Glues PKG-INFO into meson dist"""
+
 # Copyright 2023 Ross J. Duff MSc
 # The copyright holder licenses this file
 # to you under the Apache License, Version 2.0 (the
@@ -22,16 +23,21 @@ import sys
 
 def main():
     """create a PKG-INFO file in the meson dist staging directory"""
-    root = pathlib.Path(os.environ.get("MESON_SOURCE_ROOT", ''))
+    root = pathlib.Path(os.environ.get("MESON_SOURCE_ROOT", '.'))
     staged = root/'dist'
     dist_info = glob.glob('*.dist-info', root_dir=staged)[0]
     shutil.copyfile(
-        pathlib.Path(dist_info)/'METADATA',
-        pathlib.Path(os.environ.get('MESON_DIST_ROOT', ''))/'PKG-INFO'
+        pathlib.Path('dist')/dist_info/'METADATA',
+        pathlib.Path(os.environ.get('MESON_DIST_ROOT', None))/'PKG-INFO'  # type: ignore
     )
 
 
 
 if __name__ == '__main__':
-    main()
-    sys.exit(0)
+    try:
+        main()
+    except TypeError:
+        print('ERROR: Missing environment variable MESON_DIST_ROOT.', file=sys.stderr)
+        sys.exit(1)
+    finally:
+        sys.exit(0)
