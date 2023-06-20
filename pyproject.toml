@@ -54,7 +54,6 @@ classifiers     = [
     "Programming Language :: Python :: Implementation :: CPython",
     "Topic :: Software Development :: Libraries :: Python Modules",
 ]
-meson-options = {dist-args="--formats gztar"}
 
 [build-system]
 requires      = ["mesonpep517","ninja","setuptools>=64","setuptools_scm[toml]>=6.2","tomli"]
@@ -129,7 +128,7 @@ log_cli_level       = "INFO"
 branch                   = "main"
 build_command            = """
                         git stash && \
-                        python -m build && \
+                        python -m build . -C--dist-args=\"--formats gztar\"&& \
                         python -m pyc_wheel dist/*.whl && \
                         sigstore sign dist/*.whl && \
                         git stash pop"""
