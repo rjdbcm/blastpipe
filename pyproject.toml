@@ -128,7 +128,7 @@ log_cli_level       = "INFO"
 branch                   = "main"
 build_command            = """
                         git stash && \
-                        python -m build && \
+                        python -m build . --config-setting=--dist-args='--formats gztar'&& \
                         python -m pyc_wheel dist/*.whl && \
                         sigstore sign dist/*.whl && \
                         git stash pop"""
