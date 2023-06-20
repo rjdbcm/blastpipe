@@ -128,8 +128,10 @@ log_cli_level       = "INFO"
 branch                   = "main"
 build_command            = """
                         git stash && \
-                        python -m build . -C--dist-args=\"--formats gztar\"&& \
+                        python -m build && \
                         python -m pyc_wheel dist/*.whl && \
+                        meson setup build && \
+                        meson dist -C build --formats gztar --no-tests && \
                         sigstore sign dist/*.whl && \
                         git stash pop"""
 changelog_file           = "CHANGELOG.md"
@@ -143,11 +145,11 @@ include_additional_files = """
                         dist/*.sig,\
                         dist/*.crt,\
                         dist/*.sigstore,\
-                        build-dist-checkpoint/meson-dist/*.tar.gz,\
-                        build-dist-checkpoint/meson-dist/*.sha256sum,\
-                        build-dist-checkpoint/meson-dist/*.sig,\
-                        build-dist-checkpoint/meson-dist/*.crt,\
-                        build-dist-checkpoint/meson-dist/*.sigstore"""
+                        build/meson-dist/*.tar.gz,\
+                        build/meson-dist/*.sha256sum,\
+                        build/meson-dist/*.sig,\
+                        build/meson-dist/*.crt,\
+                        build/meson-dist/*.sigstore"""
 major_on_zero            = false
 patch_without_tag        = false
 prerelease_tag           = "beta"
