@@ -28,7 +28,7 @@ def main():
     dist_info = glob.glob('*.dist-info', root_dir=staged)[0]
     shutil.copyfile(
         pathlib.Path('dist')/dist_info/'METADATA',
-        pathlib.Path(os.environ.get('MESON_DIST_ROOT', None))/'PKG-INFO'  # type: ignore
+        pathlib.Path('build')/'meson-dist'/'PKG-INFO'  # type: ignore
     )
 
 
