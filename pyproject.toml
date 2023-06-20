@@ -152,8 +152,7 @@ patch_without_tag        = false
 prerelease_tag           = "beta"
 pre_commit_command       = """
                         meson setup build-dist-checkpoint --reconfigure -Ddev=enabled && \
-                        meson test -C build-dist-checkpoint --setup=test --setup=lint && \
-"""
+                        meson test -C build-dist-checkpoint --setup=test --setup=lint"""
 remove_dist              = false
 repository               = "testpypi"
 tag_format               = "{version}"
