@@ -17,6 +17,10 @@
 
 <!--next-version-placeholder-->
 
+## v0.2.3 (2023-06-19)
+### Other
+* Change version regex ([`343bc20`](https://github.com/rjdbcm/blastpipe/commit/343bc2038bb8274e5e81b274fd9aa94ada96146d))
+
 ## v0.2.2 (2023-06-19)
 ### Other
 * 👷 add version package pattern ([`66a0f49`](https://github.com/rjdbcm/blastpipe/commit/66a0f496ed94c5f4d6394c61bc968c2960b7431c))
