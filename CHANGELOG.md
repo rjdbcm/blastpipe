@@ -17,6 +17,13 @@
 
 <!--next-version-placeholder-->
 
+## v0.3.0 (2023-06-20)
+### Other
+* 👷 move CHANGELOG commit to build step. ([`af2b566`](https://github.com/rjdbcm/blastpipe/commit/af2b56658ae00acbbf3791eaecbb57aa5295edcd))
+* 👷 don't remove dist on semantic-release for now. ([`1460ff7`](https://github.com/rjdbcm/blastpipe/commit/1460ff76f2c9fda74f34ccd6277ebdeab31303df))
+* 👷 checkpoint ([`cf1f010`](https://github.com/rjdbcm/blastpipe/commit/cf1f01080c6429053c69133cd0a3542c39d89c3a))
+* 👷 only build wheel and test sdist no package upload for now. ([`955f8d0`](https://github.com/rjdbcm/blastpipe/commit/955f8d0b94856cadbb67ea93ed5b08b8ca4c4e25))
+
 ## v0.2.6 (2023-06-19)
 ### Other
 * 👷 no repo upload on bump. ([`6c89b38`](https://github.com/rjdbcm/blastpipe/commit/6c89b38dc152bb6fee2c9c1b7bfbcb5326e0f0f4))
