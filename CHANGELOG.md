@@ -17,6 +17,10 @@
 
 <!--next-version-placeholder-->
 
+## v0.3.1 (2023-06-20)
+### Other
+* Changelog updated ([`022ab77`](https://github.com/rjdbcm/blastpipe/commit/022ab77c0cb9cadda63d34fd4bf8daff2c82460f))
+
 ## v0.3.0 (2023-06-20)
 ### Other
 * 👷 move CHANGELOG commit to build step. ([`af2b566`](https://github.com/rjdbcm/blastpipe/commit/af2b56658ae00acbbf3791eaecbb57aa5295edcd))
