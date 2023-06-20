@@ -48,7 +48,7 @@ foreach source : ['README.rst', 'CHANGELOG.md', 'NOTICE.md', 'LICENSE.txt']
 endforeach
 python_files = []
 stub_files = []
-foreach dir : [project_name, test_source]
+foreach dir : [project_name, test_source, 'scripts']
  subdir(dir)
 endforeach
 foreach file : python_files
