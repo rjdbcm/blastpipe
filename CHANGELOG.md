@@ -17,6 +17,11 @@
 
 <!--next-version-placeholder-->
 
+## v0.3.2 (2023-06-20)
+### Other
+* 👷 stash and pop changelog for clean versioning. ([`8fcbd3f`](https://github.com/rjdbcm/blastpipe/commit/8fcbd3f4d34f660d257611f5dcf6078268818efa))
+* Changelog updated ([`ae69bd4`](https://github.com/rjdbcm/blastpipe/commit/ae69bd4ac31ecad3f0225013bd8474b831c21260))
+
 ## v0.3.1 (2023-06-20)
 ### Other
 * Changelog updated ([`022ab77`](https://github.com/rjdbcm/blastpipe/commit/022ab77c0cb9cadda63d34fd4bf8daff2c82460f))
