@@ -154,7 +154,7 @@ pre_commit_command       = """
                         meson test -C build-dist-checkpoint --setup=test --setup=lint && \
                         git commit -m "Changelog updated" CHANGELOG.md
 """
-remove_dist              = true
+remove_dist              = false
 repository               = "testpypi"
 tag_format               = "{version}"
 upload_to_release        = true
