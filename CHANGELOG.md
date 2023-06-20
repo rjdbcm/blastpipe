@@ -17,6 +17,22 @@
 
 <!--next-version-placeholder-->
 
+## v0.3.7 (2023-06-20)
+
+
+## v0.3.6 (2023-06-20)
+
+
+## v0.3.5 (2023-06-20)
+
+
+## v0.3.4 (2023-06-20)
+
+## v0.3.3 (2023-06-20)
+### Other
+* 👷 add dist/*tar.gz to release. ([`c98d198`](https://github.com/rjdbcm/blastpipe/commit/c98d198ea350f35d46085927525daf157d8e36ea))
+* 👷 build wheel and sdist. ([`ec543a4`](https://github.com/rjdbcm/blastpipe/commit/ec543a4ed82ece555f7013b1ef0932fe4cb664d6))
+
 ## v0.3.2 (2023-06-20)
 ### Other
 * 👷 stash and pop changelog for clean versioning. ([`8fcbd3f`](https://github.com/rjdbcm/blastpipe/commit/8fcbd3f4d34f660d257611f5dcf6078268818efa))
