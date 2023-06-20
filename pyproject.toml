@@ -141,17 +141,19 @@ include_additional_files = """
                         dist/*.sig,\
                         dist/*.crt,\
                         dist/*.sigstore,\
-                        build-dist/meson-dist/*.tar.gz,\
-                        build-dist/meson-dist/*.sha256sum,\
-                        build-dist/meson-dist/*.sig,\
-                        build-dist/meson-dist/*.crt,\
-                        build-dist/meson-dist/*.sigstore"""
+                        build-dist-checkpoint/meson-dist/*.tar.gz,\
+                        build-dist-checkpoint/meson-dist/*.sha256sum,\
+                        build-dist-checkpoint/meson-dist/*.sig,\
+                        build-dist-checkpoint/meson-dist/*.crt,\
+                        build-dist-checkpoint/meson-dist/*.sigstore"""
 major_on_zero            = false
 patch_without_tag        = false
 prerelease_tag           = "beta"
 pre_commit_command       = """
-                        meson setup build-dist --reconfigure -Ddev=enabled && \
-                        meson test -C build-dist --setup=test --setup=lint"""
+                        meson setup build-dist-checkpoint --reconfigure -Ddev=enabled && \
+                        meson test -C build-dist-checkpoint --setup=test --setup=lint && \
+                        git commit -m "Changelog updated" CHANGELOG.md
+"""
 remove_dist              = true
 repository               = "testpypi"
 tag_format               = "{version}"
