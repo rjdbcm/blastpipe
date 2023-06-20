@@ -1,3 +1,4 @@
+"""Glues PKG-INFO into meson dist"""
 # Copyright 2023 Ross J. Duff MSc
 # The copyright holder licenses this file
 # to you under the Apache License, Version 2.0 (the
@@ -12,7 +13,6 @@
 # KIND, either express or implied.  See the License for the
 # specific language governing permissions and limitations
 # under the License.
-"""Glues PKG-INFO into meson dist"""
 import os
 import glob
 import pathlib
