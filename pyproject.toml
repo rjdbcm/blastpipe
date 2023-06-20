@@ -127,11 +127,11 @@ log_cli_level       = "INFO"
 # hvcs_domain              = ""
 branch                   = "main"
 build_command            = """
-                        git commit -m "Changelog updated" CHANGELOG.md && \
-                        git push origin main && \
+                        git stash && \
                         python -m build -w && \
                         python -m pyc_wheel dist/*.whl && \
-                        sigstore sign dist/*.whl"""
+                        sigstore sign dist/*.whl && \
+                        git stash pop"""
 changelog_file           = "CHANGELOG.md"
 changelog_placeholder    = "<!--next-version-placeholder-->"
 commit_parser            = "semantic_release.history.emoji_parser"
