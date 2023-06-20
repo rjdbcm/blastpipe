@@ -127,6 +127,7 @@ log_cli_level       = "INFO"
 # hvcs_domain              = ""
 branch                   = "main"
 build_command            = """
+                        git commit -m "Changelog updated" CHANGELOG.md
                         python -m build -w && \
                         python -m pyc_wheel dist/*.whl && \
                         sigstore sign dist/*.whl"""
@@ -152,7 +153,6 @@ prerelease_tag           = "beta"
 pre_commit_command       = """
                         meson setup build-dist-checkpoint --reconfigure -Ddev=enabled && \
                         meson test -C build-dist-checkpoint --setup=test --setup=lint && \
-                        git commit -m "Changelog updated" CHANGELOG.md
 """
 remove_dist              = false
 repository               = "testpypi"
