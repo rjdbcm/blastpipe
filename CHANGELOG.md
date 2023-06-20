@@ -17,6 +17,10 @@
 
 <!--next-version-placeholder-->
 
+## v0.2.6 (2023-06-19)
+### Other
+* 👷 no repo upload on bump. ([`6c89b38`](https://github.com/rjdbcm/blastpipe/commit/6c89b38dc152bb6fee2c9c1b7bfbcb5326e0f0f4))
+
 ## v0.2.5 (2023-06-19)
 ### Other
 * Revert readme section move ([`cac0748`](https://github.com/rjdbcm/blastpipe/commit/cac0748b875a923044a8f0ac8cda88aea7d9615a))
