@@ -44,7 +44,7 @@ configure_file(input: 'pyproject.toml', output: 'pyproject.toml',
   'PROJECT_NAME' : project_name,
   'MESON_DIST_FALLBACK_VERSION' : '.'.join(maj_version, min_version, pat_version),
  }))
-meson.add_dist_script('git', 'commit', '-m', 'SCM version', '$MESON_SOURCE_ROOT'/'PKG-INFO')
+meson.add_dist_script('git', 'commit', '-m', 'SCM version', source_root/'PKG-INFO')
 foreach source : ['README.rst', 'CHANGELOG.md', 'NOTICE.md', 'LICENSE.txt']
  fs.copyfile(source)
 endforeach
