@@ -40,9 +40,6 @@ classifiers     = [
     "Development Status :: 2 - Pre-Alpha",
     "Natural Language :: English",
     "Intended Audience :: Developers",
-    "Environment :: MacOS X",
-    "Environment :: Win32 (MS Windows)",
-    "Environment :: X11 Applications",
     "Operating System :: MacOS :: MacOS X",
     "Operating System :: Microsoft :: Windows",
     "Operating System :: POSIX :: Linux",
@@ -50,7 +47,6 @@ classifiers     = [
     "Programming Language :: Python :: 3.9",
     "Programming Language :: Python :: 3.10",
     "Programming Language :: Python :: 3.11",
-    "Topic :: Software Development :: Interpreters",
     "Programming Language :: Python :: Implementation :: CPython",
     "Topic :: Software Development :: Libraries :: Python Modules",
 ]

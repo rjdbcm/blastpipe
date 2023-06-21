@@ -39,16 +39,20 @@ semantic_version = meson.project_version().split('.')
 maj_version = semantic_version.get(0)
 min_version = semantic_version.get(1)
 pat_version = semantic_version.get(2)
-configure_file(input: 'pyproject.toml', output: 'pyproject.toml', configuration: configuration_data({
+configure_file(input: 'pyproject.toml', output: 'pyproject.toml', 
+ configuration: configuration_data({
   'PROJECT_NAME' : project_name,
   'MESON_DIST_FALLBACK_VERSION' : '.'.join(maj_version, min_version, pat_version),
+ }))
+configure_file(input: 'PKG-INFO.cfg', output: 'PKG-INFO', configuration: configuration_data({
+ 'PROJECT_VERSION' : '.'.join(maj_version, min_version, pat_version),
 }))
 foreach source : ['README.rst', 'CHANGELOG.md', 'NOTICE.md', 'LICENSE.txt']
  fs.copyfile(source)
 endforeach
 python_files = []
 stub_files = []
-foreach dir : [project_name, test_source, 'scripts']
+foreach dir : [project_name, test_source]
  subdir(dir)
 endforeach
 foreach file : python_files

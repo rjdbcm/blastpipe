@@ -15,6 +15,12 @@
 project('OZI', version: '0.0.2', default_options: ['warning_level=3'],
         license: 'Apache-2.0', license_files: 'LICENSE.txt', meson_version: '>=1.1.0')
 # TODO: replace with wrap file
+pkg_info = {
+        '@PYTHON_MAJOR@'       : '3',
+        '@PYTHON_SECURITY_NEW@': '3.9',
+        '@PYTHON_SECURITY_OLD@': '3.10',
+        '@PYTHON_BUGFIX@'      : '3.11',
+}
 env   = environment()
 fs    = import('fs')
 pymod = import('python')
