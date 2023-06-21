@@ -125,11 +125,13 @@ branch                   = "main"
 build_command            = """
                         git stash && \
                         python -m build -w && \
+                        git stash && \
                         python -m pyc_wheel dist/*.whl && \
                         meson setup build && \
+                        git stash && \
                         meson dist -C build --formats gztar --no-tests && \
                         sigstore sign dist/*.whl && \
-                        git stash pop"""
+                        git stash pop && git stash pop && git stash pop && git stash pop"""
 changelog_file           = "CHANGELOG.md"
 changelog_placeholder    = "<!--next-version-placeholder-->"
 commit_parser            = "semantic_release.history.emoji_parser"
@@ -151,6 +153,7 @@ patch_without_tag        = false
 prerelease_tag           = "beta"
 pre_commit_command       = """
                         meson setup build-dist-checkpoint --reconfigure -Ddev=enabled && \
+                        git stash && \
                         meson test -C build-dist-checkpoint --setup=test --setup=lint"""
 remove_dist              = false
 repository               = "testpypi"
