@@ -29,16 +29,14 @@ def main():
     print(pathlib.Path(os.environ.get("MESON_DIST_ROOT", '.'))/os.path.splitext(dist_info)[0]/'PKG-INFO', file=sys.stderr)
     shutil.copyfile(
         pathlib.Path('dist')/dist_info/'METADATA',
-        pathlib.Path(os.environ.get("MESON_DIST_ROOT", '.'))/os.path.splitext(dist_info)[0]/'PKG-INFO'  # type: ignore
+        pathlib.Path(os.environ.get("MESON_DIST_ROOT", '.')).parent/'PKG-INFO'  # type: ignore
     )
 
 
-
-if __name__ == '__main__':
-    try:
-        main()
-    except TypeError:
-        print('ERROR: Missing environment variable MESON_DIST_ROOT.', file=sys.stderr)
-        sys.exit(1)
-    finally:
-        sys.exit(0)
+try:
+    main()
+except TypeError:
+    print('ERROR: Missing environment variable MESON_DIST_ROOT.', file=sys.stderr)
+    sys.exit(1)
+finally:
+    sys.exit(0)
