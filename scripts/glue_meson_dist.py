@@ -26,9 +26,10 @@ def main():
     root = pathlib.Path(os.environ.get("MESON_SOURCE_ROOT", '.'))
     staged = root/'dist'
     dist_info = glob.glob('*.dist-info', root_dir=staged)[0]
+    print(pathlib.Path(os.environ.get("MESON_DIST_ROOT", '.'))/os.path.splitext(dist_info)[0]/'PKG-INFO', file=sys.stderr)
     shutil.copyfile(
         pathlib.Path('dist')/dist_info/'METADATA',
-        pathlib.Path('build')/'meson-dist'/'PKG-INFO'  # type: ignore
+        pathlib.Path(os.environ.get("MESON_DIST_ROOT", '.'))/os.path.splitext(dist_info)[0]/'PKG-INFO'  # type: ignore
     )
 
 

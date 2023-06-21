@@ -12,4 +12,4 @@
 # KIND, either express or implied.  See the License for the
 # specific language governing permissions and limitations
 # under the License.
-meson.add_dist_script(files('glue_meson_dist.py'))
+meson.add_dist_script(python, files('glue_meson_dist.py'))
