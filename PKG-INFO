@@ -1,6 +1,6 @@
 Metadata-Version: 2.1
 Name: blastpipe
-Version: @PROJECT_VERSION@
+Version: 0.3.12.dev4+gec8ff8e.d20230621
 Summary: Packaged with OZI.
 Classifier: Development Status :: 2 - Pre-Alpha
 Classifier: Natural Language :: English
@@ -12,6 +12,5 @@ Classifier: Programming Language :: Python :: 3
 Classifier: Programming Language :: Python :: 3.9
 Classifier: Programming Language :: Python :: 3.10
 Classifier: Programming Language :: Python :: 3.11
-Classifier: Topic :: Software Development :: Interpreters
 Classifier: Programming Language :: Python :: Implementation :: CPython
 Classifier: Topic :: Software Development :: Libraries :: Python Modules

@@ -161,7 +161,25 @@ version_source           = "tag_only"
 version_variable         = "_scm_version.py:__version__"
 
 [tool.setuptools_scm]
-write_to = "_scm_version.py"
+write_to_template = """
+Metadata-Version: 2.1
+Name: blastpipe
+Version: {version}
+Summary: Packaged with OZI.
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Natural Language :: English
+Classifier: Intended Audience :: Developers
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+"""
+write_to = "PKG-INFO"
 # meson writes during configuration so that meson dist can have a valid version.
 fallback_version = "@MESON_DIST_FALLBACK_VERSION@"
 # meson writes during configuration so that github tarballs can have a valid version.

@@ -44,9 +44,6 @@ configure_file(input: 'pyproject.toml', output: 'pyproject.toml',
   'PROJECT_NAME' : project_name,
   'MESON_DIST_FALLBACK_VERSION' : '.'.join(maj_version, min_version, pat_version),
  }))
-configure_file(input: 'PKG-INFO.cfg', output: 'PKG-INFO', configuration: configuration_data({
- 'PROJECT_VERSION' : '.'.join(maj_version, min_version, pat_version),
-}))
 foreach source : ['README.rst', 'CHANGELOG.md', 'NOTICE.md', 'LICENSE.txt']
  fs.copyfile(source)
 endforeach
