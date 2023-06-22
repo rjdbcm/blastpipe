@@ -125,12 +125,16 @@ branch                   = "main"
 build_command            = """
                         git stash && \
                         python -m build -w && \
+                        git stash && \
                         python -m pyc_wheel dist/*.whl && \
                         meson setup build && \
                         git stash && \
                         meson dist -C build --formats gztar --no-tests && \
                         sigstore sign dist/*.whl && \
-                        git stash pop && git stash pop && git stash pop
+                        git stash pop && \
+                        git stash pop && \
+                        git stash pop && \
+                        git stash pop && \
                         git commit -a -m ':bento:(semantic-release) setuptools_scm Version--->PKG-DATA' """
 changelog_file           = "CHANGELOG.md"
 changelog_placeholder    = "<!--next-version-placeholder-->"
