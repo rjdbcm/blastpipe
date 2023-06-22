@@ -107,7 +107,7 @@ ignore = "_scm_version.py"
 [tool.pyright]
 reportMissingTypeStubs = false
 
-[tool.pytest.ini_options] #[tool.pytest] # This will be used by pytest in the future
+[tool.pytest.ini_options]  #[tool.pytest] # This will be used by pytest in the future
 filterwarnings      = [
 "error",
 "ignore:The --rsyncdir command line argument and rsyncdirs config variable are deprecated.:DeprecationWarning",
