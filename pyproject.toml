@@ -128,6 +128,7 @@ build_command            = """
                         git commit -a -m ':bento:(semantic-release) setuptools_scm Version--->PKG-DATA' && \
                         git push origin main && \
                         python -m pyc_wheel dist/*.whl && \
+                        git stash && \
                         meson setup build && \
                         git stash && \ 
                         meson dist -C build --formats gztar --no-tests && \
