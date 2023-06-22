@@ -131,10 +131,7 @@ build_command            = """
                         git stash && \
                         meson dist -C build --formats gztar --no-tests && \
                         sigstore sign dist/*.whl && \
-                        git stash pop && \
-                        git stash pop && \
-                        git stash pop && \
-                        git stash pop && \
+                        git stash clear && \
                         git commit -a -m ':bento:(semantic-release) setuptools_scm Version--->PKG-DATA' PKG-DATA"""
 changelog_file           = "CHANGELOG.md"
 changelog_placeholder    = "<!--next-version-placeholder-->"
