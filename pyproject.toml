@@ -125,9 +125,8 @@ branch                   = "main"
 build_command            = """
                         git stash && \
                         python -m build -w && \
-                        git commit PKG-INFO -m ':bento:(semantic-release) setuptools_scm Version--->PKG-INFO' && \
-                        python -m pyc_wheel dist/*.whl && \
                         git stash && \
+                        python -m pyc_wheel dist/*.whl && \
                         meson setup build && \
                         git stash && \ 
                         meson dist -C build --formats gztar --no-tests && \
@@ -154,8 +153,8 @@ patch_without_tag        = false
 prerelease_tag           = "beta"
 pre_commit_command       = """
                         meson setup build-dist-checkpoint --reconfigure -Ddev=enabled && \
-                        git stash && \
-                        meson test -C build-dist-checkpoint --setup=test --setup=lint"""
+                        meson test -C build-dist-checkpoint --setup=test --setup=lint && \
+                        git stash"""
 remove_dist              = false
 repository               = "testpypi"
 tag_format               = "{version}"
