@@ -1,6 +1,6 @@
 Metadata-Version: 2.1
 Name: blastpipe
-Version: 0.4.4
+Version: 0.4.6.dev0+ga9ca7d8.d20230622
 Summary: Packaged with OZI.
 Classifier: Development Status :: 2 - Pre-Alpha
 Classifier: Natural Language :: English

@@ -17,6 +17,10 @@
 
 <!--next-version-placeholder-->
 
+## v0.4.5 (2023-06-21)
+### Other
+* Don't stash wheel bump. ([`a9ca7d8`](https://github.com/rjdbcm/blastpipe/commit/a9ca7d8171535ce0e29ed08874bc674a048d8e6b))
+
 ## v0.3.15 (2023-06-21)
 
 
