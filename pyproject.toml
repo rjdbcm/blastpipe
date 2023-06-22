@@ -125,7 +125,7 @@ branch                   = "main"
 build_command            = """
                         git stash && \
                         python -m build -w && \
-                        git commit PKG-DATA -m ':bento:(semantic-release) setuptools_scm Version--->PKG-DATA' && \
+                        git commit PKG-INFO -m ':bento:(semantic-release) setuptools_scm Version--->PKG-INFO' && \
                         python -m pyc_wheel dist/*.whl && \
                         git stash && \
                         meson setup build && \
