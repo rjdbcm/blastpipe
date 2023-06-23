@@ -129,6 +129,7 @@ build_command            = """
                         python -m pyc_wheel dist/*.whl && \
                         meson setup build && \
                         git add PKG-INFO && \
+                        git commit PKG-INFO -m \"PKG-INFO Updated\" && \
                         meson dist -C build --formats gztar --no-tests --allow-dirty && \
                         sigstore sign dist/*.whl && \
                         git stash clear"""
