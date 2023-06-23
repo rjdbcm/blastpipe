@@ -128,7 +128,7 @@ build_command            = """
                         git stash && \
                         python -m pyc_wheel dist/*.whl && \
                         meson setup build && \
-                        meson dist -C build --formats gztar --no-tests && \
+                        meson dist -C build --formats gztar --no-tests --allow-dirty && \
                         sigstore sign dist/*.whl && \
                         git stash clear"""
 changelog_file           = "CHANGELOG.md"
