@@ -17,6 +17,10 @@
 
 <!--next-version-placeholder-->
 
+## v0.4.21 (2023-06-23)
+### Other
+* PKG-INFO Updated ([`5c84048`](https://github.com/rjdbcm/blastpipe/commit/5c840485844fabc70b91c5be67d7b60ab4b864b0))
+
 ## v0.4.6 (2023-06-21)
 
 
