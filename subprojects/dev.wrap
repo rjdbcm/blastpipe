@@ -1,4 +1,4 @@
-# Copyright 2023 Ross J. Duff MSc 
+# Copyright 2023 Ross J. Duff MSc
 # The copyright holder licenses this file
 # to you under the Apache License, Version 2.0 (the
 # "License"); you may not use this file except in compliance
@@ -12,9 +12,10 @@
 # KIND, either express or implied.  See the License for the
 # specific language governing permissions and limitations
 # under the License.
-pytest           >= 7.0.0
-pytest-asyncio   >= 0.20.0
-pytest-cov       >= 3.0.0
-pytest-randomly  >= 3.0.0
-pytest-tcpclient >= 0.7.0
-pytest-xdist     >= 3.0.0
+[wrap-git]
+url = https://github.com/rjdbcm/ozi.git
+revision = head
+depth = 1
+
+[provide]
+dependency_names = ozi-@version@
