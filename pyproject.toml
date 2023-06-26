@@ -18,7 +18,7 @@ dynamic = ["version"]
 license = {file = "LICENSE.txt"}
 readme  = "README.rst"
 
-[project.optional_dependencies] # also meson test suite names
+[project.optional_dependencies] # also OZI meson test suite names
 # Default OZI test setup
 dev  = ["[dist,docs,lint,test]"]
 ## Packaging Setup
@@ -34,6 +34,7 @@ test = ["coverage[toml]", "hypothesis[all]", "pytest", "pytest-asyncio", "pytest
         "pytest-tcpclient", "pytest-randomly", "pytest-xdist"]
 
 [tool.mesonpep517.metadata]
+# We let setuptools_scm write version metadata to a PKG-INFO template
 summary         = "Packaged with OZI."
 pkg-info-file   = "PKG-INFO"
 
@@ -42,6 +43,7 @@ requires      = ["mesonpep517","ninja","setuptools>=64","setuptools_scm[toml]>=6
 build-backend = "mesonpep517.buildapi"
 
 [tool.bandit]
+# We allow bandit to also scan meson build directory but not virtual environments
 exclude_dirs = ["venv", "build-env-*"]
 verbose = true
 format = "txt"
@@ -142,6 +144,7 @@ major_on_zero            = false
 patch_without_tag        = false
 prerelease_tag           = "beta"
 pre_commit_command       = """
+                        git clean -dfX && \
                         meson setup build-dist-checkpoint --reconfigure -Ddev=enabled && \
                         meson test -C build-dist-checkpoint --setup=test --setup=lint && \
                         git stash -- PKG-INFO && \
@@ -212,7 +215,7 @@ License
 
 blastpipe is released under the terms of the 2.0 version of the Apache License,
 approved by the Apache Software Foundation. blastpipe meets the Open Source Initiative's definition of
-open source software, and the Free Software Foundation's definition of GPL-compatible open 
+open source software, and the Free Software Foundation's definition of GPLv3-compatible open 
 source software.
 
 |osi-logo| |asf-logo| |fsf-logo|
