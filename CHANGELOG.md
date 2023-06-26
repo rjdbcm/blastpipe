@@ -17,6 +17,12 @@
 
 <!--next-version-placeholder-->
 
+## v0.4.24 (2023-06-25)
+### Other
+* 🔨(semantic-release): git clean -dfX pre_commit. ([`230bb86`](https://github.com/rjdbcm/blastpipe/commit/230bb86a3e1899136fa7d1b854ccb12a0c986ca2))
+* 🔊 Add 0.4.23 changes. CHANGELOG.md should actually get release notes from now on. ([`cdefd70`](https://github.com/rjdbcm/blastpipe/commit/cdefd70c105036b5c43a7588a2f47ecad9316a55))
+* PKG-INFO Updated ([`55177f6`](https://github.com/rjdbcm/blastpipe/commit/55177f626333cf0322f0d89f0ff715f7cad10180))
+
 ## v0.4.23 (2023-06-24)
 ### Other
 * PKG-INFO Updated ([`f80b3da`](https://github.com/rjdbcm/blastpipe/commit/f80b3da157f4a083922832e621b949a477238972))
@@ -24,27 +30,6 @@
 ## v0.4.21 (2023-06-23)
 ### Other
 * PKG-INFO Updated ([`5c84048`](https://github.com/rjdbcm/blastpipe/commit/5c840485844fabc70b91c5be67d7b60ab4b864b0))
-
-## v0.4.6 (2023-06-21)
-
-
-## v0.4.5 (2023-06-21)
-### Other
-* Don't stash wheel bump. ([`a9ca7d8`](https://github.com/rjdbcm/blastpipe/commit/a9ca7d8171535ce0e29ed08874bc674a048d8e6b))
-
-## v0.3.15 (2023-06-21)
-
-
-## v0.3.7 (2023-06-20)
-
-
-## v0.3.6 (2023-06-20)
-
-
-## v0.3.5 (2023-06-20)
-
-
-## v0.3.4 (2023-06-20)
 
 ## v0.3.3 (2023-06-20)
 ### Other
@@ -92,9 +77,6 @@
 ## v0.2.0 (2023-06-19)
 ### Other
 * Changelogged ([`af1cd00`](https://github.com/rjdbcm/blastpipe/commit/af1cd0033c9fbe0385c237de315cb4d52f866a60))
-
-## v0.1.2 (2023-06-19)
-
 
 ## v0.1.1 (2023-06-19)
 ### Other
@@ -170,20 +152,3 @@
 
 * Switched to Meson build system
 * No longer hard coding the version
-
-## v2023.1.6 (2023-01-28)
-
-
-## v2023.1.5 (2023-01-28)
-
-
-## v2023.1.4 (2023-01-27)
-
-
-## v2023.2.0-beta.1 (2023-01-27)
-
-
-## v2023.1.4-beta.1 (2023-01-27)
-
-
-## v2023.1.4-beta.1 (2023-01-27)
