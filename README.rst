@@ -34,7 +34,7 @@ License
 
 blastpipe is released under the terms of the 2.0 version of the Apache License,
 approved by the Apache Software Foundation. blastpipe meets the Open Source Initiative's definition of
-open source software, and the Free Software Foundation's definition of GPL-compatible open 
+open source software, and the Free Software Foundation's definition of GPLv3-compatible open 
 source software.
 
 |osi-logo| |asf-logo| |fsf-logo|
