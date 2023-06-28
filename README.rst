@@ -1,3 +1,5 @@
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Frjdbcm%2Fblastpipe.svg?type=shield)](https://app.fossa.com/projects/git%2Bgithub.com%2Frjdbcm%2Fblastpipe?ref=badge_shield)
+
 .. Copyright 2023 Ross J. Duff MSc 
    The copyright holder licenses this file
    to you under the Apache License, Version 2.0 (the
@@ -87,3 +89,6 @@ source software.
 .. |pyright-badge| image:: https://img.shields.io/badge/typing-%E2%9C%94%20Pyright%3A%200%20e%2C%200%20w%2C%200%20i-informational
 .. |pytest-plugins-badge| image:: https://img.shields.io/badge/Pytest-asyncio%20cov%20%20hypothesis%20mock%20randomly%20tcpclient-informational
 .. |rst-lint-badge| image:: https://img.shields.io/badge/rst--lint-%E2%9C%94%20README.rst-informational
+
+
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Frjdbcm%2Fblastpipe.svg?type=large)](https://app.fossa.com/projects/git%2Bgithub.com%2Frjdbcm%2Fblastpipe?ref=badge_large)
