@@ -17,6 +17,16 @@
 
 <!--next-version-placeholder-->
 
+## v0.4.26 (2023-07-05)
+
+### Other
+
+* 🔨 changelog ([`34ff55a`](https://github.com/rjdbcm/blastpipe/commit/34ff55a9d7d4567065d9da1f82f616bc08a28edf))
+* PKG-INFO Updated ([`4046a0b`](https://github.com/rjdbcm/blastpipe/commit/4046a0bfc7ca7e9ec39badb68691f25023d1c1da))
+* 🔨(meson.options): disable doc8 run for now. ([`16e3219`](https://github.com/rjdbcm/blastpipe/commit/16e3219ac85e11a7b744a708a4909309c6212755))
+* Merge ([`d17ef64`](https://github.com/rjdbcm/blastpipe/commit/d17ef64e2e3f3b6b005eb6130dfbc2aee67d92f6))
+* 🔨(meson.build): disable subprojects/docs ([`22f48fb`](https://github.com/rjdbcm/blastpipe/commit/22f48fb1c9e3dc0c127ad993256e9a16d1e8549c))
+
 ## v0.4.25 (2023-07-05)
 
 ### Fix
