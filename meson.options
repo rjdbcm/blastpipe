@@ -114,7 +114,7 @@ option('args-semantic-release',
     value: ['version', '--noop', '--verbosity=debug'])
 option('args-doc8',
     description: 'application', type: 'array', 
-    value: ['--config', 'pyproject.toml', '@docs_source@'])
+    value: ['--help'])
 option('args-pydocstyle',
     description: 'application', type: 'array', 
     value: ['-v', '-d', '--config=pyproject.toml', '@docs_source@'])
