@@ -55,7 +55,6 @@ endforeach
 foreach file : python_files
  python.install_sources(file)
 endforeach
-# TODO: documentation build imports are broken for dist
 # docs = subproject('docs')
 # TODO: stub build imports are broken for dist
 # stubs = custom_target('stubs', install: true, install_dir: get_option('prefix'),
