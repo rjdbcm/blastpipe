@@ -17,6 +17,21 @@
 
 <!--next-version-placeholder-->
 
+## v0.4.25 (2023-07-05)
+
+### Fix
+
+* :pencil2:(pyproject.toml): defer sphinxawesome-theme to ozi. ([`b1e144d`](https://github.com/rjdbcm/blastpipe/commit/b1e144d050f04f3887b1d64ac6a4f7454585792a))
+* :pencil2:(README.rst): use blastpipe badge not OZI. ([`7a71e70`](https://github.com/rjdbcm/blastpipe/commit/7a71e70618441555406c574633e49b5e842309c8))
+
+### Other
+
+* 🔨(meson.build): enable subprojects/docs ([`0cd6483`](https://github.com/rjdbcm/blastpipe/commit/0cd6483a734fa6cc8a973faacaafec163f5d2a8f))
+* 📝(README.rst): Add Contributing info. ([`96fec96`](https://github.com/rjdbcm/blastpipe/commit/96fec96befae2e886e7125c528b5a48a3b18019f))
+* 👷semantic-release: pre_commit tox. ([`61b9362`](https://github.com/rjdbcm/blastpipe/commit/61b93629158e16697479312d91382d8e1b9c32ee))
+* 🔇(CHANGELOG.md): Clean up version tags. ([`a3a50e2`](https://github.com/rjdbcm/blastpipe/commit/a3a50e2ae6826c1e57641a0d54ee0d69d229e7fe))
+* PKG-INFO Updated ([`cf7cd18`](https://github.com/rjdbcm/blastpipe/commit/cf7cd18ea0aaed5182ad547b80efe791f2825967))
+
 ## v0.4.24 (2023-06-25)
 ### Other
 * 🔨(semantic-release): git clean -dfX pre_commit. ([`230bb86`](https://github.com/rjdbcm/blastpipe/commit/230bb86a3e1899136fa7d1b854ccb12a0c986ca2))
