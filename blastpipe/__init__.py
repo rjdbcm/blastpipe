@@ -15,11 +15,12 @@
 # under the License.
 import platform
 import sys
-from datetime import date
+from datetime import date, datetime, timezone
 from importlib.metadata import PackageNotFoundError, version
+from typing import Annotated, Any
 
 try:
-    __version__ = version("blastpipe")
+    __version__ = version('blastpipe')
 except PackageNotFoundError:
     # package is not installed
     pass
@@ -33,18 +34,18 @@ minor_deprecation = {
 }
 python3_eol = minor_deprecation.get(PYMINOR, date(2008, 12, 3))
 
-if date.today() > python3_eol:  # pragma: no cover
+if datetime.now(tz=timezone.utc).date() > python3_eol:  # pragma: no cover
     raise RuntimeError(
-        f"Python {PYMAJOR}.{PYMINOR}.{PYPATCH} is not supported" f"as of {python3_eol}."
+        f'Python {PYMAJOR}.{PYMINOR}.{PYPATCH} is not supported as of {python3_eol}.'
     )
 
 
-def public(obj):
+def public(obj: Any) -> Annotated[Any, '__name__ in __all__']:
     """Declares an object as public."""
     mod = sys.modules[obj.__module__]
     # pylint: disable=unnecessary-dunder-call
-    if hasattr(mod, "__all__"):
+    if hasattr(mod, '__all__'):
         mod.__all__.append(obj.__name__)
     else:
-        mod.__setattr__("__all__", [obj.__name__])
+        mod.__setattr__('__all__', [obj.__name__])
     return obj

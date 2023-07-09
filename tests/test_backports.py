@@ -1,3 +1,4 @@
+# noqa: INP001
 """Tests for backported code."""
 # Copyright 2023 Ross J. Duff MSc
 # The copyright holder licenses this file

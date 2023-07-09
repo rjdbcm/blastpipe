@@ -16,7 +16,10 @@ boundaries of each message before passing it to msgspec to be decoded.
 # KIND, either express or implied.  See the License for the
 # specific language governing permissions and limitations
 # under the License.
-import asyncio  # pragma: defer to asyncio
+from typing import TYPE_CHECKING
+
+if TYPE_CHECKING:  # pragma: no cover
+    import asyncio  # pragma: defer to asyncio
 
 from . import public  # pragma: no cover
 
@@ -25,7 +28,7 @@ from . import public  # pragma: no cover
 async def prefixed_send(stream: asyncio.StreamWriter, buffer: bytes) -> None:
     """Write a length-prefixed buffer to the stream"""
     # Encode the message length as a 4 byte big-endian integer.
-    prefix = len(buffer).to_bytes(4, "big")
+    prefix = len(buffer).to_bytes(4, 'big')
 
     # Write the prefix and buffer to the stream.
     stream.write(prefix)
@@ -43,7 +46,7 @@ async def prefixed_recv(stream: asyncio.StreamReader) -> bytes:
 
     # Convert the prefix back into an integer for the next message length
     # pylint: disable=invalid-name
-    n = int.from_bytes(prefix, "big")
+    n = int.from_bytes(prefix, 'big')
 
     # Read in the full message buffer
     return await stream.readexactly(n)

@@ -30,7 +30,7 @@ class BaseMixin(ABC):
         """extend the instance with the mixin cls"""
 
 
-_T = TypeVar("_T", bound="BaseMixin")
+_T = TypeVar('_T', bound='BaseMixin')
 
 
 @public
@@ -42,7 +42,8 @@ class Mixin(Generic[_T], BaseMixin):
 def mixin(cls: Any, base: Any) -> Any:
     """Helper function to extend the class with the base"""
 
-    def __wrapper(*args, **kwargs):
+    def __wrapper(*args: Any, **kwargs: Any) -> Any:
+        """decorator"""
         return cls.extend_with(base(*args, **kwargs))
 
     return __wrapper

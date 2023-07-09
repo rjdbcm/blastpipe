@@ -16,6 +16,7 @@
 from collections import deque
 from itertools import chain
 from sys import getsizeof, stderr
+from typing import Any, Callable, Dict, Hashable, Optional, Sized, Union
 
 try:
     from reprlib import repr  # pylint: disable=redefined-builtin
@@ -26,7 +27,11 @@ from . import public
 
 
 @public
-def total_size(obj, handlers=None, verbose=False):  # noqa: C901
+def total_size(
+    obj: Hashable,
+    handlers: Optional[Dict[Any, Callable]] = None,
+    verbose: bool = False,
+) -> int:  # noqa: C901
     """Returns the approximate memory footprint an object and all of its contents.
 
     See `recipe <https://code.activestate.com/recipes/577504/>`__ for original.
@@ -50,7 +55,8 @@ def total_size(obj, handlers=None, verbose=False):  # noqa: C901
     if handlers is None:
         handlers = {}
 
-    def dict_handler(_dict):  # pragma: defer to python
+    def dict_handler(_dict: dict) -> chain:  # pragma: defer to python
+        """Default handler for dict objects"""
         return chain.from_iterable(_dict.items())
 
     all_handlers = {
@@ -65,7 +71,8 @@ def total_size(obj, handlers=None, verbose=False):  # noqa: C901
     seen = set()  # track which object id's have already been seen
     default_size = getsizeof(0)  # estimate sizeof object without __sizeof__
 
-    def sizeof(obj):
+    def sizeof(obj: Union[Sized, Hashable]) -> int:
+        """return size of object in bytes"""
         if id(obj) in seen:  # pragma: defer to python
             return 0
         seen.add(id(obj))

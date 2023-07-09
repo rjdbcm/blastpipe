@@ -26,8 +26,8 @@ from . import public
 def while_raised(
     exc_types: Tuple[Type[Exception]],
     target: Callable,
-    *args,
-    implicit_break=True,
+    *args: Any,
+    implicit_break: bool = True,
 ) -> Optional[Any]:
     """Repeats a target function while suppressing exceptions provided.
     This is a convenience wrapper around :py:func:`contextlib.suppress`.

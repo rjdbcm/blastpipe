@@ -1,3 +1,4 @@
+# noqa: INP001
 """Tail call optimization tests"""
 # Copyright 2023 Ross J. Duff MSc
 # The copyright holder licenses this file
@@ -13,6 +14,8 @@
 # KIND, either express or implied.  See the License for the
 # specific language governing permissions and limitations
 # under the License.
+import typing
+
 import pytest
 from hypothesis import given
 from hypothesis import strategies as st
@@ -22,19 +25,19 @@ from blastpipe.sequence import chr_union
 
 
 @given(active=st.booleans())
-def test_fuzz_async_tail_call(active):
+def test_fuzz_async_tail_call(active: bool) -> None:
     """This test code was written by the `hypothesis.extra.ghostwriter` module"""
     blastpipe.sequence.async_tail_call(active=active)
 
 
-def test_chr_union_range():
+def test_chr_union_range() -> None:
     """Test chr_union with a range"""
-    assert chr_union((32, 35)) == {" ", "!", '"'}
-    assert chr_union(32) == {" "}
+    assert chr_union((32, 35)) == {' ', '!', '"'}
+    assert chr_union(32) == {' '}
 
 
 @st.composite
-def bad_input(draw):
+def bad_input(draw: typing.Any) -> typing.Tuple[st.SearchStrategy, ...]:
     """Test bad input for chr_union"""
     return (
         draw(st.lists(st.floats())),
@@ -49,7 +52,7 @@ def bad_input(draw):
 
 
 @given(args=bad_input())
-def test_fuzz_bad_input_chr_union(args):
+def test_fuzz_bad_input_chr_union(args: typing.Tuple[typing.Any]) -> None:
     """Test bad input for chr_union"""
     with pytest.raises(TypeError):
         _ = chr_union(args)

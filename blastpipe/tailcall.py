@@ -14,25 +14,27 @@
 # specific language governing permissions and limitations
 # under the License.
 import functools
-from typing import Annotated, Callable, Optional, Tuple
+from typing import Annotated, Any, Callable, Mapping, Optional, Tuple
 
 from . import public
 
 __all__ = []
 
-TAIL_CALL: Tuple[()] = tuple()  # PEP 484 Empty Tuple
+TAIL_CALL: Tuple[()] = ()
 
 
 @public
 def async_tail_call(
-    active=True,
-) -> Annotated[Callable, Annotated[Optional[Tuple[()]], "@tail_call()"]]:
+    active: bool = True,
+) -> Annotated[Callable, Annotated[Optional[Tuple[()]], '@tail_call()']]:
     """Async tail_call decorator.
     :param active: Whether to activate async tail call optimization.
     """
 
-    def __wrapper(func):
-        async def __trampoline(*args, **_):
+    def __wrapper(func: Callable) -> Optional[Callable]:
+        """decorator"""
+
+        async def __trampoline(*args: Tuple[()], **_: Mapping[Any, Any]) -> Tuple[()]:
             """Tail call optimization."""
             while args.__class__ is tuple:
                 args = await func(*args)

@@ -1,3 +1,4 @@
+# noqa: INP001
 """Mixin module tests."""
 # Copyright 2023 Ross J. Duff MSc
 # The copyright holder licenses this file
@@ -24,7 +25,9 @@ import blastpipe.loop
 
 
 @st.composite
-def sized_objects(draw) -> typing.Tuple[st.SearchStrategy, ...]:
+def sized_objects(
+    draw: typing.Any,
+) -> typing.Tuple[st.SearchStrategy, ...]:
     """sized object strategy"""
     return (
         draw(st.binary()),
@@ -62,7 +65,7 @@ def test_fuzz_mixin(cls: typing.Any, base: typing.Any) -> None:
 def test_fuzz_while_raised(
     exc_types: typing.Tuple[typing.Type[Exception]],
     target: typing.Callable,
-    implicit_break,
+    implicit_break: bool,
 ) -> None:
     """This test code was written by the `hypothesis.extra.ghostwriter` module"""
     blastpipe.loop.while_raised(
@@ -71,6 +74,6 @@ def test_fuzz_while_raised(
 
 
 @given(obj=sized_objects(), verbose=st.booleans())
-def test_fuzz_total_size(obj, verbose):
+def test_fuzz_total_size(obj: typing.Any, verbose: bool) -> None:
     """This test code was written by the `hypothesis.extra.ghostwriter` module"""
     blastpipe.malloc.total_size(obj=obj, handlers=None, verbose=verbose)

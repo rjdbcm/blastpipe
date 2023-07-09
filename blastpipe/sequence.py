@@ -20,7 +20,7 @@ from . import public
 from .tailcall import async_tail_call
 
 
-async def _chr_union(*args) -> Set[str]:
+async def _chr_union(*args: int) -> Set[str]:
     """creates a set of all characters in the union of the given chars"""
     chars = set()
     if len(args) == 2 and all(map(isinstance, args, (int,) * len(args))):
@@ -33,12 +33,12 @@ async def _chr_union(*args) -> Set[str]:
         elif len(i) == 2 and all(map(isinstance, i, (int,) * len(i))):
             return i  # async_tail_call(chr_union, i)
         else:
-            raise TypeError(f"Expected Sequence or int, got {type(i)}")
+            raise TypeError(f'Expected Sequence or int, got {type(i)}')
     return chars
 
 
 @public
-def chr_union(*args):
+def chr_union(*args: int) -> Set[str]:
     """Wraps an asynchronous sequence of int ranges or ints into a set of str
     :return: a set of chr()
        # 1. range(start=args[0], stop=args[1])

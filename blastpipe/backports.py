@@ -30,56 +30,57 @@ class IsTemplatePre311(Protocol):
     # without the ASCII flag.  We can't add re.ASCII to flags because of
     # backward compatibility.  So we use the ?a local flag and [a-z] pattern.
     # See https://bugs.python.org/issue31672
-    idpattern: r"str"
-    braceidpattern: r"Optional[str]"
+    idpattern: r'str'
+    braceidpattern: r'Optional[str]'
     flags: int
     pattern: re.Pattern
     template: str
 
-    def safe_substitute(self):
-        ...
+    def safe_substitute(self: string.Template) -> Optional[str]:
+        """Abstract method to be implemented by base"""
 
-    def substitute(self):
-        ...
+    def substitute(self: string.Template) -> Optional[str]:
+        """Abstract method to be implemented by base"""
 
 
-T = TypeVar("T", bound="string.Template")
+T = TypeVar('T', bound='string.Template')
 
 
 class TemplateGetIdentifiersMixin(Mixin):
     """Example Template mixin with preferred way of typing and using mixins"""
 
     delimiter: str
-    idpattern: r"str"
-    braceidpattern: r"Optional[str]"
+    idpattern: r'str'
+    braceidpattern: r'Optional[str]'
     flags: int
     pattern: re.Pattern
     template: str
 
-    def safe_substitute(self):
+    def safe_substitute(self: object) -> Optional[str]:
         """Abstract method to be implemented by base"""
 
-    def substitute(self):
+    def substitute(self: object) -> Optional[str]:
         """Abstract method to be implemented by base"""
 
     def get_identifiers(self: IsTemplatePre311) -> List[str]:  # pragma: defer to string
         """Mixin method get_identifiers for older Template pre-3.11"""
         ids = []
         for i in self.pattern.finditer(self.template):
-            named = i.group("named") or i.group("braced")
+            named = i.group('named') or i.group('braced')
             if named is not None and named not in ids:
                 # add a named group only the first time it appears
                 ids.append(named)
-            elif named is None and i.group("invalid") is None and i.group("escaped") is None:
+            elif named is None and i.group('invalid') is None and i.group('escaped') is None:
                 # If all the groups are None, there must be
                 # another group we're not expecting
-                raise ValueError("Unrecognized named group in pattern", self.pattern)
+                raise ValueError('Unrecognized named group in pattern', self.pattern)
         return ids
 
     @classmethod
     def extend_with(cls: type[IsTemplatePre311], instance: T) -> T:
+        """Extend the class with the mixin instance."""
         instance.__class__ = type(
-            f"{instance.__class__.__name__}With{cls.__name__}",
+            f'{instance.__class__.__name__}With{cls.__name__}',
             (instance.__class__, cls),
             {},
         )
