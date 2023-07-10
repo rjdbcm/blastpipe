@@ -41,7 +41,6 @@ def async_tail_call(
         if active:
             functools.update_wrapper(__trampoline, func)
             return __trampoline
-        else:
-            return None
+        return None
 
     return __wrapper

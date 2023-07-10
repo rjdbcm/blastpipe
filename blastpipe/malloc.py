@@ -67,9 +67,9 @@ def total_size(
         set: iter,
         frozenset: iter,
     }
-    all_handlers.update(handlers)  # user handlers take precedence
-    seen = set()  # track which object id's have already been seen
-    default_size = getsizeof(0)  # estimate sizeof object without __sizeof__
+    all_handlers.update(handlers)
+    seen = set()
+    default_size = getsizeof(0)
 
     def sizeof(obj: Union[Sized, Hashable]) -> int:
         """return size of object in bytes"""

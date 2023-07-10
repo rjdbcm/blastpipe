@@ -18,12 +18,13 @@ boundaries of each message before passing it to msgspec to be decoded.
 # under the License.
 from typing import TYPE_CHECKING
 
+from . import public  # pragma: no cover
+
 if TYPE_CHECKING:  # pragma: no cover
     import asyncio  # pragma: defer to asyncio
 
-from . import public  # pragma: no cover
 
-
+# pylint: disable=used-before-assignment
 @public  # pragma: defer to python
 async def prefixed_send(stream: asyncio.StreamWriter, buffer: bytes) -> None:
     """Write a length-prefixed buffer to the stream"""
