@@ -15,7 +15,7 @@
 # under the License.
 import re
 import string
-from typing import List, Optional, Protocol, TypeVar
+from typing import Any, List, Optional, Protocol, TypeVar
 
 from . import PYMAJOR, PYMINOR, public
 from .mixin import Mixin, mixin
@@ -36,10 +36,10 @@ class IsTemplatePre311(Protocol):
     pattern: re.Pattern
     template: str
 
-    def safe_substitute(self: string.Template) -> Optional[str]:
+    def safe_substitute(self: Any) -> Optional[str]:
         """Abstract method to be implemented by base"""
 
-    def substitute(self: string.Template) -> Optional[str]:
+    def substitute(self: Any) -> Optional[str]:
         """Abstract method to be implemented by base"""
 
 

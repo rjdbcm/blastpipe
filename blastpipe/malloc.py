@@ -83,7 +83,7 @@ def total_size(
 
         for typ, handler in all_handlers.items():
             if isinstance(obj, typ):
-                size_total += sum(map(sizeof, handler(obj)))
+                size_total += sum(map(sizeof, handler(obj)))  # type: ignore
                 break
         return size_total
 

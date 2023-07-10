@@ -18,8 +18,6 @@ from typing import Annotated, Any, Callable, Mapping, Optional, Tuple
 
 from . import public
 
-__all__ = []
-
 TAIL_CALL: Tuple[()] = ()
 
 
@@ -34,7 +32,7 @@ def async_tail_call(
     def __wrapper(func: Callable) -> Optional[Callable]:
         """decorator"""
 
-        async def __trampoline(*args: Tuple[()], **_: Mapping[Any, Any]) -> Tuple[()]:
+        async def __trampoline(*args: Tuple, **_: Mapping[Any, Any]) -> Tuple:
             """Tail call optimization."""
             while args.__class__ is tuple:
                 args = await func(*args)
@@ -43,5 +41,7 @@ def async_tail_call(
         if active:
             functools.update_wrapper(__trampoline, func)
             return __trampoline
+        else:
+            return None
 
     return __wrapper
