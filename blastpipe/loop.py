@@ -14,7 +14,7 @@
 # specific language governing permissions and limitations
 # under the License.
 from contextlib import suppress
-from typing import Any, Callable, NoReturn, Optional, Tuple, Type
+from typing import Any, Callable, NoReturn, Optional, Tuple, Type, Union
 
 # pylint: disable=import-error
 from . import public
@@ -27,7 +27,7 @@ def while_raised(
     /,
     *args: Any,
     implicit_break: bool = True,
-) -> Optional[Any] | NoReturn:
+) -> Union[Optional[Any], NoReturn]:
     """Repeats a target function while suppressing exceptions provided.
     This is a convenience wrapper around :py:func:`contextlib.suppress`.
     :param exc_types: The exception types to suppress.
