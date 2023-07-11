@@ -84,6 +84,6 @@ class TemplateGetIdentifiersMixin(Mixin):
 if PYMAJOR >= 3 and PYMINOR < 11:  # pragma: defer to python
     Template = public(
         mixin(TemplateGetIdentifiersMixin, string.Template)
-    )  # noqa: E501; pragma: defer to string
+    )  # pragma: defer to string
 else:
     Template = public(string.Template)  # pragma: defer to string
