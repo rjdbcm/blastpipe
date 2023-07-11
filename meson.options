@@ -71,7 +71,7 @@ option('args-bandit',
     value: ['--configfile', 'pyproject.toml', '--ignore-nosec', '-r', '@project_name@'])
 option('args-black',
     description: 'application', type: 'array', 
-    value: ['--verbose', '--check', '--diff', '--no-color', '--exclude', '.gitignore', '@project_name@'])
+    value: ['-S', '--verbose', '--check', '--diff', '--no-color', '--exclude', '.gitignore', '@project_name@'])
 option('args-isort',
     description: 'application', type: 'array', 
     value: ['-c', '@project_name@'])
