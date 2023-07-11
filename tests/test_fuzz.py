@@ -70,7 +70,7 @@ def test_fuzz_while_raised(
 ) -> None:
     """This test code was written by the `hypothesis.extra.ghostwriter` module"""
     blastpipe.loop.while_raised(
-        exc_types=exc_types, target=target, implicit_break=implicit_break
+        exc_types, target, implicit_break=implicit_break
     )
 
 
