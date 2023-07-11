@@ -16,6 +16,7 @@
 from abc import ABC, abstractmethod
 from typing import Any, Generic, TypeVar
 
+# pylint: disable=import-error
 from . import public
 
 

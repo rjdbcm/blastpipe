@@ -18,6 +18,7 @@ boundaries of each message before passing it to msgspec to be decoded.
 # under the License.
 from typing import TYPE_CHECKING
 
+# pylint: disable=import-error
 from . import public  # pragma: no cover
 
 if TYPE_CHECKING:  # pragma: no cover

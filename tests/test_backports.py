@@ -19,6 +19,7 @@ import string
 from hypothesis import given
 from hypothesis import strategies as st
 
+# pylint: disable=import-error
 import blastpipe.backports
 
 

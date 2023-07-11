@@ -20,6 +20,7 @@ import pytest
 from hypothesis import given
 from hypothesis import strategies as st
 
+# pylint: disable=import-error
 import blastpipe.sequence
 from blastpipe.sequence import chr_union
 

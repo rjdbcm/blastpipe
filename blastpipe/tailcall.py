@@ -16,6 +16,7 @@
 import functools
 from typing import Annotated, Any, Callable, Mapping, Optional, Tuple
 
+# pylint: disable=import-error
 from . import public
 
 TAIL_CALL: Tuple[()] = ()

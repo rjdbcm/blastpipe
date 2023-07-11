@@ -23,6 +23,7 @@ try:
 except ImportError:  # pragma: defer to python
     pass
 
+# pylint: disable=import-error
 from . import public
 
 

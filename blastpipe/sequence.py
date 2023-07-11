@@ -16,6 +16,7 @@
 import asyncio
 from typing import Set
 
+# pylint: disable=import-error
 from . import public
 from .tailcall import async_tail_call
 
@@ -31,7 +32,7 @@ async def _chr_union(*args: int) -> Set[str]:
         if isinstance(i, int):
             chars |= {chr(i)}
         elif len(i) == 2 and all(map(isinstance, i, (int,) * len(i))):
-            return i  # async_tail_call(chr_union, i)
+            return i
         else:
             raise TypeError(f'Expected Sequence or int, got {type(i)}')
     return chars

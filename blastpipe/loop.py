@@ -13,19 +13,18 @@
 # KIND, either express or implied.  See the License for the
 # specific language governing permissions and limitations
 # under the License.
-
-# pyright: reportGeneralTypeIssues=false
 from contextlib import suppress
 from typing import Any, Callable, NoReturn, Optional, Tuple, Type
 
+# pylint: disable=import-error
 from . import public
 
 
-# pylint: disable=inconsistent-return-statements
 @public
 def while_raised(
     exc_types: Tuple[Type[Exception]],
     target: Callable,
+    /,
     *args: Any,
     implicit_break: bool = True,
 ) -> Optional[Any] | NoReturn:

@@ -17,19 +17,15 @@ import re
 import string
 from typing import Any, List, Optional, Protocol, TypeVar
 
+# pylint: disable=import-error
 from . import PYMAJOR, PYMINOR, public
 from .mixin import Mixin, mixin
 
 
-# pylint: disable=missing-function-docstring
 class IsTemplatePre311(Protocol):
     """Protocol to check if a Template is pre-3.11"""
 
     delimiter: str
-    # r'[a-z]' matches to non-ASCII letters when used with IGNORECASE, but
-    # without the ASCII flag.  We can't add re.ASCII to flags because of
-    # backward compatibility.  So we use the ?a local flag and [a-z] pattern.
-    # See https://bugs.python.org/issue31672
     idpattern: r'str'
     braceidpattern: r'Optional[str]'
     flags: int
@@ -68,11 +64,8 @@ class TemplateGetIdentifiersMixin(Mixin):
         for i in self.pattern.finditer(self.template):
             named = i.group('named') or i.group('braced')
             if named is not None and named not in ids:
-                # add a named group only the first time it appears
                 ids.append(named)
             elif named is None and i.group('invalid') is None and i.group('escaped') is None:
-                # If all the groups are None, there must be
-                # another group we're not expecting
                 raise ValueError('Unrecognized named group in pattern', self.pattern)
         return ids
 
