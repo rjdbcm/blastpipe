@@ -28,11 +28,11 @@ from . import public
 
 
 @public
-def total_size(
+def total_size(  # noqa: C901
     obj: Hashable,
     handlers: Optional[Dict[Any, Callable]] = None,
     verbose: bool = False,
-) -> int:  # noqa: C901
+) -> int:
     """Returns the approximate memory footprint an object and all of its contents.
 
     See `recipe <https://code.activestate.com/recipes/577504/>`__ for original.
