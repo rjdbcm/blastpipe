@@ -21,7 +21,7 @@ from typing import Annotated, Any
 
 try:
     __version__ = version('blastpipe')
-except PackageNotFoundError:
+except PackageNotFoundError:  # pragma: no cover
     pass
 
 PYMAJOR, PYMINOR, PYPATCH = map(int, platform.python_version_tuple())
