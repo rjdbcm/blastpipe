@@ -17,6 +17,28 @@
 
 <!--next-version-placeholder-->
 
+## v0.4.27 (2023-07-11)
+
+### Fix
+
+* :pencil2:(complexity): # noqa: C901. ([`b9a6c35`](https://github.com/rjdbcm/blastpipe/commit/b9a6c357bfb269b1e3a03e0ffa9fe91720cbe996))
+* 🏷️(project): add py.typed. ([`e608c33`](https://github.com/rjdbcm/blastpipe/commit/e608c33787c62b79536bef056067653e8ff9b52e))
+
+### Other
+
+* 🚨(buffer.py): add no cover. ([`08be029`](https://github.com/rjdbcm/blastpipe/commit/08be02974ac93a2fd1e3d0cf9dbb25bbbad9349a))
+* 🚨(__init__.py): add no cover. ([`9d2d6d2`](https://github.com/rjdbcm/blastpipe/commit/9d2d6d286a2a4282cb4973eba990394d0c1f0fbf))
+* 🚨(loop.py): fix type union for Py39. ([`38fa215`](https://github.com/rjdbcm/blastpipe/commit/38fa21546a2e0215259da08b0272414f4cfa6512))
+* 🚨(backports.py): noqa: E501 removed. ([`c355780`](https://github.com/rjdbcm/blastpipe/commit/c355780c2b9e70d3f35ce8b0c4a4c4f0a40579aa))
+* 🚨(black): add ``-S``. ([`fef7f1e`](https://github.com/rjdbcm/blastpipe/commit/fef7f1ee30c116e9d691a541477bd671df141f29))
+* ✅(test_fuzz.py:test_fuzz_while_raised): fixed positional-only args. ([`a74ef9f`](https://github.com/rjdbcm/blastpipe/commit/a74ef9fea1df8b4f0c3744463436368dca687553))
+* 🚀(pyproject.toml): upload_to_release=true. ([`80f8f5f`](https://github.com/rjdbcm/blastpipe/commit/80f8f5f2769649ea7233d6ad2e9c51dabba30836))
+* 🚨(project): Remove comments, fix minor linting issues. ([`1fa9491`](https://github.com/rjdbcm/blastpipe/commit/1fa9491db09cf5847bcca8e6bdca630c5e79a1ff))
+* 🚨(project): fix typing and linting conflicts. Also removed redundant comments. ([`fb293a9`](https://github.com/rjdbcm/blastpipe/commit/fb293a9fff1ec1f3b79b316784458db7efacb04b))
+* 🚨(project): Fix style linting. Switched to black -S. ([`6689af8`](https://github.com/rjdbcm/blastpipe/commit/6689af8498454c0d87f904078581e3a6ef7f16ac))
+* 🔊(CHANGELOG.md): add 0.4.26. ([`f7e2fc2`](https://github.com/rjdbcm/blastpipe/commit/f7e2fc2bfef1c7cf36ad54f47daa6772cce56a28))
+* PKG-INFO Updated ([`eec299a`](https://github.com/rjdbcm/blastpipe/commit/eec299a59116d296196ec6592d52fd47abd3b772))
+
 ## v0.4.26 (2023-07-05)
 
 ### Other
