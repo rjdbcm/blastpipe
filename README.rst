@@ -21,7 +21,7 @@ blastpipe
 |coverage-badge| |pytest-plugins-badge| 
 |bandit-badge| |black-badge| |isort-badge| |flake8-badge| |pyright-badge| |pylint-ckpt-badge| |rst-lint-badge|
 
-A simple utility library used as a slice demonstration for using
+A simple utility library used as an integration and performance test for using
 Meson+OZI as Python 3 packaging management layer.
 
 .. image:: https://raw.githubusercontent.com/sigstore/community/main/artwork/badge/sigstore_codesigned_purple.png
