@@ -28,7 +28,7 @@ import blastpipe.loop
 @st.composite
 def sized_objects(
     draw: typing.Any,
-) -> typing.Tuple[st.SearchStrategy, ...]:
+) -> typing.Tuple[st.SearchStrategy[typing.Any], ...]:
     """sized object strategy"""
     return (
         draw(st.binary()),
@@ -49,7 +49,7 @@ def sized_objects(
 @given(instance=st.from_type(object))
 def test_fuzz_BaseMixin_extend_with(instance: typing.Any) -> None:
     """This test code was written by the `hypothesis.extra.ghostwriter` module"""
-    blastpipe.mixin.BaseMixin.extend_with(instance=instance)  # type: ignore
+    blastpipe.mixin.BaseMixin.extend_with(instance=instance)
 
 
 @given(cls=st.from_type(object), base=st.from_type(object))
@@ -65,13 +65,11 @@ def test_fuzz_mixin(cls: typing.Any, base: typing.Any) -> None:
 )
 def test_fuzz_while_raised(
     exc_types: typing.Tuple[typing.Type[Exception]],
-    target: typing.Callable,
+    target: typing.Callable[..., typing.Any],
     implicit_break: bool,
 ) -> None:
     """This test code was written by the `hypothesis.extra.ghostwriter` module"""
-    blastpipe.loop.while_raised(
-        exc_types, target, implicit_break=implicit_break
-    )
+    blastpipe.loop.while_raised(exc_types, target, implicit_break=implicit_break)
 
 
 @given(obj=sized_objects(), verbose=st.booleans())

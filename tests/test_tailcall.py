@@ -21,14 +21,14 @@ from hypothesis import given
 from hypothesis import strategies as st
 
 # pylint: disable=import-error
-import blastpipe.sequence
 from blastpipe.sequence import chr_union
+from blastpipe.tailcall import async_tail_call
 
 
 @given(active=st.booleans())
 def test_fuzz_async_tail_call(active: bool) -> None:
     """This test code was written by the `hypothesis.extra.ghostwriter` module"""
-    blastpipe.sequence.async_tail_call(active=active)
+    async_tail_call(active=active)
 
 
 def test_chr_union_range() -> None:
@@ -38,7 +38,7 @@ def test_chr_union_range() -> None:
 
 
 @st.composite
-def bad_input(draw: typing.Any) -> typing.Tuple[st.SearchStrategy, ...]:
+def bad_input(draw: typing.Any) -> typing.Tuple[st.SearchStrategy[typing.Any], ...]:
     """Test bad input for chr_union"""
     return (
         draw(st.lists(st.floats())),

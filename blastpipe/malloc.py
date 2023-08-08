@@ -15,8 +15,8 @@
 # under the License.
 from collections import deque
 from itertools import chain
-from sys import getsizeof, stderr
-from typing import Any, Callable, Dict, Hashable, Optional, Sized, Union
+from sys import getsizeof, stderr  # type: ignore
+from typing import Any, Callable, Dict, Hashable, Iterable, Optional, Sized, Union
 
 try:
     from reprlib import repr  # pylint: disable=redefined-builtin
@@ -30,7 +30,7 @@ from . import public
 @public
 def total_size(  # noqa: C901
     obj: Hashable,
-    handlers: Optional[Dict[Any, Callable]] = None,
+    handlers: Optional[Dict[Any, Callable[..., Any]]] = None,
     verbose: bool = False,
 ) -> int:
     """Returns the approximate memory footprint an object and all of its contents.
@@ -56,7 +56,9 @@ def total_size(  # noqa: C901
     if handlers is None:
         handlers = {}
 
-    def dict_handler(_dict: dict) -> chain:  # pragma: defer to python
+    def dict_handler(
+        _dict: dict[Any, Any]
+    ) -> chain[Iterable[Any]]:  # pragma: defer to python
         """Default handler for dict objects"""
         return chain.from_iterable(_dict.items())
 
@@ -80,7 +82,7 @@ def total_size(  # noqa: C901
         size_total = getsizeof(obj, default_size)
 
         if verbose:
-            print(size_total, type(obj), repr(obj), file=stderr)
+            print(size_total, type(obj), repr(obj), file=stderr)  # type: ignore
 
         for typ, handler in all_handlers.items():
             if isinstance(obj, typ):

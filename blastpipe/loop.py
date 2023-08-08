@@ -23,7 +23,7 @@ from . import public
 @public
 def while_raised(
     exc_types: Tuple[Type[Exception]],
-    target: Callable,
+    target: Callable[..., Any],
     /,
     *args: Any,
     implicit_break: bool = True,

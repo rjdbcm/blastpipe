@@ -29,13 +29,9 @@ if TYPE_CHECKING:  # pragma: no cover
 @public  # pragma: defer to python
 async def prefixed_send(stream: asyncio.StreamWriter, buffer: bytes) -> None:
     """Write a length-prefixed buffer to the stream"""
-    # Encode the message length as a 4 byte big-endian integer.
     prefix = len(buffer).to_bytes(4, 'big')
-
-    # Write the prefix and buffer to the stream.
     stream.write(prefix)
     await stream.drain()
-
     stream.write(buffer)
     await stream.drain()
 
@@ -43,12 +39,7 @@ async def prefixed_send(stream: asyncio.StreamWriter, buffer: bytes) -> None:
 @public  # pragma: defer to python
 async def prefixed_recv(stream: asyncio.StreamReader) -> bytes:
     """Read a length-prefixed buffer from the stream"""
-    # Read the next 4 byte prefix
     prefix = await stream.readexactly(4)
-
-    # Convert the prefix back into an integer for the next message length
     # pylint: disable=invalid-name
     n = int.from_bytes(prefix, 'big')
-
-    # Read in the full message buffer
     return await stream.readexactly(n)

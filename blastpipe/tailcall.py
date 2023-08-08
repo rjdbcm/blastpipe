@@ -25,15 +25,15 @@ TAIL_CALL: Tuple[()] = ()
 @public
 def async_tail_call(
     active: bool = True,
-) -> Annotated[Callable, Annotated[Optional[Tuple[()]], '@tail_call()']]:
+) -> Annotated[Callable[..., Any], Annotated[Optional[Tuple[()]], '@tail_call()']]:
     """Async tail_call decorator.
     :param active: Whether to activate async tail call optimization.
     """
 
-    def __wrapper(func: Callable) -> Optional[Callable]:
+    def __wrapper(func: Callable[..., Any]) -> Optional[Callable[..., Any]]:
         """decorator"""
 
-        async def __trampoline(*args: Tuple, **_: Mapping[Any, Any]) -> Tuple:
+        async def __trampoline(*args: Any, **_: Mapping[Any, Any]) -> Tuple[Any, ...]:
             """Tail call optimization."""
             while args.__class__ is tuple:
                 args = await func(*args)

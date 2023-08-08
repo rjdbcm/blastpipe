@@ -29,7 +29,7 @@ class IsTemplatePre311(Protocol):
     idpattern: r'str'
     braceidpattern: r'Optional[str]'
     flags: int
-    pattern: re.Pattern
+    pattern: re.Pattern[str]
     template: str
 
     def safe_substitute(self: Any) -> Optional[str]:
@@ -42,14 +42,14 @@ class IsTemplatePre311(Protocol):
 T = TypeVar('T', bound='string.Template')
 
 
-class TemplateGetIdentifiersMixin(Mixin):
+class TemplateGetIdentifiersMixin(Mixin[Any]):
     """Example Template mixin with preferred way of typing and using mixins"""
 
     delimiter: str
     idpattern: r'str'
     braceidpattern: r'Optional[str]'
     flags: int
-    pattern: re.Pattern
+    pattern: re.Pattern[str]
     template: str
 
     def safe_substitute(self: object) -> Optional[str]:
