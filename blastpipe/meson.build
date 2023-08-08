@@ -23,8 +23,19 @@ config_files = [
     'tailcall.py',
 ]
 foreach file: config_files
- stub_files += file+'i'
+ config_files += file+'i'
 endforeach
+# foreach file: stub_files
+ # module = file.split('.')[0]
+ # custom_target(file,
+  # install: true,
+  # install_dir: get_option('prefix'),
+  # output: file,
+  # command: [find_program('pyright', required: true), '--createstub', project_name+'.'+module],
+  # build_by_default: true,
+  # build_always_stale: true)
+# endforeach
+config_files += ['py.typed']
 python_files += files(config_files)
 if get_option('dev').enabled()
 foreach file: config_files

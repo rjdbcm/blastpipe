@@ -68,13 +68,18 @@ option('test-suite' , type: 'array',
             'pytest-xdist'])
 option('args-bandit',
     description: 'application', type: 'array',
-    value: ['--configfile', 'pyproject.toml', '--ignore-nosec', '-r', '@project_name@'])
+    value: [
+        '--configfile', 'pyproject.toml',
+        '--ignore-nosec',
+        '-r', '@project_name@'
+    ]
+)
 option('args-black',
     description: 'application', type: 'array', 
     value: ['-S', '--verbose', '--check', '--diff', '--no-color', '--exclude', '.gitignore', '@project_name@'])
 option('args-isort',
     description: 'application', type: 'array', 
-    value: ['-c', '@project_name@'])
+    value: ['-c', '--skip-glob', '*.pyi', '@project_name@'])
 option('args-pylint',
     description: 'application', type: 'array', 
     value: ['@project_name@'])
@@ -122,7 +127,8 @@ option('args-sphinx-build',
     description: 'application', type: 'array', 
     value: ['--help'])
 option('args-flake8p', type: 'array',
-value: ['--benchmark', '--statistics', '--max-complexity', '5', '--show-source'])
+value: ['--benchmark', '--statistics', '--max-complexity', '5', '--show-source',
+    '@project_name@'])
 option('args-Flake8-pyproject', type: 'array', value: [])
 option('args-sphinxawesome-codelinter', type: 'array', value: [])
 option('args-sphinxawesome-theme', type: 'array', value: [])

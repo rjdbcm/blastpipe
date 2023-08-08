@@ -55,11 +55,6 @@ endforeach
 foreach file : python_files
  python.install_sources(file)
 endforeach
-# docs = subproject('docs')
-# TODO: stub build imports are broken for dist
-# stubs = custom_target('stubs', install: true, install_dir: get_option('prefix'),
-#  output: stub_files,
-#  command: [find_program('pyright', required: true), '--createstub', project_name])
 foreach dir : ['prefix', 'bindir', 'libdir', 'datadir', 'localedir', 'python.install_env', 
                 'python.platlibdir', 'python.purelibdir']
   summary({'📁 '+dir : get_option(dir)}, section: '〽️ meson install -C @0@'.format(build_dir))
