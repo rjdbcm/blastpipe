@@ -117,7 +117,7 @@ jobs:
     - name: Move meson dist files
       if: steps.release.outputs.released == 'true'
       run: |
-        mv build/meson-dist/OZI-${{ steps.release.outputs.version }}.tar.gz dist/OZI-${{ steps.release.outputs.version }}.tar.gz
+        mv build/meson-dist/${{ github.event.repository.name }}-${{ steps.release.outputs.version }}.tar.gz dist/${{ github.event.repository.name }}-${{ steps.release.outputs.version }}.tar.gz
 
     - name: Sign wheel and sdist
       if: steps.release.outputs.released == 'true'
