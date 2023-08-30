@@ -10,6 +10,8 @@
 
 ### Other
 
+* :construction_worker:: Change .git permissions. ([`13e57f9`](https://github.com/rjdbcm/blastpipe/commit/13e57f9149a282c8f7e187ebed51d59cbcb997a2))
+
 * Merge branch &#39;main&#39; of https://github.com/rjdbcm/blastpipe ([`de666bf`](https://github.com/rjdbcm/blastpipe/commit/de666bffdc7a51391a9b74f83967404a6a37807c))
 
 * :construction_worker:(gh-actions): use ``${{ github.event.repository.name }}`` as repo name. ([`bc6ec63`](https://github.com/rjdbcm/blastpipe/commit/bc6ec637004c91fcdf6304abdf20c7ad9f50951c))
