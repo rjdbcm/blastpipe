@@ -10,6 +10,10 @@
 
 ### Other
 
+* Merge branch &#39;main&#39; of https://github.com/rjdbcm/blastpipe ([`6936fee`](https://github.com/rjdbcm/blastpipe/commit/6936fee4c9171b77be5af86cc7d494b3fe654862))
+
+* :construction_worker:(gh-actions): Use ``${{ github.event.repository.name }} for file patterns. ([`c6a0e3e`](https://github.com/rjdbcm/blastpipe/commit/c6a0e3e1458ff8f79b43a88940bf3b5b1f31f4f1))
+
 * :construction_worker:: Change .git permissions. ([`13e57f9`](https://github.com/rjdbcm/blastpipe/commit/13e57f9149a282c8f7e187ebed51d59cbcb997a2))
 
 * Merge branch &#39;main&#39; of https://github.com/rjdbcm/blastpipe ([`de666bf`](https://github.com/rjdbcm/blastpipe/commit/de666bffdc7a51391a9b74f83967404a6a37807c))
