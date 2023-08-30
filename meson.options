@@ -54,6 +54,7 @@ option('lint-suite' , type: 'array',
             'mypy',
             'pylint',
             'pyright',
+            'restructuredtext-lint',
             'flake8p',
             'Flake8-pyproject'])
 option('test-priority', type: 'integer', value: 2)
