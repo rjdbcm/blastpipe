@@ -128,4 +128,3 @@ source software.
 .. |pyright-badge| image:: https://img.shields.io/badge/typing-%E2%9C%94%20Pyright%3A%200%20e%2C%200%20w%2C%200%20i-informational
 .. |pytest-plugins-badge| image:: https://img.shields.io/badge/Pytest-asyncio%20cov%20%20hypothesis%20mock%20randomly%20tcpclient-informational
 .. |rst-lint-badge| image:: https://img.shields.io/badge/rst--lint-%E2%9C%94%20README.rst-informational
-
