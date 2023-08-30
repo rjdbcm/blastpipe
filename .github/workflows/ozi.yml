@@ -113,6 +113,7 @@ jobs:
         meson setup build
         git add PKG-INFO
         git commit --allow-empty-message PKG-INFO -m ""
+        git push origin main
         meson dist -C build --formats gztar --no-tests --allow-dirty
 
     - name: Move meson dist files
