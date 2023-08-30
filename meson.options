@@ -51,6 +51,7 @@ option('lint-suite' , type: 'array',
     value: ['bandit', 
             'black', 
             'isort',
+            'mypy',
             'pylint',
             'pyright',
             'restructuredtext-lint',
@@ -120,6 +121,8 @@ option('args-semantic-release',
 option('args-doc8',
     description: 'application', type: 'array', 
     value: ['--help'])
+option('args-mypy', type: 'array',
+    value: ['@project_name@', '@test_source@'])
 option('args-pydocstyle',
     description: 'application', type: 'array', 
     value: ['-v', '-d', '--config=pyproject.toml', '@docs_source@'])
@@ -127,8 +130,7 @@ option('args-sphinx-build',
     description: 'application', type: 'array', 
     value: ['--help'])
 option('args-flake8p', type: 'array',
-value: ['--benchmark', '--statistics', '--max-complexity', '5', '--show-source',
-    '@project_name@'])
+value: ['--benchmark', '--statistics', '--max-complexity', '5', '--show-source', '@project_name@'])
 option('args-Flake8-pyproject', type: 'array', value: [])
 option('args-sphinxawesome-codelinter', type: 'array', value: [])
 option('args-sphinxawesome-theme', type: 'array', value: [])

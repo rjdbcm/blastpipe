@@ -2,11 +2,11 @@ Metadata-Version: 2.1
 Name: blastpipe
 Version: 0.4.27
 Summary: Packaged with OZI.
+Classifier: License :: OSI Approved :: Apache Software License
 Classifier: Development Status :: 2 - Pre-Alpha
 Classifier: Natural Language :: English
 Classifier: Intended Audience :: Developers
 Classifier: Operating System :: MacOS :: MacOS X
-Classifier: Operating System :: Microsoft :: Windows
 Classifier: Operating System :: POSIX :: Linux
 Classifier: Programming Language :: Python :: 3
 Classifier: Programming Language :: Python :: 3.9
@@ -14,7 +14,7 @@ Classifier: Programming Language :: Python :: 3.10
 Classifier: Programming Language :: Python :: 3.11
 Classifier: Programming Language :: Python :: Implementation :: CPython
 Classifier: Topic :: Software Development :: Libraries :: Python Modules
-Project-URL: Homepage, https://github.com/rjdbcm/blastpipe
+Project-URL: Homepage, https://oziproject.dev/
 Project-URL: Download, https://github.com/rjdbcm/blastpipe/archive/refs/heads/main.zip
 Description-Content-Type: text/x-rst
 
@@ -42,7 +42,8 @@ blastpipe
 |bandit-badge| |black-badge| |isort-badge| |flake8-badge| |pyright-badge| |pylint-ckpt-badge| |rst-lint-badge|
 
 A simple utility library used as a slice demonstration for using
-Meson+OZI as Python 3 packaging management layer.
+Meson+OZI as Python 3 packaging management layer. This is also used as a bootstrapped
+integration test suite for OZI.
 
 .. image:: https://raw.githubusercontent.com/sigstore/community/main/artwork/badge/sigstore_codesigned_purple.png
  :align: right
@@ -123,7 +124,8 @@ source software.
 
 
 
-.. |py-version-badge| image:: https://img.shields.io/badge/Python%20Version-3.9%20%7C%203.10%20%7C%203.11-blue
+.. |py-version-badge| image:: https://img.shields.io/pypi/pyversions/ozi
+    :alt: PyPI - Python Version
 .. |pylint-ckpt-badge| image:: https://img.shields.io/badge/linting-%E2%9C%94%20Pylint%3A%2010.00%2F10-informational
 .. |slsa-level3-badge| image:: https://slsa.dev/images/gh-badge-level3.svg
 .. |fossa-badge| image:: https://app.fossa.com/api/projects/git%2Bgithub.com%2Frjdbcm%2Fblastpipe.svg?type=shield

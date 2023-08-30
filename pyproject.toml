@@ -13,7 +13,7 @@
 # specific language governing permissions and limitations
 # under the License.
 [project]
-authors = [{name = "Ross J. Duff MSc", email = "ozi.project@outlook.com"}]
+authors = [{name = "Ross J. Duff MSc", email = "help@oziproject.dev"}]
 dynamic = ["version"]
 license = {file = "LICENSE.txt"}
 readme  = "README.rst"
@@ -27,8 +27,12 @@ dist = ["pyc_wheel", "python-semantic-release", "sigstore"]
 docs = ["doc8", "pydocstyle[toml]", "Pygments", "pyparsing", "sphinx",
         "sphinx-design", "sphinxawesome-codelinter", "sphinxawesome-theme"]
 ## Linting and Formatting Setup
-lint = ["bandit[toml]", "black", "flake8", "Flake8-pyproject", "isort", "pylint", "pyright",
-        "restructuredtext-lint"]
+lint = ["bandit[toml]", "black", "flake8", "flake8-quotes", "flake8-docstring-checker",
+        "flake8-pytest-style", "flake8-type-checking", "flake8-annotations",
+        "flake8-broken-line", "flake8-eradicate", "flake8-fixme", "flake8-bugbear",
+        "flake8-datetimez", "flake8-no-pep420", "flake8-comprehensions",
+        "flake8-leading-blank-lines", "flake8-tidy-imports", "flake8-pyi",
+        "Flake8-pyproject", "isort", "mypy", "pylint", "pyright", "restructuredtext-lint"]
 ## Testing Setup
 test = ["coverage[toml]", "hypothesis[all]", "pytest", "pytest-asyncio", "pytest-cov", 
         "pytest-tcpclient", "pytest-randomly", "pytest-xdist"]
@@ -84,9 +88,6 @@ line_length = 93
 profile = "black"
 verbose = true
 
-[tool.mesonpep517.dynamic]
-version = {attr = "_scm_version.__version__"}
-
 [tool.mypy]
 implicit_reexport = true
 strict = true
@@ -112,55 +113,24 @@ log_cli_format      = "%(asctime)s [%(levelname)8s] %(name)s: %(message)s (%(fil
 log_cli_level       = "INFO"
 
 [tool.semantic_release]
-# hvcs_api_domain          = ""
-# hvcs_domain              = ""
-branch                         = "main"
-build_command                  = """
-                git stash && \
-                python -m build -w && \
-                git stash -- PKG-INFO && \
-                python -m pyc_wheel dist/*.whl && \
-                meson setup dist/build && \
-                git stash drop && \
-                git add PKG-INFO && \
-                git commit PKG-INFO -m \"PKG-INFO Updated\" && \
-                meson dist -C dist/build --formats gztar --no-tests --allow-dirty && \
-                sigstore sign dist/*.whl dist/build/meson-dist/*.tar.gz && \
-                git stash pop && \
-                git add CHANGELOG.md && \
-                git stash clear"""
-changelog_file                 = "CHANGELOG.md"
-changelog_placeholder          = "<!--next-version-placeholder-->"
-commit_parser                  = "semantic_release.history.emoji_parser"
-commit_version_number          = true
-dist_glob_patterns             = "*.dist-info,*.whl,build/meson-dist/*.tar.gz"
-dist_path                      = "dist/"
-hvcs                           = "github"
-# include_additional_files = """
-#                         dist/*.sig,\
-#                         dist/*.crt,\
-#                         dist/*.sigstore,\
-#                         build/meson-dist/*.tar.gz,\
-#                         build/meson-dist/*.sha256sum,\
-#                         build/meson-dist/*.sig,\
-#                         build/meson-dist/*.crt,\
-#                         build/meson-dist/*.sigstore"""
+commit_parser                  = "emoji"
 major_on_zero                  = false
-patch_without_tag              = false
-prerelease_tag                 = "beta"
-pre_commit_command             = """
-                git clean -dfX && \
-                tox && \
-                git stash -- PKG-INFO && \
-                git stash drop"""
-remove_dist                    = false
-repository                     = "pypi"
 tag_format                     = "{version}"
-upload_to_release              = true
-upload_to_repository           = true
-use_textual_changelog_sections = true
-version_source                 = "tag_only"
-version_variable               = "PKG-INFO:Version: {version}"
+
+[tool.semantic_release.branches.main]
+match = "(main|master)"
+prerelease_token = "beta"
+prerelease = false
+
+[tool.semantic_release.changelog]
+changelog_file                 = "CHANGELOG.md"
+
+[tool.semantic_release.remote]
+token = { env = "GH_TOKEN" }
+
+[tool.semantic_release.publish]
+dist_glob_patterns             = ["*.whl","*.tar.gz", "sig/*"]
+upload_to_vcs_release          = true
 
 [tool.setuptools_scm]
 write_to_template = """
@@ -168,11 +138,11 @@ Metadata-Version: 2.1
 Name: blastpipe
 Version: {version}
 Summary: Packaged with OZI.
+Classifier: License :: OSI Approved :: Apache Software License
 Classifier: Development Status :: 2 - Pre-Alpha
 Classifier: Natural Language :: English
 Classifier: Intended Audience :: Developers
 Classifier: Operating System :: MacOS :: MacOS X
-Classifier: Operating System :: Microsoft :: Windows
 Classifier: Operating System :: POSIX :: Linux
 Classifier: Programming Language :: Python :: 3
 Classifier: Programming Language :: Python :: 3.9
@@ -180,7 +150,7 @@ Classifier: Programming Language :: Python :: 3.10
 Classifier: Programming Language :: Python :: 3.11
 Classifier: Programming Language :: Python :: Implementation :: CPython
 Classifier: Topic :: Software Development :: Libraries :: Python Modules
-Project-URL: Homepage, https://github.com/rjdbcm/blastpipe
+Project-URL: Homepage, https://oziproject.dev/
 Project-URL: Download, https://github.com/rjdbcm/blastpipe/archive/refs/heads/main.zip
 Description-Content-Type: text/x-rst
 
@@ -289,7 +259,8 @@ source software.
 
 
 
-.. |py-version-badge| image:: https://img.shields.io/badge/Python%20Version-3.9%20%7C%203.10%20%7C%203.11-blue
+.. |py-version-badge| image:: https://img.shields.io/pypi/pyversions/ozi
+    :alt: PyPI - Python Version
 .. |pylint-ckpt-badge| image:: https://img.shields.io/badge/linting-%E2%9C%94%20Pylint%3A%2010.00%2F10-informational
 .. |slsa-level3-badge| image:: https://slsa.dev/images/gh-badge-level3.svg
 .. |fossa-badge| image:: https://app.fossa.com/api/projects/git%2Bgithub.com%2Frjdbcm%2Fblastpipe.svg?type=shield

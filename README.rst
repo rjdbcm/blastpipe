@@ -103,7 +103,8 @@ source software.
 
 
 
-.. |py-version-badge| image:: https://img.shields.io/badge/Python%20Version-3.9%20%7C%203.10%20%7C%203.11-blue
+.. |py-version-badge| image:: https://img.shields.io/pypi/pyversions/ozi
+    :alt: PyPI - Python Version
 .. |pylint-ckpt-badge| image:: https://img.shields.io/badge/linting-%E2%9C%94%20Pylint%3A%2010.00%2F10-informational
 .. |slsa-level3-badge| image:: https://slsa.dev/images/gh-badge-level3.svg
 .. |fossa-badge| image:: https://app.fossa.com/api/projects/git%2Bgithub.com%2Frjdbcm%2Fblastpipe.svg?type=shield
