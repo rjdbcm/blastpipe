@@ -115,9 +115,8 @@ option('args-pytest-xdist',
 option('args-sigstore',
     description: 'application', type: 'array', 
     value: ['--version'])
-option('args-semantic-release',
-    description: 'application', type: 'array', 
-    value: ['version', '--noop', '--verbosity=debug'])
+option('args-semantic-release' , type: 'array',
+    value: ['version', '--print'])
 option('args-doc8',
     description: 'application', type: 'array', 
     value: ['--help'])
