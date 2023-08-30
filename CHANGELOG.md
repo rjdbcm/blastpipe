@@ -2,24 +2,45 @@
 
 
 
-## v2023.6.1 (2023-08-30)
+## v2023.6.2 (2023-08-30)
 
-### Fix
+### :children_crossing:
 
-* :construction_worker:(gh-actions): Force patch release of fixed workflow. ([`ef6bd97`](https://github.com/rjdbcm/blastpipe/commit/ef6bd9788fd5c9b960f21c70adca5c106a3eb2fb))
+* :children_crossing:(semantic-release): Fix commit parsing. ([`1936e88`](https://github.com/rjdbcm/blastpipe/commit/1936e88353b348c4bd279d7c0c47d5c6beb61843))
 
 ### Other
 
+* :construction_worker:(PKG-INFO): Bump Version. ([`3d3794e`](https://github.com/rjdbcm/blastpipe/commit/3d3794ebc84870e261797cc12e0927e24d46e4fa))
+
+
+## v2023.6.1 (2023-08-30)
+
+### :ambulance:
+
 * :ambulance:(PKG-INFO): Correct Version at release. ([`e601bee`](https://github.com/rjdbcm/blastpipe/commit/e601bee6579b29d10c799e3b416ab01b17e6b3b2))
+
+### Other
+
+* :construction_worker:(gh-actions): Force patch release of fixed workflow. ([`ef6bd97`](https://github.com/rjdbcm/blastpipe/commit/ef6bd9788fd5c9b960f21c70adca5c106a3eb2fb))
 
 * :construction_worker:(gh-actions): push PKG-INFO changes. ([`163a6a2`](https://github.com/rjdbcm/blastpipe/commit/163a6a23b816cafc7702c10487fa02e5a6c2fe54))
 
 
 ## v0.4.28 (2023-08-30)
 
-### Fix
+### :ambulance:
 
-* fix tox args. ([`e1e5511`](https://github.com/rjdbcm/blastpipe/commit/e1e55113468f04bd4d4076b182658113ec83dae0))
+* :ambulance::construction_worker:: Fix name of checkpoint job. ([`fb7af7b`](https://github.com/rjdbcm/blastpipe/commit/fb7af7bb67ab503c617e5d7df012eec07776d3a4))
+
+* :wrench::ambulance:(meson): Project build files into meson build folder during configure. ([`494a77f`](https://github.com/rjdbcm/blastpipe/commit/494a77f588a16b20dae3d75bc83d101f7364347f))
+
+### :wrench:
+
+* :wrench:(meson): drop rst-lint and configure_file adaptation for now. ([`b8b541a`](https://github.com/rjdbcm/blastpipe/commit/b8b541aa80bbc2f3f3e94586f722cf0b6a5c6622))
+
+* :wrench:(tox): Fix tox-gh env names. ([`59ce6bb`](https://github.com/rjdbcm/blastpipe/commit/59ce6bbc2d3570e34c17877165fc594bb8159e6c))
+
+* :wrench:: Update to use mypy and parity with OZI. ([`ecca7ca`](https://github.com/rjdbcm/blastpipe/commit/ecca7cab95357d4d3c96bd4b59c12aaf8382516e))
 
 ### Other
 
@@ -37,15 +58,9 @@
 
 * :construction_worker:(gh-actions): Drop windows runner. ([`3aa7b20`](https://github.com/rjdbcm/blastpipe/commit/3aa7b20a8c0f7f09819b5300ab13873ce47ba889))
 
-* :ambulance::construction_worker:: Fix name of checkpoint job. ([`fb7af7b`](https://github.com/rjdbcm/blastpipe/commit/fb7af7bb67ab503c617e5d7df012eec07776d3a4))
-
-* :wrench:(meson): drop rst-lint and configure_file adaptation for now. ([`b8b541a`](https://github.com/rjdbcm/blastpipe/commit/b8b541aa80bbc2f3f3e94586f722cf0b6a5c6622))
-
-* :wrench::ambulance:(meson): Project build files into meson build folder during configure. ([`494a77f`](https://github.com/rjdbcm/blastpipe/commit/494a77f588a16b20dae3d75bc83d101f7364347f))
-
 * Delete wrapped subproject erroring OZI. ([`a396b6e`](https://github.com/rjdbcm/blastpipe/commit/a396b6ef7d95f7cc05a0e5b9a16b221edbfa95c7))
 
-* :wrench:(tox): Fix tox-gh env names. ([`59ce6bb`](https://github.com/rjdbcm/blastpipe/commit/59ce6bbc2d3570e34c17877165fc594bb8159e6c))
+* fix tox args. ([`e1e5511`](https://github.com/rjdbcm/blastpipe/commit/e1e55113468f04bd4d4076b182658113ec83dae0))
 
 * 🚑️(semantic-release): Args change for major version change 7 to 8. ([`21b89df`](https://github.com/rjdbcm/blastpipe/commit/21b89dfa81caf22f0c9ffeafe4b92bf45e2db694))
 
@@ -60,8 +75,6 @@
 * :pencil: Fix PKG-INFO parity to README. ([`a80fa85`](https://github.com/rjdbcm/blastpipe/commit/a80fa85d9a57a2c85d8e1b70cf5cf66861e8b250))
 
 * :construction_worker:: Add new OZI standard workflow. ([`83dd01a`](https://github.com/rjdbcm/blastpipe/commit/83dd01aedf87b44a07d38fc89135a9e913445f3f))
-
-* :wrench:: Update to use mypy and parity with OZI. ([`ecca7ca`](https://github.com/rjdbcm/blastpipe/commit/ecca7cab95357d4d3c96bd4b59c12aaf8382516e))
 
 * Merge branch &#39;main&#39; of https://github.com/rjdbcm/blastpipe ([`916b530`](https://github.com/rjdbcm/blastpipe/commit/916b5300fc026934e31b0a89d280138e65f4592d))
 
@@ -90,16 +103,9 @@ Add license scan report and status ([`1a65603`](https://github.com/rjdbcm/blastp
 
 ## v0.4.27 (2023-07-11)
 
-### Fix
+### :pencil2:
 
-* 🚨(loop.py): fix type union for Py39. ([`38fa215`](https://github.com/rjdbcm/blastpipe/commit/38fa21546a2e0215259da08b0272414f4cfa6512))
-
-* ✅(test_fuzz.py:test_fuzz_while_raised): fixed positional-only args. ([`a74ef9f`](https://github.com/rjdbcm/blastpipe/commit/a74ef9fea1df8b4f0c3744463436368dca687553))
-
-* 🚨(project): Remove comments, fix minor linting issues. ([`1fa9491`](https://github.com/rjdbcm/blastpipe/commit/1fa9491db09cf5847bcca8e6bdca630c5e79a1ff))
-
-* 🚨(project): fix typing and linting conflicts.
-Also removed redundant comments. ([`fb293a9`](https://github.com/rjdbcm/blastpipe/commit/fb293a9fff1ec1f3b79b316784458db7efacb04b))
+* :pencil2:(complexity): # noqa: C901. ([`b9a6c35`](https://github.com/rjdbcm/blastpipe/commit/b9a6c357bfb269b1e3a03e0ffa9fe91720cbe996))
 
 ### Other
 
@@ -107,13 +113,20 @@ Also removed redundant comments. ([`fb293a9`](https://github.com/rjdbcm/blastpip
 
 * 🚨(__init__.py): add no cover. ([`9d2d6d2`](https://github.com/rjdbcm/blastpipe/commit/9d2d6d286a2a4282cb4973eba990394d0c1f0fbf))
 
+* 🚨(loop.py): fix type union for Py39. ([`38fa215`](https://github.com/rjdbcm/blastpipe/commit/38fa21546a2e0215259da08b0272414f4cfa6512))
+
 * 🚨(backports.py): noqa: E501 removed. ([`c355780`](https://github.com/rjdbcm/blastpipe/commit/c355780c2b9e70d3f35ce8b0c4a4c4f0a40579aa))
 
 * 🚨(black): add ``-S``. ([`fef7f1e`](https://github.com/rjdbcm/blastpipe/commit/fef7f1ee30c116e9d691a541477bd671df141f29))
 
-* :pencil2:(complexity): # noqa: C901. ([`b9a6c35`](https://github.com/rjdbcm/blastpipe/commit/b9a6c357bfb269b1e3a03e0ffa9fe91720cbe996))
+* ✅(test_fuzz.py:test_fuzz_while_raised): fixed positional-only args. ([`a74ef9f`](https://github.com/rjdbcm/blastpipe/commit/a74ef9fea1df8b4f0c3744463436368dca687553))
 
 * 🚀(pyproject.toml): upload_to_release=true. ([`80f8f5f`](https://github.com/rjdbcm/blastpipe/commit/80f8f5f2769649ea7233d6ad2e9c51dabba30836))
+
+* 🚨(project): Remove comments, fix minor linting issues. ([`1fa9491`](https://github.com/rjdbcm/blastpipe/commit/1fa9491db09cf5847bcca8e6bdca630c5e79a1ff))
+
+* 🚨(project): fix typing and linting conflicts.
+Also removed redundant comments. ([`fb293a9`](https://github.com/rjdbcm/blastpipe/commit/fb293a9fff1ec1f3b79b316784458db7efacb04b))
 
 * 🏷️(project): add py.typed. ([`e608c33`](https://github.com/rjdbcm/blastpipe/commit/e608c33787c62b79536bef056067653e8ff9b52e))
 
@@ -142,13 +155,15 @@ Switched to black -S. ([`6689af8`](https://github.com/rjdbcm/blastpipe/commit/66
 
 ## v0.4.25 (2023-07-06)
 
-### Other
-
-* 🔨(meson.build): enable subprojects/docs ([`0cd6483`](https://github.com/rjdbcm/blastpipe/commit/0cd6483a734fa6cc8a973faacaafec163f5d2a8f))
+### :pencil2:
 
 * :pencil2:(pyproject.toml): defer sphinxawesome-theme to ozi. ([`b1e144d`](https://github.com/rjdbcm/blastpipe/commit/b1e144d050f04f3887b1d64ac6a4f7454585792a))
 
 * :pencil2:(README.rst): use blastpipe badge not OZI. ([`7a71e70`](https://github.com/rjdbcm/blastpipe/commit/7a71e70618441555406c574633e49b5e842309c8))
+
+### Other
+
+* 🔨(meson.build): enable subprojects/docs ([`0cd6483`](https://github.com/rjdbcm/blastpipe/commit/0cd6483a734fa6cc8a973faacaafec163f5d2a8f))
 
 * 📝(README.rst): Add Contributing info. ([`96fec96`](https://github.com/rjdbcm/blastpipe/commit/96fec96befae2e886e7125c528b5a48a3b18019f))
 
@@ -188,7 +203,7 @@ CHANGELOG.md should actually get release notes from now on. ([`cdefd70`](https:/
 
 ## v0.4.22 (2023-06-24)
 
-### Fix
+### Other
 
 * ✏️ fix hanging continuation. ([`4b2b46d`](https://github.com/rjdbcm/blastpipe/commit/4b2b46d6357ca11606d62e2b30435e8b098cf095))
 
@@ -232,42 +247,46 @@ CHANGELOG.md should actually get release notes from now on. ([`cdefd70`](https:/
 
 ## v0.4.16 (2023-06-22)
 
+### :bento:
+
+* :bento:(semantic-release) setuptools_scm Version---&gt;PKG-INFO ([`2bf1900`](https://github.com/rjdbcm/blastpipe/commit/2bf19003dadb04df4d1e920850751b7b8a0b30dd))
+
 ### Other
 
 * 🚸 PKG-INFO no commit ([`0f743f0`](https://github.com/rjdbcm/blastpipe/commit/0f743f098618f5819a23256a06835c650ca578f5))
 
-* :bento:(semantic-release) setuptools_scm Version---&gt;PKG-INFO ([`2bf1900`](https://github.com/rjdbcm/blastpipe/commit/2bf19003dadb04df4d1e920850751b7b8a0b30dd))
-
 
 ## v0.4.15 (2023-06-22)
 
-### Fix
+### Other
 
 * 🚸 fix PKG-INFO typo. ([`13992dc`](https://github.com/rjdbcm/blastpipe/commit/13992dcaae1b437d2e33baccb399b4204dd1c7ac))
 
 
 ## v0.4.14 (2023-06-22)
 
-### Fix
+### :bento:
 
-* 🚸 fix typo in git commit. ([`31ee152`](https://github.com/rjdbcm/blastpipe/commit/31ee152680c08fdaa4ef179cf448ff8e9677745d))
+* :bento:(semantic-release) setuptools_scm Version---&gt;PKG-DATA ([`0dc0387`](https://github.com/rjdbcm/blastpipe/commit/0dc03878acdd01a15da70e1119e99da01d0f1ad7))
 
 ### Other
+
+* 🚸 fix typo in git commit. ([`31ee152`](https://github.com/rjdbcm/blastpipe/commit/31ee152680c08fdaa4ef179cf448ff8e9677745d))
 
 * 🚸 don&#39;t commit -a. ([`88f8ba1`](https://github.com/rjdbcm/blastpipe/commit/88f8ba1c51d16c5cd3242b720423ed3f0e77924a))
 
 * 🚸 don&#39;t push next version. ([`31269d9`](https://github.com/rjdbcm/blastpipe/commit/31269d900315a2b62b16d6f9b7c53bdd6c1afc15))
 
-* :bento:(semantic-release) setuptools_scm Version---&gt;PKG-DATA ([`0dc0387`](https://github.com/rjdbcm/blastpipe/commit/0dc03878acdd01a15da70e1119e99da01d0f1ad7))
-
 
 ## v0.4.13 (2023-06-22)
+
+### :bento:
+
+* :bento:(semantic-release) setuptools_scm Version---&gt;PKG-DATA ([`14dbbda`](https://github.com/rjdbcm/blastpipe/commit/14dbbda4b7c44a5afc6b8b2141d8041c2db534ed))
 
 ### Other
 
 * 🚸 stash after pyc_wheel. ([`84db1e4`](https://github.com/rjdbcm/blastpipe/commit/84db1e49113d6b3144894454ead306f4eae163e7))
-
-* :bento:(semantic-release) setuptools_scm Version---&gt;PKG-DATA ([`14dbbda`](https://github.com/rjdbcm/blastpipe/commit/14dbbda4b7c44a5afc6b8b2141d8041c2db534ed))
 
 
 ## v0.4.12 (2023-06-22)
@@ -307,53 +326,63 @@ CHANGELOG.md should actually get release notes from now on. ([`cdefd70`](https:/
 
 ## v0.4.7 (2023-06-22)
 
+### :bento:
+
+* :bento:(semantic-release) setuptools_scm Version---&gt;PKG-DATA ([`43410f2`](https://github.com/rjdbcm/blastpipe/commit/43410f2e3bb20f0fa5287613e5c430a97afd55f7))
+
 ### Other
 
 * 🚸 try version bump again... ([`7dd9d19`](https://github.com/rjdbcm/blastpipe/commit/7dd9d194c4200d4aa905642d53b15137da23c718))
 
-* :bento:(semantic-release) setuptools_scm Version---&gt;PKG-DATA ([`43410f2`](https://github.com/rjdbcm/blastpipe/commit/43410f2e3bb20f0fa5287613e5c430a97afd55f7))
-
 
 ## v0.4.6 (2023-06-22)
 
-### Other
+### :bento:
 
 * :bento:(semantic-release) setuptools_scm Version---&gt;PKG-DATA ([`28aceae`](https://github.com/rjdbcm/blastpipe/commit/28aceae28d1fd1833e4c61efd928df414ac57d4f))
 
 
 ## v0.4.5 (2023-06-22)
 
+### :bento:
+
+* :bento:(semantic-release) setuptools_scm Version---&gt;PKG-DATA ([`756e3f5`](https://github.com/rjdbcm/blastpipe/commit/756e3f55d1e393b8055f8705bb563525e94159f0))
+
 ### Other
 
 * don&#39;t stash wheel bump. ([`a9ca7d8`](https://github.com/rjdbcm/blastpipe/commit/a9ca7d8171535ce0e29ed08874bc674a048d8e6b))
 
-* :bento:(semantic-release) setuptools_scm Version---&gt;PKG-DATA ([`756e3f5`](https://github.com/rjdbcm/blastpipe/commit/756e3f55d1e393b8055f8705bb563525e94159f0))
-
 
 ## v0.4.4 (2023-06-22)
+
+### :bento:
+
+* :bento:(semantic-release) setuptools_scm Version---&gt;PKG-DATA ([`e0671e1`](https://github.com/rjdbcm/blastpipe/commit/e0671e1a5a533090db1bff0e6a84d49064e354e8))
 
 ### Other
 
 * Addition for release. ([`4be428d`](https://github.com/rjdbcm/blastpipe/commit/4be428d9ef2c61bdae3f8c39d56694dd058a7cb9))
 
-* :bento:(semantic-release) setuptools_scm Version---&gt;PKG-DATA ([`e0671e1`](https://github.com/rjdbcm/blastpipe/commit/e0671e1a5a533090db1bff0e6a84d49064e354e8))
-
 
 ## v0.4.3 (2023-06-22)
 
-### Other
+### :bento:
 
 * :bento:(semantic-release) setuptools_scm Version---&gt;PKG-DATA ([`6ea7cae`](https://github.com/rjdbcm/blastpipe/commit/6ea7cae0729dfeb4294fd68cbc8e292db662d6c4))
 
 
 ## v0.4.2 (2023-06-22)
 
-### Other
+### :bento:
 
 * :bento:(semantic-release) setuptools_scm Version---&gt;PKG-DATA ([`2477f60`](https://github.com/rjdbcm/blastpipe/commit/2477f60591f39346d11f1d5e7f3b924633aa8c81))
 
 
 ## v0.4.1 (2023-06-22)
+
+### :bento:
+
+* :bento:(semantic-release) setuptools_scm Version---&gt;PKG-DATA ([`1371457`](https://github.com/rjdbcm/blastpipe/commit/13714571866a451a4fea6af9fa174ca5c88656ac))
 
 ### Other
 
@@ -361,23 +390,23 @@ CHANGELOG.md should actually get release notes from now on. ([`cdefd70`](https:/
 
 * 🚸 add whitespace before PyPI metadata message. ([`815b811`](https://github.com/rjdbcm/blastpipe/commit/815b81179a9d4e317a735df6b7923c04c55abaf4))
 
-* :bento:(semantic-release) setuptools_scm Version---&gt;PKG-DATA ([`1371457`](https://github.com/rjdbcm/blastpipe/commit/13714571866a451a4fea6af9fa174ca5c88656ac))
-
 
 ## v0.4.0 (2023-06-22)
 
-### Other
+### :bento:
 
 * :bento:(semantic-release) setuptools_scm Version---&gt;PKG-DATA ([`b372b52`](https://github.com/rjdbcm/blastpipe/commit/b372b52aae5a4c83f7431928b8e832dd204c0b26))
 
 
 ## v0.3.16 (2023-06-22)
 
+### :bento:
+
+* :bento:(semantic-release) setuptools_scm Version---&gt;PKG-DATA ([`343cbb9`](https://github.com/rjdbcm/blastpipe/commit/343cbb99ee4cb1d7e12f039cb7fb6e040a6ba984))
+
 ### Other
 
 * 🍱 include README.rst in pyproject. ([`615c4d4`](https://github.com/rjdbcm/blastpipe/commit/615c4d40ae5385f5fb80d9accdf6bc9f44509b3f))
-
-* :bento:(semantic-release) setuptools_scm Version---&gt;PKG-DATA ([`343cbb9`](https://github.com/rjdbcm/blastpipe/commit/343cbb99ee4cb1d7e12f039cb7fb6e040a6ba984))
 
 
 ## v0.3.15 (2023-06-22)
@@ -403,14 +432,6 @@ CHANGELOG.md should actually get release notes from now on. ([`cdefd70`](https:/
 
 ## v0.3.12 (2023-06-22)
 
-### Fix
-
-* 🔨 fix source dist ([`ec8ff8e`](https://github.com/rjdbcm/blastpipe/commit/ec8ff8e99213134a99c541a730d5f318df7700e0))
-
-* fix glue plz ([`e2468f9`](https://github.com/rjdbcm/blastpipe/commit/e2468f93722021248cf215f075c2ed8e5eb873b9))
-
-* fix glue scripts ([`9884ad6`](https://github.com/rjdbcm/blastpipe/commit/9884ad6e6ddd1d64b58b4a3a51d243a0fb47972d))
-
 ### Other
 
 * 🔧 stash and pop strategy for clean versioned build. ([`714e2ba`](https://github.com/rjdbcm/blastpipe/commit/714e2bae92198dc4d45d2c4aae81924a83b046c4))
@@ -431,30 +452,34 @@ CHANGELOG.md should actually get release notes from now on. ([`cdefd70`](https:/
 
 * 🔨 Use a transparent PKG-INFO file. ([`a413e6a`](https://github.com/rjdbcm/blastpipe/commit/a413e6acd3dd92629c408111456591e0050db925))
 
+* 🔨 fix source dist ([`ec8ff8e`](https://github.com/rjdbcm/blastpipe/commit/ec8ff8e99213134a99c541a730d5f318df7700e0))
+
 * 🔥 remove glue script. ([`177afc9`](https://github.com/rjdbcm/blastpipe/commit/177afc9932ba22bad02d314297adbebd8234c99b))
+
+* fix glue plz ([`e2468f9`](https://github.com/rjdbcm/blastpipe/commit/e2468f93722021248cf215f075c2ed8e5eb873b9))
+
+* fix glue scripts ([`9884ad6`](https://github.com/rjdbcm/blastpipe/commit/9884ad6e6ddd1d64b58b4a3a51d243a0fb47972d))
 
 
 ## v0.3.11 (2023-06-21)
 
-### Fix
+### Other
 
 * 🔨 try to again fix glue. ([`018333f`](https://github.com/rjdbcm/blastpipe/commit/018333f9b8d6a46eefe5b1efe3ffb44d9f615100))
 
 
 ## v0.3.10 (2023-06-21)
 
-### Fix
+### Other
 
 * 🔨 fix glue to give informative failures. ([`b220a9e`](https://github.com/rjdbcm/blastpipe/commit/b220a9ead2f55f43f92620c8654e2988cde94758))
 
 
 ## v0.3.9 (2023-06-21)
 
-### Fix
+### Other
 
 * 🔨 finalized fixed glue script. ([`6115ae4`](https://github.com/rjdbcm/blastpipe/commit/6115ae4a357ef7a463897cf08bd096c2e598f05b))
-
-### Other
 
 * 🔨 add glue script for dist. ([`b5b87ce`](https://github.com/rjdbcm/blastpipe/commit/b5b87ce8d7ad4834660a2f50cd9f810f239cee54))
 
@@ -525,13 +550,11 @@ CHANGELOG.md should actually get release notes from now on. ([`cdefd70`](https:/
 
 ## v0.3.0 (2023-06-20)
 
-### Fix
-
-* ✏️ fix missing continuation line ([`e92da41`](https://github.com/rjdbcm/blastpipe/commit/e92da41ae197af9832102ee58cd2194f0e550c87))
-
 ### Other
 
 * ✏️ remove hanging continuation. ([`1e5fc65`](https://github.com/rjdbcm/blastpipe/commit/1e5fc654d04528b55cf27dbb91741324fcd79f94))
+
+* ✏️ fix missing continuation line ([`e92da41`](https://github.com/rjdbcm/blastpipe/commit/e92da41ae197af9832102ee58cd2194f0e550c87))
 
 * 👷 move CHANGELOG commit to build step. ([`af2b566`](https://github.com/rjdbcm/blastpipe/commit/af2b56658ae00acbbf3791eaecbb57aa5295edcd))
 
@@ -569,13 +592,15 @@ CHANGELOG.md should actually get release notes from now on. ([`cdefd70`](https:/
 
 ## v0.2.3 (2023-06-20)
 
-### Other
+### :pencil2:
 
 * :pencil2: changed version writeback for release. ([`29334d6`](https://github.com/rjdbcm/blastpipe/commit/29334d653c79d5300230924d823a5f50a94aa9e6))
 
 * :pencil2: escape escape char. ([`d0a935a`](https://github.com/rjdbcm/blastpipe/commit/d0a935aadb3f8eb600e0940d87d32703aafc6aa4))
 
 * :pencil2: add back version variable. ([`5367338`](https://github.com/rjdbcm/blastpipe/commit/5367338747133e74e50c592e91082b074c3ea755))
+
+### Other
 
 * change version regex ([`343bc20`](https://github.com/rjdbcm/blastpipe/commit/343bc2038bb8274e5e81b274fd9aa94ada96146d))
 
@@ -648,6 +673,11 @@ Removed the partial function tail call optimization. ([`75934ce`](https://github
 * :boom: Remove REST server
 This code is not able to be attributed to a license. ([`a7507eb`](https://github.com/rjdbcm/blastpipe/commit/a7507eb105c0739e9e195ae10302c88cfde87e1b))
 
+### :bug:
+
+* :bug: : Fix meson sources
+Removed rest35.py ([`de437f2`](https://github.com/rjdbcm/blastpipe/commit/de437f2b96146094e761bf28c2f2b3a041fe52c0))
+
 ### Other
 
 * ✏️ Ignore build*/. ([`ae71fa4`](https://github.com/rjdbcm/blastpipe/commit/ae71fa4f4401f3a391511b210cfc9ba798a4912d))
@@ -704,9 +734,6 @@ add meson built sphinx-build ([`5f4d704`](https://github.com/rjdbcm/blastpipe/co
 
 * Add proper license attribution. ([`685fdf9`](https://github.com/rjdbcm/blastpipe/commit/685fdf9fed68c77105bb5a554578690a5b16074a))
 
-* :bug: : Fix meson sources
-Removed rest35.py ([`de437f2`](https://github.com/rjdbcm/blastpipe/commit/de437f2b96146094e761bf28c2f2b3a041fe52c0))
-
 * :page_facing_up: : Add malloc.py license
 MIT required notice ([`9565c9b`](https://github.com/rjdbcm/blastpipe/commit/9565c9b6d5d0f893d85c0fd39c27ca933b6e1b0e))
 
@@ -721,7 +748,7 @@ Added docstrings and fixed linter complaints. ([`cce2432`](https://github.com/rj
 
 ## v2023.6.0 (2023-05-07)
 
-### Fix
+### Other
 
 * fix again ([`c534fe1`](https://github.com/rjdbcm/blastpipe/commit/c534fe1dd9ad2b68622b721d4230220a7897b5b6))
 
@@ -733,12 +760,6 @@ Added docstrings and fixed linter complaints. ([`cce2432`](https://github.com/rj
 
 
 ## v2023.5.0 (2023-05-06)
-
-### Fix
-
-* fix import ([`9fe2054`](https://github.com/rjdbcm/blastpipe/commit/9fe2054ea30252f67ec2b2c66a3bf9f997986de0))
-
-* fixed version typo ([`9204c01`](https://github.com/rjdbcm/blastpipe/commit/9204c01d379a30081cac9cd70d5a18425949f3b2))
 
 ### Other
 
@@ -758,6 +779,8 @@ Added docstrings and fixed linter complaints. ([`cce2432`](https://github.com/rj
 
 * bump version ([`da8eb17`](https://github.com/rjdbcm/blastpipe/commit/da8eb172aeba06106bb9b33970e3d1faddcd8bd5))
 
+* fix import ([`9fe2054`](https://github.com/rjdbcm/blastpipe/commit/9fe2054ea30252f67ec2b2c66a3bf9f997986de0))
+
 * bump version to 2023.2.0b1 ([`5bd8dd9`](https://github.com/rjdbcm/blastpipe/commit/5bd8dd9e07b2d0a0ec42d261786b2185b6dbb4b2))
 
 * update build-system requirements ([`df6202b`](https://github.com/rjdbcm/blastpipe/commit/df6202bded6e531ab9788c15ae45e4c213568bc7))
@@ -769,6 +792,8 @@ Added docstrings and fixed linter complaints. ([`cce2432`](https://github.com/rj
 * add markdownlint and pre-commit hooks ([`0ab4aad`](https://github.com/rjdbcm/blastpipe/commit/0ab4aade442b5291f383ee5d58e04988768d3231))
 
 * change project name to lemprex ([`37618c3`](https://github.com/rjdbcm/blastpipe/commit/37618c3f7f3c25073e5ae8df8ec6f213d0b2dae0))
+
+* fixed version typo ([`9204c01`](https://github.com/rjdbcm/blastpipe/commit/9204c01d379a30081cac9cd70d5a18425949f3b2))
 
 * added sequence.chr_union() ([`ec1a137`](https://github.com/rjdbcm/blastpipe/commit/ec1a137bd21baf454591d59ff67e52aaed8beee3))
 
