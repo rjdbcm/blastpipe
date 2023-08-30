@@ -68,7 +68,7 @@ configure_file(
     ),
 )
 foreach source : ['README.rst', 'CHANGELOG.md', 'NOTICE.md', 'LICENSE.txt']
-    configure_file(input: source, output: source, configuration: configuration_data())
+    fs.copyfile(source)
 endforeach
 python_files = []
 stub_files = []
