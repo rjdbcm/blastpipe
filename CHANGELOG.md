@@ -2,6 +2,19 @@
 
 
 
+## v2023.6.1 (2023-08-30)
+
+### Fix
+
+* :construction_worker:(gh-actions): Force patch release of fixed workflow. ([`ef6bd97`](https://github.com/rjdbcm/blastpipe/commit/ef6bd9788fd5c9b960f21c70adca5c106a3eb2fb))
+
+### Other
+
+* :ambulance:(PKG-INFO): Correct Version at release. ([`e601bee`](https://github.com/rjdbcm/blastpipe/commit/e601bee6579b29d10c799e3b416ab01b17e6b3b2))
+
+* :construction_worker:(gh-actions): push PKG-INFO changes. ([`163a6a2`](https://github.com/rjdbcm/blastpipe/commit/163a6a23b816cafc7702c10487fa02e5a6c2fe54))
+
+
 ## v0.4.28 (2023-08-30)
 
 ### Fix
