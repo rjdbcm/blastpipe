@@ -17,9 +17,7 @@
 blastpipe
 =========
 
-|py-version-badge| |openssf-badge| |slsa-level3-badge| |fossa-badge| |semantic-release-badge|
-|coverage-badge| |pytest-plugins-badge| 
-|bandit-badge| |black-badge| |isort-badge| |flake8-badge| |pyright-badge| |pylint-ckpt-badge| |rst-lint-badge|
+|py-version-badge| |openssf-badge| |slsa-level3-badge| |fossa-badge| |semantic-release-badge| |bandit-badge|
 
 A simple utility library used as an integration and performance test for using
 Meson+OZI as Python 3 packaging management layer.
@@ -105,7 +103,6 @@ source software.
 
 .. |py-version-badge| image:: https://img.shields.io/pypi/pyversions/ozi
     :alt: PyPI - Python Version
-.. |pylint-ckpt-badge| image:: https://img.shields.io/badge/linting-%E2%9C%94%20Pylint%3A%2010.00%2F10-informational
 .. |slsa-level3-badge| image:: https://slsa.dev/images/gh-badge-level3.svg
 .. |fossa-badge| image:: https://app.fossa.com/api/projects/git%2Bgithub.com%2Frjdbcm%2Fblastpipe.svg?type=shield
     :target: https://app.fossa.com/projects/git%2Bgithub.com%2Frjdbcm%2Fblastpipe?ref=badge_large
@@ -119,12 +116,3 @@ source software.
 .. |bandit-badge| image:: https://img.shields.io/badge/security-%E2%9C%94%20bandit-yellow.svg
     :target: https://github.com/PyCQA/bandit
     :alt: Security Status
-.. |black-badge| image:: https://img.shields.io/badge/code%20style-%E2%9C%94%20black-000000.svg
-    :target: https://github.com/psf/black
-.. |coverage-badge| image:: https://img.shields.io/badge/Coverage.py-%E2%9C%94%20100%25-success
-.. |flake8-badge| image:: https://img.shields.io/badge/code%20quality-%E2%9C%94%20Flake8-informational
-.. |isort-badge| image:: https://img.shields.io/badge/%20imports-%E2%9C%94%20isort-%231674b1?style=flat&labelColor=ef8336
-    :target: https://pycqa.github.io/isort/
-.. |pyright-badge| image:: https://img.shields.io/badge/typing-%E2%9C%94%20Pyright%3A%200%20e%2C%200%20w%2C%200%20i-informational
-.. |pytest-plugins-badge| image:: https://img.shields.io/badge/Pytest-asyncio%20cov%20%20hypothesis%20mock%20randomly%20tcpclient-informational
-.. |rst-lint-badge| image:: https://img.shields.io/badge/rst--lint-%E2%9C%94%20README.rst-informational
