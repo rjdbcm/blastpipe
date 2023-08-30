@@ -28,14 +28,13 @@ on:
       - main
 
 jobs:
-  test:
-    name: ${{ matrix.ozi }} with ${{ matrix.py }} on ${{ matrix.os }}
+  checkpoint:
+    name: OZI ${{ matrix.ozi }} with ${{ matrix.py }} on ${{ matrix.os }}
     runs-on: '${{ matrix.os }}'
     strategy:
       matrix:
         ozi:
           - dist
-          - docs
           - lint
           - test
         os:
@@ -64,7 +63,7 @@ jobs:
           tox -vv --notest
       - name: '${{ matrix.ozi }}'
         run: |
-          tox --skip-pkg-install -- --setup=${{ matrix.ozi }}
+          tox -- --setup=${{ matrix.ozi }}
 
   release:
     needs: test
