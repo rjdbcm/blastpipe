@@ -112,7 +112,7 @@ jobs:
         python -m pyc_wheel dist/*.whl
         meson setup build
         git add PKG-INFO
-        git commit --allow-empty-message PKG-INFO -m ""
+        git commit PKG-INFO -m ":construction_worker:(PKG-INFO): Bump Version."
         git push origin main
         meson dist -C build --formats gztar --no-tests --allow-dirty
 
