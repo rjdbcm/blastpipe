@@ -10,6 +10,12 @@
 
 ### Other
 
+* Merge branch &#39;main&#39; of https://github.com/rjdbcm/blastpipe ([`de666bf`](https://github.com/rjdbcm/blastpipe/commit/de666bffdc7a51391a9b74f83967404a6a37807c))
+
+* :construction_worker:(gh-actions): use ``${{ github.event.repository.name }}`` as repo name. ([`bc6ec63`](https://github.com/rjdbcm/blastpipe/commit/bc6ec637004c91fcdf6304abdf20c7ad9f50951c))
+
+* Fixed: added back in rst-lint. ([`41463f3`](https://github.com/rjdbcm/blastpipe/commit/41463f3b70f89b358149c606e016f94bee4d8cf5))
+
 * :construction_worker:(gh-actions): Drop windows runner. ([`3aa7b20`](https://github.com/rjdbcm/blastpipe/commit/3aa7b20a8c0f7f09819b5300ab13873ce47ba889))
 
 * :ambulance::construction_worker:: Fix name of checkpoint job. ([`fb7af7b`](https://github.com/rjdbcm/blastpipe/commit/fb7af7bb67ab503c617e5d7df012eec07776d3a4))
