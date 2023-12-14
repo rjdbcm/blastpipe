@@ -21,23 +21,29 @@ config_files = [
     'mixin.py',
     'sequence.py',
     'tailcall.py',
+    '__init__.pyi',
+    'backports.pyi',
+    'buffer.pyi',
+    'loop.pyi',
+    'malloc.pyi',
+    'mixin.pyi',
+    'sequence.pyi',
+    'tailcall.pyi',
+    'py.typed',
 ]
-foreach file: config_files
- config_files += file+'i'
-endforeach
-# foreach file: stub_files
- # module = file.split('.')[0]
- # custom_target(file,
-  # install: true,
-  # install_dir: get_option('prefix'),
-  # output: file,
-  # command: [find_program('pyright', required: true), '--createstub', project_name+'.'+module],
-  # build_by_default: true,
-  # build_always_stale: true)
-# endforeach
-config_files += ['py.typed']
-python_files += files(config_files)
 if get_option('dev').enabled()
-foreach file: config_files
-fs.copyfile(file)
-endforeach endif
+    foreach file: python_files
+        fs.copyfile(file)
+        python.install_sources(file, subdir: project_name)
+    endforeach
+endif
+if false
+    executable('source_files', config_files)
+endif
+children = []
+foreach child: children
+    subdir(child)
+endforeach
+if false
+    executable('source_children', children)
+endif
