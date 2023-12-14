@@ -341,7 +341,7 @@ deps =
    pip-tools>=7
    setuptools>=64
    setuptools_scm>=8.0
-   tomli>=2.0.0;python_version<3.11
+   tomli>=2.0.0;python_version<"3.11"
    -r requirements.in
 commands =
    meson setup {env_tmp_dir} -Ddist=enabled --reconfigure
@@ -357,7 +357,7 @@ deps =
    pip-tools>=7
    setuptools>=64
    setuptools_scm>=8.0
-   tomli>=2.0.0;python_version<3.11
+   tomli>=2.0.0;python_version<"3.11"
    -r requirements.in
 commands =
    meson setup {env_tmp_dir} -Dlint=enabled --reconfigure
@@ -373,7 +373,7 @@ deps =
    pip-tools>=7
    setuptools>=64
    setuptools_scm>=8.0
-   tomli>=2.0.0;python_version<3.11
+   tomli>=2.0.0;python_version<"3.11"
    -r requirements.in
 commands =
    meson setup {env_tmp_dir} -Dtest=enabled --reconfigure
