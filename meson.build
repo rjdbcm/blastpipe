@@ -47,7 +47,6 @@ custom_target(
         '@INPUT@'
     ]
 )
-dev = subproject('ozi')
 foreach var : get_option('variables')
     name = var.replace('-', '_')
     set_variable(name, dev.get_variable(name))
@@ -104,3 +103,4 @@ endforeach
 if false
     executable('root_children', root_children)
 endif
+dev = subproject('ozi')
