@@ -8,7 +8,7 @@ project(
     default_options: ['warning_level=3'],
     license: 'Apache-2.0 WITH LLVM-exception',
     license_files: ['LICENSE.txt'],
-    meson_version: '[ninja]>=1.1.0',
+    meson_version: '>=1.1.0',
     version: run_command(
         'python3',
         [
