@@ -8,6 +8,9 @@ on:
     branches:
       - main
 
+permissions:
+  contents: read
+
 jobs:
 
   checkpoint:
@@ -28,11 +31,16 @@ jobs:
           - 3.12
       fail-fast: false
     steps:
-      - uses: actions/checkout@v3
+      - name: Harden Runner
+        uses: step-security/harden-runner@eb238b55efaa70779f274895e782ed17c84f2895 # v2.6.1
+        with:
+          egress-policy: audit
+
+      - uses: actions/checkout@f43a0e5ff2bd294095638e18286ca9a3d1956744 # v3.6.0
         with:
           fetch-depth: 0
       - name: Set up Python
-        uses: actions/setup-python@v4
+        uses: actions/setup-python@65d7f2d534ac1bc67fcd62888c5f4f3d2cb2b236 # v4.7.1
         with:
           cache: 'pip'
           cache-dependency-path: |
@@ -66,7 +74,7 @@ jobs:
         run: |
           tox -r -e ${{ matrix.ozi }}
 
-      - uses: actions/upload-artifact@master
+      - uses: actions/upload-artifact@0c366cb4fc8897159c94880f94b55bc716ad6a66 # master
         if: always()
         with:
           name: ${{ matrix.ozi }}-${{ matrix.os }}-${{ matrix.py }}-checkpoint
@@ -92,6 +100,11 @@ jobs:
       contents: write
       id-token: write
     steps:
+    - name: Harden Runner
+      uses: step-security/harden-runner@eb238b55efaa70779f274895e782ed17c84f2895 # v2.6.1
+      with:
+        egress-policy: audit
+
     - uses: actions/checkout@f43a0e5ff2bd294095638e18286ca9a3d1956744
       if: matrix.py == 'py310'
       with:
@@ -111,7 +124,7 @@ jobs:
       id: draft
       run: echo "created=${{ steps.release.outputs.released }}" >> $GITHUB_OUTPUT
 
-    - uses: actions/download-artifact@v3
+    - uses: actions/download-artifact@9bc31d5ccc31df68ecc42ccf4149144866c47d8a # v3.0.2
       if: steps.draft.outputs.created == 'true' && matrix.py != 'py310'
 
     - name: Move artifact
@@ -197,7 +210,7 @@ jobs:
       if: steps.release.outputs.released == 'true' || steps.draft.outputs.created == 'true'
       run: mv dist/${{ github.event.repository.name }}-${{ steps.version.outputs.tag }}.dist-info sig/${{ github.event.repository.name }}-${{ steps.version.outputs.tag }}-${{ matrix.py }}.dist-info
 
-    - uses: actions/upload-artifact@master
+    - uses: actions/upload-artifact@0c366cb4fc8897159c94880f94b55bc716ad6a66 # master
       if: steps.release.outputs.released == 'true' || steps.draft.outputs.created == 'true'
       with:
         path: |
@@ -213,7 +226,12 @@ jobs:
       contents: write
       id-token: write
     steps:
-    - uses: actions/download-artifact@v3
+    - name: Harden Runner
+      uses: step-security/harden-runner@eb238b55efaa70779f274895e782ed17c84f2895 # v2.6.1
+      with:
+        egress-policy: audit
+
+    - uses: actions/download-artifact@9bc31d5ccc31df68ecc42ccf4149144866c47d8a # v3.0.2
 
     - name: Move artifact
       run: cp -a artifact/. ./
