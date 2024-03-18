@@ -115,7 +115,7 @@ jobs:
     - name: Python Semantic Release
       id: release
       if: matrix.py == 'py310'
-      uses: python-semantic-release/python-semantic-release@c82bd673c30da94a02e039963c8c4c8a51758096
+      uses: python-semantic-release/python-semantic-release@455ce4cfa88d801dd496187f757738e3cb34fd00
       with:
         github_token: ${{ secrets.GITHUB_TOKEN }}
 
