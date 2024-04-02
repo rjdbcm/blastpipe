@@ -7,6 +7,9 @@ on:
     branches:
       - main
 
+permissions:
+  contents: read
+
 jobs:
   checkpoint:
     name: OZI ${{ matrix.ozi }} with ${{ matrix.py }} on ${{ matrix.os }}
@@ -29,7 +32,7 @@ jobs:
         with:
           fetch-depth: 0
 
-      - uses: rjdbcm/ozi-checkpoint@v0.1
+      - uses: OZI-Project/checkpoint@0.1.2
         with:
           python-version: ${{ matrix.py }}
           suite: ${{ matrix.ozi }}
@@ -51,7 +54,7 @@ jobs:
       contents: write
       id-token: write
     steps:
-      - uses: rjdbcm/ozi-release@v0.1
+      - uses: OZI-Project/release@0.1.13
         id: release
         with:
           python-dist: ${{ matrix.py }}
@@ -64,6 +67,6 @@ jobs:
       contents: write
       id-token: write
     steps:
-    - uses: rjdbcm/ozi-publish@v0.1
+    - uses: OZI-Project/publish@0.1.0
       with:
         github-token: ${{ secrets.GITHUB_TOKEN }}
