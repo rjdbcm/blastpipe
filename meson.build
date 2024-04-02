@@ -95,3 +95,5 @@ foreach var : get_option('variables')
     name = var.replace('-', '_')
     set_variable(name, dev.get_variable(name))
 endforeach
+meson.add_dist_script(dev.get_variable('pip'), 'install', 'tomli>=2.0.0')
+meson.add_dist_script(python, '-c', dev.get_variable('meson_dist_setuptools_scm'))
