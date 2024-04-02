@@ -1,4 +1,5 @@
 """Backports starting from Python 3.9"""
+
 # Copyright 2023 Ross J. Duff MSc
 # The copyright holder licenses this file
 # to you under the Apache License, Version 2.0 (the
@@ -13,13 +14,24 @@
 # KIND, either express or implied.  See the License for the
 # specific language governing permissions and limitations
 # under the License.
-import re
+from __future__ import annotations
+
 import string
-from typing import Any, List, Optional, Protocol, TypeVar
+import sys
+from typing import TYPE_CHECKING
+from typing import Any
+from typing import List
+from typing import Optional
+from typing import Protocol
+from typing import TypeVar
+
+if TYPE_CHECKING:  # pragma: no cover
+    import re
 
 # pylint: disable=import-error
-from . import PYMAJOR, PYMINOR, public
-from .mixin import Mixin, mixin
+from . import public
+from .mixin import Mixin
+from .mixin import mixin
 
 
 class IsTemplatePre311(Protocol):
@@ -39,7 +51,7 @@ class IsTemplatePre311(Protocol):
         """Abstract method to be implemented by base"""
 
 
-T = TypeVar('T', bound='string.Template')
+_T = TypeVar('_T', bound='string.Template')
 
 
 class TemplateGetIdentifiersMixin(Mixin[Any]):
@@ -70,7 +82,7 @@ class TemplateGetIdentifiersMixin(Mixin[Any]):
         return ids
 
     @classmethod
-    def extend_with(cls: type[IsTemplatePre311], instance: T) -> T:
+    def extend_with(cls: type[IsTemplatePre311], instance: _T) -> _T:
         """Extend the class with the mixin instance."""
         instance.__class__ = type(
             f'{instance.__class__.__name__}With{cls.__name__}',
@@ -81,9 +93,9 @@ class TemplateGetIdentifiersMixin(Mixin[Any]):
 
 
 # pylint: disable=line-too-long
-if PYMAJOR >= 3 and PYMINOR < 11:  # pragma: defer to python
+if sys.version_info < (3, 11):  # pragma: defer to python
     Template = public(
-        mixin(TemplateGetIdentifiersMixin, string.Template)
+        mixin(TemplateGetIdentifiersMixin, string.Template),
     )  # pragma: defer to string
 else:
     Template = public(string.Template)  # pragma: defer to string

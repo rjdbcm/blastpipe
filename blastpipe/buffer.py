@@ -2,6 +2,7 @@
 Using length-prefixed framing makes it easier for the reader to determine the
 boundaries of each message before passing it to msgspec to be decoded.
 """
+
 # Copyright 2023 Ross J. Duff MSc
 # The copyright holder licenses this file
 # to you under the Apache License, Version 2.0 (the

@@ -11,6 +11,7 @@ option(
         'dist',
         'lint',
         'test',
+        'docs',
     ]
 )
 option(
@@ -20,8 +21,6 @@ option(
     'mesonpep517',
     'mesonbuild',
     'piptools',
-    'debian',
-    'None',
     'tomli',
     ]
 )
@@ -52,7 +51,6 @@ option(
     'dist-suite',
     type: 'array',
     value: [
-        'None',
         'semantic_release',
         'sigstore',
     ]
@@ -140,8 +138,10 @@ option(
         '-c',
         '--skip-glob',
         '*.pyi',
-        '--extend-skip', 
+        '--extend-skip',
         'meson-private/pycompile.py',
+        '--extend-skip-glob',
+        'subprojects/*',
         '@build_root@'
     ],
 )
@@ -155,6 +155,7 @@ option(
         '--max-complexity',
         '5',
         '--show-source',
+        '--exclude', 'subprojects/,meson-private/',
         '@build_root@/',
     ],
 )
@@ -178,4 +179,25 @@ option(
       '--ignore-nosec',
       '-r', '@build_root@'
    ]
+)
+option('args-coverage', type: 'array', value: ['debug', 'config'])
+option(
+    'args-restructuredtext-lint',
+    type: 'array',
+    value: ['--level=warning', 'README.rst'],
+)
+option(
+    'args-pytest',
+    type: 'array',
+    value: [
+        '@build_root@/test',
+        '--cov=blastpipe',
+        '-q',
+        '--basetemp=temp',
+        '-n',
+        'auto',
+        '-d',
+        '--exitfirst',
+        '--cov-config=pyproject.toml' 
+    ],
 )

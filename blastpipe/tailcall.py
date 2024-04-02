@@ -1,4 +1,5 @@
 """Utility for tail call optimization."""
+
 # Copyright 2023 Ross J. Duff MSc
 # The copyright holder licenses this file
 # to you under the Apache License, Version 2.0 (the
@@ -13,8 +14,15 @@
 # KIND, either express or implied.  See the License for the
 # specific language governing permissions and limitations
 # under the License.
+from __future__ import annotations
+
 import functools
-from typing import Annotated, Any, Callable, Mapping, Optional, Tuple
+from typing import Annotated
+from typing import Any
+from typing import Callable
+from typing import Mapping
+from typing import Optional
+from typing import Tuple
 
 # pylint: disable=import-error
 from . import public

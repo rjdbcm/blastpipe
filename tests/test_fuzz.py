@@ -19,10 +19,11 @@ import typing
 from hypothesis import given
 from hypothesis import strategies as st
 
+import blastpipe.loop
+import blastpipe.malloc
+
 # pylint: disable=import-error
 import blastpipe.mixin
-import blastpipe.malloc
-import blastpipe.loop
 
 
 @st.composite

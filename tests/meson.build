@@ -12,15 +12,15 @@
 # KIND, either express or implied.  See the License for the
 # specific language governing permissions and limitations
 # under the License.
-config_files = [
+test_files = [
  'test_backports.py',
  'test_fuzz.py',
  'test_tailcall.py',
 ]
-foreach file: config_files
+foreach file: test_files
   fs.copyfile(file)
   python.install_sources(file, subdir: project_name/'tests')
 endforeach
 if false
-  executable('test_files', config_files)
+  executable('test_files', test_files)
 endif

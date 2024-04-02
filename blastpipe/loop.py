@@ -1,4 +1,5 @@
 """Utility functions for while loops"""
+
 # Copyright 2023 Ross J. Duff MSc
 # The copyright holder licenses this file
 # to you under the Apache License, Version 2.0 (the
@@ -13,8 +14,14 @@
 # KIND, either express or implied.  See the License for the
 # specific language governing permissions and limitations
 # under the License.
+from __future__ import annotations
+
 from contextlib import suppress
-from typing import Any, Callable, NoReturn, Optional, Tuple, Type, Union
+from typing import Any
+from typing import Callable
+from typing import Optional
+from typing import Tuple
+from typing import Type
 
 # pylint: disable=import-error
 from . import public
@@ -27,7 +34,7 @@ def while_raised(
     /,
     *args: Any,
     implicit_break: bool = True,
-) -> Union[Optional[Any], NoReturn]:
+) -> Optional[Any]:
     """Repeats a target function while suppressing exceptions provided.
     This is a convenience wrapper around :py:func:`contextlib.suppress`.
     :param exc_types: The exception types to suppress.
