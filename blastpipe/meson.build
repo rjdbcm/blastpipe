@@ -12,7 +12,7 @@
 # KIND, either express or implied.  See the License for the
 # specific language governing permissions and limitations
 # under the License.
-config_files = [
+python_files = [
     '__init__.py',
     'backports.py',
     'buffer.py',
@@ -31,14 +31,12 @@ config_files = [
     'tailcall.pyi',
     'py.typed',
 ]
-if get_option('dev').enabled()
-    foreach file: python_files
-        fs.copyfile(file)
-        python.install_sources(file, subdir: project_name)
-    endforeach
-endif
+foreach file: python_files
+    fs.copyfile(file)
+    python.install_sources(file, subdir: project_name)
+endforeach
 if false
-    executable('source_files', config_files)
+    executable('source_files', python_files)
 endif
 children = []
 foreach child: children

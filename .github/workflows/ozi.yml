@@ -1,86 +1,288 @@
-
-# Part of blastpipe.
-# See LICENSE.txt in the project root for details.
+# Part of the OZI Project, under the Apache License v2.0 with LLVM Exceptions.
+# See LICENSE.txt for license information.
+# SPDX-License-Identifier: Apache-2.0 WITH LLVM-exception
 name: OZI
 
 on:
   push:
     branches:
-      - main
+      - "v?[0-9].[0-9]*"
+      - "v?[1-9]+[0-9].[0-9]*"
 
 permissions:
   contents: read
 
 jobs:
-
-  checkpoint:
-    name: OZI ${{ matrix.ozi }} with ${{ matrix.py }} on ${{ matrix.os }}
-    runs-on: '${{ matrix.os }}'
+  checkpoint-dist-cp310-ubuntu-latest:
+    name: checkpoint-only-dist (Python 3.10 on ubuntu-latest)
+    runs-on: ubuntu-latest
     strategy:
-      matrix:
-        ozi:
-          - dist
-          - lint
-          - test
-        os:
-          - ubuntu-latest
-          - macos-latest
-        py:
-          - 3.10
-          - 3.11
-          - 3.12
       fail-fast: false
+    permissions:
+        id-token: write
     steps:
       - name: Harden Runner
-        uses: step-security/harden-runner@eb238b55efaa70779f274895e782ed17c84f2895 # v2.6.1
+        uses: step-security/harden-runner@63c24ba6bd7ba022e95695ff85de572c04a18142 # v2.7.0
         with:
-          egress-policy: audit
+          disable-sudo: true
+          egress-policy: block
+          allowed-endpoints: >
+            files.pythonhosted.org:443
+            github.com:443
+            oziproject.dev:443
+            pypi.org:443
+            registry.npmjs.org:443
+            objects.githubusercontent.com:443
+            fulcio.sigstore.dev:443
+            rekor.sigstore.dev:443
+            tuf-repo-cdn.sigstore.dev:443
 
-      - uses: actions/checkout@f43a0e5ff2bd294095638e18286ca9a3d1956744 # v3.6.0
+      - uses: OZI-Project/checkpoint@9b94738aab4c7c3ee989c8be1144d041bfd7a184
         with:
-          fetch-depth: 0
-      - name: Set up Python
-        uses: actions/setup-python@0a5c61591373683505ea898e09a3ea4f39ef2b9c # v5.0.0
+          python-version: "3.10"
+          suite: dist
+
+  checkpoint-dist-cp311-ubuntu-latest:
+    name: checkpoint-only-dist (Python 3.11 on ubuntu-latest)
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+    permissions:
+        id-token: write
+    steps:
+      - name: Harden Runner
+        uses: step-security/harden-runner@63c24ba6bd7ba022e95695ff85de572c04a18142 # v2.7.0
         with:
-          cache: 'pip'
-          cache-dependency-path: |
-            .tox/**/tmp/**/requirements.txt
-          python-version: '${{ matrix.py }}'
-      - name: Install dependencies
-        run: |
-          python -m pip install --upgrade pip
-          python -m pip install tox-gh>=1.2
+          disable-sudo: true
+          egress-policy: block
+          allowed-endpoints: >
+            files.pythonhosted.org:443
+            github.com:443
+            oziproject.dev:443
+            pypi.org:443
+            registry.npmjs.org:443
+            objects.githubusercontent.com:443
+            fulcio.sigstore.dev:443
+            rekor.sigstore.dev:443
+            tuf-repo-cdn.sigstore.dev:443
 
-      - name: OZI utility setup (First Try)
-        continue-on-error: true
-        id: setup1
-        run: |
-          tox -e ${{ matrix.ozi }}
-
-      - name: Logging Checkpoint Failures
-        if: ${{ steps.setup1.outcome == 'failure' }}
-        continue-on-error: true
-        run: |
-          cat .tox/**/tmp/meson-logs/testlog-${{ matrix.ozi }}.txt
-
-      - name: Logging OZI/Meson Failures
-        if: ${{ steps.setup1.outcome == 'failure' }}
-        continue-on-error: true
-        run: |
-          cat .tox/**/tmp/meson-logs/meson-log.txt
-
-      - name: OZI utility setup (Second Try)
-        if: ${{ steps.setup1.outcome == 'failure' }}
-        run: |
-          tox -r -e ${{ matrix.ozi }}
-
-      - uses: actions/upload-artifact@0c366cb4fc8897159c94880f94b55bc716ad6a66 # master
-        if: always()
+      - uses: OZI-Project/checkpoint@9b94738aab4c7c3ee989c8be1144d041bfd7a184
         with:
-          name: ${{ matrix.ozi }}-${{ matrix.os }}-${{ matrix.py }}-checkpoint
-          path: |
-            .tox/**/tmp/meson-logs/testlog-${{ matrix.ozi }}.txt
+          python-version: "3.11"
+          suite: dist
 
+  checkpoint-dist-cp312-ubuntu-latest:
+    name: checkpoint-only-dist (Python 3.12 on ubuntu-latest)
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+    permissions:
+        id-token: write
+    steps:
+      - name: Harden Runner
+        uses: step-security/harden-runner@63c24ba6bd7ba022e95695ff85de572c04a18142 # v2.7.0
+        with:
+          disable-sudo: true
+          egress-policy: block
+          allowed-endpoints: >
+            files.pythonhosted.org:443
+            github.com:443
+            oziproject.dev:443
+            pypi.org:443
+            registry.npmjs.org:443
+            objects.githubusercontent.com:443
+            fulcio.sigstore.dev:443
+            rekor.sigstore.dev:443
+            tuf-repo-cdn.sigstore.dev:443
+
+      - uses: OZI-Project/checkpoint@9b94738aab4c7c3ee989c8be1144d041bfd7a184
+        with:
+          python-version: "3.12"
+          suite: dist
+
+  checkpoint-lint-cp310-ubuntu-latest:
+    name: checkpoint-only-lint (Python 3.10 on ubuntu-latest)
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+    permissions:
+        id-token: write
+    steps:
+      - name: Harden Runner
+        uses: step-security/harden-runner@63c24ba6bd7ba022e95695ff85de572c04a18142 # v2.7.0
+        with:
+          disable-sudo: true
+          egress-policy: block
+          allowed-endpoints: >
+            files.pythonhosted.org:443
+            github.com:443
+            oziproject.dev:443
+            pypi.org:443
+            registry.npmjs.org:443
+            objects.githubusercontent.com:443
+            fulcio.sigstore.dev:443
+            rekor.sigstore.dev:443
+            tuf-repo-cdn.sigstore.dev:443
+
+      - uses: OZI-Project/checkpoint@9b94738aab4c7c3ee989c8be1144d041bfd7a184
+        with:
+          python-version: "3.10"
+          suite: lint
+
+  checkpoint-lint-cp311-ubuntu-latest:
+    name: checkpoint-only-lint (Python 3.11 on ubuntu-latest)
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+    permissions:
+        id-token: write
+    steps:
+      - name: Harden Runner
+        uses: step-security/harden-runner@63c24ba6bd7ba022e95695ff85de572c04a18142 # v2.7.0
+        with:
+          disable-sudo: true
+          egress-policy: block
+          allowed-endpoints: >
+            files.pythonhosted.org:443
+            github.com:443
+            oziproject.dev:443
+            pypi.org:443
+            registry.npmjs.org:443
+            objects.githubusercontent.com:443
+            fulcio.sigstore.dev:443
+            rekor.sigstore.dev:443
+            tuf-repo-cdn.sigstore.dev:443
+
+      - uses: OZI-Project/checkpoint@9b94738aab4c7c3ee989c8be1144d041bfd7a184
+        with:
+          python-version: "3.11"
+          suite: lint
+
+  checkpoint-lint-cp312-ubuntu-latest:
+    name: checkpoint-only-lint (Python 3.12 on ubuntu-latest)
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+    permissions:
+        id-token: write
+    steps:
+      - name: Harden Runner
+        uses: step-security/harden-runner@63c24ba6bd7ba022e95695ff85de572c04a18142 # v2.7.0
+        with:
+          disable-sudo: true
+          egress-policy: block
+          allowed-endpoints: >
+            files.pythonhosted.org:443
+            github.com:443
+            oziproject.dev:443
+            pypi.org:443
+            registry.npmjs.org:443
+            objects.githubusercontent.com:443
+            fulcio.sigstore.dev:443
+            rekor.sigstore.dev:443
+            tuf-repo-cdn.sigstore.dev:443
+
+      - uses: OZI-Project/checkpoint@9b94738aab4c7c3ee989c8be1144d041bfd7a184
+        with:
+          python-version: "3.12"
+          suite: lint
+  
+  checkpoint-test-cp310-ubuntu-latest:
+    name: checkpoint-only-test (Python 3.10 on ubuntu-latest)
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+    permissions:
+        id-token: write
+    steps:
+      - name: Harden Runner
+        uses: step-security/harden-runner@63c24ba6bd7ba022e95695ff85de572c04a18142 # v2.7.0
+        with:
+          disable-sudo: true
+          egress-policy: block
+          allowed-endpoints: >
+            files.pythonhosted.org:443
+            github.com:443
+            oziproject.dev:443
+            pypi.org:443
+            registry.npmjs.org:443
+            objects.githubusercontent.com:443
+            fulcio.sigstore.dev:443
+            rekor.sigstore.dev:443
+            tuf-repo-cdn.sigstore.dev:443
+
+      - uses: OZI-Project/checkpoint@9b94738aab4c7c3ee989c8be1144d041bfd7a184
+        with:
+          python-version: "3.10"
+          suite: test
+
+  checkpoint-test-cp311-ubuntu-latest:
+    name: checkpoint-only-test (Python 3.11 on ubuntu-latest)
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+    permissions:
+        id-token: write
+    steps:
+      - name: Harden Runner
+        uses: step-security/harden-runner@63c24ba6bd7ba022e95695ff85de572c04a18142 # v2.7.0
+        with:
+          disable-sudo: true
+          egress-policy: block
+          allowed-endpoints: >
+            files.pythonhosted.org:443
+            github.com:443
+            oziproject.dev:443
+            pypi.org:443
+            registry.npmjs.org:443
+            objects.githubusercontent.com:443
+            fulcio.sigstore.dev:443
+            rekor.sigstore.dev:443
+            tuf-repo-cdn.sigstore.dev:443
+
+      - uses: OZI-Project/checkpoint@9b94738aab4c7c3ee989c8be1144d041bfd7a184
+        with:
+          python-version: "3.11"
+          suite: test
+
+  checkpoint-test-cp312-ubuntu-latest:
+    name: checkpoint-only-test (Python 3.12 on ubuntu-latest)
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+    permissions:
+        id-token: write
+    steps:
+      - name: Harden Runner
+        uses: step-security/harden-runner@63c24ba6bd7ba022e95695ff85de572c04a18142 # v2.7.0
+        with:
+          disable-sudo: true
+          egress-policy: block
+          allowed-endpoints: >
+            files.pythonhosted.org:443
+            github.com:443
+            oziproject.dev:443
+            pypi.org:443
+            registry.npmjs.org:443
+            objects.githubusercontent.com:443
+            fulcio.sigstore.dev:443
+            rekor.sigstore.dev:443
+            tuf-repo-cdn.sigstore.dev:443
+
+      - uses: OZI-Project/checkpoint@9b94738aab4c7c3ee989c8be1144d041bfd7a184
+        with:
+          python-version: "3.12"
+          suite: test
+
+  checkpoint:
+    runs-on: ubuntu-latest
+    needs: [checkpoint-dist-cp310-ubuntu-latest, checkpoint-dist-cp311-ubuntu-latest, checkpoint-dist-cp312-ubuntu-latest, checkpoint-lint-cp310-ubuntu-latest, checkpoint-lint-cp311-ubuntu-latest, checkpoint-lint-cp312-ubuntu-latest, checkpoint-test-cp310-ubuntu-latest, checkpoint-test-cp311-ubuntu-latest, checkpoint-test-cp312-ubuntu-latest]
+    steps:
+      - name: Harden Runner
+        uses: step-security/harden-runner@63c24ba6bd7ba022e95695ff85de572c04a18142 # v2.7.0
+        with:
+          disable-sudo: true
+          egress-policy: block
 
   release:
     needs: checkpoint
@@ -89,160 +291,74 @@ jobs:
     strategy:
       matrix:
         py:
-          - py310
-          - py311
-          - py312
+          - 'py310'
+          - 'py311'
+          - 'py312'
       fail-fast: true
       max-parallel: 1
     outputs:
-      drafted: ${{ steps.draft.outputs.created }}
+      drafted: ${{ steps.release.outputs.drafted }}
+      hashes: ${{ steps.release.outputs.hashes }}
+      tag: ${{ steps.release.outputs.tag }}
     permissions:
       contents: write
       id-token: write
     steps:
-    - name: Harden Runner
-      uses: step-security/harden-runner@eb238b55efaa70779f274895e782ed17c84f2895 # v2.6.1
-      with:
-        egress-policy: audit
+      - name: Harden Runner
+        uses: step-security/harden-runner@63c24ba6bd7ba022e95695ff85de572c04a18142 # v2.7.0
+        with:
+          disable-sudo: true
+          egress-policy: block
+          allowed-endpoints: >
+            api.github.com:443
+            files.pythonhosted.org:443
+            fulcio.sigstore.dev:443
+            github.com:443
+            pypi.org:443
+            rekor.sigstore.dev:443
+            tuf-repo-cdn.sigstore.dev:443
 
-    - uses: actions/checkout@f43a0e5ff2bd294095638e18286ca9a3d1956744
-      if: matrix.py == 'py310'
-      with:
-        token: ${{ secrets.GITHUB_TOKEN }}
-        fetch-depth: 0
+      - uses: OZI-Project/release@9a404fb06ef2b5c1634518720f8cdafa41539f77
+        id: release
+        with:
+          python-dist: ${{ matrix.py }}
+          github-token: ${{ secrets.GITHUB_TOKEN }}
 
-
-    - name: Python Semantic Release
-      id: release
-      if: matrix.py == 'py310'
-      uses: python-semantic-release/python-semantic-release@1d2bbdf23aab816cd9d6e26f537b5cec9e39dede
-      with:
-        github_token: ${{ secrets.GITHUB_TOKEN }}
-
-    - name: Pass release draft status to job
-      if: matrix.py == 'py310'
-      id: draft
-      run: echo "created=${{ steps.release.outputs.released }}" >> $GITHUB_OUTPUT
-
-    - uses: actions/download-artifact@6b208ae046db98c579e8a3aa621ab581ff575935 # v4.1.1
-      if: steps.draft.outputs.created == 'true' && matrix.py != 'py310'
-
-    - name: Move artifact
-      if: steps.draft.outputs.created == 'true' && matrix.py != 'py310'
-      run: cp -a artifact/. ./
-
-    - name: Set version
-      if: steps.release.outputs.released == 'true' || steps.draft.outputs.created == 'true'
-      id: version
-      run: echo "tag=$(git describe --tags --abbrev=0)" >> $GITHUB_OUTPUT
-
-    - name: Set up Python 3.10
-      if: matrix.py == 'py310'
-      uses: actions/setup-python@0a5c61591373683505ea898e09a3ea4f39ef2b9c
-      with:
-        cache: 'pip'
-        python-version: 3.10
-
-    - name: Set up Python 3.11
-      if: matrix.py == 'py311'
-      uses: actions/setup-python@0a5c61591373683505ea898e09a3ea4f39ef2b9c
-      with:
-        cache: 'pip'
-        python-version: 3.11
-
-    - name: Set up Python 3.12
-      if: matrix.py == 'py312'
-      uses: actions/setup-python@0a5c61591373683505ea898e09a3ea4f39ef2b9c
-      with:
-        cache: 'pip'
-        python-version: 3.12
-    - name: Install ${{ matrix.py }} build dependencies
-      if: steps.release.outputs.released == 'true' || steps.draft.outputs.created == 'true'
-      run: |
-          python -m pip install --upgrade pip
-          python -m pip install --user --upgrade build
-          python -m pip install --user --upgrade pyc_wheel
-          python -m pip install --user --upgrade sigstore
-          python -m pip install --user --upgrade meson
-          python -m pip install --user --upgrade setuptools_scm
-          python -m pip install --user --upgrade mesonpep517
-          python -m pip install --user --upgrade ninja
-          python -m pip install --user --upgrade pip-tools
-
-    - name: Configure git repository
-      if: matrix.py == 'py310'
-      run: |
-          git config --global user.email "noreply@oziproject.dev"
-          git config --global user.name "OZI Packaging"
-          rm -rf .git/COMMIT_EDITMSG
-          mkdir sig
-    - name: Build ${{ matrix.py }} wheel
-      id: wheel
-      if: steps.release.outputs.released == 'true' || steps.draft.outputs.created == 'true'
-      run: |
-        meson setup build
-        python -m build -w
-
-        python -m pyc_wheel dist/${{ github.event.repository.name }}-${{ steps.version.outputs.tag }}-py3-none-any.whl
-        mv dist/${{ github.event.repository.name }}-${{ steps.version.outputs.tag }}-py3-none-any.whl dist/${{ github.event.repository.name }}-${{ steps.version.outputs.tag }}-${{ matrix.py }}-none-any.whl
-    - name: Build and sign sdist
-      id: sdist
-      if: matrix.py == 'py312'
-      run: |
-        meson setup build
-        pip install .
-        meson dist -C build --formats gztar --no-tests
-        mv build/meson-dist/${{ github.event.repository.name }}-${{ steps.version.outputs.tag }}.tar.gz dist/${{ github.event.repository.name }}-${{ steps.version.outputs.tag }}.tar.gz 
-        sigstore sign dist/${{ github.event.repository.name }}-${{ steps.version.outputs.tag }}.tar.gz
-        mv dist/${{ github.event.repository.name }}-${{ steps.version.outputs.tag }}.tar.gz.sigstore sig/${{ github.event.repository.name }}-${{ steps.version.outputs.tag }}.tar.gz.sigstore
-
-
-    - name: Sign wheel
-      if: steps.release.outputs.released == 'true' || steps.draft.outputs.created == 'true'
-      run: |
-        sigstore sign dist/${{ github.event.repository.name }}-${{ steps.version.outputs.tag }}-${{ matrix.py }}-none-any.whl
-
-    - name: Move sigstore signing files
-      run: |
-        mv dist/${{ github.event.repository.name }}-${{ steps.version.outputs.tag }}-${{ matrix.py }}-none-any.whl.sigstore sig/${{ github.event.repository.name }}-${{ steps.version.outputs.tag }}-${{ matrix.py }}-none-any.whl.sigstore
-
-    - name: Move dist-info file
-      if: steps.release.outputs.released == 'true' || steps.draft.outputs.created == 'true'
-      run: mv dist/${{ github.event.repository.name }}-${{ steps.version.outputs.tag }}.dist-info sig/${{ github.event.repository.name }}-${{ steps.version.outputs.tag }}-${{ matrix.py }}.dist-info
-
-    - uses: actions/upload-artifact@0c366cb4fc8897159c94880f94b55bc716ad6a66 # master
-      if: steps.release.outputs.released == 'true' || steps.draft.outputs.created == 'true'
-      with:
-        path: |
-          ./
-          !artifact/
-
+  generate-provenance:
+    needs: [release, checkpoint]
+    name: Generate build provenance
+    permissions:
+      actions: read # To read the workflow path.
+      id-token: write # To sign the provenance.
+      contents: write # To add assets to a release.
+    # Currently this action needs to be referred by tag. More details at:
+    # https://github.com/slsa-framework/slsa-github-generator#verification-of-provenance
+    uses: slsa-framework/slsa-github-generator/.github/workflows/generator_generic_slsa3.yml@v1.10.0
+    with:
+      provenance-name: provenance-${{ github.event.repository.name }}-${{ needs.release.outputs.tag }}.intoto.jsonl
+      base64-subjects: "${{ needs.release.outputs.hashes }}"
+      upload-tag-name: "${{ needs.release.outputs.tag }}"
+      upload-assets: true
 
   publish:
     runs-on: ubuntu-latest
-    needs: release
+    needs: [release, generate-provenance]
     if: needs.release.outputs.drafted == 'true'
     permissions:
+      actions: read
       contents: write
       id-token: write
     steps:
     - name: Harden Runner
-      uses: step-security/harden-runner@eb238b55efaa70779f274895e782ed17c84f2895 # v2.6.1
+      uses: step-security/harden-runner@63c24ba6bd7ba022e95695ff85de572c04a18142 # v2.7.0
       with:
-        egress-policy: audit
+        disable-sudo: true
+        egress-policy: block
+        allowed-endpoints: >
+          api.github.com:443
+          upload.pypi.org:443
+          uploads.github.com:443
 
-    - uses: actions/download-artifact@6b208ae046db98c579e8a3aa621ab581ff575935 # v4.1.1
-
-    - name: Move artifact
-      run: cp -a artifact/. ./
-
-    - name: Publish package distributions to GitHub Releases
-      uses: python-semantic-release/upload-to-gh-release@0f96c02a48278aff14251e9f1a0d73122a8c638b
+    - uses: OZI-Project/publish@d9173e726b4cbb2ecd631fff0259656737e0dc23
       with:
-        github_token: ${{ secrets.GITHUB_TOKEN }}
-
-    - name: Publish package distributions to PyPI
-      uses: pypa/gh-action-pypi-publish@27b31702a0e7fc50959f5ad993c78deac1bdfc29
-      with:
-        user: __token__
-        password: ${{ secrets.PYPI_API_TOKEN }}
+        github-token: ${{ secrets.GITHUB_TOKEN }}

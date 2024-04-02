@@ -1,4 +1,5 @@
 """Sequence manipulation."""
+
 # Copyright 2023 Ross J. Duff MSc
 # The copyright holder licenses this file
 # to you under the Apache License, Version 2.0 (the
@@ -13,6 +14,8 @@
 # KIND, either express or implied.  See the License for the
 # specific language governing permissions and limitations
 # under the License.
+from __future__ import annotations
+
 import asyncio
 from typing import Set
 

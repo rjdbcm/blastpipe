@@ -1,4 +1,5 @@
 """Utilities for measuring memory usage."""
+
 # Copyright 2023 Ross J. Duff MSc
 # The copyright holder licenses this file
 # to you under the Apache License, Version 2.0 (the
@@ -13,10 +14,19 @@
 # KIND, either express or implied.  See the License for the
 # specific language governing permissions and limitations
 # under the License.
+from __future__ import annotations
+
 from collections import deque
 from itertools import chain
-from sys import getsizeof, stderr  # type: ignore
-from typing import Any, Callable, Dict, Hashable, Iterable, Optional, Sized, Union
+from sys import getsizeof  # type: ignore
+from sys import stderr
+from typing import Any
+from typing import Callable
+from typing import Hashable
+from typing import Iterable
+from typing import Optional
+from typing import Sized
+from typing import Union
 
 try:
     from reprlib import repr  # pylint: disable=redefined-builtin
@@ -30,7 +40,7 @@ from . import public
 @public
 def total_size(  # noqa: C901
     obj: Hashable,
-    handlers: Optional[Dict[Any, Callable[..., Any]]] = None,
+    handlers: Optional[dict[Any, Callable[..., Any]]] = None,
     verbose: bool = False,
 ) -> int:
     """Returns the approximate memory footprint an object and all of its contents.
@@ -57,7 +67,7 @@ def total_size(  # noqa: C901
         handlers = {}
 
     def dict_handler(
-        _dict: dict[Any, Any]
+        _dict: dict[Any, Any],
     ) -> chain[Iterable[Any]]:  # pragma: defer to python
         """Default handler for dict objects"""
         return chain.from_iterable(_dict.items())

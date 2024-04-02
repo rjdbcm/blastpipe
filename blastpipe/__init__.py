@@ -1,4 +1,5 @@
 """blastpipe: A utility library for modern Python."""
+
 # Copyright 2023 Ross J. Duff MSc
 # The copyright holder licenses this file
 # to you under the Apache License, Version 2.0 (the
@@ -14,8 +15,10 @@
 # specific language governing permissions and limitations
 # under the License.
 import sys
-from importlib.metadata import PackageNotFoundError, version
-from typing import Annotated, Any
+from importlib.metadata import PackageNotFoundError
+from importlib.metadata import version
+from typing import Annotated
+from typing import Any
 
 try:
     __version__ = version('blastpipe')

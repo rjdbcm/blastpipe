@@ -1,4 +1,5 @@
 """Mixin ABC, Generic, and helper function."""
+
 # Copyright 2023 Ross J. Duff MSc
 # The copyright holder licenses this file
 # to you under the Apache License, Version 2.0 (the
@@ -13,8 +14,11 @@
 # KIND, either express or implied.  See the License for the
 # specific language governing permissions and limitations
 # under the License.
-from abc import ABC, abstractmethod
-from typing import Any, Generic, TypeVar
+from abc import ABC
+from abc import abstractmethod
+from typing import Any
+from typing import Generic
+from typing import TypeVar
 
 # pylint: disable=import-error
 from . import public

@@ -19,15 +19,10 @@ project(
     ).stdout().strip(),
 )
 env = environment()
-source_root = meson.current_source_dir()
-build_root = meson.current_build_dir()
 fs = import('fs')
 pymod = import('python')
 project_name = meson.project_name()
-build_dir = fs.stem(build_root)
-source_to_build = configuration_data()
 docs_source = 'subprojects/docs'
-test_source = 'tests'
 pip_compile = find_program('pip-compile', required: true)
 requirements = ['requirements.in']
 custom_target(
@@ -47,10 +42,6 @@ custom_target(
         '@INPUT@'
     ]
 )
-foreach var : get_option('variables')
-    name = var.replace('-', '_')
-    set_variable(name, dev.get_variable(name))
-endforeach
 python = pymod.find_installation()
 pkg_info_req = 'Requires-Dist: @0@'
 required = []
@@ -59,6 +50,7 @@ foreach requirement : fs.read('requirements.in').split('\n')
         required += pkg_info_req.format(requirement)
     endif
 endforeach
+pyproject_config = configuration_data()
 pyproject_config.set(
     'PYTHON_VERSION_DIST',
     'py'+''.join(python.language_version().split('.'))
@@ -74,10 +66,6 @@ configure_file(
     output: 'pyproject.toml',
     configuration: pyproject_config
 )
-run_command(python, ['-c', replace_ruff_target_version], check: true)
-configure_file(command: [python, '-c', meson_setuptools_scm], output: 'PKG-INFO')
-meson.add_dist_script(pip, 'install', 'tomli>=2.0.0')
-meson.add_dist_script(python, '-c', meson_dist_setuptools_scm)
 vcs_tag(input: 'pyproject.toml', output: 'pyproject.toml')
 root_files = [
     'README.rst',
@@ -89,7 +77,6 @@ root_files = [
 foreach source : root_files
     fs.copyfile(source)
 endforeach
-run_command(python, ['-c', sync_pkg_readme], check: true)
 if false
     executable('root_files', root_files)
 endif
@@ -104,3 +91,7 @@ if false
     executable('root_children', root_children)
 endif
 dev = subproject('ozi')
+foreach var : get_option('variables')
+    name = var.replace('-', '_')
+    set_variable(name, dev.get_variable(name))
+endforeach
