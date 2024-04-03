@@ -90,7 +90,7 @@ endforeach
 if false
     executable('root_children', root_children)
 endif
-if not meson.is_subproject():
+if not meson.is_subproject()
     dev = subproject('ozi')
     foreach var : get_option('variables')
         name = var.replace('-', '_')
