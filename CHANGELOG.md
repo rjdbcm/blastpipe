@@ -2,7 +2,7 @@
 
 
 
-## v2024.0.0 (2024-04-02)
+## v2024.0.0 (2024-04-03)
 
 ### :arrow_up:
 
@@ -195,6 +195,8 @@ Signed-off-by: rjdbcm &lt;rjdbcm@mail.umkc.edu&gt; ([`3297787`](https://github.c
 
 ### :hammer:
 
+* :hammer: Add dist script. ([`432c94f`](https://github.com/OZI-Project/blastpipe/commit/432c94fe7a839cd5034a6f352a0e930e24f0e61c))
+
 * :hammer: Update OZI workflow.
 
 Signed-off-by: rjdbcm &lt;rjdbcm@mail.umkc.edu&gt; ([`d9df1c6`](https://github.com/OZI-Project/blastpipe/commit/d9df1c64231fc797e5bff40a62d449d0ce552319))
@@ -202,6 +204,16 @@ Signed-off-by: rjdbcm &lt;rjdbcm@mail.umkc.edu&gt; ([`d9df1c6`](https://github.c
 * :hammer: Update for re-integration with OZI. ([`58189c2`](https://github.com/OZI-Project/blastpipe/commit/58189c293f4badb35be34b2f972ce96e639ecab1))
 
 ### Other
+
+* Delete ozi subproject folder ([`8829084`](https://github.com/OZI-Project/blastpipe/commit/88290840d8635f7f44d512595821837bd7f2cf3a))
+
+* Update subproject ref
+
+Signed-off-by: rjdbcm &lt;rjdbcm@mail.umkc.edu&gt; ([`4b614f5`](https://github.com/OZI-Project/blastpipe/commit/4b614f55641a997b2d170b9fa29054b1c0e0df15))
+
+* OZI wrap update
+
+Signed-off-by: rjdbcm &lt;rjdbcm@mail.umkc.edu&gt; ([`ad127ad`](https://github.com/OZI-Project/blastpipe/commit/ad127ad13d9ef0ce90e63b844d8262df98ce5acb))
 
 * Merge branch &#39;dev&#39; into main
 
