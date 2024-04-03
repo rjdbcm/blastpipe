@@ -2,6 +2,21 @@
 
 
 
+## v2024.0.1 (2024-04-03)
+
+### :hammer:
+
+* :hammer: Don&#39;t install when run as subproject.
+
+Signed-off-by: rjdbcm &lt;rjdbcm@mail.umkc.edu&gt; ([`1973353`](https://github.com/OZI-Project/blastpipe/commit/1973353f4b76ba65b03f6833ca8982ba3347c880))
+
+### Other
+
+* Merge branch &#39;main&#39; of https://github.com/rjdbcm/blastpipe ([`5f143a2`](https://github.com/OZI-Project/blastpipe/commit/5f143a25d5cbf414a77406df336ea14002232a9c))
+
+* Don&#39;t install when run as subproject. ([`a5dfcbc`](https://github.com/OZI-Project/blastpipe/commit/a5dfcbc7ced9f710b01285b704cc4a54538416ec))
+
+
 ## v2024.0.0 (2024-04-03)
 
 ### :arrow_up:
