@@ -2,6 +2,23 @@
 
 
 
+## v2024.0.2 (2024-04-03)
+
+### :hammer:
+
+* :hammer: Don&#39;t bootstrap OZI if blastpipe is a subproject (for now).
+
+Signed-off-by: rjdbcm &lt;rjdbcm@mail.umkc.edu&gt; ([`0068204`](https://github.com/OZI-Project/blastpipe/commit/006820441f7ac3be090ac02a87fbad2ff0e4bf01))
+
+### :pencil2:
+
+* :pencil2: fix typo ([`95701bf`](https://github.com/OZI-Project/blastpipe/commit/95701bf17c756a9ee6f72063aad06c9c7286a091))
+
+### Other
+
+*  Remove folder. ([`117e75b`](https://github.com/OZI-Project/blastpipe/commit/117e75b5ba7c4687f4c1fa9dc1bda3972c1e53a9))
+
+
 ## v2024.0.1 (2024-04-03)
 
 ### :hammer:
