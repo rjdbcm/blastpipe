@@ -2,6 +2,21 @@
 
 
 
+## v2024.0.3 (2024-04-04)
+
+### :hammer:
+
+* :hammer: Add install-subprojects option.
+
+Signed-off-by: rjdbcm &lt;rjdbcm@mail.umkc.edu&gt; ([`af8f951`](https://github.com/OZI-Project/blastpipe/commit/af8f9519a11ed5efd9a86fc6089afb543688a46e))
+
+### :pencil2:
+
+* :pencil2: remove subproject folder.
+
+Signed-off-by: rjdbcm &lt;rjdbcm@mail.umkc.edu&gt; ([`727b7d0`](https://github.com/OZI-Project/blastpipe/commit/727b7d0ad55627334ab0f2a919e6d1cc45a24652))
+
+
 ## v2024.0.2 (2024-04-03)
 
 ### :hammer:
