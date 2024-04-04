@@ -33,7 +33,7 @@ python_files = [
 ]
 foreach file: python_files
     fs.copyfile(file)
-    if not meson.is_subproject()
+    if not meson.is_subproject() or get_option('install-subprojects').enabled()
         python.install_sources(file, subdir: project_name)
     endif
 endforeach
