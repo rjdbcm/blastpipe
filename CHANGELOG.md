@@ -2,6 +2,74 @@
 
 
 
+## v2024.0.4 (2024-04-13)
+
+### :arrow_up:
+
+* :arrow_up: Bump OZI-Project/release from 0.1.13 to 0.1.14
+
+Bumps [OZI-Project/release](https://github.com/ozi-project/release) from 0.1.13 to 0.1.14.
+- [Release notes](https://github.com/ozi-project/release/releases)
+- [Commits](https://github.com/ozi-project/release/compare/9a404fb06ef2b5c1634518720f8cdafa41539f77...945b312031019d0d85c5674721327f894131d898)
+
+---
+updated-dependencies:
+- dependency-name: OZI-Project/release
+  dependency-type: direct:production
+  update-type: version-update:semver-patch
+...
+
+Signed-off-by: dependabot[bot] &lt;support@github.com&gt; ([`1b019b0`](https://github.com/OZI-Project/blastpipe/commit/1b019b04ecfaf30b25a05d9c092ee213a10a0fd5))
+
+* :arrow_up: Bump github/codeql-action from 3.24.6 to 3.24.10
+
+Bumps [github/codeql-action](https://github.com/github/codeql-action) from 3.24.6 to 3.24.10.
+- [Release notes](https://github.com/github/codeql-action/releases)
+- [Changelog](https://github.com/github/codeql-action/blob/main/CHANGELOG.md)
+- [Commits](https://github.com/github/codeql-action/compare/8a470fddafa5cbb6266ee11b37ef4d8aae19c571...4355270be187e1b672a7a1c7c7bae5afdc1ab94a)
+
+---
+updated-dependencies:
+- dependency-name: github/codeql-action
+  dependency-type: direct:production
+  update-type: version-update:semver-patch
+...
+
+Signed-off-by: dependabot[bot] &lt;support@github.com&gt; ([`d8e7924`](https://github.com/OZI-Project/blastpipe/commit/d8e7924033adcf052e320a2a5e8057833616d53c))
+
+### :hammer:
+
+* :hammer: bump to lastest OZI. ([`912190a`](https://github.com/OZI-Project/blastpipe/commit/912190ae91ffc5645f00396b76e5e3adab643228))
+
+### :pencil2:
+
+* :pencil2: Remove unused option variables. ([`71e885f`](https://github.com/OZI-Project/blastpipe/commit/71e885fc0a179846bc02034430beabbd68068992))
+
+* :pencil2: fix missing envs. ([`b59bc1c`](https://github.com/OZI-Project/blastpipe/commit/b59bc1ca1f3db7ad58858c0ccf8af9e586a1b574))
+
+### Other
+
+* Merge pull request #55 from OZI-Project/dependabot/github_actions/OZI-Project/release-0.1.14
+
+⬆️ Bump OZI-Project/release from 0.1.13 to 0.1.14 ([`d4871e4`](https://github.com/OZI-Project/blastpipe/commit/d4871e4fe9345716add535a6755dace925dd5230))
+
+* :rotating_light: Fix quoted type annotations.
+
+Signed-off-by: rjdbcm &lt;rjdbcm@mail.umkc.edu&gt; ([`988f9f2`](https://github.com/OZI-Project/blastpipe/commit/988f9f2b8697ce6569b456ebf1343b952d4fdb0c))
+
+* Merge pull request #50 from OZI-Project/dependabot/github_actions/actions/dependency-review-action-4.2.5
+
+⬆️ Bump actions/dependency-review-action from 4.1.3 to 4.2.5 ([`d3113fe`](https://github.com/OZI-Project/blastpipe/commit/d3113fe1200a1c6bb7822d96351e1820a18a56f8))
+
+* Merge pull request #54 from OZI-Project/dependabot/github_actions/github/codeql-action-3.24.10
+
+⬆️ Bump github/codeql-action from 3.24.6 to 3.24.10 ([`e34440b`](https://github.com/OZI-Project/blastpipe/commit/e34440bb02c1e4750e0acadf2d1fa76f9ae2cf82))
+
+* Merge pull request #52 from OZI-Project/dependabot/github_actions/actions/upload-artifact-4.3.1
+
+⬆️ Bump actions/upload-artifact from 3.1.3 to 4.3.1 ([`389ac50`](https://github.com/OZI-Project/blastpipe/commit/389ac505d22f1a893e3e4423ee8fee49706739aa))
+
+
 ## v2024.0.3 (2024-04-04)
 
 ### :hammer:
@@ -52,6 +120,36 @@ Signed-off-by: rjdbcm &lt;rjdbcm@mail.umkc.edu&gt; ([`1973353`](https://github.c
 ## v2024.0.0 (2024-04-03)
 
 ### :arrow_up:
+
+* :arrow_up: Bump actions/dependency-review-action from 4.1.3 to 4.2.5
+
+Bumps [actions/dependency-review-action](https://github.com/actions/dependency-review-action) from 4.1.3 to 4.2.5.
+- [Release notes](https://github.com/actions/dependency-review-action/releases)
+- [Commits](https://github.com/actions/dependency-review-action/compare/9129d7d40b8c12c1ed0f60400d00c92d437adcce...5bbc3ba658137598168acb2ab73b21c432dd411b)
+
+---
+updated-dependencies:
+- dependency-name: actions/dependency-review-action
+  dependency-type: direct:production
+  update-type: version-update:semver-minor
+...
+
+Signed-off-by: dependabot[bot] &lt;support@github.com&gt; ([`4ae3417`](https://github.com/OZI-Project/blastpipe/commit/4ae34177e2cdc72d9333e924c0e3d31d838d5f9f))
+
+* :arrow_up: Bump actions/upload-artifact from 3.1.3 to 4.3.1
+
+Bumps [actions/upload-artifact](https://github.com/actions/upload-artifact) from 3.1.3 to 4.3.1.
+- [Release notes](https://github.com/actions/upload-artifact/releases)
+- [Commits](https://github.com/actions/upload-artifact/compare/a8a3f3ad30e3422c9c7b888a15615d19a852ae32...5d5d22a31266ced268874388b861e4b58bb5c2f3)
+
+---
+updated-dependencies:
+- dependency-name: actions/upload-artifact
+  dependency-type: direct:production
+  update-type: version-update:semver-major
+...
+
+Signed-off-by: dependabot[bot] &lt;support@github.com&gt; ([`0f33c02`](https://github.com/OZI-Project/blastpipe/commit/0f33c02f27db5a22221b8cd106a214f5b47be0e0))
 
 * :arrow_up: Bump pypa/gh-action-pypi-publish from 1.8.12 to 1.8.14
 
