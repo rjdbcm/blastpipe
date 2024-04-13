@@ -38,8 +38,8 @@ class IsTemplatePre311(Protocol):
     """Protocol to check if a Template is pre-3.11"""
 
     delimiter: str
-    idpattern: r'str'
-    braceidpattern: r'Optional[str]'
+    idpattern: str
+    braceidpattern: Optional[str]
     flags: int
     pattern: re.Pattern[str]
     template: str
@@ -58,8 +58,8 @@ class TemplateGetIdentifiersMixin(Mixin[Any]):
     """Example Template mixin with preferred way of typing and using mixins"""
 
     delimiter: str
-    idpattern: r'str'
-    braceidpattern: r'Optional[str]'
+    idpattern: str
+    braceidpattern: Optional[str]
     flags: int
     pattern: re.Pattern[str]
     template: str
