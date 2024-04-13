@@ -12,7 +12,7 @@
 # KIND, either express or implied.  See the License for the
 # specific language governing permissions and limitations
 # under the License.
-python_files = [
+source_files = [
     '__init__.py',
     'backports.py',
     'buffer.py',
@@ -31,19 +31,13 @@ python_files = [
     'tailcall.pyi',
     'py.typed',
 ]
-foreach file: python_files
+foreach file: source_files
     fs.copyfile(file)
     if not meson.is_subproject() or get_option('install-subprojects').enabled()
         python.install_sources(file, subdir: project_name)
     endif
 endforeach
-if false
-    executable('source_files', python_files)
-endif
-children = []
-foreach child: children
+source_children = []
+foreach child: source_children
     subdir(child)
 endforeach
-if false
-    executable('source_children', children)
-endif

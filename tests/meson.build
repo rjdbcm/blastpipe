@@ -21,6 +21,3 @@ foreach file: test_files
   fs.copyfile(file)
   python.install_sources(file, subdir: project_name/'tests')
 endforeach
-if false
-  executable('test_files', test_files)
-endif

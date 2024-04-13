@@ -24,10 +24,19 @@ pymod = import('python')
 project_name = meson.project_name()
 docs_source = 'subprojects/docs'
 pip_compile = find_program('pip-compile', required: true)
-requirements = ['requirements.in']
+root_files = [
+    'README.rst',
+    'CHANGELOG.md',
+    'LICENSE.txt',
+    'requirements.in',
+    'pyproject.toml',
+    '.gitignore',
+    '.pre-commit-config.yaml',
+    'NOTICE.md',
+]
 custom_target(
     'requirements-blastpipe',
-    input: requirements,
+    input: root_files[3],
     output: 'requirements.txt',
     build_always_stale: true,
     build_by_default: true,
@@ -66,20 +75,12 @@ configure_file(
     output: 'pyproject.toml',
     configuration: pyproject_config
 )
-vcs_tag(input: 'pyproject.toml', output: 'pyproject.toml')
-root_files = [
-    'README.rst',
-    'CHANGELOG.md',
-    'LICENSE.txt',
-    'requirements.in',
-    'NOTICE.md',
-]
+vcs_tag(input: 'pyproject.toml', output: 'pyproject.orig.toml')
 foreach source : root_files
-    fs.copyfile(source)
+    if source not in ['pyproject.toml', '.gitignore']
+        fs.copyfile(source)
+    endif
 endforeach
-if false
-    executable('root_files', root_files)
-endif
 root_children = [
     'blastpipe',
     'tests',
@@ -88,7 +89,11 @@ foreach child: root_children
     subdir(child)
 endforeach
 if false
+    executable('root_files', root_files)
     executable('root_children', root_children)
+    executable('source_files', source_files)
+    executable('source_children', source_children)
+    executable('test_files', test_files)
 endif
 if not meson.is_subproject()
     dev = subproject('ozi')
