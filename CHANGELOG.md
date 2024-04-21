@@ -2,6 +2,112 @@
 
 
 
+## v2024.0.5 (2024-04-21)
+
+### :arrow_up:
+
+* :arrow_up: Bump actions/checkout from 4.1.1 to 4.1.3
+
+Bumps [actions/checkout](https://github.com/actions/checkout) from 4.1.1 to 4.1.3.
+- [Release notes](https://github.com/actions/checkout/releases)
+- [Changelog](https://github.com/actions/checkout/blob/main/CHANGELOG.md)
+- [Commits](https://github.com/actions/checkout/compare/b4ffde65f46336ab88eb53be808477a3936bae11...1d96c772d19495a3b5c517cd2bc0cb401ea0529f)
+
+---
+updated-dependencies:
+- dependency-name: actions/checkout
+  dependency-type: direct:production
+  update-type: version-update:semver-patch
+...
+
+Signed-off-by: dependabot[bot] &lt;support@github.com&gt; ([`a2f8815`](https://github.com/OZI-Project/blastpipe/commit/a2f88158906517d20dacc8335282408e6d798edf))
+
+* :arrow_up: Bump actions/upload-artifact from 4.3.1 to 4.3.2
+
+Bumps [actions/upload-artifact](https://github.com/actions/upload-artifact) from 4.3.1 to 4.3.2.
+- [Release notes](https://github.com/actions/upload-artifact/releases)
+- [Commits](https://github.com/actions/upload-artifact/compare/5d5d22a31266ced268874388b861e4b58bb5c2f3...1746f4ab65b179e0ea60a494b83293b640dd5bba)
+
+---
+updated-dependencies:
+- dependency-name: actions/upload-artifact
+  dependency-type: direct:production
+  update-type: version-update:semver-patch
+...
+
+Signed-off-by: dependabot[bot] &lt;support@github.com&gt; ([`d0f9d7a`](https://github.com/OZI-Project/blastpipe/commit/d0f9d7a79a8699f017dc9861f5b696b84a502b08))
+
+* :arrow_up: Bump github/codeql-action from 3.24.10 to 3.25.1
+
+Bumps [github/codeql-action](https://github.com/github/codeql-action) from 3.24.10 to 3.25.1.
+- [Release notes](https://github.com/github/codeql-action/releases)
+- [Changelog](https://github.com/github/codeql-action/blob/main/CHANGELOG.md)
+- [Commits](https://github.com/github/codeql-action/compare/4355270be187e1b672a7a1c7c7bae5afdc1ab94a...c7f9125735019aa87cfc361530512d50ea439c71)
+
+---
+updated-dependencies:
+- dependency-name: github/codeql-action
+  dependency-type: direct:production
+  update-type: version-update:semver-minor
+...
+
+Signed-off-by: dependabot[bot] &lt;support@github.com&gt; ([`fbe5c3b`](https://github.com/OZI-Project/blastpipe/commit/fbe5c3bac753b872c21c837a3085170534bc6b35))
+
+* :arrow_up: Bump OZI-Project/checkpoint from 0.1.3 to 0.1.4
+
+Bumps [OZI-Project/checkpoint](https://github.com/ozi-project/checkpoint) from 0.1.3 to 0.1.4.
+- [Release notes](https://github.com/ozi-project/checkpoint/releases)
+- [Commits](https://github.com/ozi-project/checkpoint/compare/91c27e2c333d718d7b87992e19511ff5b00cd16e...8b7d897024b918d4bb4d44bbaec23a22f357182e)
+
+---
+updated-dependencies:
+- dependency-name: OZI-Project/checkpoint
+  dependency-type: direct:production
+  update-type: version-update:semver-patch
+...
+
+Signed-off-by: dependabot[bot] &lt;support@github.com&gt; ([`f573e1e`](https://github.com/OZI-Project/blastpipe/commit/f573e1e75dbfe0cd18fab98e51c2e44b66188257))
+
+* :arrow_up: Bump OZI-Project/release from 0.1.14 to 0.1.15
+
+Bumps [OZI-Project/release](https://github.com/ozi-project/release) from 0.1.14 to 0.1.15.
+- [Release notes](https://github.com/ozi-project/release/releases)
+- [Commits](https://github.com/ozi-project/release/compare/945b312031019d0d85c5674721327f894131d898...f0e0a8b837c2d247b920fbc1997a8d3247b14455)
+
+---
+updated-dependencies:
+- dependency-name: OZI-Project/release
+  dependency-type: direct:production
+  update-type: version-update:semver-patch
+...
+
+Signed-off-by: dependabot[bot] &lt;support@github.com&gt; ([`6528401`](https://github.com/OZI-Project/blastpipe/commit/6528401f75d5f68228734c2787d43c9c439aa884))
+
+### :pushpin:
+
+* :pushpin: Merge pull request #57 from OZI-Project/dependabot/github_actions/OZI-Project/release-0.1.15
+
+⬆️ Bump OZI-Project/release from 0.1.14 to 0.1.15 ([`d809c35`](https://github.com/OZI-Project/blastpipe/commit/d809c3577aa3a0f0160bf682a9fcf6a03b5392cf))
+
+* :pushpin: Merge pull request #58 from OZI-Project/dependabot/github_actions/OZI-Project/checkpoint-0.1.4
+
+⬆️ Bump OZI-Project/checkpoint from 0.1.3 to 0.1.4 ([`b04d131`](https://github.com/OZI-Project/blastpipe/commit/b04d1312f8e331c16bef78ef1f53ed3b2f4aa978))
+
+### Other
+
+* Merge pull request #61 from OZI-Project/dependabot/github_actions/actions/checkout-4.1.3
+
+⬆️ Bump actions/checkout from 4.1.1 to 4.1.3 ([`1658a31`](https://github.com/OZI-Project/blastpipe/commit/1658a3150da171997cebf378cf33c1b1f067cab7))
+
+* Merge pull request #60 from OZI-Project/dependabot/github_actions/actions/upload-artifact-4.3.2
+
+⬆️ Bump actions/upload-artifact from 4.3.1 to 4.3.2 ([`4f99092`](https://github.com/OZI-Project/blastpipe/commit/4f99092b91a88b9066417ab393b07a5cca79101d))
+
+* Merge pull request #59 from OZI-Project/dependabot/github_actions/github/codeql-action-3.25.1
+
+⬆️ Bump github/codeql-action from 3.24.10 to 3.25.1 ([`f381c15`](https://github.com/OZI-Project/blastpipe/commit/f381c15a9d1efa16d441fabaaca0db3963262cfb))
+
+
 ## v2024.0.4 (2024-04-13)
 
 ### :arrow_up:
