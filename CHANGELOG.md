@@ -2,6 +2,13 @@
 
 
 
+## v2024.0.7 (2024-04-22)
+
+### :bug:
+
+* :bug: fix requirements rendering. ([`81f3fa4`](https://github.com/OZI-Project/blastpipe/commit/81f3fa4a211d68cc46660714e047be9c818992a3))
+
+
 ## v2024.0.6 (2024-04-22)
 
 ### :bug:
