@@ -315,8 +315,8 @@ Classifier: Intended Audience :: Other Audience
 Classifier: Natural Language :: English
 Classifier: Typing :: Typed
 Classifier: Environment :: Other Environment
-@REQUIREMENTS_IN@
 Description-Content-Type: text/x-rst
+@REQUIREMENTS_IN@
 
 @README_TEXT@"""
 version_file = "PKG-INFO"
