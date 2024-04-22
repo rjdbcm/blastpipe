@@ -2,6 +2,15 @@
 
 
 
+## v2024.0.6 (2024-04-22)
+
+### :bug:
+
+* :bug: Fix minor rendering issues with requirements.
+
+Signed-off-by: rjdbcm &lt;rjdbcm@mail.umkc.edu&gt; ([`2143ed6`](https://github.com/OZI-Project/blastpipe/commit/2143ed6f989eb7c405464d014b0e5a1339c22e93))
+
+
 ## v2024.0.5 (2024-04-21)
 
 ### :arrow_up:
