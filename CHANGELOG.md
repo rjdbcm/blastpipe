@@ -2,6 +2,17 @@
 
 
 
+## v2024.0.8 (2024-04-22)
+
+### :hammer:
+
+* :hammer: Update requirements.in renderer. ([`843495c`](https://github.com/OZI-Project/blastpipe/commit/843495cbe3bb90df5e7d27b300a05396d0d592de))
+
+### :pencil2:
+
+* :pencil2: Fix escapes. ([`3baf207`](https://github.com/OZI-Project/blastpipe/commit/3baf207814d7540558d22bbca0ee07bd5969b590))
+
+
 ## v2024.0.7 (2024-04-22)
 
 ### :bug:
