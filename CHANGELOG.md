@@ -2,6 +2,55 @@
 
 
 
+## v2024.0.9 (2024-04-22)
+
+### :arrow_up:
+
+* :arrow_up: Merge pull request #63 from OZI-Project/dependabot/github_actions/OZI-Project/checkpoint-0.1.5
+
+⬆️ Bump OZI-Project/checkpoint from 0.1.4 to 0.1.5 ([`98bf23f`](https://github.com/OZI-Project/blastpipe/commit/98bf23fd0fb0da343c75239a65790209922c7f4d))
+
+* :arrow_up: Bump OZI-Project/checkpoint from 0.1.4 to 0.1.5
+
+Bumps [OZI-Project/checkpoint](https://github.com/ozi-project/checkpoint) from 0.1.4 to 0.1.5.
+- [Release notes](https://github.com/ozi-project/checkpoint/releases)
+- [Commits](https://github.com/ozi-project/checkpoint/compare/8b7d897024b918d4bb4d44bbaec23a22f357182e...a6290f1edcd89a03dca8d123327e25f0c3bfc91c)
+
+---
+updated-dependencies:
+- dependency-name: OZI-Project/checkpoint
+  dependency-type: direct:production
+  update-type: version-update:semver-patch
+...
+
+Signed-off-by: dependabot[bot] &lt;support@github.com&gt; ([`639e7d9`](https://github.com/OZI-Project/blastpipe/commit/639e7d9a186eef91cd4153ab325e1f39106f2175))
+
+* :arrow_up: Bump OZI-Project/release from 0.1.15 to 0.1.16
+
+Bumps [OZI-Project/release](https://github.com/ozi-project/release) from 0.1.15 to 0.1.16.
+- [Release notes](https://github.com/ozi-project/release/releases)
+- [Commits](https://github.com/ozi-project/release/compare/f0e0a8b837c2d247b920fbc1997a8d3247b14455...cde80205350cc9bd7c00c042b788136b36bd1828)
+
+---
+updated-dependencies:
+- dependency-name: OZI-Project/release
+  dependency-type: direct:production
+  update-type: version-update:semver-patch
+...
+
+Signed-off-by: dependabot[bot] &lt;support@github.com&gt; ([`7a52969`](https://github.com/OZI-Project/blastpipe/commit/7a529697cddd85af9f4bb56f5464a1ac0861ae24))
+
+### :bug:
+
+* :bug: Remove subproject folder. ([`dc9f63c`](https://github.com/OZI-Project/blastpipe/commit/dc9f63c355a59a6f607ea43baafb9534d90c65f0))
+
+### Other
+
+* Merge pull request #62 from OZI-Project/dependabot/github_actions/OZI-Project/release-0.1.16
+
+⬆️ Bump OZI-Project/release from 0.1.15 to 0.1.16 ([`18a47f7`](https://github.com/OZI-Project/blastpipe/commit/18a47f754675b2353a32fe05b833061444b86050))
+
+
 ## v2024.0.8 (2024-04-22)
 
 ### :hammer:
