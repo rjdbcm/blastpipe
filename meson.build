@@ -56,7 +56,7 @@ pkg_info_req = 'Requires-Dist: @0@'
 required = []
 foreach requirement : fs.read('requirements.in').split('\n')
     if requirement != '' and not requirement.startswith('#')
-        required += pkg_info_req.format(requirement)
+        required += pkg_info_req.format(requirement.strip())
     endif
 endforeach
 pyproject_config = configuration_data()
