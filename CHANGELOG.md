@@ -2,6 +2,33 @@
 
 
 
+## v2024.1.0 (2024-04-23)
+
+### :arrow_up:
+
+* :arrow_up: Bump slsa-framework/slsa-github-generator
+
+Bumps [slsa-framework/slsa-github-generator](https://github.com/slsa-framework/slsa-github-generator) from 1.10.0 to 2.0.0.
+- [Release notes](https://github.com/slsa-framework/slsa-github-generator/releases)
+- [Changelog](https://github.com/slsa-framework/slsa-github-generator/blob/main/CHANGELOG.md)
+- [Commits](https://github.com/slsa-framework/slsa-github-generator/compare/v1.10.0...v2.0.0)
+
+---
+updated-dependencies:
+- dependency-name: slsa-framework/slsa-github-generator
+  dependency-type: direct:production
+  update-type: version-update:semver-major
+...
+
+Signed-off-by: dependabot[bot] &lt;support@github.com&gt; ([`98b3f63`](https://github.com/OZI-Project/blastpipe/commit/98b3f63da24998c356d35d2ffb83db1ab5046995))
+
+### :sparkles:
+
+* :sparkles: Merge pull request #66 from OZI-Project/dependabot/github_actions/slsa-framework/slsa-github-generator-2.0.0
+
+⬆️ Bump slsa-framework/slsa-github-generator from 1.10.0 to 2.0.0 ([`ee91082`](https://github.com/OZI-Project/blastpipe/commit/ee91082a5858f6b9b9b545a683a4977073466489))
+
+
 ## v2024.0.9 (2024-04-22)
 
 ### :arrow_up:
