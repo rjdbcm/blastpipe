@@ -2,6 +2,19 @@
 
 
 
+## v2024.1.1 (2024-04-23)
+
+### Other
+
+* Merge pull request #64 from OZI-Project/dependabot/github_actions/github/codeql-action-3.25.2
+
+⬆️ Bump github/codeql-action from 3.25.1 to 3.25.2 ([`255087f`](https://github.com/OZI-Project/blastpipe/commit/255087fafe7964594fa485f2b046ae527560a62c))
+
+* Merge pull request #65 from OZI-Project/dependabot/github_actions/actions/upload-artifact-4.3.3
+
+⬆️ Bump actions/upload-artifact from 4.3.2 to 4.3.3 ([`d2f54ab`](https://github.com/OZI-Project/blastpipe/commit/d2f54ab7ed2f5a37d2b432fbd2f6fbf1805d3e3d))
+
+
 ## v2024.1.0 (2024-04-23)
 
 ### :arrow_up:
@@ -21,6 +34,37 @@ updated-dependencies:
 ...
 
 Signed-off-by: dependabot[bot] &lt;support@github.com&gt; ([`98b3f63`](https://github.com/OZI-Project/blastpipe/commit/98b3f63da24998c356d35d2ffb83db1ab5046995))
+
+* :arrow_up: Bump actions/upload-artifact from 4.3.2 to 4.3.3
+
+Bumps [actions/upload-artifact](https://github.com/actions/upload-artifact) from 4.3.2 to 4.3.3.
+- [Release notes](https://github.com/actions/upload-artifact/releases)
+- [Commits](https://github.com/actions/upload-artifact/compare/1746f4ab65b179e0ea60a494b83293b640dd5bba...65462800fd760344b1a7b4382951275a0abb4808)
+
+---
+updated-dependencies:
+- dependency-name: actions/upload-artifact
+  dependency-type: direct:production
+  update-type: version-update:semver-patch
+...
+
+Signed-off-by: dependabot[bot] &lt;support@github.com&gt; ([`df59855`](https://github.com/OZI-Project/blastpipe/commit/df59855b192e4c465ac1e452539bb1a1ea44c54f))
+
+* :arrow_up: Bump github/codeql-action from 3.25.1 to 3.25.2
+
+Bumps [github/codeql-action](https://github.com/github/codeql-action) from 3.25.1 to 3.25.2.
+- [Release notes](https://github.com/github/codeql-action/releases)
+- [Changelog](https://github.com/github/codeql-action/blob/main/CHANGELOG.md)
+- [Commits](https://github.com/github/codeql-action/compare/c7f9125735019aa87cfc361530512d50ea439c71...8f596b4ae3cb3c588a5c46780b86dd53fef16c52)
+
+---
+updated-dependencies:
+- dependency-name: github/codeql-action
+  dependency-type: direct:production
+  update-type: version-update:semver-patch
+...
+
+Signed-off-by: dependabot[bot] &lt;support@github.com&gt; ([`e119b2e`](https://github.com/OZI-Project/blastpipe/commit/e119b2e997ad0e70068fd99ea5dc72fcb2f9dced))
 
 ### :sparkles:
 
