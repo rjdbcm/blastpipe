@@ -2,6 +2,52 @@
 
 
 
+## v2024.1.2 (2024-04-24)
+
+### :arrow_up:
+
+* :arrow_up: Bump actions/checkout from 4.1.3 to 4.1.4
+
+Bumps [actions/checkout](https://github.com/actions/checkout) from 4.1.3 to 4.1.4.
+- [Release notes](https://github.com/actions/checkout/releases)
+- [Changelog](https://github.com/actions/checkout/blob/main/CHANGELOG.md)
+- [Commits](https://github.com/actions/checkout/compare/1d96c772d19495a3b5c517cd2bc0cb401ea0529f...0ad4b8fadaa221de15dcec353f45205ec38ea70b)
+
+---
+updated-dependencies:
+- dependency-name: actions/checkout
+  dependency-type: direct:production
+  update-type: version-update:semver-patch
+...
+
+Signed-off-by: dependabot[bot] &lt;support@github.com&gt; ([`a95ff85`](https://github.com/OZI-Project/blastpipe/commit/a95ff85ae70d343f016816f22fe13e2c43d7ff31))
+
+* :arrow_up: Bump OZI-Project/release from 0.1.16 to 0.1.17
+
+Bumps [OZI-Project/release](https://github.com/ozi-project/release) from 0.1.16 to 0.1.17.
+- [Release notes](https://github.com/ozi-project/release/releases)
+- [Commits](https://github.com/ozi-project/release/compare/cde80205350cc9bd7c00c042b788136b36bd1828...ceffb3c8beef212a5abaffeac486d67fb247381b)
+
+---
+updated-dependencies:
+- dependency-name: OZI-Project/release
+  dependency-type: direct:production
+  update-type: version-update:semver-patch
+...
+
+Signed-off-by: dependabot[bot] &lt;support@github.com&gt; ([`7df5ad2`](https://github.com/OZI-Project/blastpipe/commit/7df5ad2571d988b0bdadfc972369acc3a13a30eb))
+
+### Other
+
+* Merge pull request #68 from OZI-Project/dependabot/github_actions/actions/checkout-4.1.4
+
+⬆️ Bump actions/checkout from 4.1.3 to 4.1.4 ([`5a25586`](https://github.com/OZI-Project/blastpipe/commit/5a2558679c54dcf08c21d555c39bc618138d447c))
+
+* Merge pull request #67 from OZI-Project/dependabot/github_actions/OZI-Project/release-0.1.17
+
+⬆️ Bump OZI-Project/release from 0.1.16 to 0.1.17 ([`15db134`](https://github.com/OZI-Project/blastpipe/commit/15db13448d1118d36dfde5fb66bc6a855f705009))
+
+
 ## v2024.1.1 (2024-04-23)
 
 ### Other
