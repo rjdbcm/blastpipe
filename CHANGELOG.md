@@ -2,6 +2,33 @@
 
 
 
+## v2024.1.3 (2024-04-26)
+
+### :arrow_up:
+
+* :arrow_up: Bump github/codeql-action from 3.25.2 to 3.25.3
+
+Bumps [github/codeql-action](https://github.com/github/codeql-action) from 3.25.2 to 3.25.3.
+- [Release notes](https://github.com/github/codeql-action/releases)
+- [Changelog](https://github.com/github/codeql-action/blob/main/CHANGELOG.md)
+- [Commits](https://github.com/github/codeql-action/compare/8f596b4ae3cb3c588a5c46780b86dd53fef16c52...d39d31e687223d841ef683f52467bd88e9b21c14)
+
+---
+updated-dependencies:
+- dependency-name: github/codeql-action
+  dependency-type: direct:production
+  update-type: version-update:semver-patch
+...
+
+Signed-off-by: dependabot[bot] &lt;support@github.com&gt; ([`9ba3bcb`](https://github.com/OZI-Project/blastpipe/commit/9ba3bcbbafb32db7b5d292fef20f80b9b787209c))
+
+### Other
+
+* Merge pull request #69 from OZI-Project/dependabot/github_actions/github/codeql-action-3.25.3
+
+⬆️ Bump github/codeql-action from 3.25.2 to 3.25.3 ([`a69420e`](https://github.com/OZI-Project/blastpipe/commit/a69420eb4fd8cfb47649fe7be0a9ddea0ddc2b5b))
+
+
 ## v2024.1.2 (2024-04-24)
 
 ### :arrow_up:
