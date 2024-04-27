@@ -11,7 +11,6 @@ from typing import Any
 from jinja2 import Environment
 from jinja2 import PackageLoader
 from jinja2 import select_autoescape
-
 from ozi_templates.filter import current_date
 from ozi_templates.filter import next_minor
 from ozi_templates.filter import sha256sum
