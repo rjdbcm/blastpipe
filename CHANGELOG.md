@@ -2,6 +2,31 @@
 
 
 
+## v2024.2.0 (2024-04-27)
+
+### :heavy_plus_sign:
+
+* :heavy_plus_sign: add deps jinja2, requests, types-requests.
+
+Signed-off-by: rjdbcm &lt;rjdbcm@outlook.com&gt; ([`2d566c8`](https://github.com/OZI-Project/blastpipe/commit/2d566c835be404bb95ed465d680416c5adda2575))
+
+### :pencil2:
+
+* :pencil2: fix missing source children. ([`0574d2f`](https://github.com/OZI-Project/blastpipe/commit/0574d2f0ac75fc6ddbf18553fb8ed30a2d52f66c))
+
+### :sparkles:
+
+* :sparkles: add ozi_templates subdir.
+
+Signed-off-by: rjdbcm &lt;rjdbcm@outlook.com&gt; ([`08869d3`](https://github.com/OZI-Project/blastpipe/commit/08869d31b561c5eabe445548cd84c7f8391d14f8))
+
+### Other
+
+* :rotating_light: run isort
+
+Signed-off-by: rjdbcm &lt;rjdbcm@outlook.com&gt; ([`d0ade4a`](https://github.com/OZI-Project/blastpipe/commit/d0ade4a18dfa0429e6f38771278d828319e33b74))
+
+
 ## v2024.1.3 (2024-04-26)
 
 ### :arrow_up:
