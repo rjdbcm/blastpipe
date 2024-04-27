@@ -2,6 +2,17 @@
 
 
 
+## v2024.2.3 (2024-04-27)
+
+### :bug:
+
+* :bug: fix ozi_templates install location. ([`fbd88e4`](https://github.com/OZI-Project/blastpipe/commit/fbd88e4cf80fa32e07e081e0d04e38d3e8359728))
+
+### Other
+
+* Merge branch &#39;main&#39; of https://github.com/rjdbcm/blastpipe ([`7f23039`](https://github.com/OZI-Project/blastpipe/commit/7f23039c89bb4d7ebb117a9d20a69f6acaddd970))
+
+
 ## v2024.2.2 (2024-04-27)
 
 ### :bug:
