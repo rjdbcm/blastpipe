@@ -304,6 +304,7 @@ License: @LICENSE@
 Download-URL: https://github.com//blastpipe/archive/refs/tags/@SCM_VERSION@.tar.gz
 Requires-Python: >=3.10, <3.13
 Keywords: ozi,meson
+Provides-Dist: ozi_templates
 Classifier: License :: OSI Approved :: Apache Software License
 Classifier: Development Status :: 1 - Planning
 Classifier: Programming Language :: Python :: 3 :: Only
