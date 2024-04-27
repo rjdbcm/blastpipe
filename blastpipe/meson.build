@@ -37,7 +37,7 @@ foreach file: source_files
         python.install_sources(file, subdir: project_name)
     endif
 endforeach
-source_children = []
+source_children = ['ozi_templates']
 foreach child: source_children
     subdir(child)
 endforeach

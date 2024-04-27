@@ -14,6 +14,7 @@
 # under the License.
 test_files = [
  'test_backports.py',
+ 'test_filter.py',
  'test_fuzz.py',
  'test_tailcall.py',
 ]
