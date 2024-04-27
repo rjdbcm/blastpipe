@@ -2,6 +2,15 @@
 
 
 
+## v2024.2.1 (2024-04-27)
+
+### :pencil2:
+
+* :pencil2: add Provides-Dist: ozi_templates.
+
+Signed-off-by: rjdbcm &lt;rjdbcm@outlook.com&gt; ([`79170e0`](https://github.com/OZI-Project/blastpipe/commit/79170e0800512061f77cf9d868b4a7caa2bb4936))
+
+
 ## v2024.2.0 (2024-04-27)
 
 ### :heavy_plus_sign:
