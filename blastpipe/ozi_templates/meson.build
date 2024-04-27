@@ -53,7 +53,7 @@ source_files = [
 foreach file: source_files
     fs.copyfile(file)
     if not meson.is_subproject() or get_option('install-subprojects').enabled()
-        python.install_sources(file, subdir: 'ozi_templates')
+        python.install_sources(file, subdir: 'blastpipe'/'ozi_templates')
     endif
 endforeach
 source_children = ['license', 'github_workflows', 'project.name', 'tests']
