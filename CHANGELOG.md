@@ -2,6 +2,15 @@
 
 
 
+## v2024.2.2 (2024-04-27)
+
+### :bug:
+
+* :bug::pencil2: fix templates subdirectory names.
+
+Signed-off-by: rjdbcm &lt;rjdbcm@outlook.com&gt; ([`25e4344`](https://github.com/OZI-Project/blastpipe/commit/25e434404252686797a917689ff9a8c64cad01d3))
+
+
 ## v2024.2.1 (2024-04-27)
 
 ### :pencil2:
