@@ -2,6 +2,15 @@
 
 
 
+## v2024.2.5 (2024-04-28)
+
+### :bug:
+
+* :bug: fix next_minor filter typo.
+
+Signed-off-by: rjdbcm &lt;rjdbcm@outlook.com&gt; ([`404c645`](https://github.com/OZI-Project/blastpipe/commit/404c6454186915e20b2a2e4b4756f09e507cf30b))
+
+
 ## v2024.2.4 (2024-04-28)
 
 ### :bug:
