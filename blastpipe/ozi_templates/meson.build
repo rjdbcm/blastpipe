@@ -5,8 +5,9 @@
 # ozi-fix -> meson rewrite is the standard editing pipeline.
 source_files = [
     '__init__.py',
+    '__init__.pyi',
     'filter.py',
-    'py.typed',
+    'filter.pyi',
     '.gitignore.j2',
     'LICENSE.txt.j2',
     'PKG-INFO.j2',
