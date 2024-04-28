@@ -2,6 +2,15 @@
 
 
 
+## v2024.2.4 (2024-04-28)
+
+### :bug:
+
+* :bug: Load jinja2 env from blastpipe package.
+
+Signed-off-by: rjdbcm &lt;rjdbcm@outlook.com&gt; ([`9e34d11`](https://github.com/OZI-Project/blastpipe/commit/9e34d11ab58b2509a8cc9fdf80bc746c62bc8cd1))
+
+
 ## v2024.2.3 (2024-04-27)
 
 ### :bug:
