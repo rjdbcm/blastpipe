@@ -14,6 +14,12 @@ Signed-off-by: Eden Rose, MSc &lt;ozi.project@outlook.com&gt; ([`5f6e3e8`](https
 
 * :bug: Update ozi.wrap
 
+fix ``ozi.wrap`` must pin to head no matter what for setuptools-scm.
+
+Signed-off-by: Eden Rose, MSc &lt;ozi.project@outlook.com&gt; ([`d3acaa7`](https://github.com/OZI-Project/blastpipe/commit/d3acaa78d10903e5bf67edb671e658ba6a838d62))
+
+* :bug: Update ozi.wrap
+
 Signed-off-by: Eden Rose, MSc &lt;ozi.project@outlook.com&gt; ([`9385846`](https://github.com/OZI-Project/blastpipe/commit/93858463eee1040ec9e91dec0e78967ff42769cc))
 
 ### :hammer:
@@ -21,6 +27,16 @@ Signed-off-by: Eden Rose, MSc &lt;ozi.project@outlook.com&gt; ([`9385846`](https
 * :hammer: Update ``ozi.wrap``  template and pin repo ``ozi.wrap``
 
 Signed-off-by: rjdbcm &lt;rjdbcm@outlook.com&gt; ([`11cc643`](https://github.com/OZI-Project/blastpipe/commit/11cc6431b59bc741989f137670cfad18a44035e3))
+
+### Other
+
+* Merge pull request #70 from OZI-Project/rjdbcm-patch-1
+
+:bug: Update ozi.wrap ([`16209b5`](https://github.com/OZI-Project/blastpipe/commit/16209b586bedac47b6dc8cb23e17c041b88e8e5d))
+
+* Update project.ozi.wrap.j2
+
+Signed-off-by: Eden Rose, MSc &lt;ozi.project@outlook.com&gt; ([`b9cad60`](https://github.com/OZI-Project/blastpipe/commit/b9cad60a15a7df575e222c916ec7f7c0bb81b4fd))
 
 
 ## v2024.2.7 (2024-04-28)
