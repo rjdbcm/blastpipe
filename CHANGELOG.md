@@ -2,6 +2,17 @@
 
 
 
+## v2024.2.9 (2024-04-28)
+
+### :wrench:
+
+* :wrench: Update status to Alpha
+
+Also fix download-url
+
+Signed-off-by: rjdbcm &lt;rjdbcm@outlook.com&gt; ([`734c230`](https://github.com/OZI-Project/blastpipe/commit/734c23045be5e063ee045ef9f706c1d91a025434))
+
+
 ## v2024.2.8 (2024-04-28)
 
 ### :arrow_up:
