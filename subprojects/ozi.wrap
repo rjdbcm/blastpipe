@@ -4,4 +4,4 @@ revision = 1.2.1
 depth = 1
 
 [provide]
-dependency_names = ozi-1.2.1
+dependency_names = ozi-@version@
