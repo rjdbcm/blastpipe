@@ -92,5 +92,5 @@ def next_minor(version: str) -> str:
     :return: The next minor version
     :rtype: str
     """
-    major, _, minor = map(int, version.split('.'))
+    major, minor, *_ = map(int, version.split('.'))
     return f'{major}.{minor + 1}'
