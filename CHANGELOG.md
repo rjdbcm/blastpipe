@@ -2,6 +2,15 @@
 
 
 
+## v2024.2.6 (2024-04-28)
+
+### :bug:
+
+* :bug: Add missing type stubfiles for ozi_templates
+
+Signed-off-by: rjdbcm &lt;rjdbcm@outlook.com&gt; ([`5382fff`](https://github.com/OZI-Project/blastpipe/commit/5382fff931d6e01536c344a486d9521f35989b65))
+
+
 ## v2024.2.5 (2024-04-28)
 
 ### :bug:
