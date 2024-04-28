@@ -2,7 +2,7 @@
 
 
 
-## v2024.2.9 (2024-04-28)
+## v2024.2.8 (2024-04-28)
 
 ### :arrow_up:
 
@@ -10,8 +10,11 @@
 
 Signed-off-by: Eden Rose, MSc &lt;ozi.project@outlook.com&gt; ([`5f6e3e8`](https://github.com/OZI-Project/blastpipe/commit/5f6e3e8de7a004ce3709369ca7b9b1431ac36b08))
 
+### :bug:
 
-## v2024.2.8 (2024-04-28)
+* :bug: Update ozi.wrap
+
+Signed-off-by: Eden Rose, MSc &lt;ozi.project@outlook.com&gt; ([`9385846`](https://github.com/OZI-Project/blastpipe/commit/93858463eee1040ec9e91dec0e78967ff42769cc))
 
 ### :hammer:
 
