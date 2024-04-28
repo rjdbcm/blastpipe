@@ -2,6 +2,13 @@
 
 
 
+## v2024.2.7 (2024-04-28)
+
+### :fire:
+
+* :fire: remove extra folders. ([`3c94f8c`](https://github.com/OZI-Project/blastpipe/commit/3c94f8c23a0c9f35a571a9b30fabc09562ad1836))
+
+
 ## v2024.2.6 (2024-04-28)
 
 ### :bug:
