@@ -2,6 +2,15 @@
 
 
 
+## v2024.2.9 (2024-04-28)
+
+### :arrow_up:
+
+* :arrow_up: Bump OZI-Project/release to 0.1.18
+
+Signed-off-by: Eden Rose, MSc &lt;ozi.project@outlook.com&gt; ([`5f6e3e8`](https://github.com/OZI-Project/blastpipe/commit/5f6e3e8de7a004ce3709369ca7b9b1431ac36b08))
+
+
 ## v2024.2.8 (2024-04-28)
 
 ### :hammer:
