@@ -2,6 +2,15 @@
 
 
 
+## v2024.2.8 (2024-04-28)
+
+### :hammer:
+
+* :hammer: Update ``ozi.wrap``  template and pin repo ``ozi.wrap``
+
+Signed-off-by: rjdbcm &lt;rjdbcm@outlook.com&gt; ([`11cc643`](https://github.com/OZI-Project/blastpipe/commit/11cc6431b59bc741989f137670cfad18a44035e3))
+
+
 ## v2024.2.7 (2024-04-28)
 
 ### :fire:
