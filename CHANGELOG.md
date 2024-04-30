@@ -2,6 +2,51 @@
 
 
 
+## v2024.2.10 (2024-04-30)
+
+### :arrow_up:
+
+* :arrow_up: Bump actions/dependency-review-action from 4.2.5 to 4.3.1
+
+Bumps [actions/dependency-review-action](https://github.com/actions/dependency-review-action) from 4.2.5 to 4.3.1.
+- [Release notes](https://github.com/actions/dependency-review-action/releases)
+- [Commits](https://github.com/actions/dependency-review-action/compare/5bbc3ba658137598168acb2ab73b21c432dd411b...e58c696e52cac8e62d61cc21fda89565d71505d7)
+
+---
+updated-dependencies:
+- dependency-name: actions/dependency-review-action
+  dependency-type: direct:production
+  update-type: version-update:semver-minor
+...
+
+Signed-off-by: dependabot[bot] &lt;support@github.com&gt; ([`3a6415a`](https://github.com/OZI-Project/blastpipe/commit/3a6415ac065023aa55c84ac461154f9a8ec32bff))
+
+* :arrow_up: Bump step-security/harden-runner from 2.7.0 to 2.7.1
+
+Bumps [step-security/harden-runner](https://github.com/step-security/harden-runner) from 2.7.0 to 2.7.1.
+- [Release notes](https://github.com/step-security/harden-runner/releases)
+- [Commits](https://github.com/step-security/harden-runner/compare/63c24ba6bd7ba022e95695ff85de572c04a18142...a4aa98b93cab29d9b1101a6143fb8bce00e2eac4)
+
+---
+updated-dependencies:
+- dependency-name: step-security/harden-runner
+  dependency-type: direct:production
+  update-type: version-update:semver-patch
+...
+
+Signed-off-by: dependabot[bot] &lt;support@github.com&gt; ([`f02635b`](https://github.com/OZI-Project/blastpipe/commit/f02635b0ef614f3ad1b041da8ce561b6678cb758))
+
+### Other
+
+* Merge pull request #72 from OZI-Project/dependabot/github_actions/actions/dependency-review-action-4.3.1
+
+⬆️ Bump actions/dependency-review-action from 4.2.5 to 4.3.1 ([`ee8d2c6`](https://github.com/OZI-Project/blastpipe/commit/ee8d2c620ac3154c4ffbb1fab821a6c8a0a3273d))
+
+* Merge pull request #71 from OZI-Project/dependabot/github_actions/step-security/harden-runner-2.7.1
+
+⬆️ Bump step-security/harden-runner from 2.7.0 to 2.7.1 ([`adf8ffb`](https://github.com/OZI-Project/blastpipe/commit/adf8ffbf2b0379547bc064645067a0f21da1ce90))
+
+
 ## v2024.2.9 (2024-04-28)
 
 ### :wrench:
