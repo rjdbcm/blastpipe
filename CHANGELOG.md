@@ -29,6 +29,10 @@ Signed-off-by: Eden Rose, MSc &lt;ozi.project@outlook.com&gt; ([`4165e7d`](https
 
 ### Other
 
+* Update pyproject.toml - fix key name typo
+
+Signed-off-by: Eden Rose, MSc &lt;ozi.project@outlook.com&gt; ([`137b11d`](https://github.com/OZI-Project/blastpipe/commit/137b11df6698189b7f05cf51125ec29bfb46fa33))
+
 * Merge pull request #75 from OZI-Project/dependabot/github_actions/OZI-Project/release-0.2.5
 
 ⬆️ Bump OZI-Project/release from 0.1.18 to 0.2.5 ([`3d06065`](https://github.com/OZI-Project/blastpipe/commit/3d06065120a1a1d6c24377335fef4c2384fd5ab0))
