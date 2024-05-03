@@ -2,6 +2,15 @@
 
 
 
+## v2024.4.1 (2024-05-03)
+
+### :arrow_up:
+
+* :bug::arrow_up: bump OZI.build to 0.0.13
+
+Signed-off-by: rjdbcm &lt;rjdbcm@outlook.com&gt; ([`ac685cd`](https://github.com/OZI-Project/blastpipe/commit/ac685cd6ad6e03ef47b2e55f8c1ff229b2d5a3a4))
+
+
 ## v2024.4.0 (2024-05-03)
 
 ### :arrow_up:
