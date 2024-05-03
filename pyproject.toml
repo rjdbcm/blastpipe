@@ -59,20 +59,20 @@ test = [
     "pytest-xdist",
 ]
 
-[tool.mesonpep517.metadata]
+[tool.ozi_build.metadata]
 pkg-info-file = 'build/PKG-INFO'
 summary = "OZI integrated test library."
 
 [build-system]
 requires = [
-    'mesonpep517==0.2',
+    'OZI.build==0.0.9',
     'meson[ninja]>=1.1.0',
     'pip-tools>=7',
     'setuptools>=64',
     'setuptools_scm>=8.0',
     'tomli>=2.0.0;python_version<"3.11"',
 ]
-build-backend = "mesonpep517.buildapi"
+build-backend = "ozi_build.buildapi"
 
 [tool.bandit]
 exclude_dirs = [
@@ -340,7 +340,7 @@ python =
 allowlist_externals = rm
 package = wheel
 deps =
-   mesonpep517>=0.2
+   OZI.build==0.0.9
    meson[ninja]>=1.1.0
    pip-tools>=7
    setuptools>=64
