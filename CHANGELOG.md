@@ -2,6 +2,39 @@
 
 
 
+## v2024.4.0 (2024-05-03)
+
+### :arrow_up:
+
+* :arrow_up: update pin version setting. ([`f25169c`](https://github.com/OZI-Project/blastpipe/commit/f25169c0d355bf08137953120ee97e15a5f64e22))
+
+### :bug:
+
+* :bug: bump OZI.build to 0.0.11 ([`3a11b6a`](https://github.com/OZI-Project/blastpipe/commit/3a11b6a28eb51b62d3decc2b79d33c479ebade66))
+
+* :bug: Update OZI.build to 0.0.10
+
+Signed-off-by: rjdbcm &lt;rjdbcm@outlook.com&gt; ([`ce33247`](https://github.com/OZI-Project/blastpipe/commit/ce33247bd24e052e925c3b04cde8924ec2d0f6fe))
+
+* :bug: fix revision pin ([`87cbe1b`](https://github.com/OZI-Project/blastpipe/commit/87cbe1b02fd20530443ede0b1444c1695f38d7b1))
+
+### :hammer:
+
+* :hammer: Change default revision to main in ``ozi.wrap``.
+
+Signed-off-by: rjdbcm &lt;rjdbcm@outlook.com&gt; ([`e9f34a2`](https://github.com/OZI-Project/blastpipe/commit/e9f34a207a7c1010bc94a6642b452b8e852b0d7e))
+
+### :sparkles:
+
+* :bug::sparkles: Fix for OZI.build integration.
+
+Signed-off-by: rjdbcm &lt;rjdbcm@outlook.com&gt; ([`ff3c94e`](https://github.com/OZI-Project/blastpipe/commit/ff3c94e265bb1007de97b972667ea6591666f671))
+
+* :sparkles: Update templates for OZI.build.
+
+Signed-off-by: rjdbcm &lt;rjdbcm@outlook.com&gt; ([`452358e`](https://github.com/OZI-Project/blastpipe/commit/452358eb4e47a276141e262ed8853a7842596a98))
+
+
 ## v2024.3.0 (2024-05-03)
 
 ### :arrow_up:
