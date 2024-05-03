@@ -2,6 +2,38 @@
 
 
 
+## v2024.3.0 (2024-05-03)
+
+### :arrow_up:
+
+* :arrow_up: Bump OZI-Project/release from 0.1.18 to 0.2.5
+
+Bumps [OZI-Project/release](https://github.com/ozi-project/release) from 0.1.18 to 0.2.5.
+- [Release notes](https://github.com/ozi-project/release/releases)
+- [Commits](https://github.com/ozi-project/release/compare/7bbceab384cd0290577dec4b4fb04eed3c07b926...26edb1dd060fbfe54494fb6c17aed8afc776a9f2)
+
+---
+updated-dependencies:
+- dependency-name: OZI-Project/release
+  dependency-type: direct:production
+  update-type: version-update:semver-minor
+...
+
+Signed-off-by: dependabot[bot] &lt;support@github.com&gt; ([`a670efa`](https://github.com/OZI-Project/blastpipe/commit/a670efa0bedbcfff4775d73481218b71226fbbb4))
+
+### :sparkles:
+
+* :sparkles: Update pyproject.toml for OZI.build switch
+
+Signed-off-by: Eden Rose, MSc &lt;ozi.project@outlook.com&gt; ([`4165e7d`](https://github.com/OZI-Project/blastpipe/commit/4165e7da1d873c55237287e166f3c7e1d00d687c))
+
+### Other
+
+* Merge pull request #75 from OZI-Project/dependabot/github_actions/OZI-Project/release-0.2.5
+
+⬆️ Bump OZI-Project/release from 0.1.18 to 0.2.5 ([`3d06065`](https://github.com/OZI-Project/blastpipe/commit/3d06065120a1a1d6c24377335fef4c2384fd5ab0))
+
+
 ## v2024.2.10 (2024-04-30)
 
 ### :arrow_up:
