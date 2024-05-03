@@ -2,6 +2,25 @@
 
 
 
+## v2024.4.2 (2024-05-03)
+
+### :bug:
+
+* :bug: set revision to head
+
+Signed-off-by: rjdbcm &lt;rjdbcm@outlook.com&gt; ([`b9ea876`](https://github.com/OZI-Project/blastpipe/commit/b9ea876ffcb7dec1ac67456f8d7dbaf005c2c705))
+
+### :pushpin:
+
+* :pushpin: OZI-1.3.0
+
+Signed-off-by: rjdbcm &lt;rjdbcm@outlook.com&gt; ([`6483e7b`](https://github.com/OZI-Project/blastpipe/commit/6483e7bcc536d19e88da446f307a878d07be83b6))
+
+### Other
+
+* Merge branch &#39;main&#39; of https://github.com/rjdbcm/blastpipe ([`13df441`](https://github.com/OZI-Project/blastpipe/commit/13df4416ef454f87bd0660eb68cb3f541152ca4e))
+
+
 ## v2024.4.1 (2024-05-03)
 
 ### :arrow_up:
