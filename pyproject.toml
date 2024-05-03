@@ -59,7 +59,7 @@ test = [
     "pytest-xdist",
 ]
 
-[tool.ozi_build.metadata]
+[tool.ozi-build.metadata]
 pkg-info-file = 'build/PKG-INFO'
 summary = "OZI integrated test library."
 
