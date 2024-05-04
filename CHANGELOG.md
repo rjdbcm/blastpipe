@@ -6,6 +6,10 @@
 
 ### :pushpin:
 
+* :pushpin: OZI version
+
+Signed-off-by: rjdbcm &lt;rjdbcm@outlook.com&gt; ([`860e5c9`](https://github.com/OZI-Project/blastpipe/commit/860e5c92d9d3d915a2846bf7ce278bcf234f27b5))
+
 * :pushpin: pin OZI.
 
 Signed-off-by: rjdbcm &lt;rjdbcm@outlook.com&gt; ([`98b1dab`](https://github.com/OZI-Project/blastpipe/commit/98b1dabd8c80d7b2d2ac125b0d60fa1d6e1e8945))
