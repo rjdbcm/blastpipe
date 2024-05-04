@@ -6,6 +6,8 @@
 
 ### :pushpin:
 
+* :pushpin: use head revision. ([`32a2f94`](https://github.com/OZI-Project/blastpipe/commit/32a2f9409ea3ec6df559ca240f60c53ed15fe7bf))
+
 * :pushpin: OZI version
 
 Signed-off-by: rjdbcm &lt;rjdbcm@outlook.com&gt; ([`860e5c9`](https://github.com/OZI-Project/blastpipe/commit/860e5c92d9d3d915a2846bf7ce278bcf234f27b5))
