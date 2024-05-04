@@ -2,6 +2,15 @@
 
 
 
+## v2024.4.4 (2024-05-04)
+
+### Other
+
+* Merge pull request #73 from OZI-Project/dependabot/github_actions/actions/dependency-review-action-4.3.2
+
+⬆️ Bump actions/dependency-review-action from 4.3.1 to 4.3.2 ([`44f051e`](https://github.com/OZI-Project/blastpipe/commit/44f051ec21b4f92ea2e2933a0217cad5376f99e3))
+
+
 ## v2024.4.3 (2024-05-04)
 
 ### :pushpin:
@@ -96,6 +105,21 @@ updated-dependencies:
 ...
 
 Signed-off-by: dependabot[bot] &lt;support@github.com&gt; ([`a670efa`](https://github.com/OZI-Project/blastpipe/commit/a670efa0bedbcfff4775d73481218b71226fbbb4))
+
+* :arrow_up: Bump actions/dependency-review-action from 4.3.1 to 4.3.2
+
+Bumps [actions/dependency-review-action](https://github.com/actions/dependency-review-action) from 4.3.1 to 4.3.2.
+- [Release notes](https://github.com/actions/dependency-review-action/releases)
+- [Commits](https://github.com/actions/dependency-review-action/compare/e58c696e52cac8e62d61cc21fda89565d71505d7...0c155c5e8556a497adf53f2c18edabf945ed8e70)
+
+---
+updated-dependencies:
+- dependency-name: actions/dependency-review-action
+  dependency-type: direct:production
+  update-type: version-update:semver-patch
+...
+
+Signed-off-by: dependabot[bot] &lt;support@github.com&gt; ([`a744324`](https://github.com/OZI-Project/blastpipe/commit/a7443244ab62ce8adc1a10036c9948cf532ca9ae))
 
 ### :sparkles:
 
