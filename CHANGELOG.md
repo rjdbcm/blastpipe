@@ -2,6 +2,15 @@
 
 
 
+## v2024.4.3 (2024-05-04)
+
+### :pushpin:
+
+* :pushpin: pin OZI.
+
+Signed-off-by: rjdbcm &lt;rjdbcm@outlook.com&gt; ([`98b1dab`](https://github.com/OZI-Project/blastpipe/commit/98b1dabd8c80d7b2d2ac125b0d60fa1d6e1e8945))
+
+
 ## v2024.4.2 (2024-05-03)
 
 ### :bug:
