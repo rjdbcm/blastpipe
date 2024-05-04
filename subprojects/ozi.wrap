@@ -1,6 +1,6 @@
 [wrap-git]
 url = https://github.com/rjdbcm/ozi.git
-revision = ccf781bccacb0de8b7af5c7eeaea6ff999033f6e
+revision = head
 depth = 1
 
 [provide]
