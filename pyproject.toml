@@ -348,7 +348,7 @@ deps =
    tomli>=2.0.0;python_version<"3.11"
    -r requirements.in
 commands =
-   meson compile -C {env_tmp_dir}
+   ninja -C {env_tmp_dir}
    rm -rf {env_tmp_dir}/.gitignore
 
 [testenv:dist]
