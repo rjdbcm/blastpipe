@@ -335,7 +335,7 @@ python =
    3.12 = dist,lint,test
    3.11 = dist,lint,test
    3.10 = dist,lint,test
-   pypy-3.10 = dist,lint,test
+   pypy-3.10 = dist,test
 
 [testenv]
 allowlist_externals = rm
