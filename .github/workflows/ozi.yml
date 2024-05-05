@@ -38,9 +38,33 @@ jobs:
             rekor.sigstore.dev:443
             tuf-repo-cdn.sigstore.dev:443
 
+  checkpoint-pp310-ubuntu-latest:
+    name: checkpoint (PyPy 3.10 on ubuntu-latest)
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+    permissions:
+        id-token: write
+    steps:
+      - name: Harden Runner
+        uses: step-security/harden-runner@a4aa98b93cab29d9b1101a6143fb8bce00e2eac4 # v2.7.1
+        with:
+          disable-sudo: true
+          egress-policy: block
+          allowed-endpoints: >
+            files.pythonhosted.org:443
+            github.com:443
+            oziproject.dev:443
+            pypi.org:443
+            registry.npmjs.org:443
+            objects.githubusercontent.com:443
+            fulcio.sigstore.dev:443
+            rekor.sigstore.dev:443
+            tuf-repo-cdn.sigstore.dev:443
+
       - uses: OZI-Project/checkpoint@a6290f1edcd89a03dca8d123327e25f0c3bfc91c
         with:
-          python-version: "3.10"
+          python-version: "pypy3.10"
 
   checkpoint-cp311-ubuntu-latest:
     name: checkpoint (Python 3.11 on ubuntu-latest)
@@ -116,6 +140,7 @@ jobs:
       matrix:
         py:
           - 'py310'
+          - 'pypy310'
           - 'py311'
           - 'py312'
       fail-fast: true
@@ -142,7 +167,7 @@ jobs:
             rekor.sigstore.dev:443
             tuf-repo-cdn.sigstore.dev:443
 
-      - uses: OZI-Project/release@26edb1dd060fbfe54494fb6c17aed8afc776a9f2
+      - uses: OZI-Project/release@3067778a8ac4622c1075321b46b7a7333bea64a0
         id: release
         with:
           python-dist: ${{ matrix.py }}
