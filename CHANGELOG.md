@@ -2,6 +2,15 @@
 
 
 
+## v2024.4.7 (2024-05-05)
+
+### :hammer:
+
+* :hammer: skip lint on PyPy builds
+
+Signed-off-by: rjdbcm &lt;rjdbcm@outlook.com&gt; ([`3cb1933`](https://github.com/OZI-Project/blastpipe/commit/3cb1933b75c55d29df8b3a4e6b8d191758f10537))
+
+
 ## v2024.4.6 (2024-05-05)
 
 ### :bug:
