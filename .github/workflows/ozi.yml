@@ -140,7 +140,6 @@ jobs:
       matrix:
         py:
           - 'py310'
-          - 'pypy310'
           - 'py311'
           - 'py312'
       fail-fast: true
