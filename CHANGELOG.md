@@ -2,6 +2,29 @@
 
 
 
+## v2024.4.5 (2024-05-05)
+
+### :alembic:
+
+* :alembic: direct compile with ninja for checkpoints.
+
+Signed-off-by: rjdbcm &lt;rjdbcm@outlook.com&gt; ([`5e0f568`](https://github.com/OZI-Project/blastpipe/commit/5e0f5689296919d4eaeb71c6737b5c8554590430))
+
+### :arrow_up:
+
+* :arrow_up: update tox OZI.build pin ([`433f095`](https://github.com/OZI-Project/blastpipe/commit/433f0954060722270a72abc50245864caf27816f))
+
+* :arrow_up: OZI.build&gt;=0.0.15
+
+Also add pypy release test
+
+Signed-off-by: rjdbcm &lt;rjdbcm@outlook.com&gt; ([`195ac17`](https://github.com/OZI-Project/blastpipe/commit/195ac170f43842e5de8b1946cb824945d86b1029))
+
+### Other
+
+* remove pypy release pattern ([`2cba3de`](https://github.com/OZI-Project/blastpipe/commit/2cba3dea05cb0927d9f3eddc0431fce7710896e0))
+
+
 ## v2024.4.4 (2024-05-04)
 
 ### Other
