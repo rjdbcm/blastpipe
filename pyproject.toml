@@ -340,7 +340,7 @@ python =
 allowlist_externals = rm
 package = wheel
 deps =
-   OZI.build==0.0.9
+   OZI.build>=0.0.15
    meson[ninja]>=1.1.0
    pip-tools>=7
    setuptools>=64
