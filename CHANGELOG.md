@@ -2,6 +2,15 @@
 
 
 
+## v2024.4.6 (2024-05-05)
+
+### :bug:
+
+* :bug: add pypy ci checkpoint config
+
+Signed-off-by: rjdbcm &lt;rjdbcm@outlook.com&gt; ([`93a3bb4`](https://github.com/OZI-Project/blastpipe/commit/93a3bb4ea9de4b2a12c8b032a21d513aecc798b2))
+
+
 ## v2024.4.5 (2024-05-05)
 
 ### :alembic:
