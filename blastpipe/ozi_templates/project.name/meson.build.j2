@@ -15,6 +15,18 @@ foreach file: source_files
         python.install_sources(file, subdir: '{{ project.name|underscorify }}')
     endif
 endforeach
+ext_files = []
+foreach file: ext_files
+    if not meson.is_subproject() or get_option('install-subprojects').enabled()
+        python.extension_module(
+            fs.replace_suffix(file, ''),
+            file,
+            install: true,
+            subdir: '{{ project.name|underscorify }}',
+            dependencies: python.dependency()
+        )
+    endif
+endforeach
 source_children = []
 foreach child: source_children
     subdir(child)

@@ -42,5 +42,8 @@ requires = [
 {%- for requires in spec.python.build.requires.values() %}
     '{{ requires }}',
 {%- endfor %}
+{%- if project.enable_cython %}
+    'cython',
+{%- endif %}
 ]
 build-backend = "{{ spec.python.build.backend }}"
