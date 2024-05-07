@@ -2,6 +2,23 @@
 
 
 
+## v2024.5.0 (2024-05-07)
+
+### :sparkles:
+
+* :sparkles: Add Cython extension template.
+
+Also adds a check for ``project.enable_cython`` to add a ``build-requires`` and ``meson.project()`` language argument.
+
+Signed-off-by: rjdbcm &lt;rjdbcm@outlook.com&gt; ([`6b6f1cc`](https://github.com/OZI-Project/blastpipe/commit/6b6f1cc3ad61f8db069e7fdacd43a92f36a43cf3))
+
+### Other
+
+* Merge pull request #77 from OZI-Project/add-ext_modules-feature
+
+:sparkles: Add Cython extension template. ([`edfdaf4`](https://github.com/OZI-Project/blastpipe/commit/edfdaf4f6abc77c43635d2704df356d3ff65f98e))
+
+
 ## v2024.4.7 (2024-05-05)
 
 ### :hammer:
