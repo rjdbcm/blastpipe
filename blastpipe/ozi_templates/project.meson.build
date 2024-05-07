@@ -4,6 +4,9 @@
 -#}
 project(
     '{{ project.name }}',
+{%- if project.enable_cython %}
+    'cython',
+{%- endif %}
     default_options: ['warning_level=3'],
     license: '{{ project.license_expression }}',
     license_files: ['{{ project.license_file }}'],
@@ -105,6 +108,7 @@ endforeach
 if false
     executable('root_files', root_files)
     executable('source_files', source_files)
+    executable('ext_files', ext_files)
     executable('test_files', test_files)
     executable('root_children', root_children)
     executable('source_children', source_children)
