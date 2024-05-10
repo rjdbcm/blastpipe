@@ -1,4 +1,4 @@
-{#- OZI 0.1
+{#- OZI 0.2
 # ozi/templates/github_workflows/ozi.yml.j2
 # SPDX-License-Identifier: Unlicense
 -#}
@@ -20,6 +20,8 @@ permissions:
 jobs:
 
 {% include 'github_workflows/checkpoint.yml.j2' %}
+
+{% include 'github_workflows/draft.yml.j2' %}
 
 {% include 'github_workflows/release.yml.j2' %}
 

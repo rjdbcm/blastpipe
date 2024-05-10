@@ -3,7 +3,7 @@
 # SPDX-License-Identifier: Unlicense
 #}
   release:
-    needs: checkpoint
+    needs: [draft, checkpoint]
     runs-on: ubuntu-latest
     concurrency: release
     strategy:
@@ -16,9 +16,7 @@
       max-parallel: 1
     outputs:
 {%- raw %}
-      drafted: ${{ steps.release.outputs.drafted }}
       hashes: ${{ steps.release.outputs.hashes }}
-      tag: ${{ steps.release.outputs.tag }}
 {%- endraw %}
     permissions:
       contents: write
