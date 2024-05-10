@@ -2,6 +2,146 @@
 
 
 
+## v2024.5.2 (2024-05-10)
+
+### :pencil2:
+
+* :pencil2: relicense templates to The Unlicense.
+
+Also cleans up metadata
+
+Signed-off-by: rjdbcm &lt;rjdbcm@outlook.com&gt; ([`809879a`](https://github.com/OZI-Project/blastpipe/commit/809879a8234693a9da688eb3daecf8dcefa1082f))
+
+### Other
+
+* Merge pull request #82 from OZI-Project/add-ext_modules-feature
+
+:pencil2: relicense templates to The Unlicense. ([`6c3d0b9`](https://github.com/OZI-Project/blastpipe/commit/6c3d0b9567105e67a9043d78249c9b014ae5bff4))
+
+
+## v2024.5.1 (2024-05-09)
+
+### :arrow_up:
+
+* :arrow_up: Bump OZI-Project/checkpoint from 0.1.5 to 0.1.6
+
+Bumps [OZI-Project/checkpoint](https://github.com/ozi-project/checkpoint) from 0.1.5 to 0.1.6.
+- [Release notes](https://github.com/ozi-project/checkpoint/releases)
+- [Commits](https://github.com/ozi-project/checkpoint/compare/a6290f1edcd89a03dca8d123327e25f0c3bfc91c...1ad9ec15d60558ee3da890634bb8b0406838e17a)
+
+---
+updated-dependencies:
+- dependency-name: OZI-Project/checkpoint
+  dependency-type: direct:production
+  update-type: version-update:semver-patch
+...
+
+Signed-off-by: dependabot[bot] &lt;support@github.com&gt; ([`e7bdbb3`](https://github.com/OZI-Project/blastpipe/commit/e7bdbb3a920660adb5aa2342620c757017cbd7d1))
+
+* :arrow_up: Bump OZI-Project/publish from 0.1.0 to 0.1.1
+
+Bumps [OZI-Project/publish](https://github.com/ozi-project/publish) from 0.1.0 to 0.1.1.
+- [Release notes](https://github.com/ozi-project/publish/releases)
+- [Commits](https://github.com/ozi-project/publish/compare/d9173e726b4cbb2ecd631fff0259656737e0dc23...87aae4bed7ea3ab8b864689945200ecd71ecc29f)
+
+---
+updated-dependencies:
+- dependency-name: OZI-Project/publish
+  dependency-type: direct:production
+  update-type: version-update:semver-patch
+...
+
+Signed-off-by: dependabot[bot] &lt;support@github.com&gt; ([`fe59319`](https://github.com/OZI-Project/blastpipe/commit/fe59319fb9d3ef7aeeb02fd1f259e7a0affdb97a))
+
+* :arrow_up: Bump github/codeql-action from 3.25.3 to 3.25.4
+
+Bumps [github/codeql-action](https://github.com/github/codeql-action) from 3.25.3 to 3.25.4.
+- [Release notes](https://github.com/github/codeql-action/releases)
+- [Changelog](https://github.com/github/codeql-action/blob/main/CHANGELOG.md)
+- [Commits](https://github.com/github/codeql-action/compare/d39d31e687223d841ef683f52467bd88e9b21c14...ccf74c947955fd1cf117aef6a0e4e66191ef6f61)
+
+---
+updated-dependencies:
+- dependency-name: github/codeql-action
+  dependency-type: direct:production
+  update-type: version-update:semver-patch
+...
+
+Signed-off-by: dependabot[bot] &lt;support@github.com&gt; ([`5052d39`](https://github.com/OZI-Project/blastpipe/commit/5052d398ad94cdd7e2d4c2ec77f9f3a546f7cf7c))
+
+* :arrow_up: Bump OZI-Project/release from 0.3.0 to 0.3.2
+
+Bumps [OZI-Project/release](https://github.com/ozi-project/release) from 0.3.0 to 0.3.2.
+- [Release notes](https://github.com/ozi-project/release/releases)
+- [Commits](https://github.com/ozi-project/release/compare/3067778a8ac4622c1075321b46b7a7333bea64a0...41916dbfb9a8fd0e73da21453fb999796cda9b52)
+
+---
+updated-dependencies:
+- dependency-name: OZI-Project/release
+  dependency-type: direct:production
+  update-type: version-update:semver-patch
+...
+
+Signed-off-by: dependabot[bot] &lt;support@github.com&gt; ([`db29000`](https://github.com/OZI-Project/blastpipe/commit/db290000300f3bbd5c2dc967f9f254fbe1c402f2))
+
+### Other
+
+* Merge pull request #81 from OZI-Project/dependabot/github_actions/OZI-Project/checkpoint-0.1.6
+
+⬆️ Bump OZI-Project/checkpoint from 0.1.5 to 0.1.6 ([`1254b6c`](https://github.com/OZI-Project/blastpipe/commit/1254b6c1d9b042b7c5cf0659ebf56b088ed59230))
+
+* Merge pull request #80 from OZI-Project/dependabot/github_actions/OZI-Project/publish-0.1.1
+
+⬆️ Bump OZI-Project/publish from 0.1.0 to 0.1.1 ([`83ee0d9`](https://github.com/OZI-Project/blastpipe/commit/83ee0d91a7f1a1a0fc0dd56299d312dfb1e0d8f3))
+
+* Merge pull request #78 from OZI-Project/dependabot/github_actions/OZI-Project/release-0.3.2
+
+⬆️ Bump OZI-Project/release from 0.3.0 to 0.3.2 ([`a5ec912`](https://github.com/OZI-Project/blastpipe/commit/a5ec91239e10962c9e050e77fab55edfe61cb1b4))
+
+* Merge pull request #79 from OZI-Project/dependabot/github_actions/github/codeql-action-3.25.4
+
+⬆️ Bump github/codeql-action from 3.25.3 to 3.25.4 ([`be2cdf4`](https://github.com/OZI-Project/blastpipe/commit/be2cdf4ff3c92cd533555d7a0a86ea44c6fe96f1))
+
+* Merge pull request #76 from OZI-Project/dependabot/github_actions/actions/checkout-4.1.5
+
+⬆️ Bump actions/checkout from 4.1.4 to 4.1.5 ([`0ebb39c`](https://github.com/OZI-Project/blastpipe/commit/0ebb39c4cdaaa4ee5d0f3d2e684f800fa52dbb96))
+
+
+## v2024.5.0 (2024-05-07)
+
+### :arrow_up:
+
+* :arrow_up: Bump actions/checkout from 4.1.4 to 4.1.5
+
+Bumps [actions/checkout](https://github.com/actions/checkout) from 4.1.4 to 4.1.5.
+- [Release notes](https://github.com/actions/checkout/releases)
+- [Changelog](https://github.com/actions/checkout/blob/main/CHANGELOG.md)
+- [Commits](https://github.com/actions/checkout/compare/0ad4b8fadaa221de15dcec353f45205ec38ea70b...44c2b7a8a4ea60a981eaca3cf939b5f4305c123b)
+
+---
+updated-dependencies:
+- dependency-name: actions/checkout
+  dependency-type: direct:production
+  update-type: version-update:semver-patch
+...
+
+Signed-off-by: dependabot[bot] &lt;support@github.com&gt; ([`91e2c9b`](https://github.com/OZI-Project/blastpipe/commit/91e2c9b742241dab90e33e8a86b37fff628da1e4))
+
+### :sparkles:
+
+* :sparkles: Add Cython extension template.
+
+Also adds a check for ``project.enable_cython`` to add a ``build-requires`` and ``meson.project()`` language argument.
+
+Signed-off-by: rjdbcm &lt;rjdbcm@outlook.com&gt; ([`6b6f1cc`](https://github.com/OZI-Project/blastpipe/commit/6b6f1cc3ad61f8db069e7fdacd43a92f36a43cf3))
+
+### Other
+
+* Merge pull request #77 from OZI-Project/add-ext_modules-feature
+
+:sparkles: Add Cython extension template. ([`edfdaf4`](https://github.com/OZI-Project/blastpipe/commit/edfdaf4f6abc77c43635d2704df356d3ff65f98e))
+
+
 ## v2024.4.7 (2024-05-05)
 
 ### :hammer:
