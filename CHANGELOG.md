@@ -2,6 +2,15 @@
 
 
 
+## v2024.6.1 (2024-05-10)
+
+### :pencil2:
+
+* :pencil2: Update ozi.yml fix missing 3.10 checkpoint
+
+Signed-off-by: Eden Rose, MSc &lt;ozi.project@outlook.com&gt; ([`bd46c8b`](https://github.com/OZI-Project/blastpipe/commit/bd46c8b03bec702e0b2a6163347b07000fdda3b8))
+
+
 ## v2024.6.0 (2024-05-10)
 
 ### :arrow_up:
