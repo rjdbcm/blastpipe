@@ -2,6 +2,15 @@
 
 
 
+## v2024.6.3 (2024-05-10)
+
+### :pencil2:
+
+* :pencil2: Correct commit_parser_options based on parsing semantic.
+
+Signed-off-by: rjdbcm &lt;rjdbcm@outlook.com&gt; ([`81d85f0`](https://github.com/OZI-Project/blastpipe/commit/81d85f0aa7dbd0f09ec617943f90e93b65a9d937))
+
+
 ## v2024.6.2 (2024-05-10)
 
 ### :pencil2:
