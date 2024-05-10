@@ -2,6 +2,23 @@
 
 
 
+## v2024.5.2 (2024-05-10)
+
+### :pencil2:
+
+* :pencil2: relicense templates to The Unlicense.
+
+Also cleans up metadata
+
+Signed-off-by: rjdbcm &lt;rjdbcm@outlook.com&gt; ([`809879a`](https://github.com/OZI-Project/blastpipe/commit/809879a8234693a9da688eb3daecf8dcefa1082f))
+
+### Other
+
+* Merge pull request #82 from OZI-Project/add-ext_modules-feature
+
+:pencil2: relicense templates to The Unlicense. ([`6c3d0b9`](https://github.com/OZI-Project/blastpipe/commit/6c3d0b9567105e67a9043d78249c9b014ae5bff4))
+
+
 ## v2024.5.1 (2024-05-09)
 
 ### :arrow_up:
