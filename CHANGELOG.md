@@ -2,6 +2,51 @@
 
 
 
+## v2024.6.0 (2024-05-10)
+
+### :arrow_up:
+
+* :arrow_up: Bump ossf/scorecard-action from 2.3.1 to 2.3.3
+
+Bumps [ossf/scorecard-action](https://github.com/ossf/scorecard-action) from 2.3.1 to 2.3.3.
+- [Release notes](https://github.com/ossf/scorecard-action/releases)
+- [Changelog](https://github.com/ossf/scorecard-action/blob/main/RELEASE.md)
+- [Commits](https://github.com/ossf/scorecard-action/compare/0864cf19026789058feabb7e87baa5f140aac736...dc50aa9510b46c811795eb24b2f1ba02a914e534)
+
+---
+updated-dependencies:
+- dependency-name: ossf/scorecard-action
+  dependency-type: direct:production
+  update-type: version-update:semver-patch
+...
+
+Signed-off-by: dependabot[bot] &lt;support@github.com&gt; ([`0cf8d28`](https://github.com/OZI-Project/blastpipe/commit/0cf8d285935bb2ccddd55f986a914efc6c5fcf7f))
+
+### :sparkles:
+
+* :sparkles: add spec 0.2 isolated release drafting.
+
+Signed-off-by: rjdbcm &lt;rjdbcm@outlook.com&gt; ([`b8206e7`](https://github.com/OZI-Project/blastpipe/commit/b8206e79ef757b4dba37588a9a8d0709d9937879))
+
+### Other
+
+* Update ozi.yml
+
+Signed-off-by: Eden Rose, MSc &lt;ozi.project@outlook.com&gt; ([`d19756f`](https://github.com/OZI-Project/blastpipe/commit/d19756f7bd1efc0922436375ba79260283972261))
+
+* Merge pull request #83 from OZI-Project/dependabot/github_actions/ossf/scorecard-action-2.3.3
+
+⬆️ Bump ossf/scorecard-action from 2.3.1 to 2.3.3 ([`cebe82b`](https://github.com/OZI-Project/blastpipe/commit/cebe82be76da9323151c2796f54a77e99cb12450))
+
+* Merge pull request #84 from OZI-Project/spec-0.2-workflow
+
+:sparkles: add spec 0.2 isolated release drafting. ([`1464321`](https://github.com/OZI-Project/blastpipe/commit/1464321ede5b872764e7131ec95c480de2e4ef8a))
+
+* Merge branch &#39;dependabot/github_actions/ossf/scorecard-action-2.3.3&#39; into spec-0.2-workflow
+
+Signed-off-by: Eden Rose, MSc &lt;ozi.project@outlook.com&gt; ([`c4e2a03`](https://github.com/OZI-Project/blastpipe/commit/c4e2a03b7f5f6b84a55573795cbcefe1fb1393ad))
+
+
 ## v2024.5.2 (2024-05-10)
 
 ### :pencil2:
