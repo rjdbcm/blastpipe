@@ -2,6 +2,17 @@
 
 
 
+## v2024.6.2 (2024-05-10)
+
+### :pencil2:
+
+* :pencil2: fix missing comma ([`1a38272`](https://github.com/OZI-Project/blastpipe/commit/1a382721df06a500b9551794fcbf222cff302b5a))
+
+* :pencil2: add 0.2 specification changes for templates.
+
+Signed-off-by: rjdbcm &lt;rjdbcm@outlook.com&gt; ([`fe913ba`](https://github.com/OZI-Project/blastpipe/commit/fe913bae55de47a33d2e2ca69636d3ec146c5439))
+
+
 ## v2024.6.1 (2024-05-10)
 
 ### :pencil2:
