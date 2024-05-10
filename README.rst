@@ -12,8 +12,8 @@ blastpipe
 
 |py-version-badge| |openssf-badge| |slsa-level3-badge| |fossa-badge| |semantic-release-badge| |bandit-badge|
 
-A simple utility library used as an integration and performance test for using
-Meson+OZI as Python 3 packaging management layer.
+A simple utility library used as a slice demonstration for using
+Meson+OZI as a Python packaging management layer.
 
 .. image:: https://raw.githubusercontent.com/sigstore/community/main/artwork/badge/sigstore_codesigned_purple.png
  :align: right
@@ -58,40 +58,8 @@ Submitting a Fix
 License
 ^^^^^^^
 
-blastpipe is released under the terms of the 2.0 version of the Apache License,
-approved by the Apache Software Foundation. blastpipe meets the Open Source Initiative's definition of
-open source software, and the Free Software Foundation's definition of GPLv3-compatible open 
-source software.
-
-|osi-logo| |asf-logo| |fsf-logo|
-
-.. note::
-   The OSI logo trademark is the trademark of Open Source Initiative.
-   The blastpipe project is not affiliated with or endorsed by the Open Source Initiative.
-
-.. note::
-   The Apache logo trademark is the trademark of the Apache Software Foundation.
-   The blastpipe project is not affiliated with or endorsed by the Apache Software Foundation.
-
-.. note::
-   The FSF logo trademark is the trademark of the Free Software Foundation.
-   The blastpipe project is not affiliated with or endorsed by the Free Software Foundation.
-
-.. |osi-logo| image:: https://149753425.v2.pressablecdn.com/wp-content/uploads/2009/06/OSIApproved_100X125.png
- :height: 100
- :alt: OSI Approved Open Source License under Keyhole Logo
- :target: https://opensource.org/
-
-.. |asf-logo| image:: https://www.apache.org/foundation/press/kit/asf_logo_url.png
- :height: 100
- :alt: Apache-2.0 License
- :target: https://www.apache.org/
-
-.. |fsf-logo| image:: https://www.gnu.org/graphics/logo-fsf.org.png
- :width: 330
- :alt: GPL-compatible Open Source License
- :target: https://www.gnu.org/
-
+blastpipe is released under the terms of the 2.0 version of the Apache License
+with LLVM exception.
 
 
 .. |py-version-badge| image:: https://img.shields.io/pypi/pyversions/ozi

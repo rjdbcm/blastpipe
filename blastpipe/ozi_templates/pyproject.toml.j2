@@ -1,3 +1,7 @@
+{#-
+# ozi/templates/tests/meson.build.j2
+# SPDX-License-Identifier: Unlicense
+-#}
 {% for line in project.copyright_head.split('\n') %}{{ '# ' ~ line }}
 {% endfor -%}
 {% include 'root.pyproject.toml' %}

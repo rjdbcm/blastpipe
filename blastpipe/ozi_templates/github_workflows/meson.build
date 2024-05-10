@@ -1,5 +1,5 @@
 # ozi/templates/github_workflows/meson.build
-# SPDX-License-Identifier: CC0-1.0
+# SPDX-License-Identifier: Unlicense
 workflows = [
     'checkpoint.yml.j2',
     'generate_provenance.yml.j2',
