@@ -1,6 +1,6 @@
 {#- OZI 0.1
 # ozi/templates/project.PKG-INFO
-# SPDX-License-Identifier: CC0-1.0
+# SPDX-License-Identifier: Unlicense
 -#}
 Metadata-Version: {{ spec.python.support.metadata_version }}
 Name: @PROJECT_NAME@

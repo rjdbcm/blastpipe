@@ -1,6 +1,6 @@
 {#- OZI 0.1
 # ozi/templates/semantic_release.pyproject.toml
-# SPDX-License-Identifier: CC0-1.0
+# SPDX-License-Identifier: Unlicense
 -#}
 [tool.semantic_release]
 commit_parser                  = "{{ spec.python.pkg.version.semantic }}"

@@ -61,7 +61,7 @@ test = [
 
 [tool.ozi-build.metadata]
 pkg-info-file = 'build/PKG-INFO'
-summary = "OZI integrated test library."
+summary = "OZI utility and templates library."
 
 [build-system]
 requires = [
@@ -206,7 +206,7 @@ force-single-line = true
 max-line-length = 102
 
 [tool.ruff.lint.flake8-copyright]
-author="Ross J. Duff MSc,"
+author="Eden Ross Duff MSc,"
 
 [tool.ruff.lint.flake8-quotes]
 inline-quotes = "single"
