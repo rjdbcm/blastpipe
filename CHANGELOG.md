@@ -22,6 +22,12 @@ updated-dependencies:
 
 Signed-off-by: dependabot[bot] &lt;support@github.com&gt; ([`0cf8d28`](https://github.com/OZI-Project/blastpipe/commit/0cf8d285935bb2ccddd55f986a914efc6c5fcf7f))
 
+### :pencil2:
+
+* :pencil2: fix release pin
+
+Signed-off-by: Eden Rose, MSc &lt;ozi.project@outlook.com&gt; ([`ffd1c77`](https://github.com/OZI-Project/blastpipe/commit/ffd1c7727c3a84a8d34bbaaf12012c948f3dbaa5))
+
 ### :sparkles:
 
 * :sparkles: add spec 0.2 isolated release drafting.
