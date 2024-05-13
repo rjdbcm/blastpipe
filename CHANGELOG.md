@@ -2,6 +2,52 @@
 
 
 
+## v2024.6.4 (2024-05-13)
+
+### :arrow_up:
+
+* :arrow_up: Bump OZI-Project/draft from 0.1.0 to 0.1.1
+
+Bumps [OZI-Project/draft](https://github.com/ozi-project/draft) from 0.1.0 to 0.1.1.
+- [Release notes](https://github.com/ozi-project/draft/releases)
+- [Commits](https://github.com/ozi-project/draft/compare/12b9a4f0d4e25ff5466bf2b0486d11aa4f3bf30d...7fb25933b941dc9531abb0809d0be0c79404b351)
+
+---
+updated-dependencies:
+- dependency-name: OZI-Project/draft
+  dependency-type: direct:production
+  update-type: version-update:semver-patch
+...
+
+Signed-off-by: dependabot[bot] &lt;support@github.com&gt; ([`501ad4c`](https://github.com/OZI-Project/blastpipe/commit/501ad4cd10af6e32cf7d32eee5b9ff7c754d09cb))
+
+* :arrow_up: Bump github/codeql-action from 3.25.4 to 3.25.5
+
+Bumps [github/codeql-action](https://github.com/github/codeql-action) from 3.25.4 to 3.25.5.
+- [Release notes](https://github.com/github/codeql-action/releases)
+- [Changelog](https://github.com/github/codeql-action/blob/main/CHANGELOG.md)
+- [Commits](https://github.com/github/codeql-action/compare/ccf74c947955fd1cf117aef6a0e4e66191ef6f61...b7cec7526559c32f1616476ff32d17ba4c59b2d6)
+
+---
+updated-dependencies:
+- dependency-name: github/codeql-action
+  dependency-type: direct:production
+  update-type: version-update:semver-patch
+...
+
+Signed-off-by: dependabot[bot] &lt;support@github.com&gt; ([`1707d54`](https://github.com/OZI-Project/blastpipe/commit/1707d54e142d8a4bf93b656b9470db27f442f8ab))
+
+### Other
+
+* Merge pull request #86 from OZI-Project/dependabot/github_actions/OZI-Project/draft-0.1.1
+
+⬆️ Bump OZI-Project/draft from 0.1.0 to 0.1.1 ([`0cf0777`](https://github.com/OZI-Project/blastpipe/commit/0cf07778182c0b64a9c11ef84ebce432d9db6493))
+
+* Merge pull request #85 from OZI-Project/dependabot/github_actions/github/codeql-action-3.25.5
+
+⬆️ Bump github/codeql-action from 3.25.4 to 3.25.5 ([`766fc5c`](https://github.com/OZI-Project/blastpipe/commit/766fc5cb037da37ab86d11d69719f84c3ed32be0))
+
+
 ## v2024.6.3 (2024-05-10)
 
 ### :pencil2:
