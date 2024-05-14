@@ -2,6 +2,23 @@
 
 
 
+## v2024.7.0 (2024-05-14)
+
+### :sparkles:
+
+* :sparkles: add spec 0.3 features.
+
+Markdown and plaintext template support.
+
+Signed-off-by: rjdbcm &lt;rjdbcm@outlook.com&gt; ([`5a63450`](https://github.com/OZI-Project/blastpipe/commit/5a6345037f9f1b3d73ba3105aaec0761f52b27ae))
+
+### Other
+
+* Merge pull request #87 from OZI-Project/feature/spec-0.3
+
+:sparkles: add spec 0.3 features. ([`d567705`](https://github.com/OZI-Project/blastpipe/commit/d567705b8ce00f780d72ce5a6e68766c8328cda2))
+
+
 ## v2024.6.4 (2024-05-13)
 
 ### :arrow_up:
