@@ -2,6 +2,15 @@
 
 
 
+## v2024.7.2 (2024-05-14)
+
+### :bug:
+
+* :bug::pencil2: Fix README template names.
+
+Signed-off-by: rjdbcm &lt;rjdbcm@outlook.com&gt; ([`a9da1b2`](https://github.com/OZI-Project/blastpipe/commit/a9da1b2d2745394d9fba53f885f9dd457b1fe08a))
+
+
 ## v2024.7.1 (2024-05-14)
 
 ### :bug:
