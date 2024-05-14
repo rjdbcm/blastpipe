@@ -5,7 +5,7 @@
 [comment] # (.. OZI)
 [comment] # (  Classifier: License-Expression :: {{ project.license_expression }})
 [comment] # (  Classifier: License-File :: {{ project.license_file }})
-[comment] # ({% for line in project.copyright_head.split('\n') %})
+{%- for line in project.copyright_head.split('\n') %}
 [comment] # ({{ line }})
 {%- endfor %}
 
