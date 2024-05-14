@@ -47,6 +47,7 @@ source_files = [
     'pytest.pyproject.toml',
     'pytest.meson.options',
     'restructuredtext-lint.meson.options',
+    'readme-renderer.meson.options',
     'requirements.in.j2',
     'root.pyproject.toml',
     'ruff.pyproject.toml',
