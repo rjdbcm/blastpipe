@@ -3,9 +3,9 @@
 # SPDX-License-Identifier: Unlicense
 -#}
 {%- if project.long_description_content_type == 'rst' %}
-{% include 'README.rst' %}
+{% include 'README.rst.j2' %}
 {%- elif project.long_description_content_type == 'md' %}
-{% include 'README.md' %}
+{% include 'README.md.j2' %}
 {%- elif project.long_description_content_type == 'txt' %}
-{% include 'README.txt' %}
+{% include 'README.txt.j2' %}
 {% endif %}
