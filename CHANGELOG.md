@@ -2,6 +2,15 @@
 
 
 
+## v2024.7.3 (2024-05-14)
+
+### :bug:
+
+* :bug::pencil2: fix README reference in build template.
+
+Signed-off-by: rjdbcm &lt;rjdbcm@outlook.com&gt; ([`fdff0ef`](https://github.com/OZI-Project/blastpipe/commit/fdff0eff07d8acc60ded0d0fd2db9c8e7c1f7f40))
+
+
 ## v2024.7.2 (2024-05-14)
 
 ### :bug:
