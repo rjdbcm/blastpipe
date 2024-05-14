@@ -2,6 +2,13 @@
 
 
 
+## v2024.7.1 (2024-05-14)
+
+### :bug:
+
+* :pencil2::bug: fix README.md template header. ([`9f52201`](https://github.com/OZI-Project/blastpipe/commit/9f5220164ff39e0441122c95e7a672fa3b7ce34f))
+
+
 ## v2024.7.0 (2024-05-14)
 
 ### :sparkles:
