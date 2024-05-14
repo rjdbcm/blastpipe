@@ -2,6 +2,15 @@
 
 
 
+## v2024.7.4 (2024-05-14)
+
+### :bug:
+
+* :bug: add missing readme-renderer args.
+
+Signed-off-by: rjdbcm &lt;rjdbcm@outlook.com&gt; ([`4091134`](https://github.com/OZI-Project/blastpipe/commit/4091134c937b45c20b7c72ac4761700d01c558a1))
+
+
 ## v2024.7.3 (2024-05-14)
 
 ### :bug:
