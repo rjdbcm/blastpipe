@@ -10,15 +10,15 @@
 blastpipe
 =========
 
-|py-version-badge| |openssf-badge| |slsa-level3-badge| |fossa-badge| |semantic-release-badge| |bandit-badge|
+|ozi-badge| |py-version-badge| |openssf-badge| |slsa-level3-badge| |fossa-badge| |semantic-release-badge| |bandit-badge|
 
 A simple utility library used as a slice demonstration for using
 Meson+OZI as a Python packaging management layer.
 
-.. image:: https://raw.githubusercontent.com/sigstore/community/main/artwork/badge/sigstore_codesigned_purple.png
- :align: right
- :height: 140
- :target: https://www.sigstore.dev/
+.. image:: https://raw.githubusercontent.com/OZI-Project/brand/main/images/blastpipe-logo.svg
+  :align: left
+  :width: 90
+  :target: https://oziproject.dev/
 
 Contributing
 ^^^^^^^^^^^^
@@ -61,6 +61,10 @@ License
 blastpipe is released under the terms of the 2.0 version of the Apache License
 with LLVM exception.
 
+.. image:: https://raw.githubusercontent.com/sigstore/community/main/artwork/badge/sigstore_codesigned_purple.png
+ :align: right
+ :height: 140
+ :target: https://www.sigstore.dev/
 
 .. |py-version-badge| image:: https://img.shields.io/pypi/pyversions/ozi
     :alt: PyPI - Python Version
@@ -77,3 +81,6 @@ with LLVM exception.
 .. |bandit-badge| image:: https://img.shields.io/badge/security-%E2%9C%94%20bandit-yellow.svg
     :target: https://github.com/PyCQA/bandit
     :alt: Security Status
+.. |ozi-badge| image:: https://raw.githubusercontent.com/OZI-Project/brand/main/images/ozi-badge.svg
+    :target: https://oziproject.dev
+    :alt: OZI Project
