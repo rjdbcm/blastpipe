@@ -2,6 +2,15 @@
 
 
 
+## v2024.7.5 (2024-05-15)
+
+### :bug:
+
+* :bug: update optional-deps.
+
+Signed-off-by: rjdbcm &lt;rjdbcm@outlook.com&gt; ([`0fc1b21`](https://github.com/OZI-Project/blastpipe/commit/0fc1b215ebdae8d2a9f6d725607bd1e9e96df9d9))
+
+
 ## v2024.7.4 (2024-05-14)
 
 ### :bug:
