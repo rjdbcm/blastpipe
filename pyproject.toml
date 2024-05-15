@@ -46,7 +46,7 @@ lint = [
     "isort",
     "mypy",
     "pyright",
-    "restructuredtext-lint",
+    "readme-renderer",
 ]
 test = [
     "coverage[toml]",
@@ -60,7 +60,7 @@ test = [
 ]
 
 [tool.ozi-build.metadata]
-pkg-info-file = 'build/PKG-INFO'
+pkg-info-file = 'PKG-INFO'
 summary = "OZI utility and templates library."
 
 [build-system]
