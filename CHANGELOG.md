@@ -2,6 +2,15 @@
 
 
 
+## v2024.7.6 (2024-05-15)
+
+### :lipstick:
+
+* :memo::lipstick: Update README.rst
+
+Signed-off-by: Eden Ross Duff, MSc &lt;ozi.project@outlook.com&gt; ([`76e6c55`](https://github.com/OZI-Project/blastpipe/commit/76e6c556e6a77e8f4b30572d3e2c1283f0272eb5))
+
+
 ## v2024.7.5 (2024-05-15)
 
 ### :bug:
