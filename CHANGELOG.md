@@ -2,6 +2,52 @@
 
 
 
+## v2024.7.7 (2024-05-17)
+
+### :arrow_up:
+
+* :arrow_up: Bump OZI-Project/draft from 0.1.1 to 0.1.2
+
+Bumps [OZI-Project/draft](https://github.com/ozi-project/draft) from 0.1.1 to 0.1.2.
+- [Release notes](https://github.com/ozi-project/draft/releases)
+- [Commits](https://github.com/ozi-project/draft/compare/7fb25933b941dc9531abb0809d0be0c79404b351...574ec018b98bb323c079a826b54247c78cc4abac)
+
+---
+updated-dependencies:
+- dependency-name: OZI-Project/draft
+  dependency-type: direct:production
+  update-type: version-update:semver-patch
+...
+
+Signed-off-by: dependabot[bot] &lt;support@github.com&gt; ([`1b9834b`](https://github.com/OZI-Project/blastpipe/commit/1b9834b94e3bd12cace7ad6387203044abc806b4))
+
+* :arrow_up: Bump actions/checkout from 4.1.5 to 4.1.6
+
+Bumps [actions/checkout](https://github.com/actions/checkout) from 4.1.5 to 4.1.6.
+- [Release notes](https://github.com/actions/checkout/releases)
+- [Changelog](https://github.com/actions/checkout/blob/main/CHANGELOG.md)
+- [Commits](https://github.com/actions/checkout/compare/44c2b7a8a4ea60a981eaca3cf939b5f4305c123b...a5ac7e51b41094c92402da3b24376905380afc29)
+
+---
+updated-dependencies:
+- dependency-name: actions/checkout
+  dependency-type: direct:production
+  update-type: version-update:semver-patch
+...
+
+Signed-off-by: dependabot[bot] &lt;support@github.com&gt; ([`b89106e`](https://github.com/OZI-Project/blastpipe/commit/b89106eaefdd2acdde0d1b623cbfe2e71060bc9d))
+
+### Other
+
+* Merge pull request #88 from OZI-Project/dependabot/github_actions/actions/checkout-4.1.6
+
+⬆️ Bump actions/checkout from 4.1.5 to 4.1.6 ([`890344c`](https://github.com/OZI-Project/blastpipe/commit/890344ceb2d57e44449292407b52583630c7cf4b))
+
+* Merge pull request #89 from OZI-Project/dependabot/github_actions/OZI-Project/draft-0.1.2
+
+⬆️ Bump OZI-Project/draft from 0.1.1 to 0.1.2 ([`42c32ec`](https://github.com/OZI-Project/blastpipe/commit/42c32ec0d7753a42a790ca6875d64b578af58cc1))
+
+
 ## v2024.7.6 (2024-05-15)
 
 ### :lipstick:
