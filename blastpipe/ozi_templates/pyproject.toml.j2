@@ -6,6 +6,8 @@
 {% endfor -%}
 {% include 'root.pyproject.toml' %}
 
+{% include 'setuptools_scm.pyproject.toml' %}
+
 {% include 'bandit.pyproject.toml' %}
 
 {% include 'black.pyproject.toml' %}
@@ -25,7 +27,5 @@
 {% include 'ruff.pyproject.toml' %}
 
 {% include 'semantic_release.pyproject.toml' %}
-
-{% include 'setuptools_scm.pyproject.toml' %}
 
 {% include 'tox.pyproject.toml' %}
