@@ -6,6 +6,10 @@
 
 ### :arrow_up:
 
+* :arrow_up: OZI-Project/release 0.5.7
+
+Signed-off-by: rjdbcm &lt;rjdbcm@outlook.com&gt; ([`3c00b9d`](https://github.com/OZI-Project/blastpipe/commit/3c00b9d29e3aa8ebabcc065544c343ec9cded4d2))
+
 * :arrow_up: OZI-Project/release 0.5.5
 
 Signed-off-by: rjdbcm &lt;rjdbcm@outlook.com&gt; ([`bbef472`](https://github.com/OZI-Project/blastpipe/commit/bbef4727bebb5d5e97d89fb3d5ba24318d36012b))
