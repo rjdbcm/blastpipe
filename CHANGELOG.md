@@ -12,6 +12,10 @@ Signed-off-by: rjdbcm &lt;rjdbcm@outlook.com&gt; ([`f5ffdf3`](https://github.com
 
 ### :bug:
 
+* :bug: add allow for our endpoint domain
+
+Signed-off-by: rjdbcm &lt;rjdbcm@outlook.com&gt; ([`145c1fa`](https://github.com/OZI-Project/blastpipe/commit/145c1fa9d11ff28284fb1f5b203a97aa4bd5e49a))
+
 * :bug: Add API endpoint to allowlist in workflow hardener.
 
 Signed-off-by: rjdbcm &lt;rjdbcm@outlook.com&gt; ([`f4b74a4`](https://github.com/OZI-Project/blastpipe/commit/f4b74a43858719c9200821aa3067b9094aeb380e))
@@ -41,6 +45,8 @@ Use the release distribution names rather than version number.
 Signed-off-by: rjdbcm &lt;rjdbcm@outlook.com&gt; ([`896ceef`](https://github.com/OZI-Project/blastpipe/commit/896ceefa68c39e989978b2ea98ebfbefdf2dd000))
 
 ### Other
+
+* Merge branch &#39;main&#39; of https://github.com/rjdbcm/blastpipe ([`c7e4a3a`](https://github.com/OZI-Project/blastpipe/commit/c7e4a3a3cc75e05b7454a4772b56a9f63414a0f5))
 
 * skip 3.13 checkpoint ([`d00dd77`](https://github.com/OZI-Project/blastpipe/commit/d00dd77bc5e69996c3401e2804c9e0a398421962))
 
