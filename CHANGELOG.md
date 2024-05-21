@@ -4,6 +4,12 @@
 
 ## v2024.9.0 (2024-05-21)
 
+### :arrow_up:
+
+* :arrow_up: OZI-Project/release 0.5.2
+
+Signed-off-by: rjdbcm &lt;rjdbcm@outlook.com&gt; ([`f5ffdf3`](https://github.com/OZI-Project/blastpipe/commit/f5ffdf32b02ef787d36b46b60dc78e4c29935797))
+
 ### :bug:
 
 * :bug: Add API endpoint to allowlist in workflow hardener.
