@@ -201,7 +201,7 @@ jobs:
             oziproject.dev:443
             www.oziproject.dev:443
 
-      - uses: OZI-Project/release@1ee0e549ffd501538e17472976c7de7619f17df0
+      - uses: OZI-Project/release@254169e828812bc1c6f66aa4a9196f74d4dc8848
         id: release
         with:
           tag: ${{ needs.draft.outputs.tag }}
