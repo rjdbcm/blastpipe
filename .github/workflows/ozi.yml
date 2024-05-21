@@ -38,7 +38,7 @@ jobs:
             rekor.sigstore.dev:443
             tuf-repo-cdn.sigstore.dev:443
 
-      - uses: OZI-Project/checkpoint@88a073658a2e8e6b0596d4c9d74d555948c0e8ac
+      - uses: OZI-Project/checkpoint@0c54a8e9bbbe5817b8c75a97b4cd6871a64f65f7
         with:
           python-version: "3.10"
 
@@ -66,7 +66,7 @@ jobs:
             rekor.sigstore.dev:443
             tuf-repo-cdn.sigstore.dev:443
 
-      - uses: OZI-Project/checkpoint@88a073658a2e8e6b0596d4c9d74d555948c0e8ac
+      - uses: OZI-Project/checkpoint@0c54a8e9bbbe5817b8c75a97b4cd6871a64f65f7
         with:
           python-version: "3.11"
 
@@ -94,7 +94,7 @@ jobs:
             rekor.sigstore.dev:443
             tuf-repo-cdn.sigstore.dev:443
 
-      - uses: OZI-Project/checkpoint@88a073658a2e8e6b0596d4c9d74d555948c0e8ac
+      - uses: OZI-Project/checkpoint@0c54a8e9bbbe5817b8c75a97b4cd6871a64f65f7
         with:
           python-version: "3.12"
 
@@ -122,13 +122,13 @@ jobs:
             rekor.sigstore.dev:443
             tuf-repo-cdn.sigstore.dev:443
 
-      - uses: OZI-Project/checkpoint@88a073658a2e8e6b0596d4c9d74d555948c0e8ac
+      - uses: OZI-Project/checkpoint@0c54a8e9bbbe5817b8c75a97b4cd6871a64f65f7
         with:
           python-version: "3.13"
 
   checkpoint:
     runs-on: ubuntu-latest
-    needs: [checkpoint-cp310-ubuntu-latest, checkpoint-cp311-ubuntu-latest, checkpoint-cp312-ubuntu-latest]
+    needs: [checkpoint-cp310-ubuntu-latest, checkpoint-cp311-ubuntu-latest, checkpoint-cp312-ubuntu-latest, checkpoint-cp313-ubuntu-latest]
     steps:
       - name: Harden Runner
         uses: step-security/harden-runner@a4aa98b93cab29d9b1101a6143fb8bce00e2eac4 # v2.7.1
@@ -196,7 +196,7 @@ jobs:
             tuf-repo-cdn.sigstore.dev:443
             oziproject.dev:443
 
-      - uses: OZI-Project/release@e344295ae53d8a618921303d77bcded2f1c262ee
+      - uses: OZI-Project/release@2971f1357cabebda9c1d2d6facc0c9ce1094411d
         id: release
         with:
           tag: ${{ needs.draft.outputs.tag }}
