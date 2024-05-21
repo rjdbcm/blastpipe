@@ -200,6 +200,7 @@ jobs:
             tuf-repo-cdn.sigstore.dev:443
             oziproject.dev:443
             www.oziproject.dev:443
+            objects.githubusercontent.com:443
 
       - uses: OZI-Project/release@e3145b96a7d405527b7558f6d0f28f8ef6148813
         id: release
