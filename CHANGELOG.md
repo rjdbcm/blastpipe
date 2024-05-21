@@ -4,6 +4,20 @@
 
 ## v2024.9.0 (2024-05-21)
 
+### :bug:
+
+* :bug: allow our API endpoint. ([`f14821c`](https://github.com/OZI-Project/blastpipe/commit/f14821c50637d65ebf199d80669b002178c08502))
+
+### :hammer:
+
+* :hammer: bump OZI-Project/checkpoint 0.3.0
+
+add prerelease checkpoint
+
+Signed-off-by: rjdbcm &lt;rjdbcm@outlook.com&gt; ([`96ae984`](https://github.com/OZI-Project/blastpipe/commit/96ae984725f659306adcafc502b51dcf061d1949))
+
+* :hammer: add prerelease checkpoint ([`e859d10`](https://github.com/OZI-Project/blastpipe/commit/e859d1066274212d3fef019896b975240d3c007b))
+
 ### :sparkles:
 
 * :sparkles: Update OZI-Project/release 0.5.0
