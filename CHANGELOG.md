@@ -6,6 +6,14 @@
 
 ### :bug:
 
+* :bug: Add API endpoint to allowlist in workflow hardener.
+
+Signed-off-by: rjdbcm &lt;rjdbcm@outlook.com&gt; ([`f4b74a4`](https://github.com/OZI-Project/blastpipe/commit/f4b74a43858719c9200821aa3067b9094aeb380e))
+
+* :bug: patch checkpoint and release.
+
+Signed-off-by: rjdbcm &lt;rjdbcm@outlook.com&gt; ([`09f65b0`](https://github.com/OZI-Project/blastpipe/commit/09f65b05c347cc2607f029adf1b083b85fbb39a1))
+
 * :bug: allow our API endpoint. ([`f14821c`](https://github.com/OZI-Project/blastpipe/commit/f14821c50637d65ebf199d80669b002178c08502))
 
 ### :hammer:
@@ -25,6 +33,10 @@ Signed-off-by: rjdbcm &lt;rjdbcm@outlook.com&gt; ([`96ae984`](https://github.com
 Use the release distribution names rather than version number.
 
 Signed-off-by: rjdbcm &lt;rjdbcm@outlook.com&gt; ([`896ceef`](https://github.com/OZI-Project/blastpipe/commit/896ceefa68c39e989978b2ea98ebfbefdf2dd000))
+
+### Other
+
+* skip 3.13 checkpoint ([`d00dd77`](https://github.com/OZI-Project/blastpipe/commit/d00dd77bc5e69996c3401e2804c9e0a398421962))
 
 
 ## v2024.8.1 (2024-05-20)
