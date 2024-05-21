@@ -2,6 +2,17 @@
 
 
 
+## v2024.9.0 (2024-05-21)
+
+### :sparkles:
+
+* :sparkles: Update OZI-Project/release 0.5.0
+
+Use the release distribution names rather than version number.
+
+Signed-off-by: rjdbcm &lt;rjdbcm@outlook.com&gt; ([`896ceef`](https://github.com/OZI-Project/blastpipe/commit/896ceefa68c39e989978b2ea98ebfbefdf2dd000))
+
+
 ## v2024.8.1 (2024-05-20)
 
 ### :arrow_up:
