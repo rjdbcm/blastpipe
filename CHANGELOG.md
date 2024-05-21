@@ -60,6 +60,8 @@ Signed-off-by: rjdbcm &lt;rjdbcm@outlook.com&gt; ([`896ceef`](https://github.com
 
 ### Other
 
+* bump release ([`c196438`](https://github.com/OZI-Project/blastpipe/commit/c196438dc73d2761269fe5107eb69fe71a6a2136))
+
 * Merge branch &#39;main&#39; of https://github.com/rjdbcm/blastpipe ([`9e37da3`](https://github.com/OZI-Project/blastpipe/commit/9e37da3eb8c200f6639b2b13e106dd386fffbc7e))
 
 * add  allow objects.githubusercontent.com:443 ([`b405f3e`](https://github.com/OZI-Project/blastpipe/commit/b405f3ecb85b734412f164b964a69b1699f37391))
