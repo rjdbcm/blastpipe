@@ -166,6 +166,7 @@ jobs:
             pypi.org:443
             rekor.sigstore.dev:443
             tuf-repo-cdn.sigstore.dev:443
+            oziproject.dev:443
 
       - uses: OZI-Project/release@e344295ae53d8a618921303d77bcded2f1c262ee
         id: release
