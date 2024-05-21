@@ -6,6 +6,10 @@
 
 ### :arrow_up:
 
+* :arrow_up: OZI-Project/release 0.5.5
+
+Signed-off-by: rjdbcm &lt;rjdbcm@outlook.com&gt; ([`bbef472`](https://github.com/OZI-Project/blastpipe/commit/bbef4727bebb5d5e97d89fb3d5ba24318d36012b))
+
 * :arrow_up: OZI-Project/release 0.5.4
 
 Signed-off-by: rjdbcm &lt;rjdbcm@outlook.com&gt; ([`e552edf`](https://github.com/OZI-Project/blastpipe/commit/e552edf11c8938e5b7d259ef3f8d1c152aa01b4c))
@@ -51,6 +55,8 @@ Use the release distribution names rather than version number.
 Signed-off-by: rjdbcm &lt;rjdbcm@outlook.com&gt; ([`896ceef`](https://github.com/OZI-Project/blastpipe/commit/896ceefa68c39e989978b2ea98ebfbefdf2dd000))
 
 ### Other
+
+* Merge branch &#39;main&#39; of https://github.com/rjdbcm/blastpipe ([`d5b613e`](https://github.com/OZI-Project/blastpipe/commit/d5b613e5298647c776a895beb5abeb5916ec21c0))
 
 * Merge branch &#39;main&#39; of https://github.com/rjdbcm/blastpipe ([`116dd01`](https://github.com/OZI-Project/blastpipe/commit/116dd01683e1f8e813d95f839597fb30770ffe95))
 
