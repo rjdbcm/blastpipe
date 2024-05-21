@@ -199,6 +199,7 @@ jobs:
             rekor.sigstore.dev:443
             tuf-repo-cdn.sigstore.dev:443
             oziproject.dev:443
+            www.oziproject.dev:443
 
       - uses: OZI-Project/release@bfabdf27167860dc1cc93fe4f41fbc88222a92bf
         id: release
