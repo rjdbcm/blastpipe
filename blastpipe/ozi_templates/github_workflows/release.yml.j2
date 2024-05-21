@@ -9,9 +9,10 @@
     strategy:
       matrix:
         py:
-          - {{ spec.python.support.security|wheel_repr }}
-          - {{ spec.python.support.bugfix2|wheel_repr }}
-          - {{ spec.python.support.bugfix1|wheel_repr }}
+          - security
+          - bugfix2
+          - bugfix1
+          - prerelease
       fail-fast: true
       max-parallel: 1
     outputs:

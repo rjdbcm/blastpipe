@@ -141,9 +141,10 @@ jobs:
     strategy:
       matrix:
         py:
-          - 'py310'
-          - 'py311'
-          - 'py312'
+          - security
+          - bugfix2
+          - bugfix1
+          - prerelease
       fail-fast: true
       max-parallel: 1
     outputs:
@@ -166,7 +167,7 @@ jobs:
             rekor.sigstore.dev:443
             tuf-repo-cdn.sigstore.dev:443
 
-      - uses: OZI-Project/release@033e98adfa7086d1b1273bcc80b0576297e733bd
+      - uses: OZI-Project/release@e344295ae53d8a618921303d77bcded2f1c262ee
         id: release
         with:
           tag: ${{ needs.draft.outputs.tag }}
