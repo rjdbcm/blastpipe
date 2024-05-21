@@ -162,7 +162,7 @@ jobs:
             api.github.com:443
             github.com:443
 
-      - uses: OZI-Project/draft@574ec018b98bb323c079a826b54247c78cc4abac
+      - uses: OZI-Project/draft@52700faa171c8b44e53834c4878e6cbca430b1d9
         id: draft
         with:
           github-token: ${{ secrets.GITHUB_TOKEN }}
@@ -201,7 +201,7 @@ jobs:
             oziproject.dev:443
             www.oziproject.dev:443
 
-      - uses: OZI-Project/release@e552510ed7a5427efbb52f95f322e0329a636cb5
+      - uses: OZI-Project/release@1ee0e549ffd501538e17472976c7de7619f17df0
         id: release
         with:
           tag: ${{ needs.draft.outputs.tag }}
