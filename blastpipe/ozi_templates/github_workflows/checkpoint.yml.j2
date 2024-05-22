@@ -12,7 +12,7 @@
         id-token: write
     steps:
       - name: Harden Runner
-        uses: step-security/harden-runner@63c24ba6bd7ba022e95695ff85de572c04a18142 # v2.7.0
+        uses: step-security/harden-runner@f086349bfa2bd1361f7909c78558e816508cdc10 # v2.8.0
         with:
           disable-sudo: true
           egress-policy: block
@@ -38,7 +38,7 @@
     needs: [{%- for python_version in [spec.python.support.security, spec.python.support.bugfix2, spec.python.support.bugfix1, spec.python.support.prerelease] %}checkpoint-{{ python_version|wheel_repr|replace('py', 'cp') }}-ubuntu-latest, {%- endfor %}]
     steps:
       - name: Harden Runner
-        uses: step-security/harden-runner@63c24ba6bd7ba022e95695ff85de572c04a18142 # v2.7.0
+        uses: step-security/harden-runner@f086349bfa2bd1361f7909c78558e816508cdc10 # v2.8.0
         with:
           disable-sudo: true
           egress-policy: block
