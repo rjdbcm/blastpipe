@@ -2,6 +2,47 @@
 
 
 
+## v2024.9.1 (2024-05-22)
+
+### :arrow_up:
+
+* :arrow_up: step-security/harden-runner v2.8.0 in ozi_templates
+
+Signed-off-by: rjdbcm &lt;rjdbcm@outlook.com&gt; ([`fc957e7`](https://github.com/OZI-Project/blastpipe/commit/fc957e7be34599dda04dd360f5deeba06cd73b60))
+
+### Other
+
+* Merge pull request #95 from OZI-Project/dependabot/github_actions/OZI-Project/release-0.5.10
+
+⬆️ Bump OZI-Project/release from 0.5.9 to 0.5.10 ([`addaf32`](https://github.com/OZI-Project/blastpipe/commit/addaf32f12e2e8db585ae6de94d8835bad5e4270))
+
+* Merge pull request #94 from OZI-Project/dependabot/github_actions/step-security/harden-runner-2.8.0
+
+⬆️ Bump step-security/harden-runner from 2.7.1 to 2.8.0 ([`1b6dcfb`](https://github.com/OZI-Project/blastpipe/commit/1b6dcfb1352cf05a6f4d1b355d82bd92234062ad))
+
+* 
+
+---
+updated-dependencies:
+- dependency-name: OZI-Project/release
+  dependency-type: direct:production
+  update-type: version-update:semver-patch
+...
+
+Signed-off-by: dependabot[bot] &lt;support@github.com&gt; ([`71e7773`](https://github.com/OZI-Project/blastpipe/commit/71e777342ef6edea2d0e340ba0a2b748c96e26ef))
+
+* 
+
+---
+updated-dependencies:
+- dependency-name: step-security/harden-runner
+  dependency-type: direct:production
+  update-type: version-update:semver-minor
+...
+
+Signed-off-by: dependabot[bot] &lt;support@github.com&gt; ([`3becfb3`](https://github.com/OZI-Project/blastpipe/commit/3becfb3a5e5f32ae56a502d8e460fbe76bea3199))
+
+
 ## v2024.9.0 (2024-05-21)
 
 ### :arrow_up:
