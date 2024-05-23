@@ -2,6 +2,15 @@
 
 
 
+## v2024.9.2 (2024-05-23)
+
+### :bug:
+
+* :wrench::bug: Add 3.13 support
+
+Signed-off-by: rjdbcm &lt;rjdbcm@outlook.com&gt; ([`42fc53d`](https://github.com/OZI-Project/blastpipe/commit/42fc53d8887b318bfc088d90d051ad4372a96f41))
+
+
 ## v2024.9.1 (2024-05-22)
 
 ### :arrow_up:
