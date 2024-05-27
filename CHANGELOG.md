@@ -2,6 +2,51 @@
 
 
 
+## v2024.9.3 (2024-05-27)
+
+### :arrow_up:
+
+* :arrow_up: Bump OZI-Project/publish from 0.1.2 to 0.1.3
+
+Bumps [OZI-Project/publish](https://github.com/ozi-project/publish) from 0.1.2 to 0.1.3.
+- [Release notes](https://github.com/ozi-project/publish/releases)
+- [Commits](https://github.com/ozi-project/publish/compare/e0a606616e2ff69a1b564f151f1061601683668f...f5d14bfb29fd5daa0fd3002a9c57f863e86ddf93)
+
+---
+updated-dependencies:
+- dependency-name: OZI-Project/publish
+  dependency-type: direct:production
+  update-type: version-update:semver-patch
+...
+
+Signed-off-by: dependabot[bot] &lt;support@github.com&gt; ([`6ab4af6`](https://github.com/OZI-Project/blastpipe/commit/6ab4af6d5b34b8e6d54f1930cf6491e7fb413824))
+
+* :arrow_up: Bump OZI-Project/checkpoint from 0.3.1 to 0.4.0
+
+Bumps [OZI-Project/checkpoint](https://github.com/ozi-project/checkpoint) from 0.3.1 to 0.4.0.
+- [Release notes](https://github.com/ozi-project/checkpoint/releases)
+- [Commits](https://github.com/ozi-project/checkpoint/compare/0c54a8e9bbbe5817b8c75a97b4cd6871a64f65f7...64e790c506ba8df435c545f0d4135fbfde23f6a0)
+
+---
+updated-dependencies:
+- dependency-name: OZI-Project/checkpoint
+  dependency-type: direct:production
+  update-type: version-update:semver-minor
+...
+
+Signed-off-by: dependabot[bot] &lt;support@github.com&gt; ([`3dd0525`](https://github.com/OZI-Project/blastpipe/commit/3dd0525e3cac3b53049e6c6768b74883a6fefac0))
+
+### Other
+
+* Merge pull request #96 from OZI-Project/dependabot/github_actions/OZI-Project/checkpoint-0.4.0
+
+⬆️ Bump OZI-Project/checkpoint from 0.3.1 to 0.4.0 ([`00b12b3`](https://github.com/OZI-Project/blastpipe/commit/00b12b3ffe60f11ac4b0f64ad635fc541cdb6b0d))
+
+* Merge pull request #97 from OZI-Project/dependabot/github_actions/OZI-Project/publish-0.1.3
+
+⬆️ Bump OZI-Project/publish from 0.1.2 to 0.1.3 ([`ec9feb8`](https://github.com/OZI-Project/blastpipe/commit/ec9feb8d5b663efd5f3c146b38f431decf015802))
+
+
 ## v2024.9.2 (2024-05-23)
 
 ### :bug:
