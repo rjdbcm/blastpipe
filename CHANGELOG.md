@@ -2,6 +2,19 @@
 
 
 
+## v2024.10.0 (2024-05-30)
+
+### :bug:
+
+* :bug: fix draft version was pinned statically. ([`3cce3ba`](https://github.com/OZI-Project/blastpipe/commit/3cce3ba7d1658e1a40227718d8c5671876265dd9))
+
+### :sparkles:
+
+* :sparkles: OZI-Project/draft@0.3.0 OZI-Project/release@0.6.0
+
+Signed-off-by: rjdbcm &lt;rjdbcm@outlook.com&gt; ([`36b199e`](https://github.com/OZI-Project/blastpipe/commit/36b199e293d3859e5a0ec465fa8c265127c8c1f5))
+
+
 ## v2024.9.4 (2024-05-29)
 
 ### :arrow_up:
