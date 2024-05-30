@@ -2,6 +2,13 @@
 
 
 
+## v2024.10.1 (2024-05-30)
+
+### :bug:
+
+* :bug: fix incorrect python-dist refs in templates. ([`0ca1343`](https://github.com/OZI-Project/blastpipe/commit/0ca1343aed0d868d1cca1a90039d8250673989b6))
+
+
 ## v2024.10.0 (2024-05-30)
 
 ### :bug:
