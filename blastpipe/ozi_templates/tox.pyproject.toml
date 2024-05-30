@@ -10,9 +10,9 @@ envlist = {% for suite in spec.python.ci.checkpoint.suites %}{{ suite }},{% endf
 
 [gh]
 python =
-   {{ spec.python.support.bugfix1 }} = {% for suite in spec.python.ci.checkpoint.suites %}{{ suite }},{% endfor %}
-   {{ spec.python.support.bugfix2 }} = {% for suite in spec.python.ci.checkpoint.suites %}{{ suite }},{% endfor %}
-   {{ spec.python.support.security }} = {% for suite in spec.python.ci.checkpoint.suites %}{{ suite }},{% endfor %}
+   {{ spec.python.support.bugfix }} = {% for suite in spec.python.ci.checkpoint.suites %}{{ suite }},{% endfor %}
+   {{ spec.python.support.security1 }} = {% for suite in spec.python.ci.checkpoint.suites %}{{ suite }},{% endfor %}
+   {{ spec.python.support.security2 }} = {% for suite in spec.python.ci.checkpoint.suites %}{{ suite }},{% endfor %}
 
 [testenv]
 allowlist_externals =
