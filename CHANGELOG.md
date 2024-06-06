@@ -2,6 +2,70 @@
 
 
 
+## v2024.10.3 (2024-06-06)
+
+### :arrow_up:
+
+* :arrow_up: Bump actions/dependency-review-action from 4.3.2 to 4.3.3
+
+Bumps [actions/dependency-review-action](https://github.com/actions/dependency-review-action) from 4.3.2 to 4.3.3.
+- [Release notes](https://github.com/actions/dependency-review-action/releases)
+- [Commits](https://github.com/actions/dependency-review-action/compare/0c155c5e8556a497adf53f2c18edabf945ed8e70...72eb03d02c7872a771aacd928f3123ac62ad6d3a)
+
+---
+updated-dependencies:
+- dependency-name: actions/dependency-review-action
+  dependency-type: direct:production
+  update-type: version-update:semver-patch
+...
+
+Signed-off-by: dependabot[bot] &lt;support@github.com&gt; ([`324fc3e`](https://github.com/OZI-Project/blastpipe/commit/324fc3eed0532fce7645face2a5688cb116cc6d7))
+
+* :arrow_up: Bump OZI-Project/draft from 0.3.0 to 0.3.1
+
+Bumps [OZI-Project/draft](https://github.com/ozi-project/draft) from 0.3.0 to 0.3.1.
+- [Release notes](https://github.com/ozi-project/draft/releases)
+- [Commits](https://github.com/ozi-project/draft/compare/b1b9f3b412ed16a45dfe7c6f60ea8d6fbae97630...f136e6eb55507553aee04e92455cc2dc279583fc)
+
+---
+updated-dependencies:
+- dependency-name: OZI-Project/draft
+  dependency-type: direct:production
+  update-type: version-update:semver-patch
+...
+
+Signed-off-by: dependabot[bot] &lt;support@github.com&gt; ([`9a033c8`](https://github.com/OZI-Project/blastpipe/commit/9a033c8e2da5adb93401b167e294786c3f229004))
+
+* :arrow_up: Bump OZI-Project/publish from 0.1.4 to 0.1.5
+
+Bumps [OZI-Project/publish](https://github.com/ozi-project/publish) from 0.1.4 to 0.1.5.
+- [Release notes](https://github.com/ozi-project/publish/releases)
+- [Commits](https://github.com/ozi-project/publish/compare/132db35a4d8eaec96886eecc50034f3c3db8bc45...edb7e48d4196153b8dabddb970405495e1ff2092)
+
+---
+updated-dependencies:
+- dependency-name: OZI-Project/publish
+  dependency-type: direct:production
+  update-type: version-update:semver-patch
+...
+
+Signed-off-by: dependabot[bot] &lt;support@github.com&gt; ([`59f26e5`](https://github.com/OZI-Project/blastpipe/commit/59f26e5dd472c95c6a9a31325d84761c47359632))
+
+### Other
+
+* Merge pull request #102 from OZI-Project/dependabot/github_actions/OZI-Project/publish-0.1.5
+
+⬆️ Bump OZI-Project/publish from 0.1.4 to 0.1.5 ([`46baa54`](https://github.com/OZI-Project/blastpipe/commit/46baa54754689a38c31f407e00c7ec5b2107fb4b))
+
+* Merge pull request #103 from OZI-Project/dependabot/github_actions/OZI-Project/draft-0.3.1
+
+⬆️ Bump OZI-Project/draft from 0.3.0 to 0.3.1 ([`0425389`](https://github.com/OZI-Project/blastpipe/commit/0425389f82b28e81cf21aaf5f2431518f0bcaa97))
+
+* Merge pull request #104 from OZI-Project/dependabot/github_actions/actions/dependency-review-action-4.3.3
+
+⬆️ Bump actions/dependency-review-action from 4.3.2 to 4.3.3 ([`29912f1`](https://github.com/OZI-Project/blastpipe/commit/29912f1845a87781c738f25944a9b9592110d640))
+
+
 ## v2024.10.2 (2024-06-04)
 
 ### :arrow_up:
