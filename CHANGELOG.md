@@ -2,6 +2,32 @@
 
 
 
+## v2024.10.4 (2024-06-07)
+
+### :arrow_up:
+
+* :arrow_up: Bump step-security/harden-runner from 2.8.0 to 2.8.1
+
+Bumps [step-security/harden-runner](https://github.com/step-security/harden-runner) from 2.8.0 to 2.8.1.
+- [Release notes](https://github.com/step-security/harden-runner/releases)
+- [Commits](https://github.com/step-security/harden-runner/compare/f086349bfa2bd1361f7909c78558e816508cdc10...17d0e2bd7d51742c71671bd19fa12bdc9d40a3d6)
+
+---
+updated-dependencies:
+- dependency-name: step-security/harden-runner
+  dependency-type: direct:production
+  update-type: version-update:semver-patch
+...
+
+Signed-off-by: dependabot[bot] &lt;support@github.com&gt; ([`9ac415c`](https://github.com/OZI-Project/blastpipe/commit/9ac415c38969e44b1f9e54449819430d562e2098))
+
+### Other
+
+* Merge pull request #105 from OZI-Project/dependabot/github_actions/step-security/harden-runner-2.8.1
+
+⬆️ Bump step-security/harden-runner from 2.8.0 to 2.8.1 ([`79b77af`](https://github.com/OZI-Project/blastpipe/commit/79b77af0638b5752f73f83c020a42a0fb0c42504))
+
+
 ## v2024.10.3 (2024-06-06)
 
 ### :arrow_up:
