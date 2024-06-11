@@ -2,6 +2,15 @@
 
 
 
+## v2024.10.5 (2024-06-11)
+
+### :bug:
+
+* :bug: fix readme-renderer in meson lint suite.
+
+Signed-off-by: rjdbcm &lt;rjdbcm@outlook.com&gt; ([`3b8e8fb`](https://github.com/OZI-Project/blastpipe/commit/3b8e8fbba66e7fcad0010a6fe5879aed7b290387))
+
+
 ## v2024.10.4 (2024-06-07)
 
 ### :arrow_up:
