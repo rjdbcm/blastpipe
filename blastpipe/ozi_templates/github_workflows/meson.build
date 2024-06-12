@@ -2,6 +2,7 @@
 # SPDX-License-Identifier: Unlicense
 workflows = [
     'checkpoint.yml.j2',
+    'cleanup.yml.j2',
     'draft.yml.j2',
     'generate_provenance.yml.j2',
     'ozi.yml.j2',
