@@ -2,6 +2,19 @@
 
 
 
+## v2024.11.1 (2024-06-12)
+
+### :bug:
+
+* :bug: escape template
+
+Signed-off-by: rjdbcm &lt;rjdbcm@outlook.com&gt; ([`8dc4c37`](https://github.com/OZI-Project/blastpipe/commit/8dc4c379e6517f4fe43a70b54ec5304ca1115932))
+
+### Other
+
+* Merge branch &#39;main&#39; of https://github.com/rjdbcm/blastpipe ([`9f9e312`](https://github.com/OZI-Project/blastpipe/commit/9f9e31284d924374118c37f96b503236ac76fe0d))
+
+
 ## v2024.11.0 (2024-06-12)
 
 ### :sparkles:
