@@ -2,6 +2,19 @@
 
 
 
+## v2024.11.0 (2024-06-12)
+
+### :sparkles:
+
+* :sparkles:(ozi-templates): add github cleanup workflow template
+
+Signed-off-by: rjdbcm &lt;rjdbcm@outlook.com&gt; ([`927d2bc`](https://github.com/OZI-Project/blastpipe/commit/927d2bc6975c1573f05c0e0ec264eef72fc0c183))
+
+### Other
+
+* add cleanup template to build ([`9aaeaf6`](https://github.com/OZI-Project/blastpipe/commit/9aaeaf60c4a368a9d677d057633a375c15aca439))
+
+
 ## v2024.10.5 (2024-06-11)
 
 ### :bug:
