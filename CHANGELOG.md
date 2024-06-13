@@ -2,6 +2,15 @@
 
 
 
+## v2024.11.2 (2024-06-12)
+
+### :hammer:
+
+* :hammer: harden cleanup template
+
+Signed-off-by: rjdbcm &lt;rjdbcm@outlook.com&gt; ([`1a71c50`](https://github.com/OZI-Project/blastpipe/commit/1a71c50897dc4a2615a2a47c2b969b9ee06a46f1))
+
+
 ## v2024.11.1 (2024-06-12)
 
 ### :bug:
