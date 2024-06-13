@@ -2,6 +2,15 @@
 
 
 
+## v2024.11.4 (2024-06-13)
+
+### :hammer:
+
+* :hammer:(cleanup.yml.j2): ``permissions: read-all``
+
+Signed-off-by: rjdbcm &lt;rjdbcm@outlook.com&gt; ([`65ccb9c`](https://github.com/OZI-Project/blastpipe/commit/65ccb9cef8b4673fe4813bd84f6fa02cb7f70fac))
+
+
 ## v2024.11.3 (2024-06-13)
 
 ### :hammer:
