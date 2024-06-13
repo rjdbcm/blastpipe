@@ -2,6 +2,19 @@
 
 
 
+## v2024.11.3 (2024-06-13)
+
+### :hammer:
+
+* :hammer:(cleanup): add id-token, contents, actions write permission
+
+Signed-off-by: rjdbcm &lt;rjdbcm@outlook.com&gt; ([`e5bd26e`](https://github.com/OZI-Project/blastpipe/commit/e5bd26e53da78c72f050eb647508ab2b3a1dafa3))
+
+### Other
+
+* Merge branch &#39;main&#39; of https://github.com/rjdbcm/blastpipe ([`198e8c5`](https://github.com/OZI-Project/blastpipe/commit/198e8c5eb1b40f71e4adeef30bb04e05fdb1b6df))
+
+
 ## v2024.11.2 (2024-06-12)
 
 ### :hammer:
