@@ -2,6 +2,15 @@
 
 
 
+## v2024.11.7 (2024-06-15)
+
+### :bug:
+
+* :bug: checkpoint template no longer requires prerelease python
+
+Signed-off-by: rjdbcm &lt;rjdbcm@outlook.com&gt; ([`d73c40f`](https://github.com/OZI-Project/blastpipe/commit/d73c40f1748372158fe9fd5ff8524c85f9602e9e))
+
+
 ## v2024.11.6 (2024-06-14)
 
 ### :arrow_up:
