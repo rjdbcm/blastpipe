@@ -2,6 +2,15 @@
 
 
 
+## v2024.11.8 (2024-06-16)
+
+### :bug:
+
+* :bug: fix args for release, publish, and readme-renderer.meson.options templates
+
+Signed-off-by: rjdbcm &lt;rjdbcm@outlook.com&gt; ([`1bdb09c`](https://github.com/OZI-Project/blastpipe/commit/1bdb09c89eb1af98626b0826e9d44ac3f6424d60))
+
+
 ## v2024.11.7 (2024-06-15)
 
 ### :bug:
