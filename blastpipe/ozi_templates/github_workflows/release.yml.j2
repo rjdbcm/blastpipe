@@ -9,9 +9,9 @@
     strategy:
       matrix:
         py:
-          - security
-          - bugfix2
-          - bugfix1
+          - security2
+          - security1
+          - bugfix
           - prerelease
       fail-fast: true
       max-parallel: 1
@@ -46,4 +46,5 @@
 {%- raw %}
           python-dist: ${{ matrix.py }}
           github-token: ${{ secrets.GITHUB_TOKEN }}
+          tag: ${{ needs.draft.outputs.tag }}
 {%- endraw %}
