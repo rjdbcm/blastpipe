@@ -2,6 +2,15 @@
 
 
 
+## v2024.11.10 (2024-06-16)
+
+### :bug:
+
+* :bug: FIX missing installed files in wheels
+
+Signed-off-by: rjdbcm &lt;rjdbcm@outlook.com&gt; ([`6c91a6e`](https://github.com/OZI-Project/blastpipe/commit/6c91a6ef6a741fcce525169dd9881053185cd8ac))
+
+
 ## v2024.11.9 (2024-06-16)
 
 ### :arrow_up:
