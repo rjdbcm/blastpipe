@@ -1,6 +1,67 @@
 # CHANGELOG
 
+## v2024.11.11 (2024-06-26)
 
+### :arrow_up:
+
+* :arrow_up: Bump OZI-Project/publish from 0.1.5 to 0.1.6
+
+Bumps [OZI-Project/publish](https://github.com/ozi-project/publish) from 0.1.5 to 0.1.6.
+- [Release notes](https://github.com/ozi-project/publish/releases)
+- [Commits](https://github.com/ozi-project/publish/compare/edb7e48d4196153b8dabddb970405495e1ff2092...5f82de29a76b1befa60a5b99752a881a83aeed47)
+
+---
+updated-dependencies:
+- dependency-name: OZI-Project/publish
+  dependency-type: direct:production
+  update-type: version-update:semver-patch
+...
+
+Signed-off-by: dependabot[bot] &lt;support@github.com&gt; ([`70a40df`](https://github.com/OZI-Project/blastpipe/commit/70a40df897aa8a9587ecfd18f8192e4cc07fe218))
+
+* :arrow_up: Bump OZI-Project/draft from 0.3.2 to 0.3.3
+
+Bumps [OZI-Project/draft](https://github.com/ozi-project/draft) from 0.3.2 to 0.3.3.
+- [Release notes](https://github.com/ozi-project/draft/releases)
+- [Commits](https://github.com/ozi-project/draft/compare/4cb9feb842df0dcd1e48c0f64f3b61e0ac64f05d...1662727a1f63e3344fc5bda22ff785083596c8c3)
+
+---
+updated-dependencies:
+- dependency-name: OZI-Project/draft
+  dependency-type: direct:production
+  update-type: version-update:semver-patch
+...
+
+Signed-off-by: dependabot[bot] &lt;support@github.com&gt; ([`aadf55e`](https://github.com/OZI-Project/blastpipe/commit/aadf55eaca4350de32348169f6ca0606823c1f04))
+
+* :arrow_up: Bump OZI-Project/release from 0.6.4 to 0.6.5
+
+Bumps [OZI-Project/release](https://github.com/ozi-project/release) from 0.6.4 to 0.6.5.
+- [Release notes](https://github.com/ozi-project/release/releases)
+- [Commits](https://github.com/ozi-project/release/compare/cfe06ef22488ee71ba4f2807b16bbdba1a6fb26f...f99b4e470f3dc50884d227dff38c18c3f0f3f927)
+
+---
+updated-dependencies:
+- dependency-name: OZI-Project/release
+  dependency-type: direct:production
+  update-type: version-update:semver-patch
+...
+
+Signed-off-by: dependabot[bot] &lt;support@github.com&gt; ([`c6703d0`](https://github.com/OZI-Project/blastpipe/commit/c6703d01430d9a8b817cae185f8e157a23d41364))
+
+### Other
+
+* Merge pull request #113 from OZI-Project/dependabot/github_actions/OZI-Project/draft-0.3.3
+
+⬆️ Bump OZI-Project/draft from 0.3.2 to 0.3.3 ([`513e195`](https://github.com/OZI-Project/blastpipe/commit/513e1954d26af57ccf0de73aa9fcdcc7730f11f0))
+
+* Merge pull request #114 from OZI-Project/dependabot/github_actions/OZI-Project/publish-0.1.6
+
+⬆️ Bump OZI-Project/publish from 0.1.5 to 0.1.6 ([`c42a3f2`](https://github.com/OZI-Project/blastpipe/commit/c42a3f29683e0411c488cda8b532b439782f5520))
+
+* Merge pull request #112 from OZI-Project/dependabot/github_actions/OZI-Project/release-0.6.5
+
+⬆️ Bump OZI-Project/release from 0.6.4 to 0.6.5 ([`01586d4`](https://github.com/OZI-Project/blastpipe/commit/01586d440e707048c39322548342741a2a748c48))
 
 ## v2024.11.10 (2024-06-16)
 
@@ -10,7 +71,6 @@
 
 Signed-off-by: rjdbcm &lt;rjdbcm@outlook.com&gt; ([`6c91a6e`](https://github.com/OZI-Project/blastpipe/commit/6c91a6ef6a741fcce525169dd9881053185cd8ac))
 
-
 ## v2024.11.9 (2024-06-16)
 
 ### :arrow_up:
@@ -18,7 +78,6 @@ Signed-off-by: rjdbcm &lt;rjdbcm@outlook.com&gt; ([`6c91a6e`](https://github.com
 * :arrow_up: OZI.build&gt;=0.0.24
 
 Signed-off-by: rjdbcm &lt;rjdbcm@outlook.com&gt; ([`0c5ceae`](https://github.com/OZI-Project/blastpipe/commit/0c5ceaea791ff1c4098f3523c3aca326c026ca82))
-
 
 ## v2024.11.8 (2024-06-16)
 
@@ -28,7 +87,6 @@ Signed-off-by: rjdbcm &lt;rjdbcm@outlook.com&gt; ([`0c5ceae`](https://github.com
 
 Signed-off-by: rjdbcm &lt;rjdbcm@outlook.com&gt; ([`1bdb09c`](https://github.com/OZI-Project/blastpipe/commit/1bdb09c89eb1af98626b0826e9d44ac3f6424d60))
 
-
 ## v2024.11.7 (2024-06-15)
 
 ### :bug:
@@ -36,7 +94,6 @@ Signed-off-by: rjdbcm &lt;rjdbcm@outlook.com&gt; ([`1bdb09c`](https://github.com
 * :bug: checkpoint template no longer requires prerelease python
 
 Signed-off-by: rjdbcm &lt;rjdbcm@outlook.com&gt; ([`d73c40f`](https://github.com/OZI-Project/blastpipe/commit/d73c40f1748372158fe9fd5ff8524c85f9602e9e))
-
 
 ## v2024.11.6 (2024-06-14)
 
@@ -81,7 +138,6 @@ Signed-off-by: dependabot[bot] &lt;support@github.com&gt; ([`dbc4948`](https://g
 * Merge pull request #111 from OZI-Project/dependabot/github_actions/OZI-Project/checkpoint-0.4.2
 
 ⬆️ Bump OZI-Project/checkpoint from 0.4.1 to 0.4.2 ([`7cbcecf`](https://github.com/OZI-Project/blastpipe/commit/7cbcecf5427c63a82f6038b104e973fc83994ba1))
-
 
 ## v2024.11.5 (2024-06-14)
 
@@ -167,7 +223,6 @@ Signed-off-by: dependabot[bot] &lt;support@github.com&gt; ([`0ee7354`](https://g
 
 ⬆️ Bump OZI-Project/checkpoint from 0.4.0 to 0.4.1 ([`3c46c27`](https://github.com/OZI-Project/blastpipe/commit/3c46c27a8433a066926aada1b4203a7382938fd9))
 
-
 ## v2024.11.4 (2024-06-13)
 
 ### :hammer:
@@ -175,7 +230,6 @@ Signed-off-by: dependabot[bot] &lt;support@github.com&gt; ([`0ee7354`](https://g
 * :hammer:(cleanup.yml.j2): ``permissions: read-all``
 
 Signed-off-by: rjdbcm &lt;rjdbcm@outlook.com&gt; ([`65ccb9c`](https://github.com/OZI-Project/blastpipe/commit/65ccb9cef8b4673fe4813bd84f6fa02cb7f70fac))
-
 
 ## v2024.11.3 (2024-06-13)
 
@@ -189,7 +243,6 @@ Signed-off-by: rjdbcm &lt;rjdbcm@outlook.com&gt; ([`e5bd26e`](https://github.com
 
 * Merge branch &#39;main&#39; of https://github.com/rjdbcm/blastpipe ([`198e8c5`](https://github.com/OZI-Project/blastpipe/commit/198e8c5eb1b40f71e4adeef30bb04e05fdb1b6df))
 
-
 ## v2024.11.2 (2024-06-12)
 
 ### :hammer:
@@ -197,7 +250,6 @@ Signed-off-by: rjdbcm &lt;rjdbcm@outlook.com&gt; ([`e5bd26e`](https://github.com
 * :hammer: harden cleanup template
 
 Signed-off-by: rjdbcm &lt;rjdbcm@outlook.com&gt; ([`1a71c50`](https://github.com/OZI-Project/blastpipe/commit/1a71c50897dc4a2615a2a47c2b969b9ee06a46f1))
-
 
 ## v2024.11.1 (2024-06-12)
 
@@ -211,7 +263,6 @@ Signed-off-by: rjdbcm &lt;rjdbcm@outlook.com&gt; ([`8dc4c37`](https://github.com
 
 * Merge branch &#39;main&#39; of https://github.com/rjdbcm/blastpipe ([`9f9e312`](https://github.com/OZI-Project/blastpipe/commit/9f9e31284d924374118c37f96b503236ac76fe0d))
 
-
 ## v2024.11.0 (2024-06-12)
 
 ### :sparkles:
@@ -224,7 +275,6 @@ Signed-off-by: rjdbcm &lt;rjdbcm@outlook.com&gt; ([`927d2bc`](https://github.com
 
 * add cleanup template to build ([`9aaeaf6`](https://github.com/OZI-Project/blastpipe/commit/9aaeaf60c4a368a9d677d057633a375c15aca439))
 
-
 ## v2024.10.5 (2024-06-11)
 
 ### :bug:
@@ -232,7 +282,6 @@ Signed-off-by: rjdbcm &lt;rjdbcm@outlook.com&gt; ([`927d2bc`](https://github.com
 * :bug: fix readme-renderer in meson lint suite.
 
 Signed-off-by: rjdbcm &lt;rjdbcm@outlook.com&gt; ([`3b8e8fb`](https://github.com/OZI-Project/blastpipe/commit/3b8e8fbba66e7fcad0010a6fe5879aed7b290387))
-
 
 ## v2024.10.4 (2024-06-07)
 
@@ -258,7 +307,6 @@ Signed-off-by: dependabot[bot] &lt;support@github.com&gt; ([`9ac415c`](https://g
 * Merge pull request #105 from OZI-Project/dependabot/github_actions/step-security/harden-runner-2.8.1
 
 ⬆️ Bump step-security/harden-runner from 2.8.0 to 2.8.1 ([`79b77af`](https://github.com/OZI-Project/blastpipe/commit/79b77af0638b5752f73f83c020a42a0fb0c42504))
-
 
 ## v2024.10.3 (2024-06-06)
 
@@ -323,7 +371,6 @@ Signed-off-by: dependabot[bot] &lt;support@github.com&gt; ([`59f26e5`](https://g
 
 ⬆️ Bump actions/dependency-review-action from 4.3.2 to 4.3.3 ([`29912f1`](https://github.com/OZI-Project/blastpipe/commit/29912f1845a87781c738f25944a9b9592110d640))
 
-
 ## v2024.10.2 (2024-06-04)
 
 ### :arrow_up:
@@ -350,13 +397,11 @@ Signed-off-by: dependabot[bot] &lt;support@github.com&gt; ([`518b056`](https://g
 
 ⬆️ Bump github/codeql-action from 3.25.6 to 3.25.8 ([`a07402e`](https://github.com/OZI-Project/blastpipe/commit/a07402e39d1c119eea126564da068585005e932c))
 
-
 ## v2024.10.1 (2024-05-30)
 
 ### :bug:
 
 * :bug: fix incorrect python-dist refs in templates. ([`0ca1343`](https://github.com/OZI-Project/blastpipe/commit/0ca1343aed0d868d1cca1a90039d8250673989b6))
-
 
 ## v2024.10.0 (2024-05-30)
 
@@ -369,7 +414,6 @@ Signed-off-by: dependabot[bot] &lt;support@github.com&gt; ([`518b056`](https://g
 * :sparkles: OZI-Project/draft@0.3.0 OZI-Project/release@0.6.0
 
 Signed-off-by: rjdbcm &lt;rjdbcm@outlook.com&gt; ([`36b199e`](https://github.com/OZI-Project/blastpipe/commit/36b199e293d3859e5a0ec465fa8c265127c8c1f5))
-
 
 ## v2024.9.4 (2024-05-29)
 
@@ -415,7 +459,6 @@ Signed-off-by: dependabot[bot] &lt;support@github.com&gt; ([`bb73cb1`](https://g
 
 ⬆️ Bump OZI-Project/draft from 0.2.0 to 0.2.1 ([`99a1865`](https://github.com/OZI-Project/blastpipe/commit/99a18654932df33cf0019c6371e4b7c227a7a61e))
 
-
 ## v2024.9.3 (2024-05-27)
 
 ### :arrow_up:
@@ -460,7 +503,6 @@ Signed-off-by: dependabot[bot] &lt;support@github.com&gt; ([`3dd0525`](https://g
 
 ⬆️ Bump OZI-Project/publish from 0.1.2 to 0.1.3 ([`ec9feb8`](https://github.com/OZI-Project/blastpipe/commit/ec9feb8d5b663efd5f3c146b38f431decf015802))
 
-
 ## v2024.9.2 (2024-05-23)
 
 ### :bug:
@@ -468,7 +510,6 @@ Signed-off-by: dependabot[bot] &lt;support@github.com&gt; ([`3dd0525`](https://g
 * :wrench::bug: Add 3.13 support
 
 Signed-off-by: rjdbcm &lt;rjdbcm@outlook.com&gt; ([`42fc53d`](https://github.com/OZI-Project/blastpipe/commit/42fc53d8887b318bfc088d90d051ad4372a96f41))
-
 
 ## v2024.9.1 (2024-05-22)
 
@@ -509,7 +550,6 @@ updated-dependencies:
 ...
 
 Signed-off-by: dependabot[bot] &lt;support@github.com&gt; ([`3becfb3`](https://github.com/OZI-Project/blastpipe/commit/3becfb3a5e5f32ae56a502d8e460fbe76bea3199))
-
 
 ## v2024.9.0 (2024-05-21)
 
@@ -595,7 +635,6 @@ Signed-off-by: rjdbcm &lt;rjdbcm@outlook.com&gt; ([`193b6f9`](https://github.com
 
 * skip 3.13 checkpoint ([`d00dd77`](https://github.com/OZI-Project/blastpipe/commit/d00dd77bc5e69996c3401e2804c9e0a398421962))
 
-
 ## v2024.8.1 (2024-05-20)
 
 ### :arrow_up:
@@ -660,7 +699,6 @@ Signed-off-by: dependabot[bot] &lt;support@github.com&gt; ([`84f06ec`](https://g
 
 ⬆️ Bump github/codeql-action from 3.25.5 to 3.25.6 ([`51c3263`](https://github.com/OZI-Project/blastpipe/commit/51c32637c11ef174e1c4a71fa73ee2662349531d))
 
-
 ## v2024.8.0 (2024-05-18)
 
 ### :arrow_up:
@@ -677,7 +715,6 @@ Signed-off-by: rjdbcm &lt;rjdbcm@outlook.com&gt; ([`51c6cf4`](https://github.com
 
 * 2024.8
 Automatically generated by python-semantic-release ([`b030144`](https://github.com/OZI-Project/blastpipe/commit/b030144f2c68f4833ce528b577446a9b94e68682))
-
 
 ## v2024.7.7 (2024-05-17)
 
@@ -724,7 +761,6 @@ Signed-off-by: dependabot[bot] &lt;support@github.com&gt; ([`b89106e`](https://g
 
 ⬆️ Bump OZI-Project/draft from 0.1.1 to 0.1.2 ([`42c32ec`](https://github.com/OZI-Project/blastpipe/commit/42c32ec0d7753a42a790ca6875d64b578af58cc1))
 
-
 ## v2024.7.6 (2024-05-15)
 
 ### :lipstick:
@@ -732,7 +768,6 @@ Signed-off-by: dependabot[bot] &lt;support@github.com&gt; ([`b89106e`](https://g
 * :memo::lipstick: Update README.rst
 
 Signed-off-by: Eden Ross Duff, MSc &lt;ozi.project@outlook.com&gt; ([`76e6c55`](https://github.com/OZI-Project/blastpipe/commit/76e6c556e6a77e8f4b30572d3e2c1283f0272eb5))
-
 
 ## v2024.7.5 (2024-05-15)
 
@@ -742,7 +777,6 @@ Signed-off-by: Eden Ross Duff, MSc &lt;ozi.project@outlook.com&gt; ([`76e6c55`](
 
 Signed-off-by: rjdbcm &lt;rjdbcm@outlook.com&gt; ([`0fc1b21`](https://github.com/OZI-Project/blastpipe/commit/0fc1b215ebdae8d2a9f6d725607bd1e9e96df9d9))
 
-
 ## v2024.7.4 (2024-05-14)
 
 ### :bug:
@@ -750,7 +784,6 @@ Signed-off-by: rjdbcm &lt;rjdbcm@outlook.com&gt; ([`0fc1b21`](https://github.com
 * :bug: add missing readme-renderer args.
 
 Signed-off-by: rjdbcm &lt;rjdbcm@outlook.com&gt; ([`4091134`](https://github.com/OZI-Project/blastpipe/commit/4091134c937b45c20b7c72ac4761700d01c558a1))
-
 
 ## v2024.7.3 (2024-05-14)
 
@@ -760,7 +793,6 @@ Signed-off-by: rjdbcm &lt;rjdbcm@outlook.com&gt; ([`4091134`](https://github.com
 
 Signed-off-by: rjdbcm &lt;rjdbcm@outlook.com&gt; ([`fdff0ef`](https://github.com/OZI-Project/blastpipe/commit/fdff0eff07d8acc60ded0d0fd2db9c8e7c1f7f40))
 
-
 ## v2024.7.2 (2024-05-14)
 
 ### :bug:
@@ -769,13 +801,11 @@ Signed-off-by: rjdbcm &lt;rjdbcm@outlook.com&gt; ([`fdff0ef`](https://github.com
 
 Signed-off-by: rjdbcm &lt;rjdbcm@outlook.com&gt; ([`a9da1b2`](https://github.com/OZI-Project/blastpipe/commit/a9da1b2d2745394d9fba53f885f9dd457b1fe08a))
 
-
 ## v2024.7.1 (2024-05-14)
 
 ### :bug:
 
 * :pencil2::bug: fix README.md template header. ([`9f52201`](https://github.com/OZI-Project/blastpipe/commit/9f5220164ff39e0441122c95e7a672fa3b7ce34f))
-
 
 ## v2024.7.0 (2024-05-14)
 
@@ -792,7 +822,6 @@ Signed-off-by: rjdbcm &lt;rjdbcm@outlook.com&gt; ([`5a63450`](https://github.com
 * Merge pull request #87 from OZI-Project/feature/spec-0.3
 
 :sparkles: add spec 0.3 features. ([`d567705`](https://github.com/OZI-Project/blastpipe/commit/d567705b8ce00f780d72ce5a6e68766c8328cda2))
-
 
 ## v2024.6.4 (2024-05-13)
 
@@ -839,7 +868,6 @@ Signed-off-by: dependabot[bot] &lt;support@github.com&gt; ([`1707d54`](https://g
 
 ⬆️ Bump github/codeql-action from 3.25.4 to 3.25.5 ([`766fc5c`](https://github.com/OZI-Project/blastpipe/commit/766fc5cb037da37ab86d11d69719f84c3ed32be0))
 
-
 ## v2024.6.3 (2024-05-10)
 
 ### :pencil2:
@@ -847,7 +875,6 @@ Signed-off-by: dependabot[bot] &lt;support@github.com&gt; ([`1707d54`](https://g
 * :pencil2: Correct commit_parser_options based on parsing semantic.
 
 Signed-off-by: rjdbcm &lt;rjdbcm@outlook.com&gt; ([`81d85f0`](https://github.com/OZI-Project/blastpipe/commit/81d85f0aa7dbd0f09ec617943f90e93b65a9d937))
-
 
 ## v2024.6.2 (2024-05-10)
 
@@ -859,7 +886,6 @@ Signed-off-by: rjdbcm &lt;rjdbcm@outlook.com&gt; ([`81d85f0`](https://github.com
 
 Signed-off-by: rjdbcm &lt;rjdbcm@outlook.com&gt; ([`fe913ba`](https://github.com/OZI-Project/blastpipe/commit/fe913bae55de47a33d2e2ca69636d3ec146c5439))
 
-
 ## v2024.6.1 (2024-05-10)
 
 ### :pencil2:
@@ -867,7 +893,6 @@ Signed-off-by: rjdbcm &lt;rjdbcm@outlook.com&gt; ([`fe913ba`](https://github.com
 * :pencil2: Update ozi.yml fix missing 3.10 checkpoint
 
 Signed-off-by: Eden Rose, MSc &lt;ozi.project@outlook.com&gt; ([`bd46c8b`](https://github.com/OZI-Project/blastpipe/commit/bd46c8b03bec702e0b2a6163347b07000fdda3b8))
-
 
 ## v2024.6.0 (2024-05-10)
 
@@ -919,7 +944,6 @@ Signed-off-by: Eden Rose, MSc &lt;ozi.project@outlook.com&gt; ([`d19756f`](https
 
 Signed-off-by: Eden Rose, MSc &lt;ozi.project@outlook.com&gt; ([`c4e2a03`](https://github.com/OZI-Project/blastpipe/commit/c4e2a03b7f5f6b84a55573795cbcefe1fb1393ad))
 
-
 ## v2024.5.2 (2024-05-10)
 
 ### :pencil2:
@@ -935,7 +959,6 @@ Signed-off-by: rjdbcm &lt;rjdbcm@outlook.com&gt; ([`809879a`](https://github.com
 * Merge pull request #82 from OZI-Project/add-ext_modules-feature
 
 :pencil2: relicense templates to The Unlicense. ([`6c3d0b9`](https://github.com/OZI-Project/blastpipe/commit/6c3d0b9567105e67a9043d78249c9b014ae5bff4))
-
 
 ## v2024.5.1 (2024-05-09)
 
@@ -1024,7 +1047,6 @@ Signed-off-by: dependabot[bot] &lt;support@github.com&gt; ([`db29000`](https://g
 
 ⬆️ Bump actions/checkout from 4.1.4 to 4.1.5 ([`0ebb39c`](https://github.com/OZI-Project/blastpipe/commit/0ebb39c4cdaaa4ee5d0f3d2e684f800fa52dbb96))
 
-
 ## v2024.5.0 (2024-05-07)
 
 ### :arrow_up:
@@ -1059,7 +1081,6 @@ Signed-off-by: rjdbcm &lt;rjdbcm@outlook.com&gt; ([`6b6f1cc`](https://github.com
 
 :sparkles: Add Cython extension template. ([`edfdaf4`](https://github.com/OZI-Project/blastpipe/commit/edfdaf4f6abc77c43635d2704df356d3ff65f98e))
 
-
 ## v2024.4.7 (2024-05-05)
 
 ### :hammer:
@@ -1068,7 +1089,6 @@ Signed-off-by: rjdbcm &lt;rjdbcm@outlook.com&gt; ([`6b6f1cc`](https://github.com
 
 Signed-off-by: rjdbcm &lt;rjdbcm@outlook.com&gt; ([`3cb1933`](https://github.com/OZI-Project/blastpipe/commit/3cb1933b75c55d29df8b3a4e6b8d191758f10537))
 
-
 ## v2024.4.6 (2024-05-05)
 
 ### :bug:
@@ -1076,7 +1096,6 @@ Signed-off-by: rjdbcm &lt;rjdbcm@outlook.com&gt; ([`3cb1933`](https://github.com
 * :bug: add pypy ci checkpoint config
 
 Signed-off-by: rjdbcm &lt;rjdbcm@outlook.com&gt; ([`93a3bb4`](https://github.com/OZI-Project/blastpipe/commit/93a3bb4ea9de4b2a12c8b032a21d513aecc798b2))
-
 
 ## v2024.4.5 (2024-05-05)
 
@@ -1100,7 +1119,6 @@ Signed-off-by: rjdbcm &lt;rjdbcm@outlook.com&gt; ([`195ac17`](https://github.com
 
 * remove pypy release pattern ([`2cba3de`](https://github.com/OZI-Project/blastpipe/commit/2cba3dea05cb0927d9f3eddc0431fce7710896e0))
 
-
 ## v2024.4.4 (2024-05-04)
 
 ### Other
@@ -1108,7 +1126,6 @@ Signed-off-by: rjdbcm &lt;rjdbcm@outlook.com&gt; ([`195ac17`](https://github.com
 * Merge pull request #73 from OZI-Project/dependabot/github_actions/actions/dependency-review-action-4.3.2
 
 ⬆️ Bump actions/dependency-review-action from 4.3.1 to 4.3.2 ([`44f051e`](https://github.com/OZI-Project/blastpipe/commit/44f051ec21b4f92ea2e2933a0217cad5376f99e3))
-
 
 ## v2024.4.3 (2024-05-04)
 
@@ -1123,7 +1140,6 @@ Signed-off-by: rjdbcm &lt;rjdbcm@outlook.com&gt; ([`860e5c9`](https://github.com
 * :pushpin: pin OZI.
 
 Signed-off-by: rjdbcm &lt;rjdbcm@outlook.com&gt; ([`98b1dab`](https://github.com/OZI-Project/blastpipe/commit/98b1dabd8c80d7b2d2ac125b0d60fa1d6e1e8945))
-
 
 ## v2024.4.2 (2024-05-03)
 
@@ -1143,7 +1159,6 @@ Signed-off-by: rjdbcm &lt;rjdbcm@outlook.com&gt; ([`6483e7b`](https://github.com
 
 * Merge branch &#39;main&#39; of https://github.com/rjdbcm/blastpipe ([`13df441`](https://github.com/OZI-Project/blastpipe/commit/13df4416ef454f87bd0660eb68cb3f541152ca4e))
 
-
 ## v2024.4.1 (2024-05-03)
 
 ### :arrow_up:
@@ -1151,7 +1166,6 @@ Signed-off-by: rjdbcm &lt;rjdbcm@outlook.com&gt; ([`6483e7b`](https://github.com
 * :bug::arrow_up: bump OZI.build to 0.0.13
 
 Signed-off-by: rjdbcm &lt;rjdbcm@outlook.com&gt; ([`ac685cd`](https://github.com/OZI-Project/blastpipe/commit/ac685cd6ad6e03ef47b2e55f8c1ff229b2d5a3a4))
-
 
 ## v2024.4.0 (2024-05-03)
 
@@ -1184,7 +1198,6 @@ Signed-off-by: rjdbcm &lt;rjdbcm@outlook.com&gt; ([`ff3c94e`](https://github.com
 * :sparkles: Update templates for OZI.build.
 
 Signed-off-by: rjdbcm &lt;rjdbcm@outlook.com&gt; ([`452358e`](https://github.com/OZI-Project/blastpipe/commit/452358eb4e47a276141e262ed8853a7842596a98))
-
 
 ## v2024.3.0 (2024-05-03)
 
@@ -1236,7 +1249,6 @@ Signed-off-by: Eden Rose, MSc &lt;ozi.project@outlook.com&gt; ([`137b11d`](https
 
 ⬆️ Bump OZI-Project/release from 0.1.18 to 0.2.5 ([`3d06065`](https://github.com/OZI-Project/blastpipe/commit/3d06065120a1a1d6c24377335fef4c2384fd5ab0))
 
-
 ## v2024.2.10 (2024-04-30)
 
 ### :arrow_up:
@@ -1281,7 +1293,6 @@ Signed-off-by: dependabot[bot] &lt;support@github.com&gt; ([`f02635b`](https://g
 
 ⬆️ Bump step-security/harden-runner from 2.7.0 to 2.7.1 ([`adf8ffb`](https://github.com/OZI-Project/blastpipe/commit/adf8ffbf2b0379547bc064645067a0f21da1ce90))
 
-
 ## v2024.2.9 (2024-04-28)
 
 ### :wrench:
@@ -1291,7 +1302,6 @@ Signed-off-by: dependabot[bot] &lt;support@github.com&gt; ([`f02635b`](https://g
 Also fix download-url
 
 Signed-off-by: rjdbcm &lt;rjdbcm@outlook.com&gt; ([`734c230`](https://github.com/OZI-Project/blastpipe/commit/734c23045be5e063ee045ef9f706c1d91a025434))
-
 
 ## v2024.2.8 (2024-04-28)
 
@@ -1329,13 +1339,11 @@ Signed-off-by: rjdbcm &lt;rjdbcm@outlook.com&gt; ([`11cc643`](https://github.com
 
 Signed-off-by: Eden Rose, MSc &lt;ozi.project@outlook.com&gt; ([`b9cad60`](https://github.com/OZI-Project/blastpipe/commit/b9cad60a15a7df575e222c916ec7f7c0bb81b4fd))
 
-
 ## v2024.2.7 (2024-04-28)
 
 ### :fire:
 
 * :fire: remove extra folders. ([`3c94f8c`](https://github.com/OZI-Project/blastpipe/commit/3c94f8c23a0c9f35a571a9b30fabc09562ad1836))
-
 
 ## v2024.2.6 (2024-04-28)
 
@@ -1345,7 +1353,6 @@ Signed-off-by: Eden Rose, MSc &lt;ozi.project@outlook.com&gt; ([`b9cad60`](https
 
 Signed-off-by: rjdbcm &lt;rjdbcm@outlook.com&gt; ([`5382fff`](https://github.com/OZI-Project/blastpipe/commit/5382fff931d6e01536c344a486d9521f35989b65))
 
-
 ## v2024.2.5 (2024-04-28)
 
 ### :bug:
@@ -1354,7 +1361,6 @@ Signed-off-by: rjdbcm &lt;rjdbcm@outlook.com&gt; ([`5382fff`](https://github.com
 
 Signed-off-by: rjdbcm &lt;rjdbcm@outlook.com&gt; ([`404c645`](https://github.com/OZI-Project/blastpipe/commit/404c6454186915e20b2a2e4b4756f09e507cf30b))
 
-
 ## v2024.2.4 (2024-04-28)
 
 ### :bug:
@@ -1362,7 +1368,6 @@ Signed-off-by: rjdbcm &lt;rjdbcm@outlook.com&gt; ([`404c645`](https://github.com
 * :bug: Load jinja2 env from blastpipe package.
 
 Signed-off-by: rjdbcm &lt;rjdbcm@outlook.com&gt; ([`9e34d11`](https://github.com/OZI-Project/blastpipe/commit/9e34d11ab58b2509a8cc9fdf80bc746c62bc8cd1))
-
 
 ## v2024.2.3 (2024-04-27)
 
@@ -1374,7 +1379,6 @@ Signed-off-by: rjdbcm &lt;rjdbcm@outlook.com&gt; ([`9e34d11`](https://github.com
 
 * Merge branch &#39;main&#39; of https://github.com/rjdbcm/blastpipe ([`7f23039`](https://github.com/OZI-Project/blastpipe/commit/7f23039c89bb4d7ebb117a9d20a69f6acaddd970))
 
-
 ## v2024.2.2 (2024-04-27)
 
 ### :bug:
@@ -1383,7 +1387,6 @@ Signed-off-by: rjdbcm &lt;rjdbcm@outlook.com&gt; ([`9e34d11`](https://github.com
 
 Signed-off-by: rjdbcm &lt;rjdbcm@outlook.com&gt; ([`25e4344`](https://github.com/OZI-Project/blastpipe/commit/25e434404252686797a917689ff9a8c64cad01d3))
 
-
 ## v2024.2.1 (2024-04-27)
 
 ### :pencil2:
@@ -1391,7 +1394,6 @@ Signed-off-by: rjdbcm &lt;rjdbcm@outlook.com&gt; ([`25e4344`](https://github.com
 * :pencil2: add Provides-Dist: ozi_templates.
 
 Signed-off-by: rjdbcm &lt;rjdbcm@outlook.com&gt; ([`79170e0`](https://github.com/OZI-Project/blastpipe/commit/79170e0800512061f77cf9d868b4a7caa2bb4936))
-
 
 ## v2024.2.0 (2024-04-27)
 
@@ -1416,7 +1418,6 @@ Signed-off-by: rjdbcm &lt;rjdbcm@outlook.com&gt; ([`08869d3`](https://github.com
 * :rotating_light: run isort
 
 Signed-off-by: rjdbcm &lt;rjdbcm@outlook.com&gt; ([`d0ade4a`](https://github.com/OZI-Project/blastpipe/commit/d0ade4a18dfa0429e6f38771278d828319e33b74))
-
 
 ## v2024.1.3 (2024-04-26)
 
@@ -1443,7 +1444,6 @@ Signed-off-by: dependabot[bot] &lt;support@github.com&gt; ([`9ba3bcb`](https://g
 * Merge pull request #69 from OZI-Project/dependabot/github_actions/github/codeql-action-3.25.3
 
 ⬆️ Bump github/codeql-action from 3.25.2 to 3.25.3 ([`a69420e`](https://github.com/OZI-Project/blastpipe/commit/a69420eb4fd8cfb47649fe7be0a9ddea0ddc2b5b))
-
 
 ## v2024.1.2 (2024-04-24)
 
@@ -1490,7 +1490,6 @@ Signed-off-by: dependabot[bot] &lt;support@github.com&gt; ([`7df5ad2`](https://g
 
 ⬆️ Bump OZI-Project/release from 0.1.16 to 0.1.17 ([`15db134`](https://github.com/OZI-Project/blastpipe/commit/15db13448d1118d36dfde5fb66bc6a855f705009))
 
-
 ## v2024.1.1 (2024-04-23)
 
 ### Other
@@ -1502,7 +1501,6 @@ Signed-off-by: dependabot[bot] &lt;support@github.com&gt; ([`7df5ad2`](https://g
 * Merge pull request #65 from OZI-Project/dependabot/github_actions/actions/upload-artifact-4.3.3
 
 ⬆️ Bump actions/upload-artifact from 4.3.2 to 4.3.3 ([`d2f54ab`](https://github.com/OZI-Project/blastpipe/commit/d2f54ab7ed2f5a37d2b432fbd2f6fbf1805d3e3d))
-
 
 ## v2024.1.0 (2024-04-23)
 
@@ -1561,7 +1559,6 @@ Signed-off-by: dependabot[bot] &lt;support@github.com&gt; ([`e119b2e`](https://g
 
 ⬆️ Bump slsa-framework/slsa-github-generator from 1.10.0 to 2.0.0 ([`ee91082`](https://github.com/OZI-Project/blastpipe/commit/ee91082a5858f6b9b9b545a683a4977073466489))
 
-
 ## v2024.0.9 (2024-04-22)
 
 ### :arrow_up:
@@ -1610,7 +1607,6 @@ Signed-off-by: dependabot[bot] &lt;support@github.com&gt; ([`7a52969`](https://g
 
 ⬆️ Bump OZI-Project/release from 0.1.15 to 0.1.16 ([`18a47f7`](https://github.com/OZI-Project/blastpipe/commit/18a47f754675b2353a32fe05b833061444b86050))
 
-
 ## v2024.0.8 (2024-04-22)
 
 ### :hammer:
@@ -1621,13 +1617,11 @@ Signed-off-by: dependabot[bot] &lt;support@github.com&gt; ([`7a52969`](https://g
 
 * :pencil2: Fix escapes. ([`3baf207`](https://github.com/OZI-Project/blastpipe/commit/3baf207814d7540558d22bbca0ee07bd5969b590))
 
-
 ## v2024.0.7 (2024-04-22)
 
 ### :bug:
 
 * :bug: fix requirements rendering. ([`81f3fa4`](https://github.com/OZI-Project/blastpipe/commit/81f3fa4a211d68cc46660714e047be9c818992a3))
-
 
 ## v2024.0.6 (2024-04-22)
 
@@ -1636,7 +1630,6 @@ Signed-off-by: dependabot[bot] &lt;support@github.com&gt; ([`7a52969`](https://g
 * :bug: Fix minor rendering issues with requirements.
 
 Signed-off-by: rjdbcm &lt;rjdbcm@mail.umkc.edu&gt; ([`2143ed6`](https://github.com/OZI-Project/blastpipe/commit/2143ed6f989eb7c405464d014b0e5a1339c22e93))
-
 
 ## v2024.0.5 (2024-04-21)
 
@@ -1743,7 +1736,6 @@ Signed-off-by: dependabot[bot] &lt;support@github.com&gt; ([`6528401`](https://g
 
 ⬆️ Bump github/codeql-action from 3.24.10 to 3.25.1 ([`f381c15`](https://github.com/OZI-Project/blastpipe/commit/f381c15a9d1efa16d441fabaaca0db3963262cfb))
 
-
 ## v2024.0.4 (2024-04-13)
 
 ### :arrow_up:
@@ -1811,7 +1803,6 @@ Signed-off-by: rjdbcm &lt;rjdbcm@mail.umkc.edu&gt; ([`988f9f2`](https://github.c
 
 ⬆️ Bump actions/upload-artifact from 3.1.3 to 4.3.1 ([`389ac50`](https://github.com/OZI-Project/blastpipe/commit/389ac505d22f1a893e3e4423ee8fee49706739aa))
 
-
 ## v2024.0.3 (2024-04-04)
 
 ### :hammer:
@@ -1825,7 +1816,6 @@ Signed-off-by: rjdbcm &lt;rjdbcm@mail.umkc.edu&gt; ([`af8f951`](https://github.c
 * :pencil2: remove subproject folder.
 
 Signed-off-by: rjdbcm &lt;rjdbcm@mail.umkc.edu&gt; ([`727b7d0`](https://github.com/OZI-Project/blastpipe/commit/727b7d0ad55627334ab0f2a919e6d1cc45a24652))
-
 
 ## v2024.0.2 (2024-04-03)
 
@@ -1843,7 +1833,6 @@ Signed-off-by: rjdbcm &lt;rjdbcm@mail.umkc.edu&gt; ([`0068204`](https://github.c
 
 *  Remove folder. ([`117e75b`](https://github.com/OZI-Project/blastpipe/commit/117e75b5ba7c4687f4c1fa9dc1bda3972c1e53a9))
 
-
 ## v2024.0.1 (2024-04-03)
 
 ### :hammer:
@@ -1857,7 +1846,6 @@ Signed-off-by: rjdbcm &lt;rjdbcm@mail.umkc.edu&gt; ([`1973353`](https://github.c
 * Merge branch &#39;main&#39; of https://github.com/rjdbcm/blastpipe ([`5f143a2`](https://github.com/OZI-Project/blastpipe/commit/5f143a25d5cbf414a77406df336ea14002232a9c))
 
 * Don&#39;t install when run as subproject. ([`a5dfcbc`](https://github.com/OZI-Project/blastpipe/commit/a5dfcbc7ced9f710b01285b704cc4a54538416ec))
-
 
 ## v2024.0.0 (2024-04-03)
 
@@ -2417,7 +2405,6 @@ Signed-off-by: StepSecurity Bot &lt;bot@stepsecurity.io&gt; ([`e79a366`](https:/
 
 * :construction_worker:(PKG-INFO): Bump Version. ([`e9d6426`](https://github.com/OZI-Project/blastpipe/commit/e9d6426c8fefc086a23f7a6957e7fb7476cdb63c))
 
-
 ## v2023.6.2 (2023-08-30)
 
 ### :children_crossing:
@@ -2427,7 +2414,6 @@ Signed-off-by: StepSecurity Bot &lt;bot@stepsecurity.io&gt; ([`e79a366`](https:/
 ### Other
 
 * :construction_worker:(PKG-INFO): Bump Version. ([`3d3794e`](https://github.com/OZI-Project/blastpipe/commit/3d3794ebc84870e261797cc12e0927e24d46e4fa))
-
 
 ## v2023.6.1 (2023-08-30)
 
@@ -2440,7 +2426,6 @@ Signed-off-by: StepSecurity Bot &lt;bot@stepsecurity.io&gt; ([`e79a366`](https:/
 * :construction_worker:(gh-actions): Force patch release of fixed workflow. ([`ef6bd97`](https://github.com/OZI-Project/blastpipe/commit/ef6bd9788fd5c9b960f21c70adca5c106a3eb2fb))
 
 * :construction_worker:(gh-actions): push PKG-INFO changes. ([`163a6a2`](https://github.com/OZI-Project/blastpipe/commit/163a6a23b816cafc7702c10487fa02e5a6c2fe54))
-
 
 ## v0.4.28 (2023-08-30)
 
@@ -2516,7 +2501,6 @@ Add license scan report and status ([`1a65603`](https://github.com/OZI-Project/b
 
 * PKG-INFO Updated ([`29859d3`](https://github.com/OZI-Project/blastpipe/commit/29859d3d357d3b8c8b94cee35f67afc78f8cc7f5))
 
-
 ## v0.4.27 (2023-07-11)
 
 ### :pencil2:
@@ -2553,7 +2537,6 @@ Switched to black -S. ([`6689af8`](https://github.com/OZI-Project/blastpipe/comm
 
 * PKG-INFO Updated ([`eec299a`](https://github.com/OZI-Project/blastpipe/commit/eec299a59116d296196ec6592d52fd47abd3b772))
 
-
 ## v0.4.26 (2023-07-05)
 
 ### Other
@@ -2567,7 +2550,6 @@ Switched to black -S. ([`6689af8`](https://github.com/OZI-Project/blastpipe/comm
 * merge ([`d17ef64`](https://github.com/OZI-Project/blastpipe/commit/d17ef64e2e3f3b6b005eb6130dfbc2aee67d92f6))
 
 * 🔨(meson.build): disable subprojects/docs ([`22f48fb`](https://github.com/OZI-Project/blastpipe/commit/22f48fb1c9e3dc0c127ad993256e9a16d1e8549c))
-
 
 ## v0.4.25 (2023-07-05)
 
@@ -2593,7 +2575,6 @@ Signed off by: fossabot &lt;badges@fossa.com&gt; ([`389d9dd`](https://github.com
 
 * PKG-INFO Updated ([`cf7cd18`](https://github.com/OZI-Project/blastpipe/commit/cf7cd18ea0aaed5182ad547b80efe791f2825967))
 
-
 ## v0.4.24 (2023-06-25)
 
 ### Other
@@ -2607,7 +2588,6 @@ CHANGELOG.md should actually get release notes from now on. ([`cdefd70`](https:/
 
 * PKG-INFO Updated ([`55177f6`](https://github.com/OZI-Project/blastpipe/commit/55177f626333cf0322f0d89f0ff715f7cad10180))
 
-
 ## v0.4.23 (2023-06-24)
 
 ### Other
@@ -2616,13 +2596,11 @@ CHANGELOG.md should actually get release notes from now on. ([`cdefd70`](https:/
 
 * PKG-INFO Updated ([`f80b3da`](https://github.com/OZI-Project/blastpipe/commit/f80b3da157f4a083922832e621b949a477238972))
 
-
 ## v0.4.22 (2023-06-23)
 
 ### Other
 
 * ✏️ fix hanging continuation. ([`4b2b46d`](https://github.com/OZI-Project/blastpipe/commit/4b2b46d6357ca11606d62e2b30435e8b098cf095))
-
 
 ## v0.4.21 (2023-06-23)
 
@@ -2632,13 +2610,11 @@ CHANGELOG.md should actually get release notes from now on. ([`cdefd70`](https:/
 
 * PKG-INFO Updated ([`5c84048`](https://github.com/OZI-Project/blastpipe/commit/5c840485844fabc70b91c5be67d7b60ab4b864b0))
 
-
 ## v0.4.20 (2023-06-22)
 
 ### Other
 
 * 🚸 full commit local version before sdist. ([`77173e3`](https://github.com/OZI-Project/blastpipe/commit/77173e3d2e564b97bfbb584066e49849b355b845))
-
 
 ## v0.4.19 (2023-06-22)
 
@@ -2646,20 +2622,17 @@ CHANGELOG.md should actually get release notes from now on. ([`cdefd70`](https:/
 
 * 🚸 git add PKG-INFO. ([`08f5272`](https://github.com/OZI-Project/blastpipe/commit/08f5272f6a7a7513204c8c92221b451aa2c16c0a))
 
-
 ## v0.4.18 (2023-06-22)
 
 ### Other
 
 * 🚸 do dirty build. ([`357bafe`](https://github.com/OZI-Project/blastpipe/commit/357bafe06ec20c144c0254894692646c7921e4c9))
 
-
 ## v0.4.17 (2023-06-22)
 
 ### Other
 
 * 🚸 No stash between setup and dist. ([`efcb2ab`](https://github.com/OZI-Project/blastpipe/commit/efcb2ab3bd76cdcacd2cf828155e1fff85b1336e))
-
 
 ## v0.4.16 (2023-06-22)
 
@@ -2671,13 +2644,11 @@ CHANGELOG.md should actually get release notes from now on. ([`cdefd70`](https:/
 
 * 🚸 PKG-INFO no commit ([`0f743f0`](https://github.com/OZI-Project/blastpipe/commit/0f743f098618f5819a23256a06835c650ca578f5))
 
-
 ## v0.4.15 (2023-06-22)
 
 ### Other
 
 * 🚸 fix PKG-INFO typo. ([`13992dc`](https://github.com/OZI-Project/blastpipe/commit/13992dcaae1b437d2e33baccb399b4204dd1c7ac))
-
 
 ## v0.4.14 (2023-06-22)
 
@@ -2693,7 +2664,6 @@ CHANGELOG.md should actually get release notes from now on. ([`cdefd70`](https:/
 
 * 🚸 don&#39;t push next version. ([`31269d9`](https://github.com/OZI-Project/blastpipe/commit/31269d900315a2b62b16d6f9b7c53bdd6c1afc15))
 
-
 ## v0.4.13 (2023-06-22)
 
 ### :bento:
@@ -2704,13 +2674,11 @@ CHANGELOG.md should actually get release notes from now on. ([`cdefd70`](https:/
 
 * 🚸 stash after pyc_wheel. ([`84db1e4`](https://github.com/OZI-Project/blastpipe/commit/84db1e49113d6b3144894454ead306f4eae163e7))
 
-
 ## v0.4.12 (2023-06-22)
 
 ### Other
 
 * 🚸 early commit add and push version. ([`feea008`](https://github.com/OZI-Project/blastpipe/commit/feea008a4c49cfbc3713442d463e72687ae14ca2))
-
 
 ## v0.4.11 (2023-06-22)
 
@@ -2718,13 +2686,11 @@ CHANGELOG.md should actually get release notes from now on. ([`cdefd70`](https:/
 
 * 🚸 commit version &amp; push ([`1c9d76b`](https://github.com/OZI-Project/blastpipe/commit/1c9d76b6743f92ff8bf79000b4ae638ee3bad4ba))
 
-
 ## v0.4.10 (2023-06-22)
 
 ### Other
 
 * 🚸 sync changes. ([`1d5691e`](https://github.com/OZI-Project/blastpipe/commit/1d5691eb045924930dd2eaa084ceadd9196e3cdd))
-
 
 ## v0.4.9 (2023-06-22)
 
@@ -2732,13 +2698,11 @@ CHANGELOG.md should actually get release notes from now on. ([`cdefd70`](https:/
 
 * 🚸 try once more. ([`c758fef`](https://github.com/OZI-Project/blastpipe/commit/c758fef4ce8cd8bda418c5c9386fcafb7ae3dd1c))
 
-
 ## v0.4.8 (2023-06-22)
 
 ### Other
 
 * 🚸 actually add changes. ([`2463283`](https://github.com/OZI-Project/blastpipe/commit/2463283c6c2e6f18904214968cba40e0da3c5a72))
-
 
 ## v0.4.7 (2023-06-22)
 
@@ -2750,13 +2714,11 @@ CHANGELOG.md should actually get release notes from now on. ([`cdefd70`](https:/
 
 * 🚸 try version bump again... ([`7dd9d19`](https://github.com/OZI-Project/blastpipe/commit/7dd9d194c4200d4aa905642d53b15137da23c718))
 
-
 ## v0.4.6 (2023-06-21)
 
 ### :bento:
 
 * :bento:(semantic-release) setuptools_scm Version---&gt;PKG-DATA ([`28aceae`](https://github.com/OZI-Project/blastpipe/commit/28aceae28d1fd1833e4c61efd928df414ac57d4f))
-
 
 ## v0.4.5 (2023-06-21)
 
@@ -2768,7 +2730,6 @@ CHANGELOG.md should actually get release notes from now on. ([`cdefd70`](https:/
 
 * don&#39;t stash wheel bump. ([`a9ca7d8`](https://github.com/OZI-Project/blastpipe/commit/a9ca7d8171535ce0e29ed08874bc674a048d8e6b))
 
-
 ## v0.4.4 (2023-06-21)
 
 ### :bento:
@@ -2779,20 +2740,17 @@ CHANGELOG.md should actually get release notes from now on. ([`cdefd70`](https:/
 
 * Addition for release. ([`4be428d`](https://github.com/OZI-Project/blastpipe/commit/4be428d9ef2c61bdae3f8c39d56694dd058a7cb9))
 
-
 ## v0.4.3 (2023-06-21)
 
 ### :bento:
 
 * :bento:(semantic-release) setuptools_scm Version---&gt;PKG-DATA ([`6ea7cae`](https://github.com/OZI-Project/blastpipe/commit/6ea7cae0729dfeb4294fd68cbc8e292db662d6c4))
 
-
 ## v0.4.2 (2023-06-21)
 
 ### :bento:
 
 * :bento:(semantic-release) setuptools_scm Version---&gt;PKG-DATA ([`2477f60`](https://github.com/OZI-Project/blastpipe/commit/2477f60591f39346d11f1d5e7f3b924633aa8c81))
-
 
 ## v0.4.1 (2023-06-21)
 
@@ -2806,13 +2764,11 @@ CHANGELOG.md should actually get release notes from now on. ([`cdefd70`](https:/
 
 * 🚸 add whitespace before PyPI metadata message. ([`815b811`](https://github.com/OZI-Project/blastpipe/commit/815b81179a9d4e317a735df6b7923c04c55abaf4))
 
-
 ## v0.4.0 (2023-06-21)
 
 ### :bento:
 
 * :bento:(semantic-release) setuptools_scm Version---&gt;PKG-DATA ([`b372b52`](https://github.com/OZI-Project/blastpipe/commit/b372b52aae5a4c83f7431928b8e832dd204c0b26))
-
 
 ## v0.3.16 (2023-06-21)
 
@@ -2824,13 +2780,11 @@ CHANGELOG.md should actually get release notes from now on. ([`cdefd70`](https:/
 
 * 🍱 include README.rst in pyproject. ([`615c4d4`](https://github.com/OZI-Project/blastpipe/commit/615c4d40ae5385f5fb80d9accdf6bc9f44509b3f))
 
-
 ## v0.3.15 (2023-06-21)
 
 ### Other
 
 * 🔧 Automate git add PKG-DATA. ([`43e17f6`](https://github.com/OZI-Project/blastpipe/commit/43e17f6ff70b9705b46e8c2a1fbbadf8ed52b13e))
-
 
 ## v0.3.14 (2023-06-21)
 
@@ -2838,13 +2792,11 @@ CHANGELOG.md should actually get release notes from now on. ([`cdefd70`](https:/
 
 * 🔧 Use git add PKG-info. ([`6951901`](https://github.com/OZI-Project/blastpipe/commit/695190126146b11dfa94e747333a6eb8dd552534))
 
-
 ## v0.3.13 (2023-06-21)
 
 ### Other
 
 * 🔧(semantic-release) commit PKG-DATA after unstash. ([`b92752f`](https://github.com/OZI-Project/blastpipe/commit/b92752ff574a12d4511f31d552f1f884dbcc5898))
-
 
 ## v0.3.12 (2023-06-21)
 
@@ -2876,20 +2828,17 @@ CHANGELOG.md should actually get release notes from now on. ([`cdefd70`](https:/
 
 * fix glue scripts ([`9884ad6`](https://github.com/OZI-Project/blastpipe/commit/9884ad6e6ddd1d64b58b4a3a51d243a0fb47972d))
 
-
 ## v0.3.11 (2023-06-20)
 
 ### Other
 
 * 🔨 try to again fix glue. ([`018333f`](https://github.com/OZI-Project/blastpipe/commit/018333f9b8d6a46eefe5b1efe3ffb44d9f615100))
 
-
 ## v0.3.10 (2023-06-20)
 
 ### Other
 
 * 🔨 fix glue to give informative failures. ([`b220a9e`](https://github.com/OZI-Project/blastpipe/commit/b220a9ead2f55f43f92620c8654e2988cde94758))
-
 
 ## v0.3.9 (2023-06-20)
 
@@ -2901,13 +2850,11 @@ CHANGELOG.md should actually get release notes from now on. ([`cdefd70`](https:/
 
 * Changelog commit ([`6f9f8b7`](https://github.com/OZI-Project/blastpipe/commit/6f9f8b71e277b40cbd5b199447f272841509bcd7))
 
-
 ## v0.3.8 (2023-06-20)
 
 ### Other
 
 * 🔧 only build wheel with `build`. ([`808940d`](https://github.com/OZI-Project/blastpipe/commit/808940d6fb8b337a7d00ab5387c52257a8a96780))
-
 
 ## v0.3.7 (2023-06-20)
 
@@ -2915,13 +2862,11 @@ CHANGELOG.md should actually get release notes from now on. ([`cdefd70`](https:/
 
 * 🔧 manually build sdist. ([`39668a2`](https://github.com/OZI-Project/blastpipe/commit/39668a242c823e20ada95892bd56b71e48c3d88f))
 
-
 ## v0.3.6 (2023-06-20)
 
 ### Other
 
 * 🔧 try double quoting meson-options. ([`18ffb60`](https://github.com/OZI-Project/blastpipe/commit/18ffb60338385b441c77724e96902bfca7fba062))
-
 
 ## v0.3.5 (2023-06-20)
 
@@ -2929,13 +2874,11 @@ CHANGELOG.md should actually get release notes from now on. ([`cdefd70`](https:/
 
 * 🔧 add dist-args=&#39;--formats gztar&#39; ([`a499611`](https://github.com/OZI-Project/blastpipe/commit/a49961100404e3e9797bd0c466d8a678f2a30653))
 
-
 ## v0.3.4 (2023-06-20)
 
 ### Other
 
 * 🔧 use gztar for sdist. ([`32f7567`](https://github.com/OZI-Project/blastpipe/commit/32f7567636fea14fd985ea146a5e960a272e2739))
-
 
 ## v0.3.3 (2023-06-20)
 
@@ -2945,7 +2888,6 @@ CHANGELOG.md should actually get release notes from now on. ([`cdefd70`](https:/
 
 * 👷 build wheel and sdist. ([`ec543a4`](https://github.com/OZI-Project/blastpipe/commit/ec543a4ed82ece555f7013b1ef0932fe4cb664d6))
 
-
 ## v0.3.2 (2023-06-20)
 
 ### Other
@@ -2954,7 +2896,6 @@ CHANGELOG.md should actually get release notes from now on. ([`cdefd70`](https:/
 
 * Changelog updated ([`ae69bd4`](https://github.com/OZI-Project/blastpipe/commit/ae69bd4ac31ecad3f0225013bd8474b831c21260))
 
-
 ## v0.3.1 (2023-06-20)
 
 ### Other
@@ -2962,7 +2903,6 @@ CHANGELOG.md should actually get release notes from now on. ([`cdefd70`](https:/
 * ✏️ actually push the changes to the repo. ([`7876abd`](https://github.com/OZI-Project/blastpipe/commit/7876abd5f5bb21e8052e7bae907f899475303e45))
 
 * Changelog updated ([`022ab77`](https://github.com/OZI-Project/blastpipe/commit/022ab77c0cb9cadda63d34fd4bf8daff2c82460f))
-
 
 ## v0.3.0 (2023-06-20)
 
@@ -2980,13 +2920,11 @@ CHANGELOG.md should actually get release notes from now on. ([`cdefd70`](https:/
 
 * 👷 only build wheel and test sdist no package upload for now. ([`955f8d0`](https://github.com/OZI-Project/blastpipe/commit/955f8d0b94856cadbb67ea93ed5b08b8ca4c4e25))
 
-
 ## v0.2.6 (2023-06-19)
 
 ### Other
 
 * 👷 no repo upload on bump. ([`6c89b38`](https://github.com/OZI-Project/blastpipe/commit/6c89b38dc152bb6fee2c9c1b7bfbcb5326e0f0f4))
-
 
 ## v0.2.5 (2023-06-19)
 
@@ -2996,7 +2934,6 @@ CHANGELOG.md should actually get release notes from now on. ([`cdefd70`](https:/
 
 * proper readme ([`1351fbc`](https://github.com/OZI-Project/blastpipe/commit/1351fbc5e936f448afd49f9133780d0150c7a6a5))
 
-
 ## v0.2.4 (2023-06-19)
 
 ### Other
@@ -3004,7 +2941,6 @@ CHANGELOG.md should actually get release notes from now on. ([`cdefd70`](https:/
 * 👷 commit_version_number = true ([`100955e`](https://github.com/OZI-Project/blastpipe/commit/100955e10548027e0c923fb5a58e3758f1bb13f4))
 
 * changes ([`13237df`](https://github.com/OZI-Project/blastpipe/commit/13237df637ef3bd6ece61ed87c1b77eb8d53b8b0))
-
 
 ## v0.2.3 (2023-06-19)
 
@@ -3020,7 +2956,6 @@ CHANGELOG.md should actually get release notes from now on. ([`cdefd70`](https:/
 
 * change version regex ([`343bc20`](https://github.com/OZI-Project/blastpipe/commit/343bc2038bb8274e5e81b274fd9aa94ada96146d))
 
-
 ## v0.2.2 (2023-06-19)
 
 ### Other
@@ -3033,20 +2968,17 @@ CHANGELOG.md should actually get release notes from now on. ([`cdefd70`](https:/
 
 * 👷 switch to ci commit versioning ([`b8bd455`](https://github.com/OZI-Project/blastpipe/commit/b8bd455a25e19f737f77de536d96cb7b055d2c40))
 
-
 ## v0.2.1 (2023-06-19)
 
 ### Other
 
 * Changes to release. ([`fd26a79`](https://github.com/OZI-Project/blastpipe/commit/fd26a79002be80fe8ee150950bd761f03a109d2a))
 
-
 ## v0.2.0 (2023-06-19)
 
 ### Other
 
 * changelogged ([`af1cd00`](https://github.com/OZI-Project/blastpipe/commit/af1cd0033c9fbe0385c237de315cb4d52f866a60))
-
 
 ## v0.1.2 (2023-06-19)
 
@@ -3077,7 +3009,6 @@ Meson writes fallback version and project name to pyproject.toml at dist time. (
 * 🔧 use fs.copyfile() instead of configure_file() ([`8936ae3`](https://github.com/OZI-Project/blastpipe/commit/8936ae3ce89f767410f1002dc09b39e2ddd6a214))
 
 * Added 0.1.0 changes. ([`6b92237`](https://github.com/OZI-Project/blastpipe/commit/6b92237ad0ab02f4dbc56f6c8e922fc523f25ac2))
-
 
 ## v0.1.0 (2023-06-17)
 
@@ -3163,7 +3094,6 @@ Added docstrings and fixed linter complaints. ([`cce2432`](https://github.com/OZ
 
 * Fix pyproject.toml ([`de64858`](https://github.com/OZI-Project/blastpipe/commit/de64858766d40197bdaceecb31819881cf9654c5))
 
-
 ## v2023.6.0 (2023-05-06)
 
 ### Other
@@ -3175,7 +3105,6 @@ Added docstrings and fixed linter complaints. ([`cce2432`](https://github.com/OZ
 * fix pre_commit_command ([`38de9ca`](https://github.com/OZI-Project/blastpipe/commit/38de9caf32de315cdee8e6e9dd1d926df8e0f786))
 
 * fix pre_commit_command ([`fbd412f`](https://github.com/OZI-Project/blastpipe/commit/fbd412f34fc3b3b67fd2793218ccb419cfb86a0c))
-
 
 ## v2023.5.0 (2023-05-05)
 
