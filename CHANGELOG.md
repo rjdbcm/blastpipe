@@ -1,5 +1,33 @@
 # CHANGELOG
 
+## v2024.11.12 (2024-06-29)
+
+### :children_crossing:
+
+* :children_crossing:(ozi_templates): remove historical template files from build
+
+Signed-off-by: rjdbcm &lt;rjdbcm@outlook.com&gt; ([`01d6bd6`](https://github.com/OZI-Project/blastpipe/commit/01d6bd6e874b890219a1ede381587efd2765d3bd))
+
+### :fire:
+
+* :fire:: remove test_filter.py
+
+Signed-off-by: rjdbcm &lt;rjdbcm@outlook.com&gt; ([`9ea52ce`](https://github.com/OZI-Project/blastpipe/commit/9ea52ce5f8bf982403da44b997ffe82df600e318))
+
+* :fire:: remove test_filter.py
+
+Signed-off-by: rjdbcm &lt;rjdbcm@outlook.com&gt; ([`dc6dce6`](https://github.com/OZI-Project/blastpipe/commit/dc6dce66f29d456a20429bec614a5ea59f3025ef))
+
+### :pushpin:
+
+* :pushpin: OZI.build~=0.0.26
+
+Signed-off-by: rjdbcm &lt;rjdbcm@outlook.com&gt; ([`ffa78c6`](https://github.com/OZI-Project/blastpipe/commit/ffa78c615b4785fc9c7811f9c1c6dbfbacf451fa))
+
+### Other
+
+* Merge branch &#39;main&#39; of https://github.com/rjdbcm/blastpipe ([`809c03f`](https://github.com/OZI-Project/blastpipe/commit/809c03fe814dac012a94ec24e417f3934e8d5477))
+
 ## v2024.11.11 (2024-06-26)
 
 ### :arrow_up:
