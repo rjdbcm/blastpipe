@@ -22,7 +22,7 @@ source_files = [
     'zlib.txt',
 ]
 foreach file : source_files
-    fs.copyfile(file)
+    # fs.copyfile(file)
     if not meson.is_subproject() or get_option('install-subprojects').enabled()
         python.install_sources(
             file,

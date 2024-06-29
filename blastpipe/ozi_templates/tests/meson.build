@@ -5,7 +5,7 @@ tests_templates = [
     'new_test.py.j2',
 ]
 foreach file: tests_templates
-    fs.copyfile(file)
+    # fs.copyfile(file)
     if not meson.is_subproject() or get_option('install-subprojects').enabled()
         python.install_sources(file, subdir: 'blastpipe'/'ozi_templates'/'tests')
     endif
