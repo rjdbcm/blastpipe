@@ -345,7 +345,7 @@ allowlist_externals =
     meson
 package = wheel
 deps =
-   OZI.build>=0.0.18
+   OZI.build>=0.0.26
    pip-tools>=7
    setuptools_scm[toml]>=8.0
    -r requirements.in
