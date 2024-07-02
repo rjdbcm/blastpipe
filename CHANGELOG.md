@@ -1,5 +1,19 @@
 # CHANGELOG
 
+## v2024.11.13 (2024-07-02)
+
+### :fire:
+
+* :fire: remove ozi-templates remnants
+
+Signed-off-by: rjdbcm &lt;rjdbcm@outlook.com&gt; ([`f7cfc4c`](https://github.com/OZI-Project/blastpipe/commit/f7cfc4c4dde5a208e8ef670f12cc942a5f2a78f4))
+
+### Other
+
+* Merge pull request #115 from OZI-Project/dependabot/github_actions/github/codeql-action-3.25.11
+
+Bump github/codeql-action from 3.25.10 to 3.25.11 ([`188f241`](https://github.com/OZI-Project/blastpipe/commit/188f24115a81b81c8503491a244ec5474ca2b262))
+
 ## v2024.11.12 (2024-06-29)
 
 ### :children_crossing:
@@ -27,6 +41,22 @@ Signed-off-by: rjdbcm &lt;rjdbcm@outlook.com&gt; ([`ffa78c6`](https://github.com
 ### Other
 
 * Merge branch &#39;main&#39; of https://github.com/rjdbcm/blastpipe ([`809c03f`](https://github.com/OZI-Project/blastpipe/commit/809c03fe814dac012a94ec24e417f3934e8d5477))
+
+* Bump github/codeql-action from 3.25.10 to 3.25.11
+
+Bumps [github/codeql-action](https://github.com/github/codeql-action) from 3.25.10 to 3.25.11.
+- [Release notes](https://github.com/github/codeql-action/releases)
+- [Changelog](https://github.com/github/codeql-action/blob/main/CHANGELOG.md)
+- [Commits](https://github.com/github/codeql-action/compare/23acc5c183826b7a8a97bce3cecc52db901f8251...b611370bb5703a7efb587f9d136a52ea24c5c38c)
+
+---
+updated-dependencies:
+- dependency-name: github/codeql-action
+  dependency-type: direct:production
+  update-type: version-update:semver-patch
+...
+
+Signed-off-by: dependabot[bot] &lt;support@github.com&gt; ([`9398b9a`](https://github.com/OZI-Project/blastpipe/commit/9398b9a6bc1d6a98d5bb804cb060341d6cfd257d))
 
 ## v2024.11.11 (2024-06-26)
 
