@@ -26,7 +26,6 @@ docs_source = 'subprojects/docs'
 pip_compile = find_program('pip-compile', required: true)
 root_files = [
     'README.rst',
-    'CHANGELOG.md',
     'LICENSE.txt',
     'requirements.in',
     'pyproject.toml',
