@@ -26,6 +26,7 @@ docs_source = 'subprojects/docs'
 pip_compile = find_program('pip-compile', required: true)
 root_files = [
     'README.rst',
+    'CHANGELOG.md',
     'LICENSE.txt',
     'requirements.in',
     'pyproject.toml',
@@ -83,7 +84,7 @@ configure_file(
 )
 vcs_tag(input: 'pyproject.toml', output: 'pyproject.orig.toml')
 foreach source : root_files
-    if source not in ['pyproject.toml', '.gitignore']
+    if source not in ['pyproject.toml', '.gitignore', 'CHANGELOG.md']
         fs.copyfile(source)
     endif
 endforeach
