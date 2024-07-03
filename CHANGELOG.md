@@ -1,4 +1,24 @@
 # CHANGELOG
+## 2024.11.15 (2024-07-03)
+
+
+
+### 🚸 Improved Usability
+*  remove CHANGELOG.md from build files — rjdbcm &lt;rjdbcm@outlook.com&gt;
+([`b0b9a79`](https://github.com/OZI-Project/blastpipe/commit/b0b9a79f5eb1c91bf960edc1a4fd59f7c23d57e4))
+
+
+### 🚸 Improved Usability
+*  remove CHANGELOG.md from build files — rjdbcm &lt;rjdbcm@outlook.com&gt;
+([`f6d23c0`](https://github.com/OZI-Project/blastpipe/commit/f6d23c0bc44779981dab0650f95fdf293c9b739d))
+
+
+
+### Other
+
+* Merge branch &#39;main&#39; of https://github.com/rjdbcm/blastpipe
+([`dc645ce`](https://github.com/OZI-Project/blastpipe/commit/dc645ce3ce28ade38eb1870f34112e73cdbae333))
+
 ## 2024.11.14 (2024-07-03)
 
 
