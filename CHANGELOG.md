@@ -1,4 +1,32 @@
 # CHANGELOG
+## 2024.11.17 (2024-07-06)
+
+
+### ⬆️ Upgraded Dependencies
+
+*  Bump actions/upload-artifact from 4.3.3 to 4.3.4
+
+Bumps [actions/upload-artifact](https://github.com/actions/upload-artifact) from 4.3.3 to 4.3.4.
+- [Release notes](https://github.com/actions/upload-artifact/releases)
+- [Commits](https://github.com/actions/upload-artifact/compare/65462800fd760344b1a7b4382951275a0abb4808...0b2256b8c012f0828dc542b3febcab082c67f72b)
+
+
+updated-dependencies:
+- dependency-name: actions/upload-artifact
+  dependency-type: direct:production
+  update-type: version-update:semver-patch
+... — dependabot[bot] &lt;support@github.com&gt;
+([`401b2ba`](https://github.com/OZI-Project/blastpipe/commit/401b2bac9928ddc7b42cfcf79539ad7899664549))
+
+
+### Other
+
+
+* Merge pull request #116 from OZI-Project/dependabot/github_actions/actions/upload-artifact-4.3.4
+
+⬆️ Bump actions/upload-artifact from 4.3.3 to 4.3.4
+([`772c5b5`](https://github.com/OZI-Project/blastpipe/commit/772c5b5e770f940ead372706a5dfe911877afbb2))
+
 ## 2024.11.16 (2024-07-03)
 
 
