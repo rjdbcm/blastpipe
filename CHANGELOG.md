@@ -1,4 +1,52 @@
 # CHANGELOG
+## 2024.11.19 (2024-07-13)
+
+
+### ⬆️ Upgraded Dependencies
+
+*  Bump github/codeql-action from 3.25.11 to 3.25.12
+
+Bumps [github/codeql-action](https://github.com/github/codeql-action) from 3.25.11 to 3.25.12.
+- [Release notes](https://github.com/github/codeql-action/releases)
+- [Changelog](https://github.com/github/codeql-action/blob/main/CHANGELOG.md)
+- [Commits](https://github.com/github/codeql-action/compare/b611370bb5703a7efb587f9d136a52ea24c5c38c...4fa2a7953630fd2f3fb380f21be14ede0169dd4f)
+
+
+updated-dependencies:
+- dependency-name: github/codeql-action
+  dependency-type: direct:production
+  update-type: version-update:semver-patch
+... — dependabot[bot] &lt;support@github.com&gt;
+([`63af6b0`](https://github.com/OZI-Project/blastpipe/commit/63af6b08d12cada2c924396e28eb9acca079c7d0))
+
+*  Bump actions/dependency-review-action from 4.3.3 to 4.3.4
+
+Bumps [actions/dependency-review-action](https://github.com/actions/dependency-review-action) from 4.3.3 to 4.3.4.
+- [Release notes](https://github.com/actions/dependency-review-action/releases)
+- [Commits](https://github.com/actions/dependency-review-action/compare/72eb03d02c7872a771aacd928f3123ac62ad6d3a...5a2ce3f5b92ee19cbb1541a4984c76d921601d7c)
+
+
+updated-dependencies:
+- dependency-name: actions/dependency-review-action
+  dependency-type: direct:production
+  update-type: version-update:semver-patch
+... — dependabot[bot] &lt;support@github.com&gt;
+([`2cb63c0`](https://github.com/OZI-Project/blastpipe/commit/2cb63c05007522e36538fa318d4a22d30c99b8fc))
+
+
+### Other
+
+
+* Merge pull request #119 from OZI-Project/dependabot/github_actions/actions/dependency-review-action-4.3.4
+
+⬆️ Bump actions/dependency-review-action from 4.3.3 to 4.3.4
+([`8232958`](https://github.com/OZI-Project/blastpipe/commit/8232958f4c4ef546be419d452ef63d7b36acc436))
+
+* Merge pull request #120 from OZI-Project/dependabot/github_actions/github/codeql-action-3.25.12
+
+⬆️ Bump github/codeql-action from 3.25.11 to 3.25.12
+([`d90ea0c`](https://github.com/OZI-Project/blastpipe/commit/d90ea0c22e1968760e7c97b20087b72bda377767))
+
 ## 2024.11.18 (2024-07-08)
 
 
