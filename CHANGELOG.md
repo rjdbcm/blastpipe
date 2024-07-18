@@ -49,6 +49,9 @@ updated-dependencies:
 
 ### 📌 Pinned Dependencies
 
+*  OZI-Project/release@0.7.2 — rjdbcm &lt;rjdbcm@outlook.com&gt;
+([`39602c8`](https://github.com/OZI-Project/blastpipe/commit/39602c85a0ce68da8bae0c5d24d459458e00f5ec))
+
 *  OZI-Project/release@0.7.1 — rjdbcm &lt;rjdbcm@outlook.com&gt;
 ([`3e3bb8f`](https://github.com/OZI-Project/blastpipe/commit/3e3bb8f9cbd08b90078e8744018a647c92dbddd6))
 
