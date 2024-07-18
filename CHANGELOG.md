@@ -1,4 +1,70 @@
 # CHANGELOG
+## 2024.11.22 (2024-07-18)
+
+
+### ⬆️ Upgraded Dependencies
+
+*  Bump OZI-Project/checkpoint from 0.4.3 to 0.5.0
+
+Bumps [OZI-Project/checkpoint](https://github.com/ozi-project/checkpoint) from 0.4.3 to 0.5.0.
+- [Release notes](https://github.com/ozi-project/checkpoint/releases)
+- [Commits](https://github.com/ozi-project/checkpoint/compare/bfd00dbaebfc8e86f730575dd907eb043052e795...8b8d7d173139c115188e4689204aba4e36e98810)
+
+
+updated-dependencies:
+- dependency-name: OZI-Project/checkpoint
+  dependency-type: direct:production
+  update-type: version-update:semver-minor
+... — dependabot[bot] &lt;support@github.com&gt;
+([`599840b`](https://github.com/OZI-Project/blastpipe/commit/599840b7fa73d7bc2fb19e7e83ee4891992821ba))
+
+*  Bump OZI-Project/draft from 0.3.5 to 0.3.6
+
+Bumps [OZI-Project/draft](https://github.com/ozi-project/draft) from 0.3.5 to 0.3.6.
+- [Release notes](https://github.com/ozi-project/draft/releases)
+- [Commits](https://github.com/ozi-project/draft/compare/8b8bafcce0442b4f6985d364c27030e44648e998...29d09f8b7b490a3be3b6a448f1f40864fe1c7b25)
+
+
+updated-dependencies:
+- dependency-name: OZI-Project/draft
+  dependency-type: direct:production
+  update-type: version-update:semver-patch
+... — dependabot[bot] &lt;support@github.com&gt;
+([`b830549`](https://github.com/OZI-Project/blastpipe/commit/b8305493d38ed311f7779737e586a397247e7aec))
+
+*  Bump OZI-Project/release from 0.6.6 to 0.7.0
+
+Bumps [OZI-Project/release](https://github.com/ozi-project/release) from 0.6.6 to 0.7.0.
+- [Release notes](https://github.com/ozi-project/release/releases)
+- [Commits](https://github.com/ozi-project/release/compare/de8cb06cabbdc0697678bb16091258e8cc2e8f34...5504420a55b9ce92a9c927b6508231b1c1abd00c)
+
+
+updated-dependencies:
+- dependency-name: OZI-Project/release
+  dependency-type: direct:production
+  update-type: version-update:semver-minor
+... — dependabot[bot] &lt;support@github.com&gt;
+([`c3eec0f`](https://github.com/OZI-Project/blastpipe/commit/c3eec0f09a807edfe1fe0c9893abd85447106e3f))
+
+
+### Other
+
+
+* Merge pull request #125 from OZI-Project/dependabot/github_actions/OZI-Project/checkpoint-0.5.0
+
+⬆️ Bump OZI-Project/checkpoint from 0.4.3 to 0.5.0
+([`64ec987`](https://github.com/OZI-Project/blastpipe/commit/64ec987053b102fb6657bb3b7c6a7faff03bb9b7))
+
+* Merge pull request #126 from OZI-Project/dependabot/github_actions/OZI-Project/draft-0.3.6
+
+⬆️ Bump OZI-Project/draft from 0.3.5 to 0.3.6
+([`530707b`](https://github.com/OZI-Project/blastpipe/commit/530707b667a8d85d714ccd8a4397366a5c5bae83))
+
+* Merge pull request #127 from OZI-Project/dependabot/github_actions/OZI-Project/release-0.7.0
+
+⬆️ Bump OZI-Project/release from 0.6.6 to 0.7.0
+([`68db5a6`](https://github.com/OZI-Project/blastpipe/commit/68db5a62dcd68a851aa68444fff01dd26d3959c7))
+
 ## 2024.11.21 (2024-07-18)
 
 
