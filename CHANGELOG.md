@@ -1,4 +1,12 @@
 # CHANGELOG
+## 2024.11.20 (2024-07-18)
+
+
+### 📌 Pinned Dependencies
+
+*  OZI.build&gt;=0.0.27 — rjdbcm &lt;rjdbcm@outlook.com&gt;
+([`acf5346`](https://github.com/OZI-Project/blastpipe/commit/acf534654e5b6b83d0615619071ee12d8ad088d0))
+
 ## 2024.11.19 (2024-07-13)
 
 
