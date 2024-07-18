@@ -202,7 +202,7 @@ jobs:
             www.oziproject.dev:443
             objects.githubusercontent.com:443
 
-      - uses: OZI-Project/release@de8cb06cabbdc0697678bb16091258e8cc2e8f34
+      - uses: OZI-Project/release@5504420a55b9ce92a9c927b6508231b1c1abd00c
         id: release
         with:
           tag: ${{ needs.draft.outputs.tag }}
