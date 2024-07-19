@@ -1,4 +1,52 @@
 # CHANGELOG
+## 2024.11.23 (2024-07-19)
+
+
+### ⬆️ Upgraded Dependencies
+
+*  Bump step-security/harden-runner from 2.8.1 to 2.9.0
+
+Bumps [step-security/harden-runner](https://github.com/step-security/harden-runner) from 2.8.1 to 2.9.0.
+- [Release notes](https://github.com/step-security/harden-runner/releases)
+- [Commits](https://github.com/step-security/harden-runner/compare/17d0e2bd7d51742c71671bd19fa12bdc9d40a3d6...0d381219ddf674d61a7572ddd19d7941e271515c)
+
+
+updated-dependencies:
+- dependency-name: step-security/harden-runner
+  dependency-type: direct:production
+  update-type: version-update:semver-minor
+... — dependabot[bot] &lt;support@github.com&gt;
+([`87ba76d`](https://github.com/OZI-Project/blastpipe/commit/87ba76d3523e75dd882701c7c66561fd87c92a76))
+
+*  Bump github/codeql-action from 3.25.12 to 3.25.13
+
+Bumps [github/codeql-action](https://github.com/github/codeql-action) from 3.25.12 to 3.25.13.
+- [Release notes](https://github.com/github/codeql-action/releases)
+- [Changelog](https://github.com/github/codeql-action/blob/main/CHANGELOG.md)
+- [Commits](https://github.com/github/codeql-action/compare/4fa2a7953630fd2f3fb380f21be14ede0169dd4f...2d790406f505036ef40ecba973cc774a50395aac)
+
+
+updated-dependencies:
+- dependency-name: github/codeql-action
+  dependency-type: direct:production
+  update-type: version-update:semver-patch
+... — dependabot[bot] &lt;support@github.com&gt;
+([`e643d73`](https://github.com/OZI-Project/blastpipe/commit/e643d73d6adde9671e239dedb37050d6a84babfe))
+
+
+### Other
+
+
+* Merge pull request #128 from OZI-Project/dependabot/github_actions/step-security/harden-runner-2.9.0
+
+⬆️ Bump step-security/harden-runner from 2.8.1 to 2.9.0
+([`2ca707c`](https://github.com/OZI-Project/blastpipe/commit/2ca707cbd3c3c2f7394d3333bd401127373b7e94))
+
+* Merge pull request #129 from OZI-Project/dependabot/github_actions/github/codeql-action-3.25.13
+
+⬆️ Bump github/codeql-action from 3.25.12 to 3.25.13
+([`61a9ecb`](https://github.com/OZI-Project/blastpipe/commit/61a9ecb7a5b63abc06a4f24774b2d257f5c4764f))
+
 ## 2024.11.22 (2024-07-18)
 
 
