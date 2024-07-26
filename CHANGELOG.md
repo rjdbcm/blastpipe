@@ -1,4 +1,71 @@
 # CHANGELOG
+## 2024.11.24 (2024-07-26)
+
+
+### ⬆️ Upgraded Dependencies
+
+*  Bump github/codeql-action from 3.25.13 to 3.25.14
+
+Bumps [github/codeql-action](https://github.com/github/codeql-action) from 3.25.13 to 3.25.14.
+- [Release notes](https://github.com/github/codeql-action/releases)
+- [Changelog](https://github.com/github/codeql-action/blob/main/CHANGELOG.md)
+- [Commits](https://github.com/github/codeql-action/compare/2d790406f505036ef40ecba973cc774a50395aac...5cf07d8b700b67e235fbb65cbc84f69c0cf10464)
+
+
+updated-dependencies:
+- dependency-name: github/codeql-action
+  dependency-type: direct:production
+  update-type: version-update:semver-patch
+... — dependabot[bot] &lt;support@github.com&gt;
+([`9f87184`](https://github.com/OZI-Project/blastpipe/commit/9f87184e81b3025ea04c53b919ff156d4fb7ed90))
+
+*  Bump OZI-Project/publish from 0.1.8 to 0.1.9
+
+Bumps [OZI-Project/publish](https://github.com/ozi-project/publish) from 0.1.8 to 0.1.9.
+- [Release notes](https://github.com/ozi-project/publish/releases)
+- [Commits](https://github.com/ozi-project/publish/compare/798954a5a38220573d0a8c2873b5b08d1059d237...e53fb3caac6d0530d1cc3d05d0c3e3a6b6fb1c67)
+
+
+updated-dependencies:
+- dependency-name: OZI-Project/publish
+  dependency-type: direct:production
+  update-type: version-update:semver-patch
+... — dependabot[bot] &lt;support@github.com&gt;
+([`e83475f`](https://github.com/OZI-Project/blastpipe/commit/e83475f3bfc75ad4c087f5c3c92a45ea39a11739))
+
+*  Bump OZI-Project/draft from 0.3.6 to 0.3.7
+
+Bumps [OZI-Project/draft](https://github.com/ozi-project/draft) from 0.3.6 to 0.3.7.
+- [Release notes](https://github.com/ozi-project/draft/releases)
+- [Commits](https://github.com/ozi-project/draft/compare/29d09f8b7b490a3be3b6a448f1f40864fe1c7b25...f9e3ee38f76e3aefcbf29743e9ec64f716182001)
+
+
+updated-dependencies:
+- dependency-name: OZI-Project/draft
+  dependency-type: direct:production
+  update-type: version-update:semver-patch
+... — dependabot[bot] &lt;support@github.com&gt;
+([`ad8cd36`](https://github.com/OZI-Project/blastpipe/commit/ad8cd36973e69b06aae0bfbfdbe8ee6259ec209f))
+
+
+### Other
+
+
+* Merge pull request #132 from OZI-Project/dependabot/github_actions/github/codeql-action-3.25.14
+
+⬆️ Bump github/codeql-action from 3.25.13 to 3.25.14
+([`8c8aa9c`](https://github.com/OZI-Project/blastpipe/commit/8c8aa9c0a60135c94e8b1e6ef889ae0601e181e0))
+
+* Merge pull request #130 from OZI-Project/dependabot/github_actions/OZI-Project/publish-0.1.9
+
+⬆️ Bump OZI-Project/publish from 0.1.8 to 0.1.9
+([`9b765a7`](https://github.com/OZI-Project/blastpipe/commit/9b765a7993ad8236ddc897b95898f9a8fde79882))
+
+* Merge pull request #131 from OZI-Project/dependabot/github_actions/OZI-Project/draft-0.3.7
+
+⬆️ Bump OZI-Project/draft from 0.3.6 to 0.3.7
+([`fa68c50`](https://github.com/OZI-Project/blastpipe/commit/fa68c50d6b18ce04d959b37437b1b7b0f797d0cd))
+
 ## 2024.11.23 (2024-07-19)
 
 
