@@ -1,4 +1,33 @@
 # CHANGELOG
+## 2024.11.26 (2024-07-30)
+
+
+### ⬆️ Upgraded Dependencies
+
+*  Bump ossf/scorecard-action from 2.3.3 to 2.4.0
+
+Bumps [ossf/scorecard-action](https://github.com/ossf/scorecard-action) from 2.3.3 to 2.4.0.
+- [Release notes](https://github.com/ossf/scorecard-action/releases)
+- [Changelog](https://github.com/ossf/scorecard-action/blob/main/RELEASE.md)
+- [Commits](https://github.com/ossf/scorecard-action/compare/dc50aa9510b46c811795eb24b2f1ba02a914e534...62b2cac7ed8198b15735ed49ab1e5cf35480ba46)
+
+
+updated-dependencies:
+- dependency-name: ossf/scorecard-action
+  dependency-type: direct:production
+  update-type: version-update:semver-minor
+... — dependabot[bot] &lt;support@github.com&gt;
+([`85df8da`](https://github.com/OZI-Project/blastpipe/commit/85df8dabeebd7a76df5e9e8c2da55a069884646c))
+
+
+### Other
+
+
+* Merge pull request #134 from OZI-Project/dependabot/github_actions/ossf/scorecard-action-2.4.0
+
+⬆️ Bump ossf/scorecard-action from 2.3.3 to 2.4.0
+([`2c4fc56`](https://github.com/OZI-Project/blastpipe/commit/2c4fc56443375799b425eb3d78668ed5581bdd9c))
+
 ## 2024.11.25 (2024-07-26)
 
 
