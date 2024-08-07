@@ -1,4 +1,18 @@
 # CHANGELOG
+## 2024.11.28 (2024-08-07)
+
+
+### 🐛 Fixed Bugs
+
+* (msgspec): ``install-subprojects=enabled`` — rjdbcm &lt;rjdbcm@outlook.com&gt;
+([`561280f`](https://github.com/OZI-Project/blastpipe/commit/561280f4dc17d2f53887365b78657a6db33a47cc))
+
+
+### ✏️ Corrected Typos
+
+*  ``install-subprojects=enabled`` — rjdbcm &lt;rjdbcm@outlook.com&gt;
+([`e9e765b`](https://github.com/OZI-Project/blastpipe/commit/e9e765b24a585200a322434eca9ba5623438d897))
+
 ## 2024.11.27 (2024-08-07)
 
 
