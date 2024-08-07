@@ -6,7 +6,7 @@ license = {file = "LICENSE.txt"}
 
 [build-system]
 requires = [
-    'OZI.build>=0.0.27',
+    'OZI.build~=1.0',
     'pip-tools>=7',
     'pipx>=1.5',
     'setuptools_scm[toml]>=8.0',
@@ -74,7 +74,7 @@ test = [
 version_file_template = """Metadata-Version: 2.1
 Name: @PROJECT_NAME@
 Version: @SCM_VERSION@
-Summary: OZI integrated test library.
+Summary: OZI Project utility library.
 Home-page: https://oziproject.dev
 Author: Eden Ross Duff MSc
 Author-email: help@oziproject.dev
@@ -82,7 +82,7 @@ License: @LICENSE@
 Download-URL: https://github.com/OZI-Project/blastpipe/archive/refs/tags/@SCM_VERSION@.tar.gz
 Requires-Python: >=3.10, <3.14
 Keywords: ozi,meson
-Provides-Dist: ozi-templates
+Provides-Dist: msgspec
 Classifier: License :: OSI Approved :: Apache Software License
 Classifier: Development Status :: 3 - Alpha
 Classifier: Programming Language :: Python :: 3 :: Only

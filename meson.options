@@ -55,10 +55,10 @@ option(
     type: 'array',
     value: [
         'bandit',
-        'blib2to3',
+        'black',
         'flake8',
         'isort',
-        'mypyc',
+        'mypy',
         'pyright',
         'Flake8-pyproject',
         'flake8-annotations',
