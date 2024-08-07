@@ -1,4 +1,133 @@
 # CHANGELOG
+## 2024.11.27 (2024-08-07)
+
+
+### ⬆️ Upgraded Dependencies
+
+*  Bump OZI-Project/release from 0.7.3 to 0.7.4
+
+Bumps [OZI-Project/release](https://github.com/ozi-project/release) from 0.7.3 to 0.7.4.
+- [Release notes](https://github.com/ozi-project/release/releases)
+- [Commits](https://github.com/ozi-project/release/compare/b2388e2a058926646944ddc471737e2e6495940d...a35f144432e2de0e30f800777676c652ea9c043b)
+
+
+updated-dependencies:
+- dependency-name: OZI-Project/release
+  dependency-type: direct:production
+  update-type: version-update:semver-patch
+... — dependabot[bot] &lt;support@github.com&gt;
+([`4d27f7b`](https://github.com/OZI-Project/blastpipe/commit/4d27f7b7c25b890bff90e4f8310964086fdb1cfa))
+
+*  Bump OZI-Project/checkpoint from 0.5.0 to 0.5.1
+
+Bumps [OZI-Project/checkpoint](https://github.com/ozi-project/checkpoint) from 0.5.0 to 0.5.1.
+- [Release notes](https://github.com/ozi-project/checkpoint/releases)
+- [Commits](https://github.com/ozi-project/checkpoint/compare/8b8d7d173139c115188e4689204aba4e36e98810...bfd6e529455ff6ec099bfd16be2ab86fa0332a71)
+
+
+updated-dependencies:
+- dependency-name: OZI-Project/checkpoint
+  dependency-type: direct:production
+  update-type: version-update:semver-patch
+... — dependabot[bot] &lt;support@github.com&gt;
+([`ceed737`](https://github.com/OZI-Project/blastpipe/commit/ceed7378e356d77714c1fbeb94b71dfe58d9de4f))
+
+*  Bump actions/upload-artifact from 4.3.5 to 4.3.6
+
+Bumps [actions/upload-artifact](https://github.com/actions/upload-artifact) from 4.3.5 to 4.3.6.
+- [Release notes](https://github.com/actions/upload-artifact/releases)
+- [Commits](https://github.com/actions/upload-artifact/compare/89ef406dd8d7e03cfd12d9e0a4a378f454709029...834a144ee995460fba8ed112a2fc961b36a5ec5a)
+
+
+updated-dependencies:
+- dependency-name: actions/upload-artifact
+  dependency-type: direct:production
+  update-type: version-update:semver-patch
+... — dependabot[bot] &lt;support@github.com&gt;
+([`2ddc19e`](https://github.com/OZI-Project/blastpipe/commit/2ddc19e6a7df7ccb35ddbe2dbc1ed3582b7b3227))
+
+*  Bump OZI-Project/draft from 0.3.7 to 0.3.8
+
+Bumps [OZI-Project/draft](https://github.com/ozi-project/draft) from 0.3.7 to 0.3.8.
+- [Release notes](https://github.com/ozi-project/draft/releases)
+- [Commits](https://github.com/ozi-project/draft/compare/f9e3ee38f76e3aefcbf29743e9ec64f716182001...38dfc0df2b189018bbae0b016c61ac1d704c2626)
+
+
+updated-dependencies:
+- dependency-name: OZI-Project/draft
+  dependency-type: direct:production
+  update-type: version-update:semver-patch
+... — dependabot[bot] &lt;support@github.com&gt;
+([`486f10b`](https://github.com/OZI-Project/blastpipe/commit/486f10bfbda2235c34d46c0031efbf929482c6b6))
+
+*  Bump step-security/harden-runner from 2.9.0 to 2.9.1
+
+Bumps [step-security/harden-runner](https://github.com/step-security/harden-runner) from 2.9.0 to 2.9.1.
+- [Release notes](https://github.com/step-security/harden-runner/releases)
+- [Commits](https://github.com/step-security/harden-runner/compare/0d381219ddf674d61a7572ddd19d7941e271515c...5c7944e73c4c2a096b17a9cb74d65b6c2bbafbde)
+
+
+updated-dependencies:
+- dependency-name: step-security/harden-runner
+  dependency-type: direct:production
+  update-type: version-update:semver-patch
+... — dependabot[bot] &lt;support@github.com&gt;
+([`28170ab`](https://github.com/OZI-Project/blastpipe/commit/28170ab6eaf60388b197e0e9acde023080a7e43b))
+
+*  Bump actions/upload-artifact from 4.3.4 to 4.3.5
+
+Bumps [actions/upload-artifact](https://github.com/actions/upload-artifact) from 4.3.4 to 4.3.5.
+- [Release notes](https://github.com/actions/upload-artifact/releases)
+- [Commits](https://github.com/actions/upload-artifact/compare/0b2256b8c012f0828dc542b3febcab082c67f72b...89ef406dd8d7e03cfd12d9e0a4a378f454709029)
+
+
+updated-dependencies:
+- dependency-name: actions/upload-artifact
+  dependency-type: direct:production
+  update-type: version-update:semver-patch
+... — dependabot[bot] &lt;support@github.com&gt;
+([`fc630b9`](https://github.com/OZI-Project/blastpipe/commit/fc630b9e93a57dbe769a32d8c987e2f164826119))
+
+
+### 🔨 Updated Scripts
+
+*  add msgspec distribution to build — rjdbcm &lt;rjdbcm@outlook.com&gt;
+([`860fccd`](https://github.com/OZI-Project/blastpipe/commit/860fccd986003928a2ec9e2aea146d93f8d60f3a))
+
+
+### Other
+
+
+* Merge pull request #136 from OZI-Project/dependabot/github_actions/OZI-Project/release-0.7.4
+
+⬆️ Bump OZI-Project/release from 0.7.3 to 0.7.4
+([`0d6532b`](https://github.com/OZI-Project/blastpipe/commit/0d6532b1c6792b6b59c6c72b388336d10968a341))
+
+* Merge pull request #137 from OZI-Project/dependabot/github_actions/OZI-Project/checkpoint-0.5.1
+
+⬆️ Bump OZI-Project/checkpoint from 0.5.0 to 0.5.1
+([`a78b487`](https://github.com/OZI-Project/blastpipe/commit/a78b4870430e3ac00decbaf8d07d6368d9873546))
+
+* Merge pull request #138 from OZI-Project/dependabot/github_actions/actions/upload-artifact-4.3.6
+
+⬆️ Bump actions/upload-artifact from 4.3.5 to 4.3.6
+([`539a2f3`](https://github.com/OZI-Project/blastpipe/commit/539a2f33211a3c0fc26328041be8bcb8e84ac956))
+
+* Merge pull request #139 from OZI-Project/dependabot/github_actions/OZI-Project/draft-0.3.8
+
+⬆️ Bump OZI-Project/draft from 0.3.7 to 0.3.8
+([`a468b0c`](https://github.com/OZI-Project/blastpipe/commit/a468b0c2ffad0d6e02b1808bfea28f34d1021cbc))
+
+* Merge pull request #140 from OZI-Project/dependabot/github_actions/step-security/harden-runner-2.9.1
+
+⬆️ Bump step-security/harden-runner from 2.9.0 to 2.9.1
+([`8e38338`](https://github.com/OZI-Project/blastpipe/commit/8e38338ebbfdec62ae192b2ac10dfd8e547e3269))
+
+* Merge pull request #135 from OZI-Project/dependabot/github_actions/actions/upload-artifact-4.3.5
+
+⬆️ Bump actions/upload-artifact from 4.3.4 to 4.3.5
+([`69c477b`](https://github.com/OZI-Project/blastpipe/commit/69c477ba19fe8163618f510cc4cbd1da55f6ba2c))
+
 ## 2024.11.26 (2024-07-30)
 
 
