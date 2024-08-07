@@ -12,7 +12,7 @@ blastpipe
 
 |ozi-badge| |py-version-badge| |openssf-badge| |slsa-level3-badge| |fossa-badge| |semantic-release-badge| |bandit-badge|
 
-A simple utility library used as a slice demonstration for using
+A simple utility library, used as a slice demonstration for using
 Meson+OZI as a Python packaging management layer.
 
 .. image:: https://raw.githubusercontent.com/OZI-Project/brand/main/images/blastpipe-logo.svg
