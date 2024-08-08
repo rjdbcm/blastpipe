@@ -10,6 +10,9 @@
 
 ### 🔨 Updated Scripts
 
+*  allow ``quay.io`` endpoint — Eden Ross Duff, MSc &lt;ozi.project@outlook.com&gt;
+([`cbe25a1`](https://github.com/OZI-Project/blastpipe/commit/cbe25a1528ddc26ea4c5a677c7e6cdaced757827))
+
 *  finished integration of msgspec subproject demo — rjdbcm &lt;rjdbcm@outlook.com&gt;
 ([`433bb3e`](https://github.com/OZI-Project/blastpipe/commit/433bb3e6986b0e79e4ff0a1437f35d9071047dbf))
 
