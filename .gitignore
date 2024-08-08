@@ -9,6 +9,7 @@ __pycache__/
 # Distribution / packaging
 _scm_version.py
 subprojects/ozi
+subprojects/msgspec
 .Python
 build*/
 develop-eggs/
