@@ -10,6 +10,9 @@
 
 ### 🔨 Updated Scripts
 
+*  add downloads.python.org to allowed endpoints in release — Eden Ross Duff, MSc &lt;ozi.project@outlook.com&gt;
+([`38a571d`](https://github.com/OZI-Project/blastpipe/commit/38a571d81332e25f8ea75c192152506558556160))
+
 *  add cdn03.quay.io to allowed_endpoints in release — Eden Ross Duff, MSc &lt;ozi.project@outlook.com&gt;
 ([`1fc9a4f`](https://github.com/OZI-Project/blastpipe/commit/1fc9a4f4acdbcf85ec80f4f7ba0448661c661bf5))
 
