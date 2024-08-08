@@ -1,4 +1,12 @@
 # CHANGELOG
+## 2024.11.31 (2024-08-08)
+
+
+### 🔨 Updated Scripts
+
+*  finished integration of msgspec subproject demo — rjdbcm &lt;rjdbcm@outlook.com&gt;
+([`433bb3e`](https://github.com/OZI-Project/blastpipe/commit/433bb3e6986b0e79e4ff0a1437f35d9071047dbf))
+
 ## 2024.11.30 (2024-08-08)
 
 
