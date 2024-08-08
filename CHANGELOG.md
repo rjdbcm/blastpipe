@@ -1,4 +1,12 @@
 # CHANGELOG
+## 2024.11.30 (2024-08-08)
+
+
+### 🐛 Fixed Bugs
+
+*  override prefix of msgspec to install extension module — rjdbcm &lt;rjdbcm@outlook.com&gt;
+([`edfaa02`](https://github.com/OZI-Project/blastpipe/commit/edfaa02de1d91de528cc16411486c1cca2cb9b56))
+
 ## 2024.11.29 (2024-08-07)
 
 
