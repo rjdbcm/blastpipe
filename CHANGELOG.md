@@ -2,6 +2,12 @@
 ## 2024.11.31 (2024-08-08)
 
 
+### ⬆️ Upgraded Dependencies
+
+*  OZI-Project/release@0.8.0 — Eden Ross Duff, MSc &lt;ozi.project@outlook.com&gt;
+([`7455d49`](https://github.com/OZI-Project/blastpipe/commit/7455d49a19a9515fd2fd243c327a1e7557ffd1e1))
+
+
 ### 🔨 Updated Scripts
 
 *  finished integration of msgspec subproject demo — rjdbcm &lt;rjdbcm@outlook.com&gt;
