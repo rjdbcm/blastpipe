@@ -111,4 +111,4 @@ if not meson.is_subproject()
     meson.add_dist_script(dev.get_variable('pip'), 'install', 'tomli>=2.0.0')
     meson.add_dist_script(python, '-c', dev.get_variable('meson_dist_setuptools_scm'))
 endif
-subproject('msgspec', default_options: ['install-subprojects=enabled', 'prefix=@0@'.format(python.get_install_dir())])
+subproject('msgspec', default_options: ['install-subprojects=enabled'])
