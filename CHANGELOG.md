@@ -29,6 +29,12 @@
 ([`433bb3e`](https://github.com/OZI-Project/blastpipe/commit/433bb3e6986b0e79e4ff0a1437f35d9071047dbf))
 
 
+### 📌 Pinned Dependencies
+
+*  OZI.build~=1.0.1 — Eden Ross Duff, MSc &lt;ozi.project@outlook.com&gt;
+([`7d4aa6f`](https://github.com/OZI-Project/blastpipe/commit/7d4aa6fa763026dde87ee8eacb2aab4c899bea43))
+
+
 ### Other
 
 
