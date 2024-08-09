@@ -28,6 +28,13 @@
 *  finished integration of msgspec subproject demo — rjdbcm &lt;rjdbcm@outlook.com&gt;
 ([`433bb3e`](https://github.com/OZI-Project/blastpipe/commit/433bb3e6986b0e79e4ff0a1437f35d9071047dbf))
 
+
+### Other
+
+
+* Update ozi.yml — Eden Ross Duff, MSc &lt;ozi.project@outlook.com&gt;
+([`6d86fc9`](https://github.com/OZI-Project/blastpipe/commit/6d86fc9d18e508bcc03c5da95789f23f04428a99))
+
 ## 2024.11.30 (2024-08-08)
 
 
