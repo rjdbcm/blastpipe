@@ -59,6 +59,7 @@ pyproject_config.set(
 )
 pyproject_config.set('SCM_VERSION', meson.project_version())
 pyproject_config.set('VCS_TAG', '@VCS_TAG@')
+pyproject_config.set('PROJECT_NAME', project_name)
 pyproject_config.set('README_TEXT', fs.read('README.rst'))
 pyproject_config.set('REQUIREMENTS_IN', 
     run_command(

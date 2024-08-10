@@ -6,7 +6,7 @@ license = {file = "LICENSE.txt"}
 
 [build-system]
 requires = [
-    'OZI.build~=1.0.1',
+    'OZI.build~=1.0',
     'pip-tools>=7',
     'pipx>=1.5',
     'setuptools_scm[toml]>=8.0',
@@ -72,6 +72,7 @@ test = [
 
 [tool.setuptools_scm]
 version_file_template = """Metadata-Version: 2.1
+Name: @PROJECT_NAME@
 Version: @SCM_VERSION@
 Summary: OZI Project utility library.
 Home-page: https://oziproject.dev
