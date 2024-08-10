@@ -1,4 +1,12 @@
 # CHANGELOG
+## 2024.11.32 (2024-08-10)
+
+
+### 🔨 Updated Scripts
+
+*  remove name writing to PKG-INFO as OZI.build handles this on the backend — rjdbcm &lt;rjdbcm@outlook.com&gt;
+([`8a0abbf`](https://github.com/OZI-Project/blastpipe/commit/8a0abbf5150e350ae8595837a4456f1dffde961c))
+
 ## 2024.11.31 (2024-08-09)
 
 
