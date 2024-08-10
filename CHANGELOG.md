@@ -4,6 +4,9 @@
 
 ### 🔨 Updated Scripts
 
+*  Update README.rst — Eden Ross Duff, MSc &lt;ozi.project@outlook.com&gt;
+([`b47fd53`](https://github.com/OZI-Project/blastpipe/commit/b47fd5345f5b64d6e44134b7d0e4334887d69739))
+
 *  revert Name header removal — rjdbcm &lt;rjdbcm@outlook.com&gt;
 ([`86bde1f`](https://github.com/OZI-Project/blastpipe/commit/86bde1fb7bd224b4310a45e9bb48c405a9842323))
 
