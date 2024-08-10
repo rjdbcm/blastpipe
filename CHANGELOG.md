@@ -4,6 +4,9 @@
 
 ### 🔨 Updated Scripts
 
+*  revert Name header removal — rjdbcm &lt;rjdbcm@outlook.com&gt;
+([`86bde1f`](https://github.com/OZI-Project/blastpipe/commit/86bde1fb7bd224b4310a45e9bb48c405a9842323))
+
 *  remove name writing to PKG-INFO as OZI.build handles this on the backend — rjdbcm &lt;rjdbcm@outlook.com&gt;
 ([`8a0abbf`](https://github.com/OZI-Project/blastpipe/commit/8a0abbf5150e350ae8595837a4456f1dffde961c))
 
