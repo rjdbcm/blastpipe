@@ -6,7 +6,7 @@ license = {file = "LICENSE.txt"}
 
 [build-system]
 requires = [
-    'OZI.build~=1.0',
+    'OZI.build~=1.0.2',
     'pip-tools>=7',
     'pipx>=1.5',
     'setuptools_scm[toml]>=8.0',
