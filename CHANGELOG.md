@@ -2,6 +2,12 @@
 ## 2024.11.32 (2024-08-11)
 
 
+### ⬆️ Upgraded Dependencies
+
+*  OZI-Project/release@0.8.5 — Eden Ross Duff, MSc &lt;ozi.project@outlook.com&gt;
+([`13edb51`](https://github.com/OZI-Project/blastpipe/commit/13edb51896304af3d7d8c08e7fd5b2411a65aa45))
+
+
 ### 🔨 Updated Scripts
 
 *  Update README.rst — Eden Ross Duff, MSc &lt;ozi.project@outlook.com&gt;
