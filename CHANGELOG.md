@@ -1,5 +1,5 @@
 # CHANGELOG
-## 2024.11.32 (2024-08-10)
+## 2024.11.32 (2024-08-11)
 
 
 ### 🔨 Updated Scripts
@@ -12,6 +12,12 @@
 
 *  remove name writing to PKG-INFO as OZI.build handles this on the backend — rjdbcm &lt;rjdbcm@outlook.com&gt;
 ([`8a0abbf`](https://github.com/OZI-Project/blastpipe/commit/8a0abbf5150e350ae8595837a4456f1dffde961c))
+
+
+### 📌 Pinned Dependencies
+
+*  OZI.build~=1.0.2 — Eden Ross Duff, MSc &lt;ozi.project@outlook.com&gt;
+([`7de16b4`](https://github.com/OZI-Project/blastpipe/commit/7de16b484c24f09a1ebab070d5c23d0f103d2ce6))
 
 ## 2024.11.31 (2024-08-09)
 
