@@ -4,6 +4,9 @@
 
 ### ⬆️ Upgraded Dependencies
 
+*  OZI-Project/release@0.8.6 — Eden Ross Duff, MSc &lt;ozi.project@outlook.com&gt;
+([`6832ad4`](https://github.com/OZI-Project/blastpipe/commit/6832ad412daf0d4d99f7a211f5ae5927a5d2a33b))
+
 *  OZI-Project/release@0.8.5 — Eden Ross Duff, MSc &lt;ozi.project@outlook.com&gt;
 ([`13edb51`](https://github.com/OZI-Project/blastpipe/commit/13edb51896304af3d7d8c08e7fd5b2411a65aa45))
 
