@@ -205,7 +205,7 @@ jobs:
             cdn03.quay.io:443
             downloads.python.org:443
 
-      - uses: OZI-Project/release@b4279d73f1dff27e0c651f95ca20bc753b889ca9
+      - uses: OZI-Project/release@473a9ef672efe0de8dd20dea7b7e7c045aa15f18
         id: release
         with:
           tag: ${{ needs.draft.outputs.tag }}
