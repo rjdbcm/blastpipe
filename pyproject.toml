@@ -82,7 +82,7 @@ License: @LICENSE@
 Download-URL: https://github.com/OZI-Project/blastpipe/archive/refs/tags/@SCM_VERSION@.tar.gz
 Requires-Python: >=3.10, <3.14
 Keywords: ozi,meson
-Provides-Dist: msgspec (0.18.6+g941f52d)
+Provides-Dist: msgspec
 Classifier: License :: OSI Approved :: Apache Software License
 Classifier: Development Status :: 3 - Alpha
 Classifier: Programming Language :: Python :: 3 :: Only
