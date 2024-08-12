@@ -1,11 +1,17 @@
 # CHANGELOG
-## 2024.11.32 (2024-08-11)
+## 2024.11.32 (2024-08-12)
 
 
 ### ⬆️ Upgraded Dependencies
 
 *  OZI-Project/release@0.8.5 — Eden Ross Duff, MSc &lt;ozi.project@outlook.com&gt;
 ([`13edb51`](https://github.com/OZI-Project/blastpipe/commit/13edb51896304af3d7d8c08e7fd5b2411a65aa45))
+
+
+### 🐛 Fixed Bugs
+
+* 🔨 change Provides-Dist to check if the issue is with warehouse — rjdbcm &lt;rjdbcm@outlook.com&gt;
+([`8df5111`](https://github.com/OZI-Project/blastpipe/commit/8df5111f4ecc2fcb303a50c9cecc382c346b4291))
 
 
 ### 🔨 Updated Scripts
