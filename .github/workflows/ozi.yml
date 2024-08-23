@@ -39,7 +39,7 @@ jobs:
             rekor.sigstore.dev:443
             tuf-repo-cdn.sigstore.dev:443
 
-      - uses: OZI-Project/checkpoint@bfd6e529455ff6ec099bfd16be2ab86fa0332a71
+      - uses: OZI-Project/checkpoint@cd1117d2d6d352e52d9dfdb603b8ebd7ef964908
         with:
           python-version: "3.10"
 
@@ -68,7 +68,7 @@ jobs:
             rekor.sigstore.dev:443
             tuf-repo-cdn.sigstore.dev:443
 
-      - uses: OZI-Project/checkpoint@bfd6e529455ff6ec099bfd16be2ab86fa0332a71
+      - uses: OZI-Project/checkpoint@cd1117d2d6d352e52d9dfdb603b8ebd7ef964908
         with:
           python-version: "3.11"
 
@@ -97,7 +97,7 @@ jobs:
             rekor.sigstore.dev:443
             tuf-repo-cdn.sigstore.dev:443
 
-      - uses: OZI-Project/checkpoint@bfd6e529455ff6ec099bfd16be2ab86fa0332a71
+      - uses: OZI-Project/checkpoint@cd1117d2d6d352e52d9dfdb603b8ebd7ef964908
         with:
           python-version: "3.12"
 
@@ -126,7 +126,7 @@ jobs:
             rekor.sigstore.dev:443
             tuf-repo-cdn.sigstore.dev:443
 
-      - uses: OZI-Project/checkpoint@bfd6e529455ff6ec099bfd16be2ab86fa0332a71
+      - uses: OZI-Project/checkpoint@cd1117d2d6d352e52d9dfdb603b8ebd7ef964908
         with:
           python-version: "3.13"
 
@@ -162,7 +162,7 @@ jobs:
             api.github.com:443
             github.com:443
 
-      - uses: OZI-Project/draft@38dfc0df2b189018bbae0b016c61ac1d704c2626
+      - uses: OZI-Project/draft@d9421ff8095e084639f3b03673b110033452c9e0
         id: draft
         with:
           github-token: ${{ secrets.GITHUB_TOKEN }}
@@ -205,7 +205,7 @@ jobs:
             cdn03.quay.io:443
             downloads.python.org:443
 
-      - uses: OZI-Project/release@f4172eb60419c98b5cf18c89d78cde8b553f5d15
+      - uses: OZI-Project/release@7edb07c74e124270a29b2cd5d32ce7c9fdfc0b22
         id: release
         with:
           tag: ${{ needs.draft.outputs.tag }}
@@ -246,6 +246,6 @@ jobs:
           upload.pypi.org:443
           uploads.github.com:443
 
-    - uses: OZI-Project/publish@e53fb3caac6d0530d1cc3d05d0c3e3a6b6fb1c67
+    - uses: OZI-Project/publish@cc463a2e9d2e928559e3edb4bd7f0fbcbefd1f11
       with:
         github-token: ${{ secrets.GITHUB_TOKEN }}
