@@ -347,7 +347,7 @@ commands_pre =
      python -m uv pip install -r requirements.in OZI.build[uv,core]~=1.2
      pipx install --python=python meson
 commands =
-     meson setup {env_tmp_dir} -Ddist=disabled -Dtox-env-dir={env_dir}
+     meson setup {env_tmp_dir} -Dozi:dist=disabled -Dozi:tox-env-dir={env_dir}
      meson compile -C {env_tmp_dir}
      rm -rf {env_tmp_dir}/.gitignore
 commands_post =
