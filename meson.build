@@ -23,7 +23,7 @@ fs = import('fs')
 pymod = import('python')
 project_name = meson.project_name()
 docs_source = 'subprojects/docs'
-pip_compile = find_program('pip-compile', required: true)
+pip_compile = find_program(get_option('compile-requirements-command')[0], required: true)
 root_files = [
     'README.rst',
     'CHANGELOG.md',
@@ -41,7 +41,7 @@ custom_target(
     build_always_stale: true,
     build_by_default: true,
     command: [
-        'pip-compile',
+        get_option('compile-requirements-command'),
         '--allow-unsafe',
         '--strip-extras',
         '-q',

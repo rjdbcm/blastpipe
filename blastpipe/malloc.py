@@ -92,11 +92,11 @@ def total_size(  # noqa: C901
         size_total = getsizeof(obj, default_size)
 
         if verbose:
-            print(size_total, type(obj), repr(obj), file=stderr)  # type: ignore
+            print(size_total, type(obj), repr(obj), file=stderr)  # pyright: ignore
 
         for typ, handler in all_handlers.items():
             if isinstance(obj, typ):
-                size_total += sum(map(sizeof, handler(obj)))  # type: ignore
+                size_total += sum(map(sizeof, handler(obj)))  # pyright: ignore
                 break
         return size_total
 
