@@ -73,7 +73,7 @@ license='Apache-2.0 WITH LLVM-exception'
 download-url='https://github.com/OZI-Project/blastpipe/archive/refs/tags/@SCM_VERSION@.tar.gz'
 requires-python='>=3.10, <3.14'
 keywords='ozi,meson'
-provides-dist=['msgspec']
+provides=['msgspec']
 classifiers = [
     'License :: OSI Approved :: Apache Software License',
     'Development Status :: 3 - Alpha',
