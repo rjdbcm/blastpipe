@@ -8,8 +8,17 @@
 ([`152fd85`](https://github.com/OZI-Project/blastpipe/commit/152fd85c8ae5916777f7947fe77be43bfca3c942))
 
 
+### ✏️ Corrected Typos
+
+*  provides-dist is just provides in pyproject.toml — rjdbcm <rjdbcm@outlook.com>
+([`d200907`](https://github.com/OZI-Project/blastpipe/commit/d20090787d70b03061ca172bde889190d3c9be6f))
+
+
 ### Other
 
+
+* Merge branch 'main' of https://github.com/rjdbcm/blastpipe
+([`bab739b`](https://github.com/OZI-Project/blastpipe/commit/bab739b5ea45cac47521c88618304948d1fd85de))
 
 * 👷: OZI.build~=1.5 — rjdbcm <rjdbcm@outlook.com>
 ([`83a972c`](https://github.com/OZI-Project/blastpipe/commit/83a972c34157308cd72e56775b5f92f7734c46d4))
