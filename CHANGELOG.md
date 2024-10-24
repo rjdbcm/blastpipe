@@ -1,4 +1,115 @@
 # CHANGELOG
+## 2024.11.35 (2024-10-24)
+
+
+### 🐛 Fixed Bugs
+
+*  exclude subprojects from black — rjdbcm <rjdbcm@outlook.com>
+([`152fd85`](https://github.com/OZI-Project/blastpipe/commit/152fd85c8ae5916777f7947fe77be43bfca3c942))
+
+
+### Other
+
+
+* 👷(subprojects/ozi.wrap): release/1.23 — rjdbcm <rjdbcm@outlook.com>
+([`c2710ae`](https://github.com/OZI-Project/blastpipe/commit/c2710aecd7494b4f707a1d805174bb52dd2427a7))
+
+* Merge pull request #187 from OZI-Project/dependabot/github_actions/OZI-Project/draft-1.4.0
+
+Bump OZI-Project/draft from 0.3.9 to 1.4.0
+([`848b5ba`](https://github.com/OZI-Project/blastpipe/commit/848b5ba26e49b5b81d039b02758cd82ddaaa246d))
+
+* Bump OZI-Project/draft from 0.3.9 to 1.4.0
+
+Bumps [OZI-Project/draft](https://github.com/ozi-project/draft) from 0.3.9 to 1.4.0.
+- [Release notes](https://github.com/ozi-project/draft/releases)
+- [Commits](https://github.com/ozi-project/draft/compare/d9421ff8095e084639f3b03673b110033452c9e0...d797368c9870f3ca16373680b52db1ed4c333f21)
+
+
+updated-dependencies:
+- dependency-name: OZI-Project/draft
+  dependency-type: direct:production
+  update-type: version-update:semver-major
+... — dependabot[bot] <support@github.com>
+([`bd53d0e`](https://github.com/OZI-Project/blastpipe/commit/bd53d0e5b1bbf1224dae495653e565b20ecffeca))
+
+* Merge pull request #188 from OZI-Project/dependabot/github_actions/OZI-Project/publish-1.4.0
+
+Bump OZI-Project/publish from 0.1.10 to 1.4.0
+([`51439f6`](https://github.com/OZI-Project/blastpipe/commit/51439f64fc0a8ca4f3694b0bf3e3db69296f980e))
+
+* Bump OZI-Project/publish from 0.1.10 to 1.4.0
+
+Bumps [OZI-Project/publish](https://github.com/ozi-project/publish) from 0.1.10 to 1.4.0.
+- [Release notes](https://github.com/ozi-project/publish/releases)
+- [Commits](https://github.com/ozi-project/publish/compare/cc463a2e9d2e928559e3edb4bd7f0fbcbefd1f11...a8bb776353d5b9f9bd678ef5ab2cd38bf5d4ad0f)
+
+
+updated-dependencies:
+- dependency-name: OZI-Project/publish
+  dependency-type: direct:production
+  update-type: version-update:semver-major
+... — dependabot[bot] <support@github.com>
+([`0eda61b`](https://github.com/OZI-Project/blastpipe/commit/0eda61b6dac68b41acc264f788abea21c20202f9))
+
+* Merge pull request #180 from OZI-Project/dependabot/github_actions/actions/upload-artifact-4.4.3
+
+Bump actions/upload-artifact from 4.3.6 to 4.4.3
+([`15cdfce`](https://github.com/OZI-Project/blastpipe/commit/15cdfce154ad7b91d9fbc5749f6d2824bda64a39))
+
+* Bump actions/upload-artifact from 4.3.6 to 4.4.3
+
+Bumps [actions/upload-artifact](https://github.com/actions/upload-artifact) from 4.3.6 to 4.4.3.
+- [Release notes](https://github.com/actions/upload-artifact/releases)
+- [Commits](https://github.com/actions/upload-artifact/compare/834a144ee995460fba8ed112a2fc961b36a5ec5a...b4b15b8c7c6ac21ea08fcf65892d2ee8f75cf882)
+
+
+updated-dependencies:
+- dependency-name: actions/upload-artifact
+  dependency-type: direct:production
+  update-type: version-update:semver-minor
+... — dependabot[bot] <support@github.com>
+([`a30af39`](https://github.com/OZI-Project/blastpipe/commit/a30af3992c63e889192e6e23b7ada877d613d489))
+
+* Merge pull request #178 from OZI-Project/dependabot/github_actions/OZI-Project/release-1.0.4
+
+Bump OZI-Project/release from 0.8.10 to 1.0.4
+([`e6fddc3`](https://github.com/OZI-Project/blastpipe/commit/e6fddc332483e320ebb0b7fdb69f8b7faeac90d1))
+
+* Bump OZI-Project/release from 0.8.10 to 1.0.4
+
+Bumps [OZI-Project/release](https://github.com/ozi-project/release) from 0.8.10 to 1.0.4.
+- [Release notes](https://github.com/ozi-project/release/releases)
+- [Commits](https://github.com/ozi-project/release/compare/7edb07c74e124270a29b2cd5d32ce7c9fdfc0b22...74350f112641257ed33f06f83c3e6fc7ae92059b)
+
+
+updated-dependencies:
+- dependency-name: OZI-Project/release
+  dependency-type: direct:production
+  update-type: version-update:semver-major
+... — dependabot[bot] <support@github.com>
+([`ec065ee`](https://github.com/OZI-Project/blastpipe/commit/ec065ee40b93719f8b4b5e93328f6f92b93894b1))
+
+* Merge pull request #189 from OZI-Project/dependabot/github_actions/github/codeql-action-3.27.0
+
+Bump github/codeql-action from 3.26.4 to 3.27.0
+([`8c58308`](https://github.com/OZI-Project/blastpipe/commit/8c583080cefd28edbca7c77297ede011be897f2c))
+
+* Bump github/codeql-action from 3.26.4 to 3.27.0
+
+Bumps [github/codeql-action](https://github.com/github/codeql-action) from 3.26.4 to 3.27.0.
+- [Release notes](https://github.com/github/codeql-action/releases)
+- [Changelog](https://github.com/github/codeql-action/blob/main/CHANGELOG.md)
+- [Commits](https://github.com/github/codeql-action/compare/f0f3afee809481da311ca3a6ff1ff51d81dbeb24...662472033e021d55d94146f66f6058822b0b39fd)
+
+
+updated-dependencies:
+- dependency-name: github/codeql-action
+  dependency-type: direct:production
+  update-type: version-update:semver-minor
+... — dependabot[bot] <support@github.com>
+([`bbef7cb`](https://github.com/OZI-Project/blastpipe/commit/bbef7cbca8ea31760ebff7314e0b75acf68bad63))
+
 ## 2024.11.34 (2024-08-23)
 
 
@@ -10,14 +121,14 @@
 
 ### 🔨 Updated Scripts
 
-*  update OZI 1.19 — rjdbcm &lt;rjdbcm@outlook.com&gt;
+*  update OZI 1.19 — rjdbcm <rjdbcm@outlook.com>
 ([`4136a4f`](https://github.com/OZI-Project/blastpipe/commit/4136a4ff7eb646ef008df1365379de613aff1076))
 
 
 ### Other
 
 
-* Merge branch &#39;main&#39; of https://github.com/rjdbcm/blastpipe
+* Merge branch 'main' of https://github.com/rjdbcm/blastpipe
 ([`a6fe554`](https://github.com/OZI-Project/blastpipe/commit/a6fe5548bcdd7a6476c566563e2c0ea746b8bdaf))
 
 * Merge pull request #146 from OZI-Project/dependabot/github_actions/github/codeql-action-3.26.4
@@ -37,7 +148,7 @@ updated-dependencies:
 - dependency-name: github/codeql-action
   dependency-type: direct:production
   update-type: version-update:semver-patch
-... — dependabot[bot] &lt;support@github.com&gt;
+... — dependabot[bot] <support@github.com>
 ([`82e9a44`](https://github.com/OZI-Project/blastpipe/commit/82e9a44a2931aef917a04703ece65044ac4e79b9))
 
 * Merge pull request #147 from OZI-Project/dependabot/github_actions/OZI-Project/checkpoint-0.5.2
@@ -56,7 +167,7 @@ updated-dependencies:
 - dependency-name: OZI-Project/checkpoint
   dependency-type: direct:production
   update-type: version-update:semver-patch
-... — dependabot[bot] &lt;support@github.com&gt;
+... — dependabot[bot] <support@github.com>
 ([`960858c`](https://github.com/OZI-Project/blastpipe/commit/960858cfec2f844b386d0cd6163f3890ec9c0aed))
 
 * Merge pull request #148 from OZI-Project/dependabot/github_actions/OZI-Project/release-0.8.10
@@ -75,7 +186,7 @@ updated-dependencies:
 - dependency-name: OZI-Project/release
   dependency-type: direct:production
   update-type: version-update:semver-patch
-... — dependabot[bot] &lt;support@github.com&gt;
+... — dependabot[bot] <support@github.com>
 ([`a7858de`](https://github.com/OZI-Project/blastpipe/commit/a7858de514c3260e128e1fc545bd4c82ef3a000a))
 
 * Merge pull request #149 from OZI-Project/dependabot/github_actions/OZI-Project/draft-0.3.9
@@ -94,7 +205,7 @@ updated-dependencies:
 - dependency-name: OZI-Project/draft
   dependency-type: direct:production
   update-type: version-update:semver-patch
-... — dependabot[bot] &lt;support@github.com&gt;
+... — dependabot[bot] <support@github.com>
 ([`3d6f3a0`](https://github.com/OZI-Project/blastpipe/commit/3d6f3a06591e384f63ff8ca49158863ce385e11d))
 
 * Merge pull request #150 from OZI-Project/dependabot/github_actions/OZI-Project/publish-0.1.10
@@ -113,7 +224,7 @@ updated-dependencies:
 - dependency-name: OZI-Project/publish
   dependency-type: direct:production
   update-type: version-update:semver-patch
-... — dependabot[bot] &lt;support@github.com&gt;
+... — dependabot[bot] <support@github.com>
 ([`832d0ff`](https://github.com/OZI-Project/blastpipe/commit/832d0ff416cc56e6accbfe6c7cc8ae2ed56718c4))
 
 ## 2024.11.33 (2024-08-17)
@@ -121,7 +232,7 @@ updated-dependencies:
 
 ### 📌 Pinned Dependencies
 
-* (subprojects/ozi.wrap): OZI release/1.18 — Eden Ross Duff, MSc &lt;ozi.project@outlook.com&gt;
+* (subprojects/ozi.wrap): OZI release/1.18 — Eden Ross Duff, MSc <ozi.project@outlook.com>
 ([`676531d`](https://github.com/OZI-Project/blastpipe/commit/676531decc1e312fce10e81b4d43cc7ea0b41ccb))
 
 
@@ -145,7 +256,7 @@ updated-dependencies:
 - dependency-name: github/codeql-action
   dependency-type: direct:production
   update-type: version-update:semver-patch
-... — dependabot[bot] &lt;support@github.com&gt;
+... — dependabot[bot] <support@github.com>
 ([`0f79525`](https://github.com/OZI-Project/blastpipe/commit/0f79525a5905d1a7e57f4b1234017032d1f7f6a5))
 
 * Merge pull request #143 from OZI-Project/dependabot/github_actions/github/codeql-action-3.26.1
@@ -165,7 +276,7 @@ updated-dependencies:
 - dependency-name: github/codeql-action
   dependency-type: direct:production
   update-type: version-update:semver-patch
-... — dependabot[bot] &lt;support@github.com&gt;
+... — dependabot[bot] <support@github.com>
 ([`caa0386`](https://github.com/OZI-Project/blastpipe/commit/caa0386a7561701c4db19f579bdd33c0de433c7c))
 
 * Merge pull request #142 from OZI-Project/dependabot/github_actions/OZI-Project/release-0.8.9
@@ -184,7 +295,7 @@ updated-dependencies:
 - dependency-name: OZI-Project/release
   dependency-type: direct:production
   update-type: version-update:semver-patch
-... — dependabot[bot] &lt;support@github.com&gt;
+... — dependabot[bot] <support@github.com>
 ([`9eaa203`](https://github.com/OZI-Project/blastpipe/commit/9eaa20302d4582394f1d5ecedf89ec3e54188f37))
 
 ## 2024.11.32 (2024-08-12)
@@ -192,37 +303,37 @@ updated-dependencies:
 
 ### ⬆️ Upgraded Dependencies
 
-*  OZI-Project/release@0.8.7 — Eden Ross Duff, MSc &lt;ozi.project@outlook.com&gt;
+*  OZI-Project/release@0.8.7 — Eden Ross Duff, MSc <ozi.project@outlook.com>
 ([`4ee28de`](https://github.com/OZI-Project/blastpipe/commit/4ee28deb89a8fbd98fd5b92b83c7bee3aac88f03))
 
-*  OZI-Project/release@0.8.6 — Eden Ross Duff, MSc &lt;ozi.project@outlook.com&gt;
+*  OZI-Project/release@0.8.6 — Eden Ross Duff, MSc <ozi.project@outlook.com>
 ([`6832ad4`](https://github.com/OZI-Project/blastpipe/commit/6832ad412daf0d4d99f7a211f5ae5927a5d2a33b))
 
-*  OZI-Project/release@0.8.5 — Eden Ross Duff, MSc &lt;ozi.project@outlook.com&gt;
+*  OZI-Project/release@0.8.5 — Eden Ross Duff, MSc <ozi.project@outlook.com>
 ([`13edb51`](https://github.com/OZI-Project/blastpipe/commit/13edb51896304af3d7d8c08e7fd5b2411a65aa45))
 
 
 ### 🐛 Fixed Bugs
 
-* 🔨 change Provides-Dist to check if the issue is with warehouse — rjdbcm &lt;rjdbcm@outlook.com&gt;
+* 🔨 change Provides-Dist to check if the issue is with warehouse — rjdbcm <rjdbcm@outlook.com>
 ([`8df5111`](https://github.com/OZI-Project/blastpipe/commit/8df5111f4ecc2fcb303a50c9cecc382c346b4291))
 
 
 ### 🔨 Updated Scripts
 
-*  Update README.rst — Eden Ross Duff, MSc &lt;ozi.project@outlook.com&gt;
+*  Update README.rst — Eden Ross Duff, MSc <ozi.project@outlook.com>
 ([`b47fd53`](https://github.com/OZI-Project/blastpipe/commit/b47fd5345f5b64d6e44134b7d0e4334887d69739))
 
-*  revert Name header removal — rjdbcm &lt;rjdbcm@outlook.com&gt;
+*  revert Name header removal — rjdbcm <rjdbcm@outlook.com>
 ([`86bde1f`](https://github.com/OZI-Project/blastpipe/commit/86bde1fb7bd224b4310a45e9bb48c405a9842323))
 
-*  remove name writing to PKG-INFO as OZI.build handles this on the backend — rjdbcm &lt;rjdbcm@outlook.com&gt;
+*  remove name writing to PKG-INFO as OZI.build handles this on the backend — rjdbcm <rjdbcm@outlook.com>
 ([`8a0abbf`](https://github.com/OZI-Project/blastpipe/commit/8a0abbf5150e350ae8595837a4456f1dffde961c))
 
 
 ### 📌 Pinned Dependencies
 
-*  OZI.build~=1.0.2 — Eden Ross Duff, MSc &lt;ozi.project@outlook.com&gt;
+*  OZI.build~=1.0.2 — Eden Ross Duff, MSc <ozi.project@outlook.com>
 ([`7de16b4`](https://github.com/OZI-Project/blastpipe/commit/7de16b484c24f09a1ebab070d5c23d0f103d2ce6))
 
 ## 2024.11.31 (2024-08-09)
@@ -230,41 +341,41 @@ updated-dependencies:
 
 ### ⬆️ Upgraded Dependencies
 
-*  OZI-Project/release@0.8.2 — Eden Ross Duff, MSc &lt;ozi.project@outlook.com&gt;
+*  OZI-Project/release@0.8.2 — Eden Ross Duff, MSc <ozi.project@outlook.com>
 ([`34f77bf`](https://github.com/OZI-Project/blastpipe/commit/34f77bf9091b2788451e57b6590af127a1dd5159))
 
-*  OZI-Project/release@0.8.1 — Eden Ross Duff, MSc &lt;ozi.project@outlook.com&gt;
+*  OZI-Project/release@0.8.1 — Eden Ross Duff, MSc <ozi.project@outlook.com>
 ([`7ed209f`](https://github.com/OZI-Project/blastpipe/commit/7ed209fb1ef5570b8229bee9dce4011a5863eedf))
 
-*  OZI-Project/release@0.8.0 — Eden Ross Duff, MSc &lt;ozi.project@outlook.com&gt;
+*  OZI-Project/release@0.8.0 — Eden Ross Duff, MSc <ozi.project@outlook.com>
 ([`7455d49`](https://github.com/OZI-Project/blastpipe/commit/7455d49a19a9515fd2fd243c327a1e7557ffd1e1))
 
 
 ### 🔨 Updated Scripts
 
-*  add downloads.python.org to allowed endpoints in release — Eden Ross Duff, MSc &lt;ozi.project@outlook.com&gt;
+*  add downloads.python.org to allowed endpoints in release — Eden Ross Duff, MSc <ozi.project@outlook.com>
 ([`38a571d`](https://github.com/OZI-Project/blastpipe/commit/38a571d81332e25f8ea75c192152506558556160))
 
-*  add cdn03.quay.io to allowed_endpoints in release — Eden Ross Duff, MSc &lt;ozi.project@outlook.com&gt;
+*  add cdn03.quay.io to allowed_endpoints in release — Eden Ross Duff, MSc <ozi.project@outlook.com>
 ([`1fc9a4f`](https://github.com/OZI-Project/blastpipe/commit/1fc9a4f4acdbcf85ec80f4f7ba0448661c661bf5))
 
-*  allow ``quay.io`` endpoint — Eden Ross Duff, MSc &lt;ozi.project@outlook.com&gt;
+*  allow ``quay.io`` endpoint — Eden Ross Duff, MSc <ozi.project@outlook.com>
 ([`cbe25a1`](https://github.com/OZI-Project/blastpipe/commit/cbe25a1528ddc26ea4c5a677c7e6cdaced757827))
 
-*  finished integration of msgspec subproject demo — rjdbcm &lt;rjdbcm@outlook.com&gt;
+*  finished integration of msgspec subproject demo — rjdbcm <rjdbcm@outlook.com>
 ([`433bb3e`](https://github.com/OZI-Project/blastpipe/commit/433bb3e6986b0e79e4ff0a1437f35d9071047dbf))
 
 
 ### 📌 Pinned Dependencies
 
-*  OZI.build~=1.0.1 — Eden Ross Duff, MSc &lt;ozi.project@outlook.com&gt;
+*  OZI.build~=1.0.1 — Eden Ross Duff, MSc <ozi.project@outlook.com>
 ([`7d4aa6f`](https://github.com/OZI-Project/blastpipe/commit/7d4aa6fa763026dde87ee8eacb2aab4c899bea43))
 
 
 ### Other
 
 
-* Update ozi.yml — Eden Ross Duff, MSc &lt;ozi.project@outlook.com&gt;
+* Update ozi.yml — Eden Ross Duff, MSc <ozi.project@outlook.com>
 ([`6d86fc9`](https://github.com/OZI-Project/blastpipe/commit/6d86fc9d18e508bcc03c5da95789f23f04428a99))
 
 ## 2024.11.30 (2024-08-08)
@@ -272,7 +383,7 @@ updated-dependencies:
 
 ### 🐛 Fixed Bugs
 
-*  override prefix of msgspec to install extension module — rjdbcm &lt;rjdbcm@outlook.com&gt;
+*  override prefix of msgspec to install extension module — rjdbcm <rjdbcm@outlook.com>
 ([`edfaa02`](https://github.com/OZI-Project/blastpipe/commit/edfaa02de1d91de528cc16411486c1cca2cb9b56))
 
 ## 2024.11.29 (2024-08-07)
@@ -292,13 +403,13 @@ updated-dependencies:
 - dependency-name: github/codeql-action
   dependency-type: direct:production
   update-type: version-update:semver-minor
-... — dependabot[bot] &lt;support@github.com&gt;
+... — dependabot[bot] <support@github.com>
 ([`54a7b1f`](https://github.com/OZI-Project/blastpipe/commit/54a7b1fa6fcf6ff70411ab7507850ca6ce41f6ca))
 
 
 ### 🐛 Fixed Bugs
 
-*  fix subproject msgspec — rjdbcm &lt;rjdbcm@outlook.com&gt;
+*  fix subproject msgspec — rjdbcm <rjdbcm@outlook.com>
 ([`23dfe5f`](https://github.com/OZI-Project/blastpipe/commit/23dfe5fa1447d6d08a291121c1963e8e07f8e158))
 
 
@@ -315,13 +426,13 @@ updated-dependencies:
 
 ### 🐛 Fixed Bugs
 
-* (msgspec): ``install-subprojects=enabled`` — rjdbcm &lt;rjdbcm@outlook.com&gt;
+* (msgspec): ``install-subprojects=enabled`` — rjdbcm <rjdbcm@outlook.com>
 ([`561280f`](https://github.com/OZI-Project/blastpipe/commit/561280f4dc17d2f53887365b78657a6db33a47cc))
 
 
 ### ✏️ Corrected Typos
 
-*  ``install-subprojects=enabled`` — rjdbcm &lt;rjdbcm@outlook.com&gt;
+*  ``install-subprojects=enabled`` — rjdbcm <rjdbcm@outlook.com>
 ([`e9e765b`](https://github.com/OZI-Project/blastpipe/commit/e9e765b24a585200a322434eca9ba5623438d897))
 
 ## 2024.11.27 (2024-08-07)
@@ -340,7 +451,7 @@ updated-dependencies:
 - dependency-name: OZI-Project/release
   dependency-type: direct:production
   update-type: version-update:semver-patch
-... — dependabot[bot] &lt;support@github.com&gt;
+... — dependabot[bot] <support@github.com>
 ([`4d27f7b`](https://github.com/OZI-Project/blastpipe/commit/4d27f7b7c25b890bff90e4f8310964086fdb1cfa))
 
 *  Bump OZI-Project/checkpoint from 0.5.0 to 0.5.1
@@ -354,7 +465,7 @@ updated-dependencies:
 - dependency-name: OZI-Project/checkpoint
   dependency-type: direct:production
   update-type: version-update:semver-patch
-... — dependabot[bot] &lt;support@github.com&gt;
+... — dependabot[bot] <support@github.com>
 ([`ceed737`](https://github.com/OZI-Project/blastpipe/commit/ceed7378e356d77714c1fbeb94b71dfe58d9de4f))
 
 *  Bump actions/upload-artifact from 4.3.5 to 4.3.6
@@ -368,7 +479,7 @@ updated-dependencies:
 - dependency-name: actions/upload-artifact
   dependency-type: direct:production
   update-type: version-update:semver-patch
-... — dependabot[bot] &lt;support@github.com&gt;
+... — dependabot[bot] <support@github.com>
 ([`2ddc19e`](https://github.com/OZI-Project/blastpipe/commit/2ddc19e6a7df7ccb35ddbe2dbc1ed3582b7b3227))
 
 *  Bump OZI-Project/draft from 0.3.7 to 0.3.8
@@ -382,7 +493,7 @@ updated-dependencies:
 - dependency-name: OZI-Project/draft
   dependency-type: direct:production
   update-type: version-update:semver-patch
-... — dependabot[bot] &lt;support@github.com&gt;
+... — dependabot[bot] <support@github.com>
 ([`486f10b`](https://github.com/OZI-Project/blastpipe/commit/486f10bfbda2235c34d46c0031efbf929482c6b6))
 
 *  Bump step-security/harden-runner from 2.9.0 to 2.9.1
@@ -396,7 +507,7 @@ updated-dependencies:
 - dependency-name: step-security/harden-runner
   dependency-type: direct:production
   update-type: version-update:semver-patch
-... — dependabot[bot] &lt;support@github.com&gt;
+... — dependabot[bot] <support@github.com>
 ([`28170ab`](https://github.com/OZI-Project/blastpipe/commit/28170ab6eaf60388b197e0e9acde023080a7e43b))
 
 *  Bump actions/upload-artifact from 4.3.4 to 4.3.5
@@ -410,13 +521,13 @@ updated-dependencies:
 - dependency-name: actions/upload-artifact
   dependency-type: direct:production
   update-type: version-update:semver-patch
-... — dependabot[bot] &lt;support@github.com&gt;
+... — dependabot[bot] <support@github.com>
 ([`fc630b9`](https://github.com/OZI-Project/blastpipe/commit/fc630b9e93a57dbe769a32d8c987e2f164826119))
 
 
 ### 🔨 Updated Scripts
 
-*  add msgspec distribution to build — rjdbcm &lt;rjdbcm@outlook.com&gt;
+*  add msgspec distribution to build — rjdbcm <rjdbcm@outlook.com>
 ([`860fccd`](https://github.com/OZI-Project/blastpipe/commit/860fccd986003928a2ec9e2aea146d93f8d60f3a))
 
 
@@ -470,7 +581,7 @@ updated-dependencies:
 - dependency-name: ossf/scorecard-action
   dependency-type: direct:production
   update-type: version-update:semver-minor
-... — dependabot[bot] &lt;support@github.com&gt;
+... — dependabot[bot] <support@github.com>
 ([`85df8da`](https://github.com/OZI-Project/blastpipe/commit/85df8dabeebd7a76df5e9e8c2da55a069884646c))
 
 
@@ -499,7 +610,7 @@ updated-dependencies:
 - dependency-name: github/codeql-action
   dependency-type: direct:production
   update-type: version-update:semver-patch
-... — dependabot[bot] &lt;support@github.com&gt;
+... — dependabot[bot] <support@github.com>
 ([`0e867fb`](https://github.com/OZI-Project/blastpipe/commit/0e867fb7b8deed01e7a9d09065c2bbadd9f9aeec))
 
 
@@ -528,7 +639,7 @@ updated-dependencies:
 - dependency-name: github/codeql-action
   dependency-type: direct:production
   update-type: version-update:semver-patch
-... — dependabot[bot] &lt;support@github.com&gt;
+... — dependabot[bot] <support@github.com>
 ([`9f87184`](https://github.com/OZI-Project/blastpipe/commit/9f87184e81b3025ea04c53b919ff156d4fb7ed90))
 
 *  Bump OZI-Project/publish from 0.1.8 to 0.1.9
@@ -542,7 +653,7 @@ updated-dependencies:
 - dependency-name: OZI-Project/publish
   dependency-type: direct:production
   update-type: version-update:semver-patch
-... — dependabot[bot] &lt;support@github.com&gt;
+... — dependabot[bot] <support@github.com>
 ([`e83475f`](https://github.com/OZI-Project/blastpipe/commit/e83475f3bfc75ad4c087f5c3c92a45ea39a11739))
 
 *  Bump OZI-Project/draft from 0.3.6 to 0.3.7
@@ -556,7 +667,7 @@ updated-dependencies:
 - dependency-name: OZI-Project/draft
   dependency-type: direct:production
   update-type: version-update:semver-patch
-... — dependabot[bot] &lt;support@github.com&gt;
+... — dependabot[bot] <support@github.com>
 ([`ad8cd36`](https://github.com/OZI-Project/blastpipe/commit/ad8cd36973e69b06aae0bfbfdbe8ee6259ec209f))
 
 
@@ -594,7 +705,7 @@ updated-dependencies:
 - dependency-name: step-security/harden-runner
   dependency-type: direct:production
   update-type: version-update:semver-minor
-... — dependabot[bot] &lt;support@github.com&gt;
+... — dependabot[bot] <support@github.com>
 ([`87ba76d`](https://github.com/OZI-Project/blastpipe/commit/87ba76d3523e75dd882701c7c66561fd87c92a76))
 
 *  Bump github/codeql-action from 3.25.12 to 3.25.13
@@ -609,7 +720,7 @@ updated-dependencies:
 - dependency-name: github/codeql-action
   dependency-type: direct:production
   update-type: version-update:semver-patch
-... — dependabot[bot] &lt;support@github.com&gt;
+... — dependabot[bot] <support@github.com>
 ([`e643d73`](https://github.com/OZI-Project/blastpipe/commit/e643d73d6adde9671e239dedb37050d6a84babfe))
 
 
@@ -642,7 +753,7 @@ updated-dependencies:
 - dependency-name: OZI-Project/checkpoint
   dependency-type: direct:production
   update-type: version-update:semver-minor
-... — dependabot[bot] &lt;support@github.com&gt;
+... — dependabot[bot] <support@github.com>
 ([`599840b`](https://github.com/OZI-Project/blastpipe/commit/599840b7fa73d7bc2fb19e7e83ee4891992821ba))
 
 *  Bump OZI-Project/draft from 0.3.5 to 0.3.6
@@ -656,7 +767,7 @@ updated-dependencies:
 - dependency-name: OZI-Project/draft
   dependency-type: direct:production
   update-type: version-update:semver-patch
-... — dependabot[bot] &lt;support@github.com&gt;
+... — dependabot[bot] <support@github.com>
 ([`b830549`](https://github.com/OZI-Project/blastpipe/commit/b8305493d38ed311f7779737e586a397247e7aec))
 
 *  Bump OZI-Project/release from 0.6.6 to 0.7.0
@@ -670,19 +781,19 @@ updated-dependencies:
 - dependency-name: OZI-Project/release
   dependency-type: direct:production
   update-type: version-update:semver-minor
-... — dependabot[bot] &lt;support@github.com&gt;
+... — dependabot[bot] <support@github.com>
 ([`c3eec0f`](https://github.com/OZI-Project/blastpipe/commit/c3eec0f09a807edfe1fe0c9893abd85447106e3f))
 
 
 ### 📌 Pinned Dependencies
 
-*  OZI-Project/release@0.7.3 — rjdbcm &lt;rjdbcm@outlook.com&gt;
+*  OZI-Project/release@0.7.3 — rjdbcm <rjdbcm@outlook.com>
 ([`14ff1c2`](https://github.com/OZI-Project/blastpipe/commit/14ff1c2750b70d2381f95b3d1d99a63eee9902b5))
 
-*  OZI-Project/release@0.7.2 — rjdbcm &lt;rjdbcm@outlook.com&gt;
+*  OZI-Project/release@0.7.2 — rjdbcm <rjdbcm@outlook.com>
 ([`39602c8`](https://github.com/OZI-Project/blastpipe/commit/39602c85a0ce68da8bae0c5d24d459458e00f5ec))
 
-*  OZI-Project/release@0.7.1 — rjdbcm &lt;rjdbcm@outlook.com&gt;
+*  OZI-Project/release@0.7.1 — rjdbcm <rjdbcm@outlook.com>
 ([`3e3bb8f`](https://github.com/OZI-Project/blastpipe/commit/3e3bb8f9cbd08b90078e8744018a647c92dbddd6))
 
 
@@ -720,7 +831,7 @@ updated-dependencies:
 - dependency-name: OZI-Project/release
   dependency-type: direct:production
   update-type: version-update:semver-patch
-... — dependabot[bot] &lt;support@github.com&gt;
+... — dependabot[bot] <support@github.com>
 ([`68386ce`](https://github.com/OZI-Project/blastpipe/commit/68386ce00dc07866f640924499d951f7a68fc7b9))
 
 *  Bump OZI-Project/publish from 0.1.7 to 0.1.8
@@ -734,7 +845,7 @@ updated-dependencies:
 - dependency-name: OZI-Project/publish
   dependency-type: direct:production
   update-type: version-update:semver-patch
-... — dependabot[bot] &lt;support@github.com&gt;
+... — dependabot[bot] <support@github.com>
 ([`ea9b07c`](https://github.com/OZI-Project/blastpipe/commit/ea9b07c024f7bc0f6453313bc06ea22444475c5c))
 
 *  Bump OZI-Project/draft from 0.3.4 to 0.3.5
@@ -748,7 +859,7 @@ updated-dependencies:
 - dependency-name: OZI-Project/draft
   dependency-type: direct:production
   update-type: version-update:semver-patch
-... — dependabot[bot] &lt;support@github.com&gt;
+... — dependabot[bot] <support@github.com>
 ([`1ba314d`](https://github.com/OZI-Project/blastpipe/commit/1ba314da54d60c892196aa620461dbc1596d5b57))
 
 *  Bump OZI-Project/checkpoint from 0.4.2 to 0.4.3
@@ -762,7 +873,7 @@ updated-dependencies:
 - dependency-name: OZI-Project/checkpoint
   dependency-type: direct:production
   update-type: version-update:semver-patch
-... — dependabot[bot] &lt;support@github.com&gt;
+... — dependabot[bot] <support@github.com>
 ([`ab0487e`](https://github.com/OZI-Project/blastpipe/commit/ab0487e53a1f1089ea3f30ebe9cc85978ce52993))
 
 
@@ -794,7 +905,7 @@ updated-dependencies:
 
 ### 📌 Pinned Dependencies
 
-*  OZI.build&gt;=0.0.27 — rjdbcm &lt;rjdbcm@outlook.com&gt;
+*  OZI.build>=0.0.27 — rjdbcm <rjdbcm@outlook.com>
 ([`acf5346`](https://github.com/OZI-Project/blastpipe/commit/acf534654e5b6b83d0615619071ee12d8ad088d0))
 
 ## 2024.11.19 (2024-07-13)
@@ -813,7 +924,7 @@ updated-dependencies:
 - dependency-name: actions/dependency-review-action
   dependency-type: direct:production
   update-type: version-update:semver-patch
-... — dependabot[bot] &lt;support@github.com&gt;
+... — dependabot[bot] <support@github.com>
 ([`2cb63c0`](https://github.com/OZI-Project/blastpipe/commit/2cb63c05007522e36538fa318d4a22d30c99b8fc))
 
 *  Bump github/codeql-action from 3.25.11 to 3.25.12
@@ -828,7 +939,7 @@ updated-dependencies:
 - dependency-name: github/codeql-action
   dependency-type: direct:production
   update-type: version-update:semver-patch
-... — dependabot[bot] &lt;support@github.com&gt;
+... — dependabot[bot] <support@github.com>
 ([`63af6b0`](https://github.com/OZI-Project/blastpipe/commit/63af6b08d12cada2c924396e28eb9acca079c7d0))
 
 
@@ -861,7 +972,7 @@ updated-dependencies:
 - dependency-name: OZI-Project/publish
   dependency-type: direct:production
   update-type: version-update:semver-patch
-... — dependabot[bot] &lt;support@github.com&gt;
+... — dependabot[bot] <support@github.com>
 ([`4b0289a`](https://github.com/OZI-Project/blastpipe/commit/4b0289ae5d792fd349760d3bfe552946e8eb8c7d))
 
 *  Bump OZI-Project/draft from 0.3.3 to 0.3.4
@@ -875,7 +986,7 @@ updated-dependencies:
 - dependency-name: OZI-Project/draft
   dependency-type: direct:production
   update-type: version-update:semver-patch
-... — dependabot[bot] &lt;support@github.com&gt;
+... — dependabot[bot] <support@github.com>
 ([`ce478ca`](https://github.com/OZI-Project/blastpipe/commit/ce478caaaaafba9b7f1d2eb5adaa32b7a6026f6e))
 
 
@@ -908,7 +1019,7 @@ updated-dependencies:
 - dependency-name: actions/upload-artifact
   dependency-type: direct:production
   update-type: version-update:semver-patch
-... — dependabot[bot] &lt;support@github.com&gt;
+... — dependabot[bot] <support@github.com>
 ([`401b2ba`](https://github.com/OZI-Project/blastpipe/commit/401b2bac9928ddc7b42cfcf79539ad7899664549))
 
 
@@ -925,7 +1036,7 @@ updated-dependencies:
 
 ### 🐛 Fixed Bugs
 
-* 📝 fix changelog duplicated commit type headings — rjdbcm &lt;rjdbcm@outlook.com&gt;
+* 📝 fix changelog duplicated commit type headings — rjdbcm <rjdbcm@outlook.com>
 ([`61a7016`](https://github.com/OZI-Project/blastpipe/commit/61a7016b0d5870e084429fa8ce99a2b33fa9fc09))
 
 ## 2024.11.15 (2024-07-03)
@@ -933,14 +1044,14 @@ updated-dependencies:
 
 ### 🚸 Improved Usability
 
-*  remove CHANGELOG.md from build files — rjdbcm &lt;rjdbcm@outlook.com&gt;
+*  remove CHANGELOG.md from build files — rjdbcm <rjdbcm@outlook.com>
 ([`b0b9a79`](https://github.com/OZI-Project/blastpipe/commit/b0b9a79f5eb1c91bf960edc1a4fd59f7c23d57e4))
 
 
 ### Other
 
 
-* Merge branch &#39;main&#39; of https://github.com/rjdbcm/blastpipe
+* Merge branch 'main' of https://github.com/rjdbcm/blastpipe
 ([`dc645ce`](https://github.com/OZI-Project/blastpipe/commit/dc645ce3ce28ade38eb1870f34112e73cdbae333))
 
 ## 2024.11.14 (2024-07-03)
@@ -948,10 +1059,10 @@ updated-dependencies:
 
 ### 🚸 Improved Usability
 
-*  remove CHANGELOG.md from build files — rjdbcm &lt;rjdbcm@outlook.com&gt;
+*  remove CHANGELOG.md from build files — rjdbcm <rjdbcm@outlook.com>
 ([`f6d23c0`](https://github.com/OZI-Project/blastpipe/commit/f6d23c0bc44779981dab0650f95fdf293c9b739d))
 
-*  add CHANGELOG template — rjdbcm &lt;rjdbcm@outlook.com&gt;
+*  add CHANGELOG template — rjdbcm <rjdbcm@outlook.com>
 ([`ba5de4f`](https://github.com/OZI-Project/blastpipe/commit/ba5de4f30c0af613ec4523e8bb0c27629bff9e2a))
 
 ## 2024.11.13 (2024-07-02)
@@ -959,7 +1070,7 @@ updated-dependencies:
 
 ### 🔥 Deleted Code or Files
 
-*  remove ozi-templates remnants — rjdbcm &lt;rjdbcm@outlook.com&gt;
+*  remove ozi-templates remnants — rjdbcm <rjdbcm@outlook.com>
 ([`f7cfc4c`](https://github.com/OZI-Project/blastpipe/commit/f7cfc4c4dde5a208e8ef670f12cc942a5f2a78f4))
 
 
@@ -983,7 +1094,7 @@ updated-dependencies:
 - dependency-name: github/codeql-action
   dependency-type: direct:production
   update-type: version-update:semver-patch
-... — dependabot[bot] &lt;support@github.com&gt;
+... — dependabot[bot] <support@github.com>
 ([`9398b9a`](https://github.com/OZI-Project/blastpipe/commit/9398b9a6bc1d6a98d5bb804cb060341d6cfd257d))
 
 ## 2024.11.12 (2024-06-29)
@@ -991,29 +1102,29 @@ updated-dependencies:
 
 ### 🚸 Improved Usability
 
-* (ozi_templates): remove historical template files from build — rjdbcm &lt;rjdbcm@outlook.com&gt;
+* (ozi_templates): remove historical template files from build — rjdbcm <rjdbcm@outlook.com>
 ([`01d6bd6`](https://github.com/OZI-Project/blastpipe/commit/01d6bd6e874b890219a1ede381587efd2765d3bd))
 
 
 ### 🔥 Deleted Code or Files
 
-* remove test_filter.py — rjdbcm &lt;rjdbcm@outlook.com&gt;
+* remove test_filter.py — rjdbcm <rjdbcm@outlook.com>
 ([`dc6dce6`](https://github.com/OZI-Project/blastpipe/commit/dc6dce66f29d456a20429bec614a5ea59f3025ef))
 
-* remove test_filter.py — rjdbcm &lt;rjdbcm@outlook.com&gt;
+* remove test_filter.py — rjdbcm <rjdbcm@outlook.com>
 ([`9ea52ce`](https://github.com/OZI-Project/blastpipe/commit/9ea52ce5f8bf982403da44b997ffe82df600e318))
 
 
 ### 📌 Pinned Dependencies
 
-*  OZI.build~=0.0.26 — rjdbcm &lt;rjdbcm@outlook.com&gt;
+*  OZI.build~=0.0.26 — rjdbcm <rjdbcm@outlook.com>
 ([`ffa78c6`](https://github.com/OZI-Project/blastpipe/commit/ffa78c615b4785fc9c7811f9c1c6dbfbacf451fa))
 
 
 ### Other
 
 
-* Merge branch &#39;main&#39; of https://github.com/rjdbcm/blastpipe
+* Merge branch 'main' of https://github.com/rjdbcm/blastpipe
 ([`809c03f`](https://github.com/OZI-Project/blastpipe/commit/809c03fe814dac012a94ec24e417f3934e8d5477))
 
 ## 2024.11.11 (2024-06-26)
@@ -1032,7 +1143,7 @@ updated-dependencies:
 - dependency-name: OZI-Project/draft
   dependency-type: direct:production
   update-type: version-update:semver-patch
-... — dependabot[bot] &lt;support@github.com&gt;
+... — dependabot[bot] <support@github.com>
 ([`aadf55e`](https://github.com/OZI-Project/blastpipe/commit/aadf55eaca4350de32348169f6ca0606823c1f04))
 
 *  Bump OZI-Project/publish from 0.1.5 to 0.1.6
@@ -1046,7 +1157,7 @@ updated-dependencies:
 - dependency-name: OZI-Project/publish
   dependency-type: direct:production
   update-type: version-update:semver-patch
-... — dependabot[bot] &lt;support@github.com&gt;
+... — dependabot[bot] <support@github.com>
 ([`70a40df`](https://github.com/OZI-Project/blastpipe/commit/70a40df897aa8a9587ecfd18f8192e4cc07fe218))
 
 *  Bump OZI-Project/release from 0.6.4 to 0.6.5
@@ -1060,7 +1171,7 @@ updated-dependencies:
 - dependency-name: OZI-Project/release
   dependency-type: direct:production
   update-type: version-update:semver-patch
-... — dependabot[bot] &lt;support@github.com&gt;
+... — dependabot[bot] <support@github.com>
 ([`c6703d0`](https://github.com/OZI-Project/blastpipe/commit/c6703d01430d9a8b817cae185f8e157a23d41364))
 
 
@@ -1087,7 +1198,7 @@ updated-dependencies:
 
 ### 🐛 Fixed Bugs
 
-*  FIX missing installed files in wheels — rjdbcm &lt;rjdbcm@outlook.com&gt;
+*  FIX missing installed files in wheels — rjdbcm <rjdbcm@outlook.com>
 ([`6c91a6e`](https://github.com/OZI-Project/blastpipe/commit/6c91a6ef6a741fcce525169dd9881053185cd8ac))
 
 ## 2024.11.9 (2024-06-16)
@@ -1095,7 +1206,7 @@ updated-dependencies:
 
 ### ⬆️ Upgraded Dependencies
 
-*  OZI.build&gt;=0.0.24 — rjdbcm &lt;rjdbcm@outlook.com&gt;
+*  OZI.build>=0.0.24 — rjdbcm <rjdbcm@outlook.com>
 ([`0c5ceae`](https://github.com/OZI-Project/blastpipe/commit/0c5ceaea791ff1c4098f3523c3aca326c026ca82))
 
 ## 2024.11.8 (2024-06-16)
@@ -1103,7 +1214,7 @@ updated-dependencies:
 
 ### 🐛 Fixed Bugs
 
-*  fix args for release, publish, and readme-renderer.meson.options templates — rjdbcm &lt;rjdbcm@outlook.com&gt;
+*  fix args for release, publish, and readme-renderer.meson.options templates — rjdbcm <rjdbcm@outlook.com>
 ([`1bdb09c`](https://github.com/OZI-Project/blastpipe/commit/1bdb09c89eb1af98626b0826e9d44ac3f6424d60))
 
 ## 2024.11.7 (2024-06-15)
@@ -1111,7 +1222,7 @@ updated-dependencies:
 
 ### 🐛 Fixed Bugs
 
-*  checkpoint template no longer requires prerelease python — rjdbcm &lt;rjdbcm@outlook.com&gt;
+*  checkpoint template no longer requires prerelease python — rjdbcm <rjdbcm@outlook.com>
 ([`d73c40f`](https://github.com/OZI-Project/blastpipe/commit/d73c40f1748372158fe9fd5ff8524c85f9602e9e))
 
 ## 2024.11.6 (2024-06-14)
@@ -1130,7 +1241,7 @@ updated-dependencies:
 - dependency-name: OZI-Project/draft
   dependency-type: direct:production
   update-type: version-update:semver-patch
-... — dependabot[bot] &lt;support@github.com&gt;
+... — dependabot[bot] <support@github.com>
 ([`dbc4948`](https://github.com/OZI-Project/blastpipe/commit/dbc4948282a79e5d01cb26bfd932c8cb97ff9a4d))
 
 *  Bump OZI-Project/checkpoint from 0.4.1 to 0.4.2
@@ -1144,7 +1255,7 @@ updated-dependencies:
 - dependency-name: OZI-Project/checkpoint
   dependency-type: direct:production
   update-type: version-update:semver-patch
-... — dependabot[bot] &lt;support@github.com&gt;
+... — dependabot[bot] <support@github.com>
 ([`8336a98`](https://github.com/OZI-Project/blastpipe/commit/8336a98fc4008d468b27b3e186fb7779287027d8))
 
 
@@ -1178,7 +1289,7 @@ updated-dependencies:
 - dependency-name: github/codeql-action
   dependency-type: direct:production
   update-type: version-update:semver-patch
-... — dependabot[bot] &lt;support@github.com&gt;
+... — dependabot[bot] <support@github.com>
 ([`a0817b0`](https://github.com/OZI-Project/blastpipe/commit/a0817b0cb439677c901522de60666503e632e7b3))
 
 *  Bump OZI-Project/release from 0.6.0 to 0.6.4
@@ -1192,7 +1303,7 @@ updated-dependencies:
 - dependency-name: OZI-Project/release
   dependency-type: direct:production
   update-type: version-update:semver-patch
-... — dependabot[bot] &lt;support@github.com&gt;
+... — dependabot[bot] <support@github.com>
 ([`0ee7354`](https://github.com/OZI-Project/blastpipe/commit/0ee7354d95e0d715bf30ed9e44fce2867c7fd2e7))
 
 *  Bump actions/checkout from 4.1.6 to 4.1.7
@@ -1207,7 +1318,7 @@ updated-dependencies:
 - dependency-name: actions/checkout
   dependency-type: direct:production
   update-type: version-update:semver-patch
-... — dependabot[bot] &lt;support@github.com&gt;
+... — dependabot[bot] <support@github.com>
 ([`fad4165`](https://github.com/OZI-Project/blastpipe/commit/fad41656008bcfb6ed41f1bad092c0a030910084))
 
 *  Bump OZI-Project/checkpoint from 0.4.0 to 0.4.1
@@ -1221,7 +1332,7 @@ updated-dependencies:
 - dependency-name: OZI-Project/checkpoint
   dependency-type: direct:production
   update-type: version-update:semver-patch
-... — dependabot[bot] &lt;support@github.com&gt;
+... — dependabot[bot] <support@github.com>
 ([`5cdd21e`](https://github.com/OZI-Project/blastpipe/commit/5cdd21eca3ca9eece7bc597940f3bb50b1b9591e))
 
 
@@ -1253,7 +1364,7 @@ updated-dependencies:
 
 ### 🔨 Updated Scripts
 
-* (cleanup.yml.j2): ``permissions: read-all`` — rjdbcm &lt;rjdbcm@outlook.com&gt;
+* (cleanup.yml.j2): ``permissions: read-all`` — rjdbcm <rjdbcm@outlook.com>
 ([`65ccb9c`](https://github.com/OZI-Project/blastpipe/commit/65ccb9cef8b4673fe4813bd84f6fa02cb7f70fac))
 
 ## 2024.11.3 (2024-06-13)
@@ -1262,7 +1373,7 @@ updated-dependencies:
 ### Other
 
 
-* Merge branch &#39;main&#39; of https://github.com/rjdbcm/blastpipe
+* Merge branch 'main' of https://github.com/rjdbcm/blastpipe
 ([`198e8c5`](https://github.com/OZI-Project/blastpipe/commit/198e8c5eb1b40f71e4adeef30bb04e05fdb1b6df))
 
 ## 2024.11.2 (2024-06-12)
@@ -1270,10 +1381,10 @@ updated-dependencies:
 
 ### 🔨 Updated Scripts
 
-* (cleanup): add id-token, contents, actions write permission — rjdbcm &lt;rjdbcm@outlook.com&gt;
+* (cleanup): add id-token, contents, actions write permission — rjdbcm <rjdbcm@outlook.com>
 ([`e5bd26e`](https://github.com/OZI-Project/blastpipe/commit/e5bd26e53da78c72f050eb647508ab2b3a1dafa3))
 
-*  harden cleanup template — rjdbcm &lt;rjdbcm@outlook.com&gt;
+*  harden cleanup template — rjdbcm <rjdbcm@outlook.com>
 ([`1a71c50`](https://github.com/OZI-Project/blastpipe/commit/1a71c50897dc4a2615a2a47c2b969b9ee06a46f1))
 
 ## 2024.11.1 (2024-06-12)
@@ -1282,7 +1393,7 @@ updated-dependencies:
 ### Other
 
 
-* Merge branch &#39;main&#39; of https://github.com/rjdbcm/blastpipe
+* Merge branch 'main' of https://github.com/rjdbcm/blastpipe
 ([`9f9e312`](https://github.com/OZI-Project/blastpipe/commit/9f9e31284d924374118c37f96b503236ac76fe0d))
 
 ## 2024.11.0 (2024-06-12)
@@ -1290,13 +1401,13 @@ updated-dependencies:
 
 ### 🐛 Fixed Bugs
 
-*  escape template — rjdbcm &lt;rjdbcm@outlook.com&gt;
+*  escape template — rjdbcm <rjdbcm@outlook.com>
 ([`8dc4c37`](https://github.com/OZI-Project/blastpipe/commit/8dc4c379e6517f4fe43a70b54ec5304ca1115932))
 
 
 ### ✨ Implemented Features
 
-* (ozi-templates): add github cleanup workflow template — rjdbcm &lt;rjdbcm@outlook.com&gt;
+* (ozi-templates): add github cleanup workflow template — rjdbcm <rjdbcm@outlook.com>
 ([`927d2bc`](https://github.com/OZI-Project/blastpipe/commit/927d2bc6975c1573f05c0e0ec264eef72fc0c183))
 
 
@@ -1311,7 +1422,7 @@ updated-dependencies:
 
 ### 🐛 Fixed Bugs
 
-*  fix readme-renderer in meson lint suite. — rjdbcm &lt;rjdbcm@outlook.com&gt;
+*  fix readme-renderer in meson lint suite. — rjdbcm <rjdbcm@outlook.com>
 ([`3b8e8fb`](https://github.com/OZI-Project/blastpipe/commit/3b8e8fbba66e7fcad0010a6fe5879aed7b290387))
 
 ## 2024.10.4 (2024-06-07)
@@ -1330,7 +1441,7 @@ updated-dependencies:
 - dependency-name: step-security/harden-runner
   dependency-type: direct:production
   update-type: version-update:semver-patch
-... — dependabot[bot] &lt;support@github.com&gt;
+... — dependabot[bot] <support@github.com>
 ([`9ac415c`](https://github.com/OZI-Project/blastpipe/commit/9ac415c38969e44b1f9e54449819430d562e2098))
 
 
@@ -1358,7 +1469,7 @@ updated-dependencies:
 - dependency-name: OZI-Project/publish
   dependency-type: direct:production
   update-type: version-update:semver-patch
-... — dependabot[bot] &lt;support@github.com&gt;
+... — dependabot[bot] <support@github.com>
 ([`59f26e5`](https://github.com/OZI-Project/blastpipe/commit/59f26e5dd472c95c6a9a31325d84761c47359632))
 
 *  Bump OZI-Project/draft from 0.3.0 to 0.3.1
@@ -1372,7 +1483,7 @@ updated-dependencies:
 - dependency-name: OZI-Project/draft
   dependency-type: direct:production
   update-type: version-update:semver-patch
-... — dependabot[bot] &lt;support@github.com&gt;
+... — dependabot[bot] <support@github.com>
 ([`9a033c8`](https://github.com/OZI-Project/blastpipe/commit/9a033c8e2da5adb93401b167e294786c3f229004))
 
 *  Bump actions/dependency-review-action from 4.3.2 to 4.3.3
@@ -1386,7 +1497,7 @@ updated-dependencies:
 - dependency-name: actions/dependency-review-action
   dependency-type: direct:production
   update-type: version-update:semver-patch
-... — dependabot[bot] &lt;support@github.com&gt;
+... — dependabot[bot] <support@github.com>
 ([`324fc3e`](https://github.com/OZI-Project/blastpipe/commit/324fc3eed0532fce7645face2a5688cb116cc6d7))
 
 
@@ -1425,7 +1536,7 @@ updated-dependencies:
 - dependency-name: github/codeql-action
   dependency-type: direct:production
   update-type: version-update:semver-patch
-... — dependabot[bot] &lt;support@github.com&gt;
+... — dependabot[bot] <support@github.com>
 ([`518b056`](https://github.com/OZI-Project/blastpipe/commit/518b056197d92b7ba899389ff11da75cc6d53310))
 
 
@@ -1456,7 +1567,7 @@ updated-dependencies:
 
 ### ✨ Implemented Features
 
-*  OZI-Project/draft@0.3.0 OZI-Project/release@0.6.0 — rjdbcm &lt;rjdbcm@outlook.com&gt;
+*  OZI-Project/draft@0.3.0 OZI-Project/release@0.6.0 — rjdbcm <rjdbcm@outlook.com>
 ([`36b199e`](https://github.com/OZI-Project/blastpipe/commit/36b199e293d3859e5a0ec465fa8c265127c8c1f5))
 
 ## 2024.9.4 (2024-05-29)
@@ -1475,7 +1586,7 @@ updated-dependencies:
 - dependency-name: OZI-Project/publish
   dependency-type: direct:production
   update-type: version-update:semver-patch
-... — dependabot[bot] &lt;support@github.com&gt;
+... — dependabot[bot] <support@github.com>
 ([`bb73cb1`](https://github.com/OZI-Project/blastpipe/commit/bb73cb14981a521e83878cef240fb26b5fca7a57))
 
 *  Bump OZI-Project/draft from 0.2.0 to 0.2.1
@@ -1489,7 +1600,7 @@ updated-dependencies:
 - dependency-name: OZI-Project/draft
   dependency-type: direct:production
   update-type: version-update:semver-patch
-... — dependabot[bot] &lt;support@github.com&gt;
+... — dependabot[bot] <support@github.com>
 ([`b4eb1cd`](https://github.com/OZI-Project/blastpipe/commit/b4eb1cd4c61d0af2cdfe18deadc544f6c5779c8e))
 
 
@@ -1522,7 +1633,7 @@ updated-dependencies:
 - dependency-name: OZI-Project/checkpoint
   dependency-type: direct:production
   update-type: version-update:semver-minor
-... — dependabot[bot] &lt;support@github.com&gt;
+... — dependabot[bot] <support@github.com>
 ([`3dd0525`](https://github.com/OZI-Project/blastpipe/commit/3dd0525e3cac3b53049e6c6768b74883a6fefac0))
 
 *  Bump OZI-Project/publish from 0.1.2 to 0.1.3
@@ -1536,7 +1647,7 @@ updated-dependencies:
 - dependency-name: OZI-Project/publish
   dependency-type: direct:production
   update-type: version-update:semver-patch
-... — dependabot[bot] &lt;support@github.com&gt;
+... — dependabot[bot] <support@github.com>
 ([`6ab4af6`](https://github.com/OZI-Project/blastpipe/commit/6ab4af6d5b34b8e6d54f1930cf6491e7fb413824))
 
 
@@ -1558,7 +1669,7 @@ updated-dependencies:
 
 ### 🐛 Fixed Bugs
 
-* 🔧 Add 3.13 support — rjdbcm &lt;rjdbcm@outlook.com&gt;
+* 🔧 Add 3.13 support — rjdbcm <rjdbcm@outlook.com>
 ([`42fc53d`](https://github.com/OZI-Project/blastpipe/commit/42fc53d8887b318bfc088d90d051ad4372a96f41))
 
 ## 2024.9.1 (2024-05-22)
@@ -1566,7 +1677,7 @@ updated-dependencies:
 
 ### ⬆️ Upgraded Dependencies
 
-*  step-security/harden-runner v2.8.0 in ozi_templates — rjdbcm &lt;rjdbcm@outlook.com&gt;
+*  step-security/harden-runner v2.8.0 in ozi_templates — rjdbcm <rjdbcm@outlook.com>
 ([`fc957e7`](https://github.com/OZI-Project/blastpipe/commit/fc957e7be34599dda04dd360f5deeba06cd73b60))
 
 
@@ -1585,7 +1696,7 @@ updated-dependencies:
 - dependency-name: OZI-Project/release
   dependency-type: direct:production
   update-type: version-update:semver-patch
-... — dependabot[bot] &lt;support@github.com&gt;
+... — dependabot[bot] <support@github.com>
 ([`71e7773`](https://github.com/OZI-Project/blastpipe/commit/71e777342ef6edea2d0e340ba0a2b748c96e26ef))
 
 * Merge pull request #94 from OZI-Project/dependabot/github_actions/step-security/harden-runner-2.8.0
@@ -1600,7 +1711,7 @@ updated-dependencies:
 - dependency-name: step-security/harden-runner
   dependency-type: direct:production
   update-type: version-update:semver-minor
-... — dependabot[bot] &lt;support@github.com&gt;
+... — dependabot[bot] <support@github.com>
 ([`3becfb3`](https://github.com/OZI-Project/blastpipe/commit/3becfb3a5e5f32ae56a502d8e460fbe76bea3199))
 
 ## 2024.9.0 (2024-05-21)
@@ -1608,31 +1719,31 @@ updated-dependencies:
 
 ### ⬆️ Upgraded Dependencies
 
-*  OZI-Project/release 0.5.7 — rjdbcm &lt;rjdbcm@outlook.com&gt;
+*  OZI-Project/release 0.5.7 — rjdbcm <rjdbcm@outlook.com>
 ([`3c00b9d`](https://github.com/OZI-Project/blastpipe/commit/3c00b9d29e3aa8ebabcc065544c343ec9cded4d2))
 
-*  OZI-Project/release 0.5.5 — rjdbcm &lt;rjdbcm@outlook.com&gt;
+*  OZI-Project/release 0.5.5 — rjdbcm <rjdbcm@outlook.com>
 ([`bbef472`](https://github.com/OZI-Project/blastpipe/commit/bbef4727bebb5d5e97d89fb3d5ba24318d36012b))
 
-*  OZI-Project/release 0.5.4 — rjdbcm &lt;rjdbcm@outlook.com&gt;
+*  OZI-Project/release 0.5.4 — rjdbcm <rjdbcm@outlook.com>
 ([`e552edf`](https://github.com/OZI-Project/blastpipe/commit/e552edf11c8938e5b7d259ef3f8d1c152aa01b4c))
 
 *  OZI-Project/release 0.5.3
 ([`92b9493`](https://github.com/OZI-Project/blastpipe/commit/92b9493e74a8b10aa809cae7e1927214ed9efe5d))
 
-*  OZI-Project/release 0.5.2 — rjdbcm &lt;rjdbcm@outlook.com&gt;
+*  OZI-Project/release 0.5.2 — rjdbcm <rjdbcm@outlook.com>
 ([`f5ffdf3`](https://github.com/OZI-Project/blastpipe/commit/f5ffdf32b02ef787d36b46b60dc78e4c29935797))
 
 
 ### 🐛 Fixed Bugs
 
-*  add allow for our endpoint domain — rjdbcm &lt;rjdbcm@outlook.com&gt;
+*  add allow for our endpoint domain — rjdbcm <rjdbcm@outlook.com>
 ([`145c1fa`](https://github.com/OZI-Project/blastpipe/commit/145c1fa9d11ff28284fb1f5b203a97aa4bd5e49a))
 
-*  Add API endpoint to allowlist in workflow hardener. — rjdbcm &lt;rjdbcm@outlook.com&gt;
+*  Add API endpoint to allowlist in workflow hardener. — rjdbcm <rjdbcm@outlook.com>
 ([`f4b74a4`](https://github.com/OZI-Project/blastpipe/commit/f4b74a43858719c9200821aa3067b9094aeb380e))
 
-*  patch checkpoint and release. — rjdbcm &lt;rjdbcm@outlook.com&gt;
+*  patch checkpoint and release. — rjdbcm <rjdbcm@outlook.com>
 ([`09f65b0`](https://github.com/OZI-Project/blastpipe/commit/09f65b05c347cc2607f029adf1b083b85fbb39a1))
 
 *  allow our API endpoint.
@@ -1643,7 +1754,7 @@ updated-dependencies:
 
 *  bump OZI-Project/checkpoint 0.3.0
 
-add prerelease checkpoint — rjdbcm &lt;rjdbcm@outlook.com&gt;
+add prerelease checkpoint — rjdbcm <rjdbcm@outlook.com>
 ([`96ae984`](https://github.com/OZI-Project/blastpipe/commit/96ae984725f659306adcafc502b51dcf061d1949))
 
 *  add prerelease checkpoint
@@ -1654,7 +1765,7 @@ add prerelease checkpoint — rjdbcm &lt;rjdbcm@outlook.com&gt;
 
 *  Update OZI-Project/release 0.5.0
 
-Use the release distribution names rather than version number. — rjdbcm &lt;rjdbcm@outlook.com&gt;
+Use the release distribution names rather than version number. — rjdbcm <rjdbcm@outlook.com>
 ([`896ceef`](https://github.com/OZI-Project/blastpipe/commit/896ceefa68c39e989978b2ea98ebfbefdf2dd000))
 
 
@@ -1664,34 +1775,34 @@ Use the release distribution names rather than version number. — rjdbcm &lt;rj
 * bump release
 ([`c196438`](https://github.com/OZI-Project/blastpipe/commit/c196438dc73d2761269fe5107eb69fe71a6a2136))
 
-* Merge branch &#39;main&#39; of https://github.com/rjdbcm/blastpipe
+* Merge branch 'main' of https://github.com/rjdbcm/blastpipe
 ([`9e37da3`](https://github.com/OZI-Project/blastpipe/commit/9e37da3eb8c200f6639b2b13e106dd386fffbc7e))
 
 * add  allow objects.githubusercontent.com:443
 ([`b405f3e`](https://github.com/OZI-Project/blastpipe/commit/b405f3ecb85b734412f164b964a69b1699f37391))
 
-* Merge branch &#39;main&#39; of https://github.com/rjdbcm/blastpipe
+* Merge branch 'main' of https://github.com/rjdbcm/blastpipe
 ([`505e783`](https://github.com/OZI-Project/blastpipe/commit/505e7830fe7409e129a48ccb7b6b69755c78d3ef))
 
 * fix release
 ([`c717db0`](https://github.com/OZI-Project/blastpipe/commit/c717db0de25e3cd40990cdde41f17200691cc177))
 
-* Merge branch &#39;main&#39; of https://github.com/rjdbcm/blastpipe
+* Merge branch 'main' of https://github.com/rjdbcm/blastpipe
 ([`0223a1c`](https://github.com/OZI-Project/blastpipe/commit/0223a1cb72bda853198bcf2bc58fa88ca7011dc9))
 
-* release 0.5.6 + draft 0.2.0 — rjdbcm &lt;rjdbcm@outlook.com&gt;
+* release 0.5.6 + draft 0.2.0 — rjdbcm <rjdbcm@outlook.com>
 ([`193b6f9`](https://github.com/OZI-Project/blastpipe/commit/193b6f9ae0299027b3db6d7978b9a6f2022615e1))
 
-* Merge branch &#39;main&#39; of https://github.com/rjdbcm/blastpipe
+* Merge branch 'main' of https://github.com/rjdbcm/blastpipe
 ([`d5b613e`](https://github.com/OZI-Project/blastpipe/commit/d5b613e5298647c776a895beb5abeb5916ec21c0))
 
-* Merge branch &#39;main&#39; of https://github.com/rjdbcm/blastpipe
+* Merge branch 'main' of https://github.com/rjdbcm/blastpipe
 ([`116dd01`](https://github.com/OZI-Project/blastpipe/commit/116dd01683e1f8e813d95f839597fb30770ffe95))
 
-* Merge branch &#39;main&#39; of https://github.com/rjdbcm/blastpipe
+* Merge branch 'main' of https://github.com/rjdbcm/blastpipe
 ([`8a40aa6`](https://github.com/OZI-Project/blastpipe/commit/8a40aa6b67729b4990c6183b02aad5607b567985))
 
-* Merge branch &#39;main&#39; of https://github.com/rjdbcm/blastpipe
+* Merge branch 'main' of https://github.com/rjdbcm/blastpipe
 ([`c7e4a3a`](https://github.com/OZI-Project/blastpipe/commit/c7e4a3a3cc75e05b7454a4772b56a9f63414a0f5))
 
 * skip 3.13 checkpoint
@@ -1713,7 +1824,7 @@ updated-dependencies:
 - dependency-name: OZI-Project/publish
   dependency-type: direct:production
   update-type: version-update:semver-patch
-... — dependabot[bot] &lt;support@github.com&gt;
+... — dependabot[bot] <support@github.com>
 ([`84f06ec`](https://github.com/OZI-Project/blastpipe/commit/84f06ec34a56eb53451953b37087bab744cf5ed9))
 
 *  Bump OZI-Project/release from 0.4.0 to 0.4.1
@@ -1727,7 +1838,7 @@ updated-dependencies:
 - dependency-name: OZI-Project/release
   dependency-type: direct:production
   update-type: version-update:semver-patch
-... — dependabot[bot] &lt;support@github.com&gt;
+... — dependabot[bot] <support@github.com>
 ([`575bfcf`](https://github.com/OZI-Project/blastpipe/commit/575bfcfc9954f7b293b56d73cf48d3058782c093))
 
 *  Bump github/codeql-action from 3.25.5 to 3.25.6
@@ -1742,7 +1853,7 @@ updated-dependencies:
 - dependency-name: github/codeql-action
   dependency-type: direct:production
   update-type: version-update:semver-patch
-... — dependabot[bot] &lt;support@github.com&gt;
+... — dependabot[bot] <support@github.com>
 ([`15b3fc4`](https://github.com/OZI-Project/blastpipe/commit/15b3fc44f963408323dbe33140fcd5731acecb05))
 
 
@@ -1769,7 +1880,7 @@ updated-dependencies:
 
 ### ⬆️ Upgraded Dependencies
 
-*  OZI-Project/checkpoint 0.2.0 — rjdbcm &lt;rjdbcm@outlook.com&gt;
+*  OZI-Project/checkpoint 0.2.0 — rjdbcm <rjdbcm@outlook.com>
 ([`51c6cf4`](https://github.com/OZI-Project/blastpipe/commit/51c6cf4a7fc4e53e02e62fed33d42b2bb380c17a))
 
 
@@ -1803,7 +1914,7 @@ updated-dependencies:
 - dependency-name: actions/checkout
   dependency-type: direct:production
   update-type: version-update:semver-patch
-... — dependabot[bot] &lt;support@github.com&gt;
+... — dependabot[bot] <support@github.com>
 ([`b89106e`](https://github.com/OZI-Project/blastpipe/commit/b89106eaefdd2acdde0d1b623cbfe2e71060bc9d))
 
 *  Bump OZI-Project/draft from 0.1.1 to 0.1.2
@@ -1817,7 +1928,7 @@ updated-dependencies:
 - dependency-name: OZI-Project/draft
   dependency-type: direct:production
   update-type: version-update:semver-patch
-... — dependabot[bot] &lt;support@github.com&gt;
+... — dependabot[bot] <support@github.com>
 ([`1b9834b`](https://github.com/OZI-Project/blastpipe/commit/1b9834b94e3bd12cace7ad6387203044abc806b4))
 
 
@@ -1840,7 +1951,7 @@ updated-dependencies:
 ### :lipstick:
 
 
-* 📝 Update README.rst — Eden Ross Duff, MSc &lt;ozi.project@outlook.com&gt;
+* 📝 Update README.rst — Eden Ross Duff, MSc <ozi.project@outlook.com>
 ([`76e6c55`](https://github.com/OZI-Project/blastpipe/commit/76e6c556e6a77e8f4b30572d3e2c1283f0272eb5))
 
 ## 2024.7.5 (2024-05-15)
@@ -1848,7 +1959,7 @@ updated-dependencies:
 
 ### 🐛 Fixed Bugs
 
-*  update optional-deps. — rjdbcm &lt;rjdbcm@outlook.com&gt;
+*  update optional-deps. — rjdbcm <rjdbcm@outlook.com>
 ([`0fc1b21`](https://github.com/OZI-Project/blastpipe/commit/0fc1b215ebdae8d2a9f6d725607bd1e9e96df9d9))
 
 ## 2024.7.4 (2024-05-14)
@@ -1856,7 +1967,7 @@ updated-dependencies:
 
 ### 🐛 Fixed Bugs
 
-*  add missing readme-renderer args. — rjdbcm &lt;rjdbcm@outlook.com&gt;
+*  add missing readme-renderer args. — rjdbcm <rjdbcm@outlook.com>
 ([`4091134`](https://github.com/OZI-Project/blastpipe/commit/4091134c937b45c20b7c72ac4761700d01c558a1))
 
 ## 2024.7.3 (2024-05-14)
@@ -1864,7 +1975,7 @@ updated-dependencies:
 
 ### 🐛 Fixed Bugs
 
-* ✏️ fix README reference in build template. — rjdbcm &lt;rjdbcm@outlook.com&gt;
+* ✏️ fix README reference in build template. — rjdbcm <rjdbcm@outlook.com>
 ([`fdff0ef`](https://github.com/OZI-Project/blastpipe/commit/fdff0eff07d8acc60ded0d0fd2db9c8e7c1f7f40))
 
 ## 2024.7.2 (2024-05-14)
@@ -1872,7 +1983,7 @@ updated-dependencies:
 
 ### 🐛 Fixed Bugs
 
-* ✏️ Fix README template names. — rjdbcm &lt;rjdbcm@outlook.com&gt;
+* ✏️ Fix README template names. — rjdbcm <rjdbcm@outlook.com>
 ([`a9da1b2`](https://github.com/OZI-Project/blastpipe/commit/a9da1b2d2745394d9fba53f885f9dd457b1fe08a))
 
 ## 2024.7.1 (2024-05-14)
@@ -1890,7 +2001,7 @@ updated-dependencies:
 
 *  add spec 0.3 features.
 
-Markdown and plaintext template support. — rjdbcm &lt;rjdbcm@outlook.com&gt;
+Markdown and plaintext template support. — rjdbcm <rjdbcm@outlook.com>
 ([`5a63450`](https://github.com/OZI-Project/blastpipe/commit/5a6345037f9f1b3d73ba3105aaec0761f52b27ae))
 
 
@@ -1918,7 +2029,7 @@ updated-dependencies:
 - dependency-name: OZI-Project/draft
   dependency-type: direct:production
   update-type: version-update:semver-patch
-... — dependabot[bot] &lt;support@github.com&gt;
+... — dependabot[bot] <support@github.com>
 ([`501ad4c`](https://github.com/OZI-Project/blastpipe/commit/501ad4cd10af6e32cf7d32eee5b9ff7c754d09cb))
 
 *  Bump github/codeql-action from 3.25.4 to 3.25.5
@@ -1933,7 +2044,7 @@ updated-dependencies:
 - dependency-name: github/codeql-action
   dependency-type: direct:production
   update-type: version-update:semver-patch
-... — dependabot[bot] &lt;support@github.com&gt;
+... — dependabot[bot] <support@github.com>
 ([`1707d54`](https://github.com/OZI-Project/blastpipe/commit/1707d54e142d8a4bf93b656b9470db27f442f8ab))
 
 
@@ -1955,7 +2066,7 @@ updated-dependencies:
 
 ### ✏️ Corrected Typos
 
-*  Correct commit_parser_options based on parsing semantic. — rjdbcm &lt;rjdbcm@outlook.com&gt;
+*  Correct commit_parser_options based on parsing semantic. — rjdbcm <rjdbcm@outlook.com>
 ([`81d85f0`](https://github.com/OZI-Project/blastpipe/commit/81d85f0aa7dbd0f09ec617943f90e93b65a9d937))
 
 ## 2024.6.2 (2024-05-10)
@@ -1966,7 +2077,7 @@ updated-dependencies:
 *  fix missing comma
 ([`1a38272`](https://github.com/OZI-Project/blastpipe/commit/1a382721df06a500b9551794fcbf222cff302b5a))
 
-*  add 0.2 specification changes for templates. — rjdbcm &lt;rjdbcm@outlook.com&gt;
+*  add 0.2 specification changes for templates. — rjdbcm <rjdbcm@outlook.com>
 ([`fe913ba`](https://github.com/OZI-Project/blastpipe/commit/fe913bae55de47a33d2e2ca69636d3ec146c5439))
 
 ## 2024.6.1 (2024-05-10)
@@ -1974,7 +2085,7 @@ updated-dependencies:
 
 ### ✏️ Corrected Typos
 
-*  Update ozi.yml fix missing 3.10 checkpoint — Eden Rose, MSc &lt;ozi.project@outlook.com&gt;
+*  Update ozi.yml fix missing 3.10 checkpoint — Eden Rose, MSc <ozi.project@outlook.com>
 ([`bd46c8b`](https://github.com/OZI-Project/blastpipe/commit/bd46c8b03bec702e0b2a6163347b07000fdda3b8))
 
 ## 2024.6.0 (2024-05-10)
@@ -1994,20 +2105,20 @@ updated-dependencies:
 - dependency-name: ossf/scorecard-action
   dependency-type: direct:production
   update-type: version-update:semver-patch
-... — dependabot[bot] &lt;support@github.com&gt;
+... — dependabot[bot] <support@github.com>
 ([`0cf8d28`](https://github.com/OZI-Project/blastpipe/commit/0cf8d285935bb2ccddd55f986a914efc6c5fcf7f))
 
 
 ### ✏️ Corrected Typos
 
-*  fix release pin — Eden Rose, MSc &lt;ozi.project@outlook.com&gt;
+*  fix release pin — Eden Rose, MSc <ozi.project@outlook.com>
 ([`ffd1c77`](https://github.com/OZI-Project/blastpipe/commit/ffd1c7727c3a84a8d34bbaaf12012c948f3dbaa5))
 
 
 ### Other
 
 
-* Update ozi.yml — Eden Rose, MSc &lt;ozi.project@outlook.com&gt;
+* Update ozi.yml — Eden Rose, MSc <ozi.project@outlook.com>
 ([`d19756f`](https://github.com/OZI-Project/blastpipe/commit/d19756f7bd1efc0922436375ba79260283972261))
 
 * Merge pull request #83 from OZI-Project/dependabot/github_actions/ossf/scorecard-action-2.3.3
@@ -2020,7 +2131,7 @@ updated-dependencies:
 ✨ add spec 0.2 isolated release drafting.
 ([`1464321`](https://github.com/OZI-Project/blastpipe/commit/1464321ede5b872764e7131ec95c480de2e4ef8a))
 
-* Merge branch &#39;dependabot/github_actions/ossf/scorecard-action-2.3.3&#39; into spec-0.2-workflow — Eden Rose, MSc &lt;ozi.project@outlook.com&gt;
+* Merge branch 'dependabot/github_actions/ossf/scorecard-action-2.3.3' into spec-0.2-workflow — Eden Rose, MSc <ozi.project@outlook.com>
 ([`c4e2a03`](https://github.com/OZI-Project/blastpipe/commit/c4e2a03b7f5f6b84a55573795cbcefe1fb1393ad))
 
 ## 2024.5.2 (2024-05-10)
@@ -2050,7 +2161,7 @@ updated-dependencies:
 - dependency-name: OZI-Project/checkpoint
   dependency-type: direct:production
   update-type: version-update:semver-patch
-... — dependabot[bot] &lt;support@github.com&gt;
+... — dependabot[bot] <support@github.com>
 ([`e7bdbb3`](https://github.com/OZI-Project/blastpipe/commit/e7bdbb3a920660adb5aa2342620c757017cbd7d1))
 
 *  Bump OZI-Project/publish from 0.1.0 to 0.1.1
@@ -2064,7 +2175,7 @@ updated-dependencies:
 - dependency-name: OZI-Project/publish
   dependency-type: direct:production
   update-type: version-update:semver-patch
-... — dependabot[bot] &lt;support@github.com&gt;
+... — dependabot[bot] <support@github.com>
 ([`fe59319`](https://github.com/OZI-Project/blastpipe/commit/fe59319fb9d3ef7aeeb02fd1f259e7a0affdb97a))
 
 *  Bump OZI-Project/release from 0.3.0 to 0.3.2
@@ -2078,7 +2189,7 @@ updated-dependencies:
 - dependency-name: OZI-Project/release
   dependency-type: direct:production
   update-type: version-update:semver-patch
-... — dependabot[bot] &lt;support@github.com&gt;
+... — dependabot[bot] <support@github.com>
 ([`db29000`](https://github.com/OZI-Project/blastpipe/commit/db290000300f3bbd5c2dc967f9f254fbe1c402f2))
 
 *  Bump github/codeql-action from 3.25.3 to 3.25.4
@@ -2093,7 +2204,7 @@ updated-dependencies:
 - dependency-name: github/codeql-action
   dependency-type: direct:production
   update-type: version-update:semver-patch
-... — dependabot[bot] &lt;support@github.com&gt;
+... — dependabot[bot] <support@github.com>
 ([`5052d39`](https://github.com/OZI-Project/blastpipe/commit/5052d398ad94cdd7e2d4c2ec77f9f3a546f7cf7c))
 
 *  Bump actions/checkout from 4.1.4 to 4.1.5
@@ -2108,7 +2219,7 @@ updated-dependencies:
 - dependency-name: actions/checkout
   dependency-type: direct:production
   update-type: version-update:semver-patch
-... — dependabot[bot] &lt;support@github.com&gt;
+... — dependabot[bot] <support@github.com>
 ([`91e2c9b`](https://github.com/OZI-Project/blastpipe/commit/91e2c9b742241dab90e33e8a86b37fff628da1e4))
 
 
@@ -2147,18 +2258,18 @@ updated-dependencies:
 
 *  relicense templates to The Unlicense.
 
-Also cleans up metadata — rjdbcm &lt;rjdbcm@outlook.com&gt;
+Also cleans up metadata — rjdbcm <rjdbcm@outlook.com>
 ([`809879a`](https://github.com/OZI-Project/blastpipe/commit/809879a8234693a9da688eb3daecf8dcefa1082f))
 
 
 ### ✨ Implemented Features
 
-*  add spec 0.2 isolated release drafting. — rjdbcm &lt;rjdbcm@outlook.com&gt;
+*  add spec 0.2 isolated release drafting. — rjdbcm <rjdbcm@outlook.com>
 ([`b8206e7`](https://github.com/OZI-Project/blastpipe/commit/b8206e79ef757b4dba37588a9a8d0709d9937879))
 
 *  Add Cython extension template.
 
-Also adds a check for ``project.enable_cython`` to add a ``build-requires`` and ``meson.project()`` language argument. — rjdbcm &lt;rjdbcm@outlook.com&gt;
+Also adds a check for ``project.enable_cython`` to add a ``build-requires`` and ``meson.project()`` language argument. — rjdbcm <rjdbcm@outlook.com>
 ([`6b6f1cc`](https://github.com/OZI-Project/blastpipe/commit/6b6f1cc3ad61f8db069e7fdacd43a92f36a43cf3))
 
 
@@ -2175,7 +2286,7 @@ Also adds a check for ``project.enable_cython`` to add a ``build-requires`` and 
 
 ### 🔨 Updated Scripts
 
-*  skip lint on PyPy builds — rjdbcm &lt;rjdbcm@outlook.com&gt;
+*  skip lint on PyPy builds — rjdbcm <rjdbcm@outlook.com>
 ([`3cb1933`](https://github.com/OZI-Project/blastpipe/commit/3cb1933b75c55d29df8b3a4e6b8d191758f10537))
 
 ## 2024.4.6 (2024-05-05)
@@ -2183,7 +2294,7 @@ Also adds a check for ``project.enable_cython`` to add a ``build-requires`` and 
 
 ### 🐛 Fixed Bugs
 
-*  add pypy ci checkpoint config — rjdbcm &lt;rjdbcm@outlook.com&gt;
+*  add pypy ci checkpoint config — rjdbcm <rjdbcm@outlook.com>
 ([`93a3bb4`](https://github.com/OZI-Project/blastpipe/commit/93a3bb4ea9de4b2a12c8b032a21d513aecc798b2))
 
 ## 2024.4.5 (2024-05-05)
@@ -2192,7 +2303,7 @@ Also adds a check for ``project.enable_cython`` to add a ``build-requires`` and 
 ### ⚗️
 
 
-*  direct compile with ninja for checkpoints. — rjdbcm &lt;rjdbcm@outlook.com&gt;
+*  direct compile with ninja for checkpoints. — rjdbcm <rjdbcm@outlook.com>
 ([`5e0f568`](https://github.com/OZI-Project/blastpipe/commit/5e0f5689296919d4eaeb71c6737b5c8554590430))
 
 
@@ -2201,9 +2312,9 @@ Also adds a check for ``project.enable_cython`` to add a ``build-requires`` and 
 *  update tox OZI.build pin
 ([`433f095`](https://github.com/OZI-Project/blastpipe/commit/433f0954060722270a72abc50245864caf27816f))
 
-*  OZI.build&gt;=0.0.15
+*  OZI.build>=0.0.15
 
-Also add pypy release test — rjdbcm &lt;rjdbcm@outlook.com&gt;
+Also add pypy release test — rjdbcm <rjdbcm@outlook.com>
 ([`195ac17`](https://github.com/OZI-Project/blastpipe/commit/195ac170f43842e5de8b1946cb824945d86b1029))
 
 
@@ -2229,7 +2340,7 @@ updated-dependencies:
 - dependency-name: actions/dependency-review-action
   dependency-type: direct:production
   update-type: version-update:semver-patch
-... — dependabot[bot] &lt;support@github.com&gt;
+... — dependabot[bot] <support@github.com>
 ([`a744324`](https://github.com/OZI-Project/blastpipe/commit/a7443244ab62ce8adc1a10036c9948cf532ca9ae))
 
 
@@ -2249,10 +2360,10 @@ updated-dependencies:
 *  use head revision.
 ([`32a2f94`](https://github.com/OZI-Project/blastpipe/commit/32a2f9409ea3ec6df559ca240f60c53ed15fe7bf))
 
-*  OZI version — rjdbcm &lt;rjdbcm@outlook.com&gt;
+*  OZI version — rjdbcm <rjdbcm@outlook.com>
 ([`860e5c9`](https://github.com/OZI-Project/blastpipe/commit/860e5c92d9d3d915a2846bf7ce278bcf234f27b5))
 
-*  pin OZI. — rjdbcm &lt;rjdbcm@outlook.com&gt;
+*  pin OZI. — rjdbcm <rjdbcm@outlook.com>
 ([`98b1dab`](https://github.com/OZI-Project/blastpipe/commit/98b1dabd8c80d7b2d2ac125b0d60fa1d6e1e8945))
 
 ## 2024.4.2 (2024-05-03)
@@ -2260,14 +2371,14 @@ updated-dependencies:
 
 ### 🐛 Fixed Bugs
 
-*  set revision to head — rjdbcm &lt;rjdbcm@outlook.com&gt;
+*  set revision to head — rjdbcm <rjdbcm@outlook.com>
 ([`b9ea876`](https://github.com/OZI-Project/blastpipe/commit/b9ea876ffcb7dec1ac67456f8d7dbaf005c2c705))
 
 
 ### Other
 
 
-* Merge branch &#39;main&#39; of https://github.com/rjdbcm/blastpipe
+* Merge branch 'main' of https://github.com/rjdbcm/blastpipe
 ([`13df441`](https://github.com/OZI-Project/blastpipe/commit/13df4416ef454f87bd0660eb68cb3f541152ca4e))
 
 ## 2024.4.1 (2024-05-03)
@@ -2275,13 +2386,13 @@ updated-dependencies:
 
 ### ⬆️ Upgraded Dependencies
 
-* 🐛 bump OZI.build to 0.0.13 — rjdbcm &lt;rjdbcm@outlook.com&gt;
+* 🐛 bump OZI.build to 0.0.13 — rjdbcm <rjdbcm@outlook.com>
 ([`ac685cd`](https://github.com/OZI-Project/blastpipe/commit/ac685cd6ad6e03ef47b2e55f8c1ff229b2d5a3a4))
 
 
 ### 📌 Pinned Dependencies
 
-*  OZI-1.3.0 — rjdbcm &lt;rjdbcm@outlook.com&gt;
+*  OZI-1.3.0 — rjdbcm <rjdbcm@outlook.com>
 ([`6483e7b`](https://github.com/OZI-Project/blastpipe/commit/6483e7bcc536d19e88da446f307a878d07be83b6))
 
 ## 2024.4.0 (2024-05-03)
@@ -2298,7 +2409,7 @@ updated-dependencies:
 *  bump OZI.build to 0.0.11
 ([`3a11b6a`](https://github.com/OZI-Project/blastpipe/commit/3a11b6a28eb51b62d3decc2b79d33c479ebade66))
 
-*  Update OZI.build to 0.0.10 — rjdbcm &lt;rjdbcm@outlook.com&gt;
+*  Update OZI.build to 0.0.10 — rjdbcm <rjdbcm@outlook.com>
 ([`ce33247`](https://github.com/OZI-Project/blastpipe/commit/ce33247bd24e052e925c3b04cde8924ec2d0f6fe))
 
 *  fix revision pin
@@ -2307,16 +2418,16 @@ updated-dependencies:
 
 ### 🔨 Updated Scripts
 
-*  Change default revision to main in ``ozi.wrap``. — rjdbcm &lt;rjdbcm@outlook.com&gt;
+*  Change default revision to main in ``ozi.wrap``. — rjdbcm <rjdbcm@outlook.com>
 ([`e9f34a2`](https://github.com/OZI-Project/blastpipe/commit/e9f34a207a7c1010bc94a6642b452b8e852b0d7e))
 
 
 ### ✨ Implemented Features
 
-* 🐛 Fix for OZI.build integration. — rjdbcm &lt;rjdbcm@outlook.com&gt;
+* 🐛 Fix for OZI.build integration. — rjdbcm <rjdbcm@outlook.com>
 ([`ff3c94e`](https://github.com/OZI-Project/blastpipe/commit/ff3c94e265bb1007de97b972667ea6591666f671))
 
-*  Update templates for OZI.build. — rjdbcm &lt;rjdbcm@outlook.com&gt;
+*  Update templates for OZI.build. — rjdbcm <rjdbcm@outlook.com>
 ([`452358e`](https://github.com/OZI-Project/blastpipe/commit/452358eb4e47a276141e262ed8853a7842596a98))
 
 ## 2024.3.0 (2024-05-03)
@@ -2335,20 +2446,20 @@ updated-dependencies:
 - dependency-name: OZI-Project/release
   dependency-type: direct:production
   update-type: version-update:semver-minor
-... — dependabot[bot] &lt;support@github.com&gt;
+... — dependabot[bot] <support@github.com>
 ([`a670efa`](https://github.com/OZI-Project/blastpipe/commit/a670efa0bedbcfff4775d73481218b71226fbbb4))
 
 
 ### ✨ Implemented Features
 
-*  Update pyproject.toml for OZI.build switch — Eden Rose, MSc &lt;ozi.project@outlook.com&gt;
+*  Update pyproject.toml for OZI.build switch — Eden Rose, MSc <ozi.project@outlook.com>
 ([`4165e7d`](https://github.com/OZI-Project/blastpipe/commit/4165e7da1d873c55237287e166f3c7e1d00d687c))
 
 
 ### Other
 
 
-* Update pyproject.toml - fix key name typo — Eden Rose, MSc &lt;ozi.project@outlook.com&gt;
+* Update pyproject.toml - fix key name typo — Eden Rose, MSc <ozi.project@outlook.com>
 ([`137b11d`](https://github.com/OZI-Project/blastpipe/commit/137b11df6698189b7f05cf51125ec29bfb46fa33))
 
 * Merge pull request #75 from OZI-Project/dependabot/github_actions/OZI-Project/release-0.2.5
@@ -2372,7 +2483,7 @@ updated-dependencies:
 - dependency-name: step-security/harden-runner
   dependency-type: direct:production
   update-type: version-update:semver-patch
-... — dependabot[bot] &lt;support@github.com&gt;
+... — dependabot[bot] <support@github.com>
 ([`f02635b`](https://github.com/OZI-Project/blastpipe/commit/f02635b0ef614f3ad1b041da8ce561b6678cb758))
 
 *  Bump actions/dependency-review-action from 4.2.5 to 4.3.1
@@ -2386,7 +2497,7 @@ updated-dependencies:
 - dependency-name: actions/dependency-review-action
   dependency-type: direct:production
   update-type: version-update:semver-minor
-... — dependabot[bot] &lt;support@github.com&gt;
+... — dependabot[bot] <support@github.com>
 ([`3a6415a`](https://github.com/OZI-Project/blastpipe/commit/3a6415ac065023aa55c84ac461154f9a8ec32bff))
 
 
@@ -2410,7 +2521,7 @@ updated-dependencies:
 
 *  Update status to Alpha
 
-Also fix download-url — rjdbcm &lt;rjdbcm@outlook.com&gt;
+Also fix download-url — rjdbcm <rjdbcm@outlook.com>
 ([`734c230`](https://github.com/OZI-Project/blastpipe/commit/734c23045be5e063ee045ef9f706c1d91a025434))
 
 ## 2024.2.8 (2024-04-28)
@@ -2418,7 +2529,7 @@ Also fix download-url — rjdbcm &lt;rjdbcm@outlook.com&gt;
 
 ### ⬆️ Upgraded Dependencies
 
-*  Bump OZI-Project/release to 0.1.18 — Eden Rose, MSc &lt;ozi.project@outlook.com&gt;
+*  Bump OZI-Project/release to 0.1.18 — Eden Rose, MSc <ozi.project@outlook.com>
 ([`5f6e3e8`](https://github.com/OZI-Project/blastpipe/commit/5f6e3e8de7a004ce3709369ca7b9b1431ac36b08))
 
 
@@ -2426,16 +2537,16 @@ Also fix download-url — rjdbcm &lt;rjdbcm@outlook.com&gt;
 
 *  Update ozi.wrap
 
-fix ``ozi.wrap`` must pin to head no matter what for setuptools-scm. — Eden Rose, MSc &lt;ozi.project@outlook.com&gt;
+fix ``ozi.wrap`` must pin to head no matter what for setuptools-scm. — Eden Rose, MSc <ozi.project@outlook.com>
 ([`d3acaa7`](https://github.com/OZI-Project/blastpipe/commit/d3acaa78d10903e5bf67edb671e658ba6a838d62))
 
-*  Update ozi.wrap — Eden Rose, MSc &lt;ozi.project@outlook.com&gt;
+*  Update ozi.wrap — Eden Rose, MSc <ozi.project@outlook.com>
 ([`9385846`](https://github.com/OZI-Project/blastpipe/commit/93858463eee1040ec9e91dec0e78967ff42769cc))
 
 
 ### 🔨 Updated Scripts
 
-*  Update ``ozi.wrap``  template and pin repo ``ozi.wrap`` — rjdbcm &lt;rjdbcm@outlook.com&gt;
+*  Update ``ozi.wrap``  template and pin repo ``ozi.wrap`` — rjdbcm <rjdbcm@outlook.com>
 ([`11cc643`](https://github.com/OZI-Project/blastpipe/commit/11cc6431b59bc741989f137670cfad18a44035e3))
 
 
@@ -2447,7 +2558,7 @@ fix ``ozi.wrap`` must pin to head no matter what for setuptools-scm. — Eden Ro
 🐛 Update ozi.wrap
 ([`16209b5`](https://github.com/OZI-Project/blastpipe/commit/16209b586bedac47b6dc8cb23e17c041b88e8e5d))
 
-* Update project.ozi.wrap.j2 — Eden Rose, MSc &lt;ozi.project@outlook.com&gt;
+* Update project.ozi.wrap.j2 — Eden Rose, MSc <ozi.project@outlook.com>
 ([`b9cad60`](https://github.com/OZI-Project/blastpipe/commit/b9cad60a15a7df575e222c916ec7f7c0bb81b4fd))
 
 ## 2024.2.7 (2024-04-28)
@@ -2463,7 +2574,7 @@ fix ``ozi.wrap`` must pin to head no matter what for setuptools-scm. — Eden Ro
 
 ### 🐛 Fixed Bugs
 
-*  Add missing type stubfiles for ozi_templates — rjdbcm &lt;rjdbcm@outlook.com&gt;
+*  Add missing type stubfiles for ozi_templates — rjdbcm <rjdbcm@outlook.com>
 ([`5382fff`](https://github.com/OZI-Project/blastpipe/commit/5382fff931d6e01536c344a486d9521f35989b65))
 
 ## 2024.2.5 (2024-04-28)
@@ -2471,7 +2582,7 @@ fix ``ozi.wrap`` must pin to head no matter what for setuptools-scm. — Eden Ro
 
 ### 🐛 Fixed Bugs
 
-*  fix next_minor filter typo. — rjdbcm &lt;rjdbcm@outlook.com&gt;
+*  fix next_minor filter typo. — rjdbcm <rjdbcm@outlook.com>
 ([`404c645`](https://github.com/OZI-Project/blastpipe/commit/404c6454186915e20b2a2e4b4756f09e507cf30b))
 
 ## 2024.2.4 (2024-04-28)
@@ -2479,7 +2590,7 @@ fix ``ozi.wrap`` must pin to head no matter what for setuptools-scm. — Eden Ro
 
 ### 🐛 Fixed Bugs
 
-*  Load jinja2 env from blastpipe package. — rjdbcm &lt;rjdbcm@outlook.com&gt;
+*  Load jinja2 env from blastpipe package. — rjdbcm <rjdbcm@outlook.com>
 ([`9e34d11`](https://github.com/OZI-Project/blastpipe/commit/9e34d11ab58b2509a8cc9fdf80bc746c62bc8cd1))
 
 ## 2024.2.3 (2024-04-27)
@@ -2488,7 +2599,7 @@ fix ``ozi.wrap`` must pin to head no matter what for setuptools-scm. — Eden Ro
 ### Other
 
 
-* Merge branch &#39;main&#39; of https://github.com/rjdbcm/blastpipe
+* Merge branch 'main' of https://github.com/rjdbcm/blastpipe
 ([`7f23039`](https://github.com/OZI-Project/blastpipe/commit/7f23039c89bb4d7ebb117a9d20a69f6acaddd970))
 
 ## 2024.2.2 (2024-04-27)
@@ -2499,7 +2610,7 @@ fix ``ozi.wrap`` must pin to head no matter what for setuptools-scm. — Eden Ro
 *  fix ozi_templates install location.
 ([`fbd88e4`](https://github.com/OZI-Project/blastpipe/commit/fbd88e4cf80fa32e07e081e0d04e38d3e8359728))
 
-* ✏️ fix templates subdirectory names. — rjdbcm &lt;rjdbcm@outlook.com&gt;
+* ✏️ fix templates subdirectory names. — rjdbcm <rjdbcm@outlook.com>
 ([`25e4344`](https://github.com/OZI-Project/blastpipe/commit/25e434404252686797a917689ff9a8c64cad01d3))
 
 ## 2024.2.1 (2024-04-27)
@@ -2507,7 +2618,7 @@ fix ``ozi.wrap`` must pin to head no matter what for setuptools-scm. — Eden Ro
 
 ### ✏️ Corrected Typos
 
-*  add Provides-Dist: ozi_templates. — rjdbcm &lt;rjdbcm@outlook.com&gt;
+*  add Provides-Dist: ozi_templates. — rjdbcm <rjdbcm@outlook.com>
 ([`79170e0`](https://github.com/OZI-Project/blastpipe/commit/79170e0800512061f77cf9d868b4a7caa2bb4936))
 
 ## 2024.2.0 (2024-04-27)
@@ -2515,7 +2626,7 @@ fix ``ozi.wrap`` must pin to head no matter what for setuptools-scm. — Eden Ro
 
 ### ➕ Added Dependencies
 
-*  add deps jinja2, requests, types-requests. — rjdbcm &lt;rjdbcm@outlook.com&gt;
+*  add deps jinja2, requests, types-requests. — rjdbcm <rjdbcm@outlook.com>
 ([`2d566c8`](https://github.com/OZI-Project/blastpipe/commit/2d566c835be404bb95ed465d680416c5adda2575))
 
 
@@ -2527,14 +2638,14 @@ fix ``ozi.wrap`` must pin to head no matter what for setuptools-scm. — Eden Ro
 
 ### ✨ Implemented Features
 
-*  add ozi_templates subdir. — rjdbcm &lt;rjdbcm@outlook.com&gt;
+*  add ozi_templates subdir. — rjdbcm <rjdbcm@outlook.com>
 ([`08869d3`](https://github.com/OZI-Project/blastpipe/commit/08869d31b561c5eabe445548cd84c7f8391d14f8))
 
 
 ### Other
 
 
-* 🚨 run isort — rjdbcm &lt;rjdbcm@outlook.com&gt;
+* 🚨 run isort — rjdbcm <rjdbcm@outlook.com>
 ([`d0ade4a`](https://github.com/OZI-Project/blastpipe/commit/d0ade4a18dfa0429e6f38771278d828319e33b74))
 
 ## 2024.1.3 (2024-04-26)
@@ -2554,7 +2665,7 @@ updated-dependencies:
 - dependency-name: github/codeql-action
   dependency-type: direct:production
   update-type: version-update:semver-patch
-... — dependabot[bot] &lt;support@github.com&gt;
+... — dependabot[bot] <support@github.com>
 ([`9ba3bcb`](https://github.com/OZI-Project/blastpipe/commit/9ba3bcbbafb32db7b5d292fef20f80b9b787209c))
 
 
@@ -2583,7 +2694,7 @@ updated-dependencies:
 - dependency-name: actions/checkout
   dependency-type: direct:production
   update-type: version-update:semver-patch
-... — dependabot[bot] &lt;support@github.com&gt;
+... — dependabot[bot] <support@github.com>
 ([`a95ff85`](https://github.com/OZI-Project/blastpipe/commit/a95ff85ae70d343f016816f22fe13e2c43d7ff31))
 
 *  Bump OZI-Project/release from 0.1.16 to 0.1.17
@@ -2597,7 +2708,7 @@ updated-dependencies:
 - dependency-name: OZI-Project/release
   dependency-type: direct:production
   update-type: version-update:semver-patch
-... — dependabot[bot] &lt;support@github.com&gt;
+... — dependabot[bot] <support@github.com>
 ([`7df5ad2`](https://github.com/OZI-Project/blastpipe/commit/7df5ad2571d988b0bdadfc972369acc3a13a30eb))
 
 
@@ -2631,7 +2742,7 @@ updated-dependencies:
 - dependency-name: github/codeql-action
   dependency-type: direct:production
   update-type: version-update:semver-patch
-... — dependabot[bot] &lt;support@github.com&gt;
+... — dependabot[bot] <support@github.com>
 ([`e119b2e`](https://github.com/OZI-Project/blastpipe/commit/e119b2e997ad0e70068fd99ea5dc72fcb2f9dced))
 
 *  Bump actions/upload-artifact from 4.3.2 to 4.3.3
@@ -2645,7 +2756,7 @@ updated-dependencies:
 - dependency-name: actions/upload-artifact
   dependency-type: direct:production
   update-type: version-update:semver-patch
-... — dependabot[bot] &lt;support@github.com&gt;
+... — dependabot[bot] <support@github.com>
 ([`df59855`](https://github.com/OZI-Project/blastpipe/commit/df59855b192e4c465ac1e452539bb1a1ea44c54f))
 
 
@@ -2679,7 +2790,7 @@ updated-dependencies:
 - dependency-name: slsa-framework/slsa-github-generator
   dependency-type: direct:production
   update-type: version-update:semver-major
-... — dependabot[bot] &lt;support@github.com&gt;
+... — dependabot[bot] <support@github.com>
 ([`98b3f63`](https://github.com/OZI-Project/blastpipe/commit/98b3f63da24998c356d35d2ffb83db1ab5046995))
 
 
@@ -2711,7 +2822,7 @@ updated-dependencies:
 - dependency-name: OZI-Project/checkpoint
   dependency-type: direct:production
   update-type: version-update:semver-patch
-... — dependabot[bot] &lt;support@github.com&gt;
+... — dependabot[bot] <support@github.com>
 ([`639e7d9`](https://github.com/OZI-Project/blastpipe/commit/639e7d9a186eef91cd4153ab325e1f39106f2175))
 
 *  Bump OZI-Project/release from 0.1.15 to 0.1.16
@@ -2725,7 +2836,7 @@ updated-dependencies:
 - dependency-name: OZI-Project/release
   dependency-type: direct:production
   update-type: version-update:semver-patch
-... — dependabot[bot] &lt;support@github.com&gt;
+... — dependabot[bot] <support@github.com>
 ([`7a52969`](https://github.com/OZI-Project/blastpipe/commit/7a529697cddd85af9f4bb56f5464a1ac0861ae24))
 
 
@@ -2770,7 +2881,7 @@ updated-dependencies:
 
 ### 🐛 Fixed Bugs
 
-*  Fix minor rendering issues with requirements. — rjdbcm &lt;rjdbcm@mail.umkc.edu&gt;
+*  Fix minor rendering issues with requirements. — rjdbcm <rjdbcm@mail.umkc.edu>
 ([`2143ed6`](https://github.com/OZI-Project/blastpipe/commit/2143ed6f989eb7c405464d014b0e5a1339c22e93))
 
 ## 2024.0.5 (2024-04-21)
@@ -2789,7 +2900,7 @@ updated-dependencies:
 - dependency-name: OZI-Project/release
   dependency-type: direct:production
   update-type: version-update:semver-patch
-... — dependabot[bot] &lt;support@github.com&gt;
+... — dependabot[bot] <support@github.com>
 ([`6528401`](https://github.com/OZI-Project/blastpipe/commit/6528401f75d5f68228734c2787d43c9c439aa884))
 
 *  Bump OZI-Project/checkpoint from 0.1.3 to 0.1.4
@@ -2803,7 +2914,7 @@ updated-dependencies:
 - dependency-name: OZI-Project/checkpoint
   dependency-type: direct:production
   update-type: version-update:semver-patch
-... — dependabot[bot] &lt;support@github.com&gt;
+... — dependabot[bot] <support@github.com>
 ([`f573e1e`](https://github.com/OZI-Project/blastpipe/commit/f573e1e75dbfe0cd18fab98e51c2e44b66188257))
 
 *  Bump actions/checkout from 4.1.1 to 4.1.3
@@ -2818,7 +2929,7 @@ updated-dependencies:
 - dependency-name: actions/checkout
   dependency-type: direct:production
   update-type: version-update:semver-patch
-... — dependabot[bot] &lt;support@github.com&gt;
+... — dependabot[bot] <support@github.com>
 ([`a2f8815`](https://github.com/OZI-Project/blastpipe/commit/a2f88158906517d20dacc8335282408e6d798edf))
 
 *  Bump actions/upload-artifact from 4.3.1 to 4.3.2
@@ -2832,7 +2943,7 @@ updated-dependencies:
 - dependency-name: actions/upload-artifact
   dependency-type: direct:production
   update-type: version-update:semver-patch
-... — dependabot[bot] &lt;support@github.com&gt;
+... — dependabot[bot] <support@github.com>
 ([`d0f9d7a`](https://github.com/OZI-Project/blastpipe/commit/d0f9d7a79a8699f017dc9861f5b696b84a502b08))
 
 *  Bump github/codeql-action from 3.24.10 to 3.25.1
@@ -2847,7 +2958,7 @@ updated-dependencies:
 - dependency-name: github/codeql-action
   dependency-type: direct:production
   update-type: version-update:semver-minor
-... — dependabot[bot] &lt;support@github.com&gt;
+... — dependabot[bot] <support@github.com>
 ([`fbe5c3b`](https://github.com/OZI-Project/blastpipe/commit/fbe5c3bac753b872c21c837a3085170534bc6b35))
 
 
@@ -2898,7 +3009,7 @@ updated-dependencies:
 - dependency-name: OZI-Project/release
   dependency-type: direct:production
   update-type: version-update:semver-patch
-... — dependabot[bot] &lt;support@github.com&gt;
+... — dependabot[bot] <support@github.com>
 ([`1b019b0`](https://github.com/OZI-Project/blastpipe/commit/1b019b04ecfaf30b25a05d9c092ee213a10a0fd5))
 
 *  Bump actions/dependency-review-action from 4.1.3 to 4.2.5
@@ -2912,7 +3023,7 @@ updated-dependencies:
 - dependency-name: actions/dependency-review-action
   dependency-type: direct:production
   update-type: version-update:semver-minor
-... — dependabot[bot] &lt;support@github.com&gt;
+... — dependabot[bot] <support@github.com>
 ([`4ae3417`](https://github.com/OZI-Project/blastpipe/commit/4ae34177e2cdc72d9333e924c0e3d31d838d5f9f))
 
 *  Bump github/codeql-action from 3.24.6 to 3.24.10
@@ -2927,7 +3038,7 @@ updated-dependencies:
 - dependency-name: github/codeql-action
   dependency-type: direct:production
   update-type: version-update:semver-patch
-... — dependabot[bot] &lt;support@github.com&gt;
+... — dependabot[bot] <support@github.com>
 ([`d8e7924`](https://github.com/OZI-Project/blastpipe/commit/d8e7924033adcf052e320a2a5e8057833616d53c))
 
 *  Bump actions/upload-artifact from 3.1.3 to 4.3.1
@@ -2941,7 +3052,7 @@ updated-dependencies:
 - dependency-name: actions/upload-artifact
   dependency-type: direct:production
   update-type: version-update:semver-major
-... — dependabot[bot] &lt;support@github.com&gt;
+... — dependabot[bot] <support@github.com>
 ([`0f33c02`](https://github.com/OZI-Project/blastpipe/commit/0f33c02f27db5a22221b8cd106a214f5b47be0e0))
 
 
@@ -2968,7 +3079,7 @@ updated-dependencies:
 ⬆️ Bump OZI-Project/release from 0.1.13 to 0.1.14
 ([`d4871e4`](https://github.com/OZI-Project/blastpipe/commit/d4871e4fe9345716add535a6755dace925dd5230))
 
-* 🚨 Fix quoted type annotations. — rjdbcm &lt;rjdbcm@mail.umkc.edu&gt;
+* 🚨 Fix quoted type annotations. — rjdbcm <rjdbcm@mail.umkc.edu>
 ([`988f9f2`](https://github.com/OZI-Project/blastpipe/commit/988f9f2b8697ce6569b456ebf1343b952d4fdb0c))
 
 * Merge pull request #50 from OZI-Project/dependabot/github_actions/actions/dependency-review-action-4.2.5
@@ -2991,13 +3102,13 @@ updated-dependencies:
 
 ### 🔨 Updated Scripts
 
-*  Add install-subprojects option. — rjdbcm &lt;rjdbcm@mail.umkc.edu&gt;
+*  Add install-subprojects option. — rjdbcm <rjdbcm@mail.umkc.edu>
 ([`af8f951`](https://github.com/OZI-Project/blastpipe/commit/af8f9519a11ed5efd9a86fc6089afb543688a46e))
 
 
 ### ✏️ Corrected Typos
 
-*  remove subproject folder. — rjdbcm &lt;rjdbcm@mail.umkc.edu&gt;
+*  remove subproject folder. — rjdbcm <rjdbcm@mail.umkc.edu>
 ([`727b7d0`](https://github.com/OZI-Project/blastpipe/commit/727b7d0ad55627334ab0f2a919e6d1cc45a24652))
 
 ## 2024.0.2 (2024-04-03)
@@ -3005,7 +3116,7 @@ updated-dependencies:
 
 ### 🔨 Updated Scripts
 
-*  Don&#39;t bootstrap OZI if blastpipe is a subproject (for now). — rjdbcm &lt;rjdbcm@mail.umkc.edu&gt;
+*  Don't bootstrap OZI if blastpipe is a subproject (for now). — rjdbcm <rjdbcm@mail.umkc.edu>
 ([`0068204`](https://github.com/OZI-Project/blastpipe/commit/006820441f7ac3be090ac02a87fbad2ff0e4bf01))
 
 
@@ -3026,17 +3137,17 @@ updated-dependencies:
 
 ### 🔨 Updated Scripts
 
-*  Don&#39;t install when run as subproject. — rjdbcm &lt;rjdbcm@mail.umkc.edu&gt;
+*  Don't install when run as subproject. — rjdbcm <rjdbcm@mail.umkc.edu>
 ([`1973353`](https://github.com/OZI-Project/blastpipe/commit/1973353f4b76ba65b03f6833ca8982ba3347c880))
 
 
 ### Other
 
 
-* Merge branch &#39;main&#39; of https://github.com/rjdbcm/blastpipe
+* Merge branch 'main' of https://github.com/rjdbcm/blastpipe
 ([`5f143a2`](https://github.com/OZI-Project/blastpipe/commit/5f143a25d5cbf414a77406df336ea14002232a9c))
 
-* Don&#39;t install when run as subproject.
+* Don't install when run as subproject.
 ([`a5dfcbc`](https://github.com/OZI-Project/blastpipe/commit/a5dfcbc7ced9f710b01285b704cc4a54538416ec))
 
 ## 2024.0.0 (2024-04-03)
@@ -3055,7 +3166,7 @@ updated-dependencies:
 - dependency-name: pypa/gh-action-pypi-publish
   dependency-type: direct:production
   update-type: version-update:semver-patch
-... — dependabot[bot] &lt;support@github.com&gt;
+... — dependabot[bot] <support@github.com>
 ([`aed0b73`](https://github.com/OZI-Project/blastpipe/commit/aed0b7365066b3a964ea7619674ac26cc4b51851))
 
 *  Bump actions/download-artifact from 4.1.3 to 4.1.4
@@ -3069,7 +3180,7 @@ updated-dependencies:
 - dependency-name: actions/download-artifact
   dependency-type: direct:production
   update-type: version-update:semver-patch
-... — dependabot[bot] &lt;support@github.com&gt;
+... — dependabot[bot] <support@github.com>
 ([`c7edd4d`](https://github.com/OZI-Project/blastpipe/commit/c7edd4d6b772bff93e4392cf9645b6af852b3e7d))
 
 *  Bump github/codeql-action from 3.24.5 to 3.24.6
@@ -3084,7 +3195,7 @@ updated-dependencies:
 - dependency-name: github/codeql-action
   dependency-type: direct:production
   update-type: version-update:semver-patch
-... — dependabot[bot] &lt;support@github.com&gt;
+... — dependabot[bot] <support@github.com>
 ([`c3a163b`](https://github.com/OZI-Project/blastpipe/commit/c3a163b738989ef5c955d70d409f63e7ad97182d))
 
 *  Bump python-semantic-release/python-semantic-release
@@ -3099,7 +3210,7 @@ updated-dependencies:
 - dependency-name: python-semantic-release/python-semantic-release
   dependency-type: direct:production
   update-type: version-update:semver-patch
-... — dependabot[bot] &lt;support@github.com&gt;
+... — dependabot[bot] <support@github.com>
 ([`d75226c`](https://github.com/OZI-Project/blastpipe/commit/d75226c31a7299338e9563a00253336c440b14f8))
 
 *  Bump actions/download-artifact from 4.1.2 to 4.1.3
@@ -3113,7 +3224,7 @@ updated-dependencies:
 - dependency-name: actions/download-artifact
   dependency-type: direct:production
   update-type: version-update:semver-patch
-... — dependabot[bot] &lt;support@github.com&gt;
+... — dependabot[bot] <support@github.com>
 ([`819b17f`](https://github.com/OZI-Project/blastpipe/commit/819b17f0502e486882a85c2b89859d64a2e36e0c))
 
 *  Bump pypa/gh-action-pypi-publish from 1.8.11 to 1.8.12
@@ -3127,7 +3238,7 @@ updated-dependencies:
 - dependency-name: pypa/gh-action-pypi-publish
   dependency-type: direct:production
   update-type: version-update:semver-patch
-... — dependabot[bot] &lt;support@github.com&gt;
+... — dependabot[bot] <support@github.com>
 ([`0c4153b`](https://github.com/OZI-Project/blastpipe/commit/0c4153bb89a9f265996597512c0aa06e837574c7))
 
 *  Bump python-semantic-release/python-semantic-release
@@ -3142,7 +3253,7 @@ updated-dependencies:
 - dependency-name: python-semantic-release/python-semantic-release
   dependency-type: direct:production
   update-type: version-update:semver-major
-... — dependabot[bot] &lt;support@github.com&gt;
+... — dependabot[bot] <support@github.com>
 ([`c728350`](https://github.com/OZI-Project/blastpipe/commit/c728350e26a625a44ada226c9e8bf3978e2be8ff))
 
 *  Bump actions/download-artifact from 4.1.1 to 4.1.2
@@ -3156,7 +3267,7 @@ updated-dependencies:
 - dependency-name: actions/download-artifact
   dependency-type: direct:production
   update-type: version-update:semver-patch
-... — dependabot[bot] &lt;support@github.com&gt;
+... — dependabot[bot] <support@github.com>
 ([`da484d7`](https://github.com/OZI-Project/blastpipe/commit/da484d7786e0f6bbecedcab6a304a4d282b98b2a))
 
 *  Bump step-security/harden-runner from 2.6.1 to 2.7.0
@@ -3170,7 +3281,7 @@ updated-dependencies:
 - dependency-name: step-security/harden-runner
   dependency-type: direct:production
   update-type: version-update:semver-minor
-... — dependabot[bot] &lt;support@github.com&gt;
+... — dependabot[bot] <support@github.com>
 ([`137811f`](https://github.com/OZI-Project/blastpipe/commit/137811f8b6f61d2d9aaac1f3135e1b391fad05ec))
 
 *  Bump actions/dependency-review-action from 4.0.0 to 4.1.3
@@ -3184,7 +3295,7 @@ updated-dependencies:
 - dependency-name: actions/dependency-review-action
   dependency-type: direct:production
   update-type: version-update:semver-minor
-... — dependabot[bot] &lt;support@github.com&gt;
+... — dependabot[bot] <support@github.com>
 ([`92e27c0`](https://github.com/OZI-Project/blastpipe/commit/92e27c0ef9baa6b8984309612d41933c93bab9ff))
 
 *  Bump github/codeql-action from 3.23.1 to 3.24.5
@@ -3199,14 +3310,14 @@ updated-dependencies:
 - dependency-name: github/codeql-action
   dependency-type: direct:production
   update-type: version-update:semver-minor
-... — dependabot[bot] &lt;support@github.com&gt;
+... — dependabot[bot] <support@github.com>
 ([`8ed4579`](https://github.com/OZI-Project/blastpipe/commit/8ed4579e68ca0a8d2cb49c626896d3c97485f79d))
 
 
 ### 💥
 
 
-*  Release 2024 — rjdbcm &lt;rjdbcm@mail.umkc.edu&gt;
+*  Release 2024 — rjdbcm <rjdbcm@mail.umkc.edu>
 ([`3297787`](https://github.com/OZI-Project/blastpipe/commit/329778729b6de2bce6e6048fc655647ab656718a))
 
 
@@ -3233,7 +3344,7 @@ updated-dependencies:
 *  Add dist script.
 ([`432c94f`](https://github.com/OZI-Project/blastpipe/commit/432c94fe7a839cd5034a6f352a0e930e24f0e61c))
 
-*  Update OZI workflow. — rjdbcm &lt;rjdbcm@mail.umkc.edu&gt;
+*  Update OZI workflow. — rjdbcm <rjdbcm@mail.umkc.edu>
 ([`d9df1c6`](https://github.com/OZI-Project/blastpipe/commit/d9df1c64231fc797e5bff40a62d449d0ce552319))
 
 *  Update for re-integration with OZI.
@@ -3246,13 +3357,13 @@ updated-dependencies:
 * Delete ozi subproject folder
 ([`8829084`](https://github.com/OZI-Project/blastpipe/commit/88290840d8635f7f44d512595821837bd7f2cf3a))
 
-* Update subproject ref — rjdbcm &lt;rjdbcm@mail.umkc.edu&gt;
+* Update subproject ref — rjdbcm <rjdbcm@mail.umkc.edu>
 ([`4b614f5`](https://github.com/OZI-Project/blastpipe/commit/4b614f55641a997b2d170b9fa29054b1c0e0df15))
 
-* OZI wrap update — rjdbcm &lt;rjdbcm@mail.umkc.edu&gt;
+* OZI wrap update — rjdbcm <rjdbcm@mail.umkc.edu>
 ([`ad127ad`](https://github.com/OZI-Project/blastpipe/commit/ad127ad13d9ef0ce90e63b844d8262df98ce5acb))
 
-* Merge branch &#39;dev&#39; into main — Eden Rose, MSc &lt;rjdbcm@outlook.com&gt;
+* Merge branch 'dev' into main — Eden Rose, MSc <rjdbcm@outlook.com>
 ([`3409ae7`](https://github.com/OZI-Project/blastpipe/commit/3409ae79b6f19c953932d9b33726c649e4b44910))
 
 * Merge pull request #3 from OZI-Project/dependabot/github_actions/ossf/scorecard-action-2.3.1
@@ -3272,7 +3383,7 @@ updated-dependencies:
 - dependency-name: ossf/scorecard-action
   dependency-type: direct:production
   update-type: version-update:semver-minor
-... — dependabot[bot] &lt;support@github.com&gt;
+... — dependabot[bot] <support@github.com>
 ([`d9066ae`](https://github.com/OZI-Project/blastpipe/commit/d9066ae5da3fc0fff83b638d4b04add7e9843874))
 
 * Merge pull request #5 from OZI-Project/dependabot/github_actions/python-semantic-release/python-semantic-release-8.7.2
@@ -3292,7 +3403,7 @@ updated-dependencies:
 - dependency-name: python-semantic-release/python-semantic-release
   dependency-type: direct:production
   update-type: version-update:semver-minor
-... — dependabot[bot] &lt;support@github.com&gt;
+... — dependabot[bot] <support@github.com>
 ([`251a792`](https://github.com/OZI-Project/blastpipe/commit/251a792644fcc6bc82378acdf9b273f01f6f7481))
 
 * Merge pull request #4 from OZI-Project/dependabot/github_actions/actions/dependency-review-action-3.1.5
@@ -3311,7 +3422,7 @@ updated-dependencies:
 - dependency-name: actions/dependency-review-action
   dependency-type: direct:production
   update-type: version-update:semver-major
-... — dependabot[bot] &lt;support@github.com&gt;
+... — dependabot[bot] <support@github.com>
 ([`ec0b1ac`](https://github.com/OZI-Project/blastpipe/commit/ec0b1ac220c8a9b5e66e8024e178f46f830e3b16))
 
 * Merge pull request #6 from OZI-Project/dependabot/github_actions/actions/download-artifact-4.1.1
@@ -3330,7 +3441,7 @@ updated-dependencies:
 - dependency-name: actions/download-artifact
   dependency-type: direct:production
   update-type: version-update:semver-major
-... — dependabot[bot] &lt;support@github.com&gt;
+... — dependabot[bot] <support@github.com>
 ([`c653bc9`](https://github.com/OZI-Project/blastpipe/commit/c653bc921a0bcd70d24e655441a5e054bc708da2))
 
 * Merge pull request #7 from OZI-Project/dependabot/github_actions/actions/setup-python-5.0.0
@@ -3349,10 +3460,10 @@ updated-dependencies:
 - dependency-name: actions/setup-python
   dependency-type: direct:production
   update-type: version-update:semver-major
-... — dependabot[bot] &lt;support@github.com&gt;
+... — dependabot[bot] <support@github.com>
 ([`8652798`](https://github.com/OZI-Project/blastpipe/commit/8652798c37c4dd619f45ddefbb0ffc5150cfec8a))
 
-* Merge branch &#39;main&#39; of https://github.com/rjdbcm/blastpipe
+* Merge branch 'main' of https://github.com/rjdbcm/blastpipe
 ([`fb5be12`](https://github.com/OZI-Project/blastpipe/commit/fb5be121afeefa242a960b367ff13ad96e92e417))
 
 * Merge pull request #38 from OZI-Project/dependabot/github_actions/pypa/gh-action-pypi-publish-1.8.14
@@ -3427,7 +3538,7 @@ updated-dependencies:
 - dependency-name: github/codeql-action
   dependency-type: direct:production
   update-type: version-update:semver-major
-... — dependabot[bot] &lt;support@github.com&gt;
+... — dependabot[bot] <support@github.com>
 ([`0fb81ce`](https://github.com/OZI-Project/blastpipe/commit/0fb81cea7671fb705811ac78983d3755a41beb57))
 
 * Merge pull request #15 from OZI-Project/dependabot/github_actions/actions/setup-python-5.0.0
@@ -3446,7 +3557,7 @@ updated-dependencies:
 - dependency-name: actions/setup-python
   dependency-type: direct:production
   update-type: version-update:semver-major
-... — dependabot[bot] &lt;support@github.com&gt;
+... — dependabot[bot] <support@github.com>
 ([`c3b2cbe`](https://github.com/OZI-Project/blastpipe/commit/c3b2cbedc4b06c6f84f6bd736d0868d71acf42e8))
 
 * Merge pull request #14 from OZI-Project/dependabot/github_actions/ossf/scorecard-action-2.3.1
@@ -3466,7 +3577,7 @@ updated-dependencies:
 - dependency-name: ossf/scorecard-action
   dependency-type: direct:production
   update-type: version-update:semver-minor
-... — dependabot[bot] &lt;support@github.com&gt;
+... — dependabot[bot] <support@github.com>
 ([`f5437e2`](https://github.com/OZI-Project/blastpipe/commit/f5437e21c4209eaf2829d19362076cfc92295c8c))
 
 * Merge pull request #10 from OZI-Project/dependabot/github_actions/python-semantic-release/python-semantic-release-8.7.2
@@ -3486,7 +3597,7 @@ updated-dependencies:
 - dependency-name: python-semantic-release/python-semantic-release
   dependency-type: direct:production
   update-type: version-update:semver-minor
-... — dependabot[bot] &lt;support@github.com&gt;
+... — dependabot[bot] <support@github.com>
 ([`9479e9e`](https://github.com/OZI-Project/blastpipe/commit/9479e9e027b68079ae51d154df13367fb03edf18))
 
 * Merge pull request #11 from OZI-Project/dependabot/github_actions/pypa/gh-action-pypi-publish-1.8.11
@@ -3505,7 +3616,7 @@ updated-dependencies:
 - dependency-name: pypa/gh-action-pypi-publish
   dependency-type: direct:production
   update-type: version-update:semver-minor
-... — dependabot[bot] &lt;support@github.com&gt;
+... — dependabot[bot] <support@github.com>
 ([`4a97e76`](https://github.com/OZI-Project/blastpipe/commit/4a97e76a27fb46c5643498285f90be0f9632b1d5))
 
 * Merge pull request #12 from OZI-Project/dependabot/github_actions/actions/download-artifact-4.1.1
@@ -3524,7 +3635,7 @@ updated-dependencies:
 - dependency-name: actions/download-artifact
   dependency-type: direct:production
   update-type: version-update:semver-major
-... — dependabot[bot] &lt;support@github.com&gt;
+... — dependabot[bot] <support@github.com>
 ([`9447dd4`](https://github.com/OZI-Project/blastpipe/commit/9447dd450c1f23fb85ded9971aac494bec4e63d7))
 
 * Merge pull request #8 from OZI-Project/dependabot/github_actions/actions/checkout-4.1.1
@@ -3544,7 +3655,7 @@ updated-dependencies:
 - dependency-name: actions/checkout
   dependency-type: direct:production
   update-type: version-update:semver-major
-... — dependabot[bot] &lt;support@github.com&gt;
+... — dependabot[bot] <support@github.com>
 ([`863677d`](https://github.com/OZI-Project/blastpipe/commit/863677d6ce6c2cb501c38d11697723cd93681e61))
 
 * Merge pull request #13 from OZI-Project/dependabot/github_actions/actions/dependency-review-action-4.0.0
@@ -3563,7 +3674,7 @@ updated-dependencies:
 - dependency-name: actions/dependency-review-action
   dependency-type: direct:production
   update-type: version-update:semver-major
-... — dependabot[bot] &lt;support@github.com&gt;
+... — dependabot[bot] <support@github.com>
 ([`864eac9`](https://github.com/OZI-Project/blastpipe/commit/864eac9442363922b19970195fd22731608c965c))
 
 * Merge pull request #2 from step-security-bot/stepsecurity_remediation_1705263794
@@ -3571,10 +3682,10 @@ updated-dependencies:
 [StepSecurity] Apply security best practices
 ([`7b09010`](https://github.com/OZI-Project/blastpipe/commit/7b0901013cef0cd690e8e2dbfbee4414df73c6a1))
 
-* [StepSecurity] Apply security best practices — StepSecurity Bot &lt;bot@stepsecurity.io&gt;
+* [StepSecurity] Apply security best practices — StepSecurity Bot <bot@stepsecurity.io>
 ([`e79a366`](https://github.com/OZI-Project/blastpipe/commit/e79a366b88391af02f2e089cf6bedbac8088acbf))
 
-* Bump for OZI changes &gt;0.0.235
+* Bump for OZI changes >0.0.235
 ([`ecaad6f`](https://github.com/OZI-Project/blastpipe/commit/ecaad6f00be73c0d9a4354ab60fa5f3809fc31e1))
 
 * 👷(PKG-INFO): Bump Version.
@@ -3640,7 +3751,7 @@ updated-dependencies:
 ### Other
 
 
-* Merge branch &#39;main&#39; of https://github.com/rjdbcm/blastpipe
+* Merge branch 'main' of https://github.com/rjdbcm/blastpipe
 ([`6936fee`](https://github.com/OZI-Project/blastpipe/commit/6936fee4c9171b77be5af86cc7d494b3fe654862))
 
 * 👷(gh-actions): Use ``${{ github.event.repository.name }} for file patterns.
@@ -3649,7 +3760,7 @@ updated-dependencies:
 * 👷: Change .git permissions.
 ([`13e57f9`](https://github.com/OZI-Project/blastpipe/commit/13e57f9149a282c8f7e187ebed51d59cbcb997a2))
 
-* Merge branch &#39;main&#39; of https://github.com/rjdbcm/blastpipe
+* Merge branch 'main' of https://github.com/rjdbcm/blastpipe
 ([`de666bf`](https://github.com/OZI-Project/blastpipe/commit/de666bffdc7a51391a9b74f83967404a6a37807c))
 
 * 👷(gh-actions): use ``${{ github.event.repository.name }}`` as repo name.
@@ -3688,7 +3799,7 @@ updated-dependencies:
 * 👷: Add new OZI standard workflow.
 ([`83dd01a`](https://github.com/OZI-Project/blastpipe/commit/83dd01aedf87b44a07d38fc89135a9e913445f3f))
 
-* Merge branch &#39;main&#39; of https://github.com/rjdbcm/blastpipe
+* Merge branch 'main' of https://github.com/rjdbcm/blastpipe
 ([`916b530`](https://github.com/OZI-Project/blastpipe/commit/916b5300fc026934e31b0a89d280138e65f4592d))
 
 * Update README.rst
@@ -3719,7 +3830,7 @@ Add license scan report and status
 
 * Add license scan report and status
 
-Signed off by: fossabot &lt;badges@fossa.com&gt;
+Signed off by: fossabot <badges@fossa.com>
 ([`389d9dd`](https://github.com/OZI-Project/blastpipe/commit/389d9dd0b414b6aa0c26c90484514dba44bd8f7c))
 
 * 🔊(CHANGELOG.md): add 0.4.27
@@ -3926,7 +4037,7 @@ CHANGELOG.md should actually get release notes from now on.
 ### 🍱
 
 
-* (semantic-release) setuptools_scm Version&gt;PKG-INFO
+* (semantic-release) setuptools_scm Version>PKG-INFO
 ([`2bf1900`](https://github.com/OZI-Project/blastpipe/commit/2bf19003dadb04df4d1e920850751b7b8a0b30dd))
 
 
@@ -3951,7 +4062,7 @@ CHANGELOG.md should actually get release notes from now on.
 ### 🍱
 
 
-* (semantic-release) setuptools_scm Version&gt;PKG-DATA
+* (semantic-release) setuptools_scm Version>PKG-DATA
 ([`0dc0387`](https://github.com/OZI-Project/blastpipe/commit/0dc03878acdd01a15da70e1119e99da01d0f1ad7))
 
 
@@ -3961,10 +4072,10 @@ CHANGELOG.md should actually get release notes from now on.
 * 🚸 fix typo in git commit.
 ([`31ee152`](https://github.com/OZI-Project/blastpipe/commit/31ee152680c08fdaa4ef179cf448ff8e9677745d))
 
-* 🚸 don&#39;t commit -a.
+* 🚸 don't commit -a.
 ([`88f8ba1`](https://github.com/OZI-Project/blastpipe/commit/88f8ba1c51d16c5cd3242b720423ed3f0e77924a))
 
-* 🚸 don&#39;t push next version.
+* 🚸 don't push next version.
 ([`31269d9`](https://github.com/OZI-Project/blastpipe/commit/31269d900315a2b62b16d6f9b7c53bdd6c1afc15))
 
 ## 0.4.13 (2023-06-22)
@@ -3973,7 +4084,7 @@ CHANGELOG.md should actually get release notes from now on.
 ### 🍱
 
 
-* (semantic-release) setuptools_scm Version&gt;PKG-DATA
+* (semantic-release) setuptools_scm Version>PKG-DATA
 ([`14dbbda`](https://github.com/OZI-Project/blastpipe/commit/14dbbda4b7c44a5afc6b8b2141d8041c2db534ed))
 
 
@@ -3998,7 +4109,7 @@ CHANGELOG.md should actually get release notes from now on.
 ### Other
 
 
-* 🚸 commit version &amp; push
+* 🚸 commit version & push
 ([`1c9d76b`](https://github.com/OZI-Project/blastpipe/commit/1c9d76b6743f92ff8bf79000b4ae638ee3bad4ba))
 
 ## 0.4.10 (2023-06-22)
@@ -4034,7 +4145,7 @@ CHANGELOG.md should actually get release notes from now on.
 ### 🍱
 
 
-* (semantic-release) setuptools_scm Version&gt;PKG-DATA
+* (semantic-release) setuptools_scm Version>PKG-DATA
 ([`43410f2`](https://github.com/OZI-Project/blastpipe/commit/43410f2e3bb20f0fa5287613e5c430a97afd55f7))
 
 
@@ -4050,7 +4161,7 @@ CHANGELOG.md should actually get release notes from now on.
 ### 🍱
 
 
-* (semantic-release) setuptools_scm Version&gt;PKG-DATA
+* (semantic-release) setuptools_scm Version>PKG-DATA
 ([`28aceae`](https://github.com/OZI-Project/blastpipe/commit/28aceae28d1fd1833e4c61efd928df414ac57d4f))
 
 ## 0.4.5 (2023-06-21)
@@ -4059,14 +4170,14 @@ CHANGELOG.md should actually get release notes from now on.
 ### 🍱
 
 
-* (semantic-release) setuptools_scm Version&gt;PKG-DATA
+* (semantic-release) setuptools_scm Version>PKG-DATA
 ([`756e3f5`](https://github.com/OZI-Project/blastpipe/commit/756e3f55d1e393b8055f8705bb563525e94159f0))
 
 
 ### Other
 
 
-* don&#39;t stash wheel bump.
+* don't stash wheel bump.
 ([`a9ca7d8`](https://github.com/OZI-Project/blastpipe/commit/a9ca7d8171535ce0e29ed08874bc674a048d8e6b))
 
 ## 0.4.4 (2023-06-21)
@@ -4075,7 +4186,7 @@ CHANGELOG.md should actually get release notes from now on.
 ### 🍱
 
 
-* (semantic-release) setuptools_scm Version&gt;PKG-DATA
+* (semantic-release) setuptools_scm Version>PKG-DATA
 ([`e0671e1`](https://github.com/OZI-Project/blastpipe/commit/e0671e1a5a533090db1bff0e6a84d49064e354e8))
 
 
@@ -4091,7 +4202,7 @@ CHANGELOG.md should actually get release notes from now on.
 ### 🍱
 
 
-* (semantic-release) setuptools_scm Version&gt;PKG-DATA
+* (semantic-release) setuptools_scm Version>PKG-DATA
 ([`6ea7cae`](https://github.com/OZI-Project/blastpipe/commit/6ea7cae0729dfeb4294fd68cbc8e292db662d6c4))
 
 ## 0.4.2 (2023-06-21)
@@ -4100,7 +4211,7 @@ CHANGELOG.md should actually get release notes from now on.
 ### 🍱
 
 
-* (semantic-release) setuptools_scm Version&gt;PKG-DATA
+* (semantic-release) setuptools_scm Version>PKG-DATA
 ([`2477f60`](https://github.com/OZI-Project/blastpipe/commit/2477f60591f39346d11f1d5e7f3b924633aa8c81))
 
 ## 0.4.1 (2023-06-21)
@@ -4109,7 +4220,7 @@ CHANGELOG.md should actually get release notes from now on.
 ### 🍱
 
 
-* (semantic-release) setuptools_scm Version&gt;PKG-DATA
+* (semantic-release) setuptools_scm Version>PKG-DATA
 ([`1371457`](https://github.com/OZI-Project/blastpipe/commit/13714571866a451a4fea6af9fa174ca5c88656ac))
 
 
@@ -4128,7 +4239,7 @@ CHANGELOG.md should actually get release notes from now on.
 ### 🍱
 
 
-* (semantic-release) setuptools_scm Version&gt;PKG-DATA
+* (semantic-release) setuptools_scm Version>PKG-DATA
 ([`b372b52`](https://github.com/OZI-Project/blastpipe/commit/b372b52aae5a4c83f7431928b8e832dd204c0b26))
 
 ## 0.3.16 (2023-06-21)
@@ -4137,7 +4248,7 @@ CHANGELOG.md should actually get release notes from now on.
 ### 🍱
 
 
-* (semantic-release) setuptools_scm Version&gt;PKG-DATA
+* (semantic-release) setuptools_scm Version>PKG-DATA
 ([`343cbb9`](https://github.com/OZI-Project/blastpipe/commit/343cbb99ee4cb1d7e12f039cb7fb6e040a6ba984))
 
 
@@ -4285,7 +4396,7 @@ CHANGELOG.md should actually get release notes from now on.
 ### Other
 
 
-* 🔧 add dist-args=&#39;--formats gztar&#39;
+* 🔧 add dist-args='--formats gztar'
 ([`a499611`](https://github.com/OZI-Project/blastpipe/commit/a49961100404e3e9797bd0c466d8a678f2a30653))
 
 ## 0.3.4 (2023-06-20)
@@ -4348,7 +4459,7 @@ CHANGELOG.md should actually get release notes from now on.
 * 👷 move CHANGELOG commit to build step.
 ([`af2b566`](https://github.com/OZI-Project/blastpipe/commit/af2b56658ae00acbbf3791eaecbb57aa5295edcd))
 
-* 👷 don&#39;t remove dist on semantic-release for now.
+* 👷 don't remove dist on semantic-release for now.
 ([`1460ff7`](https://github.com/OZI-Project/blastpipe/commit/1460ff76f2c9fda74f34ccd6277ebdeab31303df))
 
 * 👷 checkpoint
@@ -4605,7 +4716,7 @@ add meson built sphinx-build
 MIT required notice
 ([`9565c9b`](https://github.com/OZI-Project/blastpipe/commit/9565c9b6d5d0f893d85c0fd39c27ca933b6e1b0e))
 
-* 📝 🚨 : Doc &amp; Lint
+* 📝 🚨 : Doc & Lint
 Added docstrings and fixed linter complaints.
 ([`cce2432`](https://github.com/OZI-Project/blastpipe/commit/cce2432a14e95a0a7d9e23f2154c506bc286b7ef))
 
