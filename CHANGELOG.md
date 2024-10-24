@@ -2,6 +2,66 @@
 ## 2024.11.35 (2024-10-24)
 
 
+### ⬆️ Upgraded Dependencies
+
+*  Bump actions/dependency-review-action from 4.3.4 to 4.3.5
+
+Bumps [actions/dependency-review-action](https://github.com/actions/dependency-review-action) from 4.3.4 to 4.3.5.
+- [Release notes](https://github.com/actions/dependency-review-action/releases)
+- [Commits](https://github.com/actions/dependency-review-action/compare/5a2ce3f5b92ee19cbb1541a4984c76d921601d7c...a6993e2c61fd5dc440b409aa1d6904921c5e1894)
+
+
+updated-dependencies:
+- dependency-name: actions/dependency-review-action
+  dependency-type: direct:production
+  update-type: version-update:semver-patch
+... — dependabot[bot] <support@github.com>
+([`75333fa`](https://github.com/OZI-Project/blastpipe/commit/75333faa3f7e83fc1a820c8bd3ed68deb1c2c81d))
+
+*  Bump OZI-Project/checkpoint from 0.5.2 to 1.0.2
+
+Bumps [OZI-Project/checkpoint](https://github.com/ozi-project/checkpoint) from 0.5.2 to 1.0.2.
+- [Release notes](https://github.com/ozi-project/checkpoint/releases)
+- [Commits](https://github.com/ozi-project/checkpoint/compare/cd1117d2d6d352e52d9dfdb603b8ebd7ef964908...fff79a1993b9a0822e7b594dcbdb164a7cff4292)
+
+
+updated-dependencies:
+- dependency-name: OZI-Project/checkpoint
+  dependency-type: direct:production
+  update-type: version-update:semver-major
+... — dependabot[bot] <support@github.com>
+([`2518097`](https://github.com/OZI-Project/blastpipe/commit/2518097b79eaa656584ad137f0bd38e32b49311d))
+
+*  Bump step-security/harden-runner from 2.9.1 to 2.10.1
+
+Bumps [step-security/harden-runner](https://github.com/step-security/harden-runner) from 2.9.1 to 2.10.1.
+- [Release notes](https://github.com/step-security/harden-runner/releases)
+- [Commits](https://github.com/step-security/harden-runner/compare/5c7944e73c4c2a096b17a9cb74d65b6c2bbafbde...91182cccc01eb5e619899d80e4e971d6181294a7)
+
+
+updated-dependencies:
+- dependency-name: step-security/harden-runner
+  dependency-type: direct:production
+  update-type: version-update:semver-minor
+... — dependabot[bot] <support@github.com>
+([`11e9841`](https://github.com/OZI-Project/blastpipe/commit/11e9841021d7adf91f583b6304fcde5dbc0ba024))
+
+*  Bump actions/checkout from 4.1.7 to 4.2.2
+
+Bumps [actions/checkout](https://github.com/actions/checkout) from 4.1.7 to 4.2.2.
+- [Release notes](https://github.com/actions/checkout/releases)
+- [Changelog](https://github.com/actions/checkout/blob/main/CHANGELOG.md)
+- [Commits](https://github.com/actions/checkout/compare/692973e3d937129bcbf40652eb9f2f61becf3332...11bd71901bbe5b1630ceea73d27597364c9af683)
+
+
+updated-dependencies:
+- dependency-name: actions/checkout
+  dependency-type: direct:production
+  update-type: version-update:semver-minor
+... — dependabot[bot] <support@github.com>
+([`7ff3b15`](https://github.com/OZI-Project/blastpipe/commit/7ff3b152c90e7c41bf1c6afb1365431addac165a))
+
+
 ### 🐛 Fixed Bugs
 
 *  exclude subprojects from black — rjdbcm <rjdbcm@outlook.com>
@@ -14,8 +74,37 @@
 ([`d200907`](https://github.com/OZI-Project/blastpipe/commit/d20090787d70b03061ca172bde889190d3c9be6f))
 
 
+### 🔨 Updated Configuration
+
+*  add cibuildwheel — rjdbcm <rjdbcm@outlook.com>
+([`9e042e1`](https://github.com/OZI-Project/blastpipe/commit/9e042e1dec0d82ce8815101bf6d9c261430b338a))
+
+
 ### Other
 
+
+* Merge branch 'main' of https://github.com/rjdbcm/blastpipe
+([`f8216e7`](https://github.com/OZI-Project/blastpipe/commit/f8216e77dec7d0b7fdf846e7397a5f957b81eada))
+
+* Merge pull request #193 from OZI-Project/dependabot/github_actions/actions/dependency-review-action-4.3.5
+
+⬆️ Bump actions/dependency-review-action from 4.3.4 to 4.3.5
+([`233dde6`](https://github.com/OZI-Project/blastpipe/commit/233dde64101e445cec6fc3f8d6b5bfb34078776a))
+
+* Merge pull request #192 from OZI-Project/dependabot/github_actions/OZI-Project/checkpoint-1.0.2
+
+⬆️ Bump OZI-Project/checkpoint from 0.5.2 to 1.0.2
+([`1d1eda6`](https://github.com/OZI-Project/blastpipe/commit/1d1eda67a210274de03148755e54e2e7d764e1ca))
+
+* Merge pull request #191 from OZI-Project/dependabot/github_actions/step-security/harden-runner-2.10.1
+
+⬆️ Bump step-security/harden-runner from 2.9.1 to 2.10.1
+([`46a3fc4`](https://github.com/OZI-Project/blastpipe/commit/46a3fc4e9dec7f8e547a4c4193d5ebcb7144faec))
+
+* Merge pull request #190 from OZI-Project/dependabot/github_actions/actions/checkout-4.2.2
+
+⬆️ Bump actions/checkout from 4.1.7 to 4.2.2
+([`9957684`](https://github.com/OZI-Project/blastpipe/commit/99576844f18eda3f271bbff1641ec3975594f222))
 
 * Merge branch 'main' of https://github.com/rjdbcm/blastpipe
 ([`bab739b`](https://github.com/OZI-Project/blastpipe/commit/bab739b5ea45cac47521c88618304948d1fd85de))
