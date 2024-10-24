@@ -11,6 +11,9 @@
 ### Other
 
 
+* 👷: OZI.build~=1.5 — rjdbcm <rjdbcm@outlook.com>
+([`83a972c`](https://github.com/OZI-Project/blastpipe/commit/83a972c34157308cd72e56775b5f92f7734c46d4))
+
 * 👷(subprojects/ozi.wrap): release/1.23 — rjdbcm <rjdbcm@outlook.com>
 ([`c2710ae`](https://github.com/OZI-Project/blastpipe/commit/c2710aecd7494b4f707a1d805174bb52dd2427a7))
 
