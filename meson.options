@@ -58,6 +58,8 @@ option(
     value: [
         'semantic_release',
         'sigstore',
+        'cibuildwheel',
+        'twine',
     ]
 )
 option(

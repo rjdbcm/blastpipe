@@ -27,6 +27,8 @@ dev  = ["[dist,lint,test,]"]
 dist = [
     "python-semantic-release",
     "sigstore",
+    "cibuildwheel",
+    "twine",
 ]
 lint = [
     "Flake8-pyproject",
@@ -89,6 +91,9 @@ classifiers = [
     'Environment :: Other Environment',
 ]
 description-file='README.rst'
+
+[tool.cibuildwheel]
+build-frontend = "build[uv]"
 
 [tool.setuptools_scm]
 fallback_version = "@VCS_TAG@"
