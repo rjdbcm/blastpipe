@@ -6,12 +6,9 @@ license = {file = "LICENSE.txt"}
 
 [build-system]
 requires = [
-    "OZI.build[core,uv]~=1.2",
+    "OZI.build[core,uv]~=1.5",
 ]
 build-backend = "ozi_build.buildapi"
-
-[tool.ozi-build.metadata]
-pkg-info-file = 'PKG-INFO'
 
 [tool.setuptools.dynamic]
 dependencies = { file = ["requirements.in"] }
@@ -67,36 +64,33 @@ test = [
     "pytest-xdist",
 ]
 
-[tool.setuptools_scm]
-version_file_template = """Metadata-Version: 2.1
-Name: @PROJECT_NAME@
-Version: @SCM_VERSION@
-Summary: OZI Project utility library.
-Home-page: https://oziproject.dev
-Author: Eden Ross Duff MSc
-Author-email: help@oziproject.dev
-License: @LICENSE@
-Download-URL: https://github.com/OZI-Project/blastpipe/archive/refs/tags/@SCM_VERSION@.tar.gz
-Requires-Python: >=3.10, <3.14
-Keywords: ozi,meson
-Provides-Dist: msgspec
-Classifier: License :: OSI Approved :: Apache Software License
-Classifier: Development Status :: 3 - Alpha
-Classifier: Programming Language :: Python :: 3 :: Only
-Classifier: Programming Language :: Python :: 3.10
-Classifier: Programming Language :: Python :: 3.11
-Classifier: Programming Language :: Python :: 3.12
-Classifier: Programming Language :: Python :: 3.13
-Classifier: Programming Language :: Python :: Implementation :: CPython
-Classifier: Intended Audience :: Other Audience
-Classifier: Natural Language :: English
-Classifier: Typing :: Typed
-Classifier: Environment :: Other Environment
-Description-Content-Type: text/x-rst
-@REQUIREMENTS_IN@
+[tool.ozi-build.metadata]
+summary='OZI Project utility library.'
+home-page='https://oziproject.dev'
+author='Eden Ross Duff MSc'
+author-email='help@oziproject.dev'
+license='Apache-2.0 WITH LLVM-exception'
+download-url='https://github.com/OZI-Project/blastpipe/archive/refs/tags/@SCM_VERSION@.tar.gz'
+requires-python='>=3.10, <3.14'
+keywords='ozi,meson'
+provides-dist=['msgspec']
+classifiers = [
+    'License :: OSI Approved :: Apache Software License',
+    'Development Status :: 3 - Alpha',
+    'Programming Language :: Python :: 3 :: Only',
+    'Programming Language :: Python :: 3.10',
+    'Programming Language :: Python :: 3.11',
+    'Programming Language :: Python :: 3.12',
+    'Programming Language :: Python :: 3.13',
+    'Programming Language :: Python :: Implementation :: CPython',
+    'Intended Audience :: Other Audience',
+    'Natural Language :: English',
+    'Typing :: Typed',
+    'Environment :: Other Environment',
+]
+description-file='README.rst'
 
-@README_TEXT@"""
-version_file = "PKG-INFO"
+[tool.setuptools_scm]
 fallback_version = "@VCS_TAG@"
 parentdir_prefix_version = "blastpipe-"
 tag_regex = "^(?P<prefix>v)?(?P<version>[^\\+]+)(?P<suffix>.*)?$"
