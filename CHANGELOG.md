@@ -1,8 +1,22 @@
 # CHANGELOG
-## 2024.11.35 (2024-10-24)
+## 2024.11.35 (2024-10-26)
 
 
 ### ⬆️ Upgraded Dependencies
+
+*  Bump OZI-Project/checkpoint from 1.0.2 to 1.1.1
+
+Bumps [OZI-Project/checkpoint](https://github.com/ozi-project/checkpoint) from 1.0.2 to 1.1.1.
+- [Release notes](https://github.com/ozi-project/checkpoint/releases)
+- [Commits](https://github.com/ozi-project/checkpoint/compare/fff79a1993b9a0822e7b594dcbdb164a7cff4292...ac0c03fc08ac2e7e4b4fbdf02249109384596313)
+
+
+updated-dependencies:
+- dependency-name: OZI-Project/checkpoint
+  dependency-type: direct:production
+  update-type: version-update:semver-minor
+... — dependabot[bot] <support@github.com>
+([`999f317`](https://github.com/OZI-Project/blastpipe/commit/999f317361280794dfd5f39476e907da12f69c92))
 
 *  Bump actions/dependency-review-action from 4.3.4 to 4.3.5
 
@@ -82,6 +96,14 @@ updated-dependencies:
 
 ### Other
 
+
+* 👷(subprojects/ozi.wrap): release/1.24 — Eden Ross Duff, MSc, DDiv <ozi.project@outlook.com>
+([`f03558c`](https://github.com/OZI-Project/blastpipe/commit/f03558c06283b0cb658b5a754778147edd34ac55))
+
+* Merge pull request #194 from OZI-Project/dependabot/github_actions/OZI-Project/checkpoint-1.1.1
+
+⬆️ Bump OZI-Project/checkpoint from 1.0.2 to 1.1.1
+([`3cbbbcf`](https://github.com/OZI-Project/blastpipe/commit/3cbbbcf6b47d10fcaee26957e83100f79acc444f))
 
 * Merge branch 'main' of https://github.com/rjdbcm/blastpipe
 ([`f8216e7`](https://github.com/OZI-Project/blastpipe/commit/f8216e77dec7d0b7fdf846e7397a5f957b81eada))
