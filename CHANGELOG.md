@@ -1,4 +1,140 @@
 # CHANGELOG
+## 2024.11.37 (2024-12-18)
+
+
+### ⬆️ Upgraded Dependencies
+
+*  Bump OZI-Project/checkpoint from 1.2.1 to 1.4.0
+
+Bumps [OZI-Project/checkpoint](https://github.com/ozi-project/checkpoint) from 1.2.1 to 1.4.0.
+- [Release notes](https://github.com/ozi-project/checkpoint/releases)
+- [Commits](https://github.com/ozi-project/checkpoint/compare/32b9310f480343c946214e3ea4b637202eaa312a...5eb7b6ec9ba2eec71a0418270d92e9a6d81d285f)
+
+
+updated-dependencies:
+- dependency-name: OZI-Project/checkpoint
+  dependency-type: direct:production
+  update-type: version-update:semver-minor
+... — dependabot[bot] <support@github.com>
+([`62aa1d5`](https://github.com/OZI-Project/blastpipe/commit/62aa1d55e11ee3017ee7c1d8525c2d605dbccb0a))
+
+*  Bump OZI-Project/publish from 1.5.0 to 1.7.1
+
+Bumps [OZI-Project/publish](https://github.com/ozi-project/publish) from 1.5.0 to 1.7.1.
+- [Release notes](https://github.com/ozi-project/publish/releases)
+- [Commits](https://github.com/ozi-project/publish/compare/3ff1ebdd9edd89b30c126e0cf78e2d9754c0f9fa...8e64c6d501bee7b5b0db5247cd761085d411d1bf)
+
+
+updated-dependencies:
+- dependency-name: OZI-Project/publish
+  dependency-type: direct:production
+  update-type: version-update:semver-minor
+... — dependabot[bot] <support@github.com>
+([`d0ca012`](https://github.com/OZI-Project/blastpipe/commit/d0ca012763063b4b6aa34306a1b727d6b2f48300))
+
+*  Bump OZI-Project/draft from 1.5.0 to 1.6.3
+
+Bumps [OZI-Project/draft](https://github.com/ozi-project/draft) from 1.5.0 to 1.6.3.
+- [Release notes](https://github.com/ozi-project/draft/releases)
+- [Commits](https://github.com/ozi-project/draft/compare/e872ff9cded28eb22d937ba3fd9abfe4fc489239...b462b01f7f92a361d92233a8c2d326276c2d91a3)
+
+
+updated-dependencies:
+- dependency-name: OZI-Project/draft
+  dependency-type: direct:production
+  update-type: version-update:semver-minor
+... — dependabot[bot] <support@github.com>
+([`6268552`](https://github.com/OZI-Project/blastpipe/commit/62685524150eafe4e5d24763f9e172a364a5c9ea))
+
+*  Bump OZI-Project/release from 1.0.4 to 1.1.2
+
+Bumps [OZI-Project/release](https://github.com/ozi-project/release) from 1.0.4 to 1.1.2.
+- [Release notes](https://github.com/ozi-project/release/releases)
+- [Commits](https://github.com/ozi-project/release/compare/74350f112641257ed33f06f83c3e6fc7ae92059b...0e2db492d3d36479eadc1ba15e509e911816bc39)
+
+
+updated-dependencies:
+- dependency-name: OZI-Project/release
+  dependency-type: direct:production
+  update-type: version-update:semver-minor
+... — dependabot[bot] <support@github.com>
+([`0699112`](https://github.com/OZI-Project/blastpipe/commit/06991128ca32d2bb1006eab7f98c8c91cacdf746))
+
+*  Bump step-security/harden-runner from 2.10.1 to 2.10.2
+
+Bumps [step-security/harden-runner](https://github.com/step-security/harden-runner) from 2.10.1 to 2.10.2.
+- [Release notes](https://github.com/step-security/harden-runner/releases)
+- [Commits](https://github.com/step-security/harden-runner/compare/91182cccc01eb5e619899d80e4e971d6181294a7...0080882f6c36860b6ba35c610c98ce87d4e2f26f)
+
+
+updated-dependencies:
+- dependency-name: step-security/harden-runner
+  dependency-type: direct:production
+  update-type: version-update:semver-patch
+... — dependabot[bot] <support@github.com>
+([`148208a`](https://github.com/OZI-Project/blastpipe/commit/148208a47f81976cc1efa86a021a1595933663ee))
+
+*  Bump github/codeql-action from 3.27.5 to 3.27.9
+
+Bumps [github/codeql-action](https://github.com/github/codeql-action) from 3.27.5 to 3.27.9.
+- [Release notes](https://github.com/github/codeql-action/releases)
+- [Changelog](https://github.com/github/codeql-action/blob/main/CHANGELOG.md)
+- [Commits](https://github.com/github/codeql-action/compare/f09c1c0a94de965c15400f5634aa42fac8fb8f88...df409f7d9260372bd5f19e5b04e83cb3c43714ae)
+
+
+updated-dependencies:
+- dependency-name: github/codeql-action
+  dependency-type: direct:production
+  update-type: version-update:semver-patch
+... — dependabot[bot] <support@github.com>
+([`6449618`](https://github.com/OZI-Project/blastpipe/commit/6449618a8d83b488064b936d19dc422447026817))
+
+
+### Other
+
+
+* pyright ignore assign to __class__ of Protocol — Eden Ross Duff, MSc, DDiv <ozi.project@outlook.com>
+([`be2d481`](https://github.com/OZI-Project/blastpipe/commit/be2d48171d0f5b58e0df48e4f1f4b8f2c89f865a))
+
+* Update ozi.yml — Eden Ross Duff, MSc, DDiv <ozi.project@outlook.com>
+([`9529110`](https://github.com/OZI-Project/blastpipe/commit/95291103029be012fe441b18472f2b7fe36ef377))
+
+* Merge pull request #217 from OZI-Project/dependabot/github_actions/OZI-Project/checkpoint-1.4.0
+
+⬆️ Bump OZI-Project/checkpoint from 1.2.1 to 1.4.0
+([`1b6fc9c`](https://github.com/OZI-Project/blastpipe/commit/1b6fc9cbcff7aabcc52eb8598215f174688e4656))
+
+* Merge pull request #218 from OZI-Project/dependabot/github_actions/OZI-Project/publish-1.7.1
+
+⬆️ Bump OZI-Project/publish from 1.5.0 to 1.7.1
+([`c8cd376`](https://github.com/OZI-Project/blastpipe/commit/c8cd3765a6488b0061809210d94c970a33eb6b4c))
+
+* Merge pull request #219 from OZI-Project/dependabot/github_actions/OZI-Project/draft-1.6.3
+
+⬆️ Bump OZI-Project/draft from 1.5.0 to 1.6.3
+([`54dc736`](https://github.com/OZI-Project/blastpipe/commit/54dc7366832ecb99f3e4db5a3c091e437014964a))
+
+* Merge pull request #220 from OZI-Project/dependabot/github_actions/OZI-Project/release-1.1.2
+
+⬆️ Bump OZI-Project/release from 1.0.4 to 1.1.2
+([`42a0d9d`](https://github.com/OZI-Project/blastpipe/commit/42a0d9d42b5139bdeea2afc62daf2e2773c3a5ba))
+
+* Update ozi.yml for publish 1.7 — Eden Ross Duff, MSc, DDiv <ozi.project@outlook.com>
+([`e5a2a97`](https://github.com/OZI-Project/blastpipe/commit/e5a2a97b27b47fc20414ec13dcf6e75f5581dbec))
+
+* Merge pull request #209 from OZI-Project/dependabot/github_actions/step-security/harden-runner-2.10.2
+
+⬆️ Bump step-security/harden-runner from 2.10.1 to 2.10.2
+([`b72aaad`](https://github.com/OZI-Project/blastpipe/commit/b72aaadb769d7ac1f666bbd4bce73a8768e2962c))
+
+* Merge pull request #215 from OZI-Project/dependabot/github_actions/github/codeql-action-3.27.9
+
+⬆️ Bump github/codeql-action from 3.27.5 to 3.27.9
+([`898daf9`](https://github.com/OZI-Project/blastpipe/commit/898daf9ce43ca5b7575e9c423352815703c13882))
+
+* Create purge-artifacts.yml — Eden Ross Duff, MSc, DDiv <ozi.project@outlook.com>
+([`4bf8777`](https://github.com/OZI-Project/blastpipe/commit/4bf87771e5ec1f092b185e11c7e3442e1a2155cc))
+
 ## 2024.11.36 (2024-11-29)
 
 
