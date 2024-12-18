@@ -84,7 +84,7 @@ class TemplateGetIdentifiersMixin(Mixin[Any]):
     @classmethod
     def extend_with(cls: type[IsTemplatePre311], instance: _T) -> _T:
         """Extend the class with the mixin instance."""
-        instance.__class__ = type(
+        instance.__class__ = type(  # pyright: ignore
             f'{instance.__class__.__name__}With{cls.__name__}',
             (instance.__class__, cls),
             {},
