@@ -242,10 +242,19 @@ jobs:
         disable-sudo: true
         egress-policy: block
         allowed-endpoints: >
-          api.github.com:443
-          upload.pypi.org:443
-          uploads.github.com:443
+            github.com:443
+            api.github.com:443
+            upload.pypi.org:443
+            uploads.github.com:443
+            tuf-repo-cdn.sigstore.dev:443
+            fulcio.sigstore.dev:443
+            rekor.sigstore.dev:443
+            ghcr.io:443
+            pkg-containers.githubusercontent.com:443
 
     - uses: OZI-Project/publish@3ff1ebdd9edd89b30c126e0cf78e2d9754c0f9fa
       with:
         github-token: ${{ secrets.GITHUB_TOKEN }}
+
+    - name: Publish package distributions to PyPI
+      uses: pypa/gh-action-pypi-publish@67339c736fd9354cd4f8cb0b744f2b82a74b5c70
