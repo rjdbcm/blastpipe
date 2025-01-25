@@ -1,17 +1,13 @@
 # Part of blastpipe.
 # See LICENSE.txt in the project root for details.
 [project]
-dynamic = ["dependencies", "version"]
 license = {file = "LICENSE.txt"}
 
 [build-system]
 requires = [
-    "OZI.build[core,uv]~=1.5",
+    "OZI.build[core,uv]~=1.10.1",
 ]
 build-backend = "ozi_build.buildapi"
-
-[tool.setuptools.dynamic]
-dependencies = { file = ["requirements.in"] }
 
 [project.optional_dependencies] # also meson test suite names
 # OZI Packaging Dependencies
@@ -343,8 +339,7 @@ package = wheel
 deps =
      uv
 commands_pre =
-     python -m uv pip install -r requirements.in OZI.build[uv,core]~=1.2
-     pipx install --python=python meson
+     python -m uv pip install -r requirements.in OZI.build[uv,core]~=1.10.1
 commands =
      meson setup {env_tmp_dir} -Dozi:dist=disabled -Dozi:tox-env-dir={env_dir}
      meson compile -C {env_tmp_dir}
