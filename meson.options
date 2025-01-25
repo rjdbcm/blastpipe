@@ -57,7 +57,6 @@ option(
     type: 'array',
     value: [
         'semantic_release',
-        'sigstore',
         'cibuildwheel',
         'twine',
     ]
@@ -94,7 +93,6 @@ option(
     'test-suite',
     type: 'array',
     value: [
-        'coverage',
         'pytest',
         'hypothesis',
         'pytest-asyncio',
