@@ -4,6 +4,63 @@
 
 ### ⬆️ Upgraded Dependencies
 
+*  Bump pypa/gh-action-pypi-publish from 1.12.3 to 1.12.4
+
+Bumps [pypa/gh-action-pypi-publish](https://github.com/pypa/gh-action-pypi-publish) from 1.12.3 to 1.12.4.
+- [Release notes](https://github.com/pypa/gh-action-pypi-publish/releases)
+- [Commits](https://github.com/pypa/gh-action-pypi-publish/compare/67339c736fd9354cd4f8cb0b744f2b82a74b5c70...76f52bc884231f62b9a034ebfe128415bbaabdfc)
+
+
+updated-dependencies:
+- dependency-name: pypa/gh-action-pypi-publish
+  dependency-type: direct:production
+  update-type: version-update:semver-patch
+... — dependabot[bot] <support@github.com>
+([`522b3cb`](https://github.com/OZI-Project/blastpipe/commit/522b3cbe5c42e49ba2569d69d7ccf10ea5337516))
+
+*  Bump step-security/harden-runner from 2.10.2 to 2.10.4
+
+Bumps [step-security/harden-runner](https://github.com/step-security/harden-runner) from 2.10.2 to 2.10.4.
+- [Release notes](https://github.com/step-security/harden-runner/releases)
+- [Commits](https://github.com/step-security/harden-runner/compare/0080882f6c36860b6ba35c610c98ce87d4e2f26f...cb605e52c26070c328afc4562f0b4ada7618a84e)
+
+
+updated-dependencies:
+- dependency-name: step-security/harden-runner
+  dependency-type: direct:production
+  update-type: version-update:semver-patch
+... — dependabot[bot] <support@github.com>
+([`c6b47de`](https://github.com/OZI-Project/blastpipe/commit/c6b47de3e2aa99d5d5bc99195d684fb3f871ae53))
+
+*  Bump OZI-Project/release from 1.1.2 to 1.3.1
+
+Bumps [OZI-Project/release](https://github.com/ozi-project/release) from 1.1.2 to 1.3.1.
+- [Release notes](https://github.com/ozi-project/release/releases)
+- [Commits](https://github.com/ozi-project/release/compare/0e2db492d3d36479eadc1ba15e509e911816bc39...5fead75f13134fe16226c4eba87ae80b52876ab0)
+
+
+updated-dependencies:
+- dependency-name: OZI-Project/release
+  dependency-type: direct:production
+  update-type: version-update:semver-minor
+... — dependabot[bot] <support@github.com>
+([`099d966`](https://github.com/OZI-Project/blastpipe/commit/099d966e8aef50ef5a84e0b3f69a4aac68dece15))
+
+*  Bump github/codeql-action from 3.28.4 to 3.28.5
+
+Bumps [github/codeql-action](https://github.com/github/codeql-action) from 3.28.4 to 3.28.5.
+- [Release notes](https://github.com/github/codeql-action/releases)
+- [Changelog](https://github.com/github/codeql-action/blob/main/CHANGELOG.md)
+- [Commits](https://github.com/github/codeql-action/compare/ee117c905ab18f32fa0f66c2fe40ecc8013f3e04...f6091c0113d1dcf9b98e269ee48e8a7e51b7bdd4)
+
+
+updated-dependencies:
+- dependency-name: github/codeql-action
+  dependency-type: direct:production
+  update-type: version-update:semver-patch
+... — dependabot[bot] <support@github.com>
+([`d59952b`](https://github.com/OZI-Project/blastpipe/commit/d59952bce33eef2c4e49e0054474f4e52fb4cc07))
+
 *  Bump actions/upload-artifact from 4.4.3 to 4.6.0
 
 Bumps [actions/upload-artifact](https://github.com/actions/upload-artifact) from 4.4.3 to 4.6.0.
@@ -106,6 +163,26 @@ updated-dependencies:
 
 ### Other
 
+
+* Merge pull request #238 from OZI-Project/dependabot/github_actions/pypa/gh-action-pypi-publish-1.12.4
+
+⬆️ Bump pypa/gh-action-pypi-publish from 1.12.3 to 1.12.4
+([`986f9fb`](https://github.com/OZI-Project/blastpipe/commit/986f9fb5793da8de6885d9c0a2b3d179490570c6))
+
+* Merge pull request #237 from OZI-Project/dependabot/github_actions/step-security/harden-runner-2.10.4
+
+⬆️ Bump step-security/harden-runner from 2.10.2 to 2.10.4
+([`227e5d9`](https://github.com/OZI-Project/blastpipe/commit/227e5d960e5d4d6dfec396e01869b97e97457a34))
+
+* Merge pull request #240 from OZI-Project/dependabot/github_actions/OZI-Project/release-1.3.1
+
+⬆️ Bump OZI-Project/release from 1.1.2 to 1.3.1
+([`4910930`](https://github.com/OZI-Project/blastpipe/commit/491093030dd4c3b70997ba0d38f9bec2e54df6e5))
+
+* Merge pull request #239 from OZI-Project/dependabot/github_actions/github/codeql-action-3.28.5
+
+⬆️ Bump github/codeql-action from 3.28.4 to 3.28.5
+([`22badd4`](https://github.com/OZI-Project/blastpipe/commit/22badd4aeebe307be975e3e7ba41ab31a1f142cc))
 
 * Update pyproject.toml — Eden Ross Duff, MSc, DDiv <ozi.project@outlook.com>
 ([`ecec522`](https://github.com/OZI-Project/blastpipe/commit/ecec5224526b84a6ff1386f1362bca8a83238336))
