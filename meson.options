@@ -58,12 +58,16 @@ option(
     value: [
         'semantic_release',
         'twine',
+        'cibuildwheel',
+        'sigstore',
     ]
 )
 option(
     'lint-suite',
     type: 'array',
     value: [
+        'bandit',
+        'black',
         'flake8',
         'isort',
         'mypy',
@@ -90,6 +94,7 @@ option(
     'test-suite',
     type: 'array',
     value: [
+        'coverage',
         'pytest',
         'hypothesis',
         'pytest-asyncio',
