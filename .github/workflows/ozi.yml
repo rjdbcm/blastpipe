@@ -43,6 +43,7 @@ jobs:
       - uses: OZI-Project/checkpoint@84a85f725520d5661ed417915ccb0e769973879c
         with:
           python-version: "3.10"
+          parallel: false
 
   checkpoint-cp311-ubuntu-latest:
     name: checkpoint (Python 3.11 on ubuntu-latest)
@@ -73,6 +74,7 @@ jobs:
       - uses: OZI-Project/checkpoint@84a85f725520d5661ed417915ccb0e769973879c
         with:
           python-version: "3.11"
+          parallel: false
 
   checkpoint-cp312-ubuntu-latest:
     name: checkpoint (Python 3.12 on ubuntu-latest)
@@ -103,6 +105,7 @@ jobs:
       - uses: OZI-Project/checkpoint@84a85f725520d5661ed417915ccb0e769973879c
         with:
           python-version: "3.12"
+          parallel: false
 
   checkpoint-cp313-ubuntu-latest:
     name: checkpoint (Python 3.13 on ubuntu-latest)
@@ -133,6 +136,7 @@ jobs:
       - uses: OZI-Project/checkpoint@84a85f725520d5661ed417915ccb0e769973879c
         with:
           python-version: "3.13"
+          parallel: false
 
   checkpoint:
     runs-on: ubuntu-latest
