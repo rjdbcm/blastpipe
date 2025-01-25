@@ -8,7 +8,6 @@ __pycache__/
 
 # Distribution / packaging
 _scm_version.py
-subprojects/ozi
 subprojects/ozi/
 subprojects/OZI-*/
 subprojects/packagecache/OZI-*.tar.gz
