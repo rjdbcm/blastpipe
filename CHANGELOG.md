@@ -167,6 +167,9 @@ updated-dependencies:
 ### Other
 
 
+* Update ozi.yml endpoints — Eden Ross Duff, MSc, DDiv <ozi.project@outlook.com>
+([`774160c`](https://github.com/OZI-Project/blastpipe/commit/774160c1c5c849b8016a0155e65ed09731861abe))
+
 * Merge pull request #238 from OZI-Project/dependabot/github_actions/pypa/gh-action-pypi-publish-1.12.4
 
 ⬆️ Bump pypa/gh-action-pypi-publish from 1.12.3 to 1.12.4
