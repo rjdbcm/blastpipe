@@ -1,5 +1,5 @@
 # CHANGELOG
-## 2025.0.0 (2025-01-25)
+## 2025.0.0 (2025-01-26)
 
 
 ### ⬆️ Upgraded Dependencies
@@ -141,6 +141,9 @@ updated-dependencies:
 
 
 ### 🐛 Fixed Bugs
+
+*  OZI.build 1.10.6 fix metadata format — Eden Ross Duff, MSc, DDiv <ozi.project@outlook.com>
+([`1c18706`](https://github.com/OZI-Project/blastpipe/commit/1c18706622f9c21b88ea0ea89b84deffc4209610))
 
 *  drop bandit requirement — rjdbcm <rjdbcm@outlook.com>
 ([`9d3c6ca`](https://github.com/OZI-Project/blastpipe/commit/9d3c6caf7b9c4b4b2539afad805c399a93deb478))
